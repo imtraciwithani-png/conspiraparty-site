@@ -1,0 +1,2 @@
+document.querySelector('.menu-btn')?.addEventListener('click',e=>{const n=document.querySelector('nav.main');n.classList.toggle('open');e.currentTarget.setAttribute('aria-expanded',n.classList.contains('open'))});
+document.querySelectorAll('form[data-placeholder]').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();f.querySelector('.notice').textContent='Not connected yet. This is a preview: no email was collected.'}));
