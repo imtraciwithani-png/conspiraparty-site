@@ -166,3 +166,6 @@ nav.main a{font-size:1.05rem}
 .promo a:hover{background:#fff}
 header.top{border-bottom:4px solid var(--red)}
 @media(max-width:860px){.promo{font-size:.94rem;padding:10px 12px}}
+/* emoji product cards (Supply Drop) */
+.emo-card .emo{display:flex;align-items:center;justify-content:center;aspect-ratio:1/1;font-size:4.5rem;text-decoration:none;background:repeating-linear-gradient(45deg,#f4efe2,#f4efe2 10px,#ece5d3 10px,#ece5d3 20px);border:2px dashed #999}
+.emo-card h3{flex:0}.emo-card .why{flex:1}
