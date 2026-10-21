@@ -141,3 +141,28 @@ blockquote{margin:0;background:var(--paper);color:#000;padding:18px;font-style:i
 @media(min-width:701px){.kitlist{grid-template-columns:repeat(3,1fr)}}
 .stars{color:#f5b301;letter-spacing:.1em;font-style:normal;margin:0 0 6px}.rating-line{font-size:1.2rem}
 .quotes{max-width:820px;margin:16px auto}
+/* ===== v4 header: big logo top-left, nav to the right ===== */
+header.top{display:flex;align-items:center;gap:28px;padding:10px max(18px,calc((100vw - var(--w))/2));border-bottom:4px solid var(--red)}
+header.top .bar{margin:0;padding:0;max-width:none;flex:0 0 auto;justify-content:flex-start;position:static}
+.logo{display:block;line-height:0}
+.logo img{height:150px;width:auto}
+header.top nav.main{flex:1 1 auto;background:none;border:0}
+header.top nav.main ul{justify-content:flex-end;padding:0;gap:10px 0}
+nav.main a{font-size:1.05rem}
+@media(max-width:1100px){.logo img{height:124px}nav.main a{font-size:.95rem}}
+@media(max-width:860px){
+ header.top{position:sticky;padding:8px 14px;gap:0}
+ header.top .bar{flex:1 1 auto;justify-content:space-between}
+ .logo img{height:92px}
+ .menu-btn{position:static;transform:none;font-size:1rem;padding:10px 16px}
+ header.top nav.main{display:none;position:absolute;left:0;right:0;top:100%;background:var(--red);padding:12px 18px;border-top:2px solid #000}
+ header.top nav.main.open{display:block}
+ header.top nav.main ul{flex-direction:column;align-items:flex-start;gap:12px}
+}
+.signup .notice:empty{display:none}
+/* ===== v4 promo bar: balanced with big header ===== */
+.promo{background:var(--red);color:var(--paper);border:0;border-bottom:4px solid #000;text-align:center;font-size:1rem;font-weight:600;letter-spacing:.03em;line-height:1.4;padding:12px 16px}
+.promo a{display:inline-block;margin-left:6px;color:var(--red);background:var(--paper);font-family:Anton,sans-serif;font-weight:400;letter-spacing:.12em;text-decoration:none;padding:2px 12px;border:2px dashed #000;transform:rotate(-2deg)}
+.promo a:hover{background:#fff}
+header.top{border-bottom:4px solid var(--red)}
+@media(max-width:860px){.promo{font-size:.94rem;padding:10px 12px}}
