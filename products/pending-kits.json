@@ -1,0 +1,101 @@
+{
+  "note": "All listed kits are live on Etsy. Homepage Shop the Kits grid is 9 cards (3\u00d73).",
+  "kits": [
+    {
+      "slug": "classified-christmas-bingo",
+      "title": "Classified Christmas Bingo & White Elephant",
+      "price": "$9.99",
+      "status": "live",
+      "etsy_listing_id": "4605277558",
+      "url": "https://www.etsy.com/listing/4605277558",
+      "image": "assets/img/christmas-bingo-kit.webp",
+      "blurb": "30 unique bingo cards, a gift-swap game and steal cards for holiday parties.",
+      "rank_hint": "seasonal_holiday"
+    },
+    {
+      "slug": "junior-cryptid-scout-birthday",
+      "title": "Junior Cryptid Scout Birthday",
+      "price": "$11.99",
+      "status": "live",
+      "etsy_listing_id": "4605278398",
+      "url": "https://www.etsy.com/listing/4605278398",
+      "image": "assets/img/cryptid-scout-kit.webp",
+      "blurb": "Kid-friendly scavenger hunt, badges, certificates and a banner for ages 5\u201312.",
+      "rank_hint": "evergreen_kids"
+    },
+    {
+      "slug": "classified-christmas-cards",
+      "title": "Classified Christmas Cards & Gift Tags",
+      "price": "$6.99",
+      "status": "live",
+      "etsy_listing_id": "4605259817",
+      "url": "https://www.etsy.com/listing/4605259817",
+      "image": "assets/img/christmas-cards-kit.webp",
+      "blurb": "6 funny printable holiday cards and 24 punny gift tags.",
+      "rank_hint": "seasonal_impulse"
+    }
+  ],
+  "live_kits_on_homepage_ranked": [
+    {
+      "id": "4601155493",
+      "title": "Santa Is Watching",
+      "why": "holiday_seasonal"
+    },
+    {
+      "id": "4605277558",
+      "title": "Classified Christmas Bingo & White Elephant",
+      "why": "holiday_seasonal"
+    },
+    {
+      "id": "4605259817",
+      "title": "Classified Christmas Cards & Gift Tags",
+      "why": "seasonal_impulse"
+    },
+    {
+      "id": "4605244677",
+      "title": "Classified Office Party",
+      "why": "office_party_season"
+    },
+    {
+      "id": "4502272966",
+      "title": "Conspiraparty Party Kit",
+      "why": "flagship_LEAKED20"
+    },
+    {
+      "id": "4605278398",
+      "title": "Junior Cryptid Scout Birthday",
+      "why": "evergreen_kids"
+    },
+    {
+      "id": "4604436132",
+      "title": "Conspiracy PowerPoint Night",
+      "why": "party_game_night"
+    },
+    {
+      "id": "4600479706",
+      "title": "Who Leaked the Files?",
+      "why": "mystery_party"
+    },
+    {
+      "id": "4601156509",
+      "title": "The Truth Is Out There",
+      "why": "alien_gender_reveal"
+    }
+  ],
+  "merch_amazon_live_confirmed": {
+    "note": "Only these Conspiraparty Merch tees have confirmed real Amazon product URLs in-repo / by resolving amzn.to. Do not invent ASINs. 'I Did My Own Research' and daily Gravy/Gnomes were published in Merch dashboard but have no public product URL recorded yet \u2014 use brand browse link until confirmed.",
+    "tees": [
+      {
+        "title": "Bigfoot Doesn\u2019t Believe in You Either Tee",
+        "url": "https://amzn.to/4vkw57N",
+        "asin": "B0H3GP9HDX"
+      },
+      {
+        "title": "One Giant Lie Moon Landing Tee",
+        "url": "https://amzn.to/4vle218",
+        "asin": "B0H3GKJBP2"
+      }
+    ],
+    "brand_browse": "https://www.amazon.com/s?k=Conspiraparty&rh=p_lbr_brands_browse-bin%3AConspiraparty"
+  }
+}

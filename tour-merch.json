@@ -1,0 +1,94 @@
+{
+  "brand": "Totally Real Tour Merch",
+  "note": "Set buyUrl to the Printful product URL and available:true when the store is live.",
+  "items": [
+    {
+      "id": "agents-in-black-vans",
+      "band": "Agents in Black Vans",
+      "tour": "Witness Protection Tour 1979",
+      "image": "assets/img/tour-merch/agents-in-black-vans.webp",
+      "buyUrl": "#",
+      "available": false
+    },
+    {
+      "id": "area-51-drifters",
+      "band": "Area 51 Drifters",
+      "tour": "Classified Tour 1977",
+      "image": "assets/img/tour-merch/area-51-drifters.webp",
+      "buyUrl": "#",
+      "available": false
+    },
+    {
+      "id": "bigfoot-and-the-blurry-photos",
+      "band": "Bigfoot & the Blurry Photos",
+      "tour": "Out of Focus Tour 1976",
+      "image": "assets/img/tour-merch/bigfoot-and-the-blurry-photos.webp",
+      "buyUrl": "#",
+      "available": false
+    },
+    {
+      "id": "chemtrail-cowboys",
+      "band": "Chemtrail Cowboys",
+      "tour": "Sky Lines Tour 1978",
+      "image": "assets/img/tour-merch/chemtrail-cowboys.webp",
+      "buyUrl": "#",
+      "available": false
+    },
+    {
+      "id": "santas-surveillance-squad",
+      "band": "Santa's Surveillance Squad",
+      "tour": "Naughty List Leak Tour 1982",
+      "image": "assets/img/tour-merch/santas-surveillance-squad.webp",
+      "buyUrl": "#",
+      "available": false
+    },
+    {
+      "id": "simulation-glitch",
+      "band": "Simulation Glitch",
+      "tour": "Reboot Tour 1989",
+      "image": "assets/img/tour-merch/simulation-glitch.webp",
+      "buyUrl": "#",
+      "available": false
+    },
+    {
+      "id": "the-hollow-earth-hollers",
+      "band": "The Hollow Earth Hollers",
+      "tour": "Down Under Tour 1996",
+      "image": "assets/img/tour-merch/the-hollow-earth-hollers.webp",
+      "buyUrl": "#",
+      "available": false
+    },
+    {
+      "id": "the-illuminappi",
+      "band": "The Illuminappi",
+      "tour": "Secret Nap Society Tour 1988",
+      "image": "assets/img/tour-merch/the-illuminappi.webp",
+      "buyUrl": "#",
+      "available": false
+    },
+    {
+      "id": "the-moon-hoaxers",
+      "band": "The Moon Hoaxers",
+      "tour": "Live from the Soundstage 1969",
+      "image": "assets/img/tour-merch/the-moon-hoaxers.webp",
+      "buyUrl": "#",
+      "available": false
+    },
+    {
+      "id": "the-robot-pigeons",
+      "band": "The Robot Pigeons",
+      "tour": "Recharging on Powerlines Tour 1986",
+      "image": "assets/img/tour-merch/the-robot-pigeons.webp",
+      "buyUrl": "#",
+      "available": false
+    },
+    {
+      "id": "the-time-travelers-union",
+      "band": "The Time Travelers Union",
+      "tour": "Back to Last Tuesday Tour 1966",
+      "image": "assets/img/tour-merch/the-time-travelers-union.webp",
+      "buyUrl": "#",
+      "available": false
+    }
+  ]
+}
