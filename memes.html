@@ -184,10 +184,7 @@ function enc(s) { return encodeURIComponent(s); }
 
 function shareLinks(m) {
   const imgUrl = "https://conspiraparty.com/assets/img/memes/" + m.file;
-  const text = m.share + "
-
-More free memes: " + PAGE_URL + "
-#conspiraparty";
+  const text = m.share + "\n\nMore free memes: " + PAGE_URL + "\n#conspiraparty";
   const x = "https://twitter.com/intent/tweet?text=" + enc(text);
   const fb = "https://www.facebook.com/sharer/sharer.php?u=" + enc(PAGE_URL) + "&quote=" + enc(m.share);
   const pin = "https://www.pinterest.com/pin/create/button/?url=" + enc(PAGE_URL) + "&media=" + enc(imgUrl) + "&description=" + enc(m.share + " | Conspiraparty free memes");
