@@ -643,3 +643,4 @@ footer a:hover{color:#fff;border-bottom-color:var(--red)}
 .btn.is-soon,.btn[aria-disabled=true]{opacity:.72;cursor:not-allowed;pointer-events:none;background:#2a2a2a;border-color:#444;color:#ccc}
 /* readable cards on dark sections */
 .cork .card{background:#16161a!important;border:1px solid #2a2a30!important;color:#eee!important}.cork .card h3{color:#fff!important}.cork .card .why,.cork .card p{color:#cfcfd4!important}
+.paper .card{background:#16161a!important;border:1px solid #2a2a30!important;color:#eee!important}.paper .card h3{color:#fff!important}.paper .card p{color:#cfcfd4!important}
