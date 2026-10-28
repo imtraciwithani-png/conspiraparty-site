@@ -104,20 +104,22 @@
     <div class="wrap signup">
       <span class="stamp" style="color:#fff;border-color:#fff">Classified</span>
       <h2>Join the Shadow Party Committee</h2>
-      <p>Get a free Top Secret Party Invitation printable, plus new free files and party ideas. No spam, ever.</p>
-      <form class="signup-form" data-signup action="https://formsubmit.co/traciandersonart@gmail.com" method="post">
-        <input type="hidden" name="_subject" value="New Shadow Party Committee recruit">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_autoresponse" value="Welcome to the Shadow Party Committee, agent! Your free Top Secret Party Invitation is here: https://conspiraparty.com/printables/top-secret-party-invitation.pdf  More free printables: https://conspiraparty.com/free-printables.html  - Traci, Conspiraparty">
-        <input type="hidden" name="_next" value="https://conspiraparty.com/thanks.html">
-        <input type="text" name="_honey" class="skip" tabindex="-1" autocomplete="off" aria-hidden="true">
-        <input type="hidden" name="source_page" value="">
-        <label class="skip" for="em">Email</label>
-        <input id="em" type="email" name="email" placeholder="your.cover@email.com" required>
-        <button class="btn alt" type="submit">Send My Free Invite</button>
-        <span class="notice" role="status" aria-live="polite"></span>
-      </form>
+      <p>Get a free Top Secret Agent ID Badge printable, plus new free files and party ideas. No spam, ever.</p>
+      <form class="signup-form" data-signup data-connected="false" action="https://api.web3forms.com/submit" method="POST">
+<input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+<input type="hidden" name="subject" value="New Shadow Party Committee recruit">
+<input type="hidden" name="from_name" value="Conspiraparty">
+<input type="hidden" name="redirect" value="https://conspiraparty.com/thanks.html">
+<input type="checkbox" name="botcheck" class="skip" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">
+<input type="hidden" name="source_page" value="">
+<label class="skip" for="nm-memes">Name (optional)</label>
+<input id="nm-memes" type="text" name="name" placeholder="Cover name (optional)">
+<label class="skip" for="em-memes">Email</label>
+<input id="em-memes" type="email" name="email" placeholder="your.cover@email.com" required>
+<button class="btn alt" type="submit">Send My Free Badge</button>
+<span class="notice" role="status" aria-live="polite"></span>
+<p class="signup-pending" style="margin:12px 0 0;font-size:.85rem;opacity:.9">⚠ Email signup wired but <strong>not connected yet</strong>.</p>
+</form>
     </div>
   </section>
 </main>
