@@ -409,8 +409,9 @@ section.cork{
 }
 @media(min-width:700px){.orig{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:960px){.orig{grid-template-columns:repeat(3,1fr)}}
-.orig .card img{aspect-ratio:2/3;object-fit:cover}
-.orig .card:not(:first-child) img{aspect-ratio:1/1;object-fit:contain}
+.orig .card img{aspect-ratio:1/1;object-fit:contain}
+.orig .card.bookish img,
+#books .orig .card img{aspect-ratio:2/3;object-fit:cover}
 
 /* ===== Stamps ===== */
 .stamp{
@@ -638,3 +639,5 @@ footer a:hover{color:#fff;border-bottom-color:var(--red)}
   border:1px solid rgba(0,0,0,.06) !important;
 }
 .meme-card img{border-radius:8px}
+
+.btn.is-soon,.btn[aria-disabled=true]{opacity:.72;cursor:not-allowed;pointer-events:none;background:#2a2a2a;border-color:#444;color:#ccc}
