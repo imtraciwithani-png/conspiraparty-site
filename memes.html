@@ -37,6 +37,11 @@
 .reshuffle-bar{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;align-items:center;margin:0 0 22px}
 .draft-note{background:#ffef8a;color:#000;border:2px dashed #000;padding:10px 14px;margin:0 0 18px;font-size:.9rem}
 .meme-empty{opacity:.6;font-style:italic}
+
+.filter-bar{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:0 0 18px}
+.filter-bar button{font:inherit;cursor:pointer;background:#111;color:#fff;border:2px solid #fff;padding:8px 14px;font-family:Anton,sans-serif;letter-spacing:.04em;text-transform:uppercase}
+.filter-bar button[aria-pressed=true],.filter-bar button:hover{background:var(--red);border-color:#fff}
+.draft-note{background:#ffef8a;color:#000;border:2px dashed #000;padding:10px 14px;margin:0 0 18px;font-size:.9rem}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Conspiracy Memes You Can Steal","description":"Free original conspiracy memes in vintage retro-sunset style. Download and share. Watermarked with conspiraparty.com.","url":"https://conspiraparty.com/memes.html","isPartOf":{"@type":"WebSite","name":"Conspiraparty","url":"https://conspiraparty.com/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://conspiraparty.com/"},{"@type":"ListItem","position":2,"name":"Conspiracy Memes","item":"https://conspiraparty.com/memes.html"}]}</script>
@@ -69,7 +74,15 @@
         <h1>CONSPIRACY <span class="r">MEMES</span></h1>
         <p class="lead">Original vintage retro-sunset memes you can download and post. Every one carries conspiraparty.com so the breadcrumbs lead home.</p>
       </div>
-<div class="reshuffle-bar">
+<p class="draft-note center">DRAFT update — 12 new memes + category filters. Not published yet.</p>
+      <div class="filter-bar" role="group" aria-label="Meme categories">
+        <button type="button" data-cat="all" aria-pressed="true">All</button>
+        <button type="button" data-cat="Aliens" aria-pressed="false">Aliens</button>
+        <button type="button" data-cat="Cryptids" aria-pressed="false">Cryptids</button>
+        <button type="button" data-cat="Holidays" aria-pressed="false">Holidays</button>
+        <button type="button" data-cat="Classic" aria-pressed="false">Classic</button>
+      </div>
+      <div class="reshuffle-bar">
         <button type="button" class="btn sm" id="reshuffle">Shuffle the evidence</button>
         <p style="margin:0;opacity:.85;font-size:.9rem">Grid reshuffles on every visit. Steal responsibly.</p>
       </div>
@@ -144,18 +157,30 @@
 const PAGE_URL = "https://conspiraparty.com/memes.html";
 const SRC_BASE = "assets/img/memes/";
 const MEMES = [
-  { file: "01-not-a-drone.png", caption: "That's not a drone. Sit down.", share: "That's not a drone. Sit down. 🛸" },
-  { file: "02-just-curious.png", caption: "They're not probing. They're just curious.", share: "They're not probing. They're just curious." },
-  { file: "03-trees-saw-him.png", caption: "I saw him. The trees saw him too.", share: "I saw him. The trees saw him too. 👣" },
-  { file: "04-moon-green-screen.png", caption: "The moon has a green screen.", share: "The moon has a green screen. Don't @ me." },
-  { file: "05-birds-arent-real.png", caption: "Birds aren't real. This owl works for them.", share: "Birds aren't real. This owl works for them. 🦉" },
-  { file: "06-santa-surveillance.png", caption: "Santa's nice list is a surveillance database.", share: "Santa's nice list is a surveillance database. 🎅📡" },
-  { file: "07-simulation-glitch.png", caption: "Simulation glitch detected. Please reboot reality.", share: "Simulation glitch detected. Please reboot reality." },
-  { file: "08-area-51-gift-shop.png", caption: "Area 51 gift shop: now open (classified).", share: "Area 51 gift shop: now open (classified)." },
-  { file: "09-halloween-cover.png", caption: "This Halloween costume is my cover identity.", share: "This Halloween costume is my cover identity. 🐈‍⬛" },
-  { file: "10-first-contact.png", caption: "First contact went great. He brought snacks.", share: "First contact went great. He brought snacks." },
-  { file: "11-said-weather.png", caption: "They said it was weather. We know better.", share: "They said it was weather. We know better. 👽" },
-  { file: "12-trust-this-meme.png", caption: "Trust no one. Except this meme.", share: "Trust no one. Except this meme." }
+  { file: "01-not-a-drone.png", caption: "That's not a drone. Sit down.", share: "That's not a drone. Sit down. 🛸", cat: "Aliens" },
+  { file: "02-just-curious.png", caption: "They're not probing. They're just curious.", share: "They're not probing. They're just curious.", cat: "Aliens" },
+  { file: "03-trees-saw-him.png", caption: "I saw him. The trees saw him too.", share: "I saw him. The trees saw him too. 👣", cat: "Cryptids" },
+  { file: "04-moon-green-screen.png", caption: "The moon has a green screen.", share: "The moon has a green screen. Don't @ me.", cat: "Classic" },
+  { file: "05-birds-arent-real.png", caption: "Birds aren't real. This owl works for them.", share: "Birds aren't real. This owl works for them. 🦉", cat: "Classic" },
+  { file: "06-santa-surveillance.png", caption: "Santa's nice list is a surveillance database.", share: "Santa's nice list is a surveillance database. 🎅📡", cat: "Holidays" },
+  { file: "07-simulation-glitch.png", caption: "Simulation glitch detected. Please reboot reality.", share: "Simulation glitch detected. Please reboot reality.", cat: "Classic" },
+  { file: "08-area-51-gift-shop.png", caption: "Area 51 gift shop: now open (classified).", share: "Area 51 gift shop: now open (classified).", cat: "Aliens" },
+  { file: "09-halloween-cover.png", caption: "This Halloween costume is my cover identity.", share: "This Halloween costume is my cover identity. 🐈‍⬛", cat: "Holidays" },
+  { file: "10-first-contact.png", caption: "First contact went great. He brought snacks.", share: "First contact went great. He brought snacks.", cat: "Aliens" },
+  { file: "11-said-weather.png", caption: "They said it was weather. We know better.", share: "They said it was weather. We know better. 👽", cat: "Aliens" },
+  { file: "12-trust-this-meme.png", caption: "Trust no one. Except this meme.", share: "Trust no one. Except this meme.", cat: "Cryptids" },
+  { file: "13-side-eye-protocol.png", caption: "The universal language is side-eye.", share: "The universal language is side-eye. 👽", cat: "Aliens" },
+  { file: "14-wifi-hostage.png", caption: "They come in peace. They leave with your wifi.", share: "They come in peace. They leave with your wifi.", cat: "Aliens" },
+  { file: "15-mountains-receipts.png", caption: "The mountains have receipts.", share: "The mountains have receipts. 🛸", cat: "Aliens" },
+  { file: "16-bigfoot-running-late.png", caption: "Bigfoot called. He's running late.", share: "Bigfoot called. He's running late. 👣", cat: "Cryptids" },
+  { file: "17-hear-footsteps.png", caption: "If you hear footsteps, wave.", share: "If you hear footsteps, wave.", cat: "Cryptids" },
+  { file: "18-committee-watching.png", caption: "Happy birthday. The committee is watching.", share: "Happy birthday. The committee is watching. 🎂", cat: "Holidays" },
+  { file: "19-question-everything.png", caption: "New Year's resolution: question everything.", share: "New Year's resolution: question everything.", cat: "Holidays" },
+  { file: "20-full-moon-cover.png", caption: "The full moon is a cover story.", share: "The full moon is a cover story. 🌕", cat: "Classic" },
+  { file: "21-briefing-light.png", caption: "That's not the moon. That's a briefing light.", share: "That's not the moon. That's a briefing light.", cat: "Classic" },
+  { file: "22-eagle-clearance.png", caption: "This eagle has a security clearance.", share: "This eagle has a security clearance. 🦅", cat: "Classic" },
+  { file: "23-cat-knows.png", caption: "The cat knows. The cat always knows.", share: "The cat knows. The cat always knows. 🐱", cat: "Classic" },
+  { file: "24-small-step-denial.png", caption: "One small step for denial.", share: "One small step for denial. 🚀", cat: "Classic" }
 ];
 
 function shuffle(arr) {
@@ -171,21 +196,36 @@ function enc(s) { return encodeURIComponent(s); }
 
 function shareLinks(m) {
   const imgUrl = "https://conspiraparty.com/assets/img/memes/" + m.file;
-  const text = m.share + "\n\nMore free memes: " + PAGE_URL + "\n#conspiraparty";
+  const text = m.share + "
+
+More free memes: " + PAGE_URL + "
+#conspiraparty";
   const x = "https://twitter.com/intent/tweet?text=" + enc(text);
   const fb = "https://www.facebook.com/sharer/sharer.php?u=" + enc(PAGE_URL) + "&quote=" + enc(m.share);
   const pin = "https://www.pinterest.com/pin/create/button/?url=" + enc(PAGE_URL) + "&media=" + enc(imgUrl) + "&description=" + enc(m.share + " | Conspiraparty free memes");
   return { x, fb, pin, imgUrl };
 }
 
+let activeCat = "all";
+
+function filtered() {
+  if (activeCat === "all") return MEMES.slice();
+  return MEMES.filter((m) => m.cat === activeCat);
+}
+
 function render(list) {
   const grid = document.getElementById("meme-grid");
   grid.innerHTML = "";
+  if (!list.length) {
+    grid.innerHTML = '<p class="meme-empty center">No memes in this file. Try another filter.</p>';
+    return;
+  }
   list.forEach((m) => {
     const src = SRC_BASE + m.file;
     const links = shareLinks(m);
     const art = document.createElement("article");
     art.className = "meme-card";
+    art.dataset.cat = m.cat;
     art.innerHTML =
       '<img src="' + src + '" alt="' + m.caption.replace(/"/g, "&quot;") + ' — Conspiraparty meme" loading="lazy" width="1080" height="1080">' +
       "<h3>" + m.caption + "</h3>" +
@@ -201,9 +241,16 @@ function render(list) {
   });
 }
 
-function reshuffle() { render(shuffle(MEMES)); }
+function reshuffle() { render(shuffle(filtered())); }
 
 document.getElementById("reshuffle").addEventListener("click", reshuffle);
+document.querySelectorAll(".filter-bar button").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    activeCat = btn.dataset.cat;
+    document.querySelectorAll(".filter-bar button").forEach((b) => b.setAttribute("aria-pressed", b === btn ? "true" : "false"));
+    reshuffle();
+  });
+});
 reshuffle();
 
 document.querySelector(".menu-btn")?.addEventListener("click", (e) => {
@@ -211,6 +258,7 @@ document.querySelector(".menu-btn")?.addEventListener("click", (e) => {
   n.classList.toggle("open");
   e.currentTarget.setAttribute("aria-expanded", n.classList.contains("open"));
 });
+
 </script>
 <script src="assets/site.js" defer></script>
 </body>
