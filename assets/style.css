@@ -713,6 +713,7 @@ footer a:hover{color:#fff;border-bottom-color:var(--red)}
 }
 .family-safe-box a,.spicy-box a{color:#fff;text-decoration:underline;text-underline-offset:2px}
 .family-safe-box a:hover,.spicy-box a:hover{color:var(--red)}
+.family-safe-box strong{color:#9ad4a8}
 /* ===== Printify shirts / Totally Real Tour ===== */
 .shop-store-block{padding:40px 16px 48px;max-width:40rem;margin-left:auto;margin-right:auto}
 .shop-store-logo{display:block;margin:0 auto;max-width:220px;height:auto;padding:12px}
