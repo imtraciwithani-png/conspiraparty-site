@@ -659,3 +659,16 @@ footer a:hover{color:#fff;border-bottom-color:var(--red)}
 .btn.x-follow-btn:hover{background:var(--red);border-color:var(--red);color:#fff}
 .redbg .btn.x-follow-btn{border-color:rgba(255,255,255,.7)}
 .hero .x-follow-inline{margin-top:14px}
+
+/* family-safe etsy cross-link */
+.family-safe-box{
+  margin:18px 0 0;
+  padding:14px 16px;
+  border:1px dashed rgba(255,255,255,.28);
+  border-radius:10px;
+  background:rgba(0,0,0,.22);
+  line-height:1.45;
+}
+.family-safe-box a{color:#fff;text-decoration:underline;text-underline-offset:2px}
+.family-safe-box a:hover{color:var(--red)}
+.family-safe-box strong{color:#9ad4a8}
