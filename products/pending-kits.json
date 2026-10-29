@@ -1,6 +1,51 @@
 {
-  "note": "All listed kits are live on Etsy. Homepage Shop the Kits grid is 9 cards (3\u00d73).",
+  "note": "Homepage Shop the Kits grid leads with Thanksgiving Table Cards + 3 road trip packs, then prior live kits. Pack Etsy URLs still TODO in assets/etsy-pending-urls.js.",
   "kits": [
+    {
+      "slug": "thanksgiving-table-cards",
+      "title": "Conspiracy Thanksgiving Table Cards",
+      "price": "$6.99",
+      "status": "live",
+      "etsy_listing_id": "4605936572",
+      "url": "https://www.etsy.com/listing/4605936572/conspiracy-thanksgiving-table-cards",
+      "image": "assets/img/thanksgiving-table-cards-kit.webp",
+      "blurb": "24 conversation cards, 12 place cards and Turkey Truth Bingo. Family-safe / Kid-Friendly.",
+      "rank_hint": "seasonal_thanksgiving_family",
+      "badge": "Kid-Friendly"
+    },
+    {
+      "slug": "road-trip-pack",
+      "title": "Suspicious Road Trip Pack",
+      "price": "$7.99",
+      "status": "pending_etsy_url",
+      "etsy_listing_id": "TODO-ETSY-road-trip-pack",
+      "url": "https://www.etsy.com/listing/TODO-ETSY-road-trip-pack",
+      "image": "assets/img/road-trip-pack-kit.webp",
+      "blurb": "10 field guides, bingo, passport and certificate.",
+      "rank_hint": "travel_evergreen"
+    },
+    {
+      "slug": "road-trip-west",
+      "title": "Suspicious West Road Trip Pack",
+      "price": "$7.99",
+      "status": "pending_etsy_url",
+      "etsy_listing_id": "TODO-ETSY-road-trip-west",
+      "url": "https://www.etsy.com/listing/TODO-ETSY-road-trip-west",
+      "image": "assets/img/road-trip-west-kit.webp",
+      "blurb": "West-region weird destinations pack.",
+      "rank_hint": "travel_regional"
+    },
+    {
+      "slug": "road-trip-southwest",
+      "title": "Suspicious Southwest Road Trip Pack",
+      "price": "$7.99",
+      "status": "pending_etsy_url",
+      "etsy_listing_id": "TODO-ETSY-road-trip-southwest",
+      "url": "https://www.etsy.com/listing/TODO-ETSY-road-trip-southwest",
+      "image": "assets/img/road-trip-southwest-kit.webp",
+      "blurb": "Southwest-region weird destinations pack.",
+      "rank_hint": "travel_regional"
+    },
     {
       "slug": "classified-christmas-bingo",
       "title": "Classified Christmas Bingo & White Elephant",
@@ -20,7 +65,7 @@
       "etsy_listing_id": "4605278398",
       "url": "https://www.etsy.com/listing/4605278398",
       "image": "assets/img/cryptid-scout-kit.webp",
-      "blurb": "Kid-friendly scavenger hunt, badges, certificates and a banner for ages 5\u201312.",
+      "blurb": "Kid-friendly scavenger hunt, badges, certificates and a banner for ages 5–12.",
       "rank_hint": "evergreen_kids"
     },
     {
@@ -36,6 +81,26 @@
     }
   ],
   "live_kits_on_homepage_ranked": [
+    {
+      "id": "4605936572",
+      "title": "Conspiracy Thanksgiving Table Cards",
+      "why": "seasonal_thanksgiving_family"
+    },
+    {
+      "id": "TODO-ETSY-road-trip-pack",
+      "title": "Suspicious Road Trip Pack",
+      "why": "travel_evergreen"
+    },
+    {
+      "id": "TODO-ETSY-road-trip-west",
+      "title": "Suspicious West Road Trip Pack",
+      "why": "travel_regional"
+    },
+    {
+      "id": "TODO-ETSY-road-trip-southwest",
+      "title": "Suspicious Southwest Road Trip Pack",
+      "why": "travel_regional"
+    },
     {
       "id": "4601155493",
       "title": "Santa Is Watching",
@@ -83,10 +148,10 @@
     }
   ],
   "merch_amazon_live_confirmed": {
-    "note": "Only these Conspiraparty Merch tees have confirmed real Amazon product URLs in-repo / by resolving amzn.to. Do not invent ASINs. 'I Did My Own Research' and daily Gravy/Gnomes were published in Merch dashboard but have no public product URL recorded yet \u2014 use brand browse link until confirmed.",
+    "note": "Only these Conspiraparty Merch tees have confirmed real Amazon product URLs in-repo / by resolving amzn.to. Do not invent ASINs. 'I Did My Own Research' and daily Gravy/Gnomes were published in Merch dashboard but have no public product URL recorded yet — use brand browse link until confirmed.",
     "tees": [
       {
-        "title": "Bigfoot Doesn\u2019t Believe in You Either Tee",
+        "title": "Bigfoot Doesn’t Believe in You Either Tee",
         "url": "https://amzn.to/4vkw57N",
         "asin": "B0H3GP9HDX"
       },
