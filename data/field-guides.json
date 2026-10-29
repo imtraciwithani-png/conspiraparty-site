@@ -1,0 +1,532 @@
+[
+  {
+    "slug": "area-51",
+    "title": "Area 51 / Rachel, NV",
+    "short": "Area 51",
+    "tagline": "Stay outside the gates. Bring snacks. Trust nothing with blinking lights.",
+    "intro": "Rachel, Nevada sits on State Route 375 \u2014 the Extraterrestrial Highway \u2014 a few dusty miles from the most famous base you will never tour. The highway is public. The gift shops are public. The gates are not. This guide is for the tourist trail only: stay on public roads, stay outside any fenced or posted area, and leave the storming to the memes.",
+    "warning": "Do not trespass. Area 51 is a restricted military installation. Stay outside the gates and posted boundaries. Looking from public roads and businesses in Rachel is fine. Crossing fences is not.",
+    "checklist": [
+      "Extraterrestrial Highway (NV-375) road sign photo",
+      "Giant alien statue selfie (Alien Research Center, Hiko)",
+      "Alien Fresh Jerky pit stop on US-93",
+      "Black Mailbox site (Mailbox Rd @ NV-375) \u2014 box comes and goes; the lore stays",
+      "Alien Burger at the Little A'Le'Inn, Rachel",
+      "Someone wearing a tin foil hat unironically",
+      "A shirt that says \"Storm Area 51\" sold next to snacks",
+      "Night sky so dark you invent three new constellations",
+      "A stranger who \"definitely knows a guy who worked there\"",
+      "Warning signs that look like they mean it",
+      "A drone\u2026 or a plane\u2026 or a \"plane\"",
+      "Gas gauge anxiety (fill up before you go)",
+      "A gift-shop \"classified\" sticker on your water bottle",
+      "Someone filming the horizon like it's a Netflix special",
+      "You leave without getting detained (mission success)"
+    ],
+    "spots": [
+      {
+        "name": "Little A'Le'Inn",
+        "note": "Rachel's alien-themed bar, grill and motel. Public, friendly, and the unofficial HQ for ET Highway tourists."
+      },
+      {
+        "name": "Alien Research Center (Hiko)",
+        "note": "Souvenir shop with a big alien statue out front. Research is optional. Photos are mandatory."
+      },
+      {
+        "name": "E.T. Fresh Jerky (Hiko)",
+        "note": "Alien murals, snacks and famously clean restrooms at the tip of the ET Highway."
+      },
+      {
+        "name": "Black Mailbox site",
+        "note": "Between mile markers 29\u201330 on NV-375 at Mailbox Road. The mailbox itself gets stolen a lot; the skywatching pull-off remains a classic stop. Stay off private ranch access."
+      },
+      {
+        "name": "Extraterrestrial Highway scenic drive",
+        "note": "Public state highway from near Hiko toward Warm Springs. Cattle, desert and vibes. Do not turn down unmarked restricted roads toward the base."
+      }
+    ],
+    "notes": [
+      "The \"Black Mailbox\" was never an Area 51 drop box \u2014 it belonged to a local rancher whose mail kept getting rifled by UFO tourists.",
+      "Rachel's population is tiny. Support the Inn, tip well, and pack out your trash.",
+      "Cell service is patchy. Download this page and the printable before you leave town.",
+      "If someone offers you a \"secret tour past the fence,\" decline. Politely. Firmly. With snacks."
+    ]
+  },
+  {
+    "slug": "grand-canyon",
+    "title": "Grand Canyon",
+    "short": "Grand Canyon",
+    "tagline": "A mile-deep hole in the ground. Official story: geology. Unofficial story: discuss among yourselves.",
+    "intro": "The Grand Canyon is a National Park with real trails, real rim views and a real gift shop that will sell you a refrigerator magnet. Bring water, stay behind railings and mark every suspiciously perfect sunset. Geology did this. Probably.",
+    "warning": "Stay on marked trails and overlooks. Do not climb fences or wander onto unstable rim edges. Heat and dehydration are the real villains here.",
+    "checklist": [
+      "First rim view that makes your brain reboot",
+      "Someone saying \"photos don't do it justice\" (they're right)",
+      "A mule train looking extremely done with tourists",
+      "California Condor sighting (or a very confident raven)",
+      "Layer-cake rock strata you pretend to understand",
+      "A ranger talk you half-listened to while staring into the abyss",
+      "Sunrise or sunset that looks Photoshopped",
+      "Gift-shop fossil that is definitely not from Mars",
+      "A tourist posing dangerously close to the rim (don't be them)",
+      "Helicopter overhead \u2014 scenic tour, not extraction",
+      "Phantom Ranch name-drop from someone who hiked down",
+      "You drank all your water and still want more",
+      "A \"I hiked to the river\" flex (verify blurry selfie)",
+      "Night sky so clear the canyon looks bottomless",
+      "You left without inventing a hollow-Earth theory\u2026 or did you?"
+    ],
+    "spots": [
+      {
+        "name": "Mather Point (South Rim)",
+        "note": "Classic first-look overlook near Grand Canyon Village. Crowded for a reason."
+      },
+      {
+        "name": "Yavapai Geology Museum",
+        "note": "Rim views plus exhibits explaining those rock layers. Bring your \"sure, Jan\" face."
+      },
+      {
+        "name": "Desert View Watchtower",
+        "note": "Mary Colter's 1932 tower on the East Rim Drive \u2014 views and architecture."
+      },
+      {
+        "name": "Hermit's Rest",
+        "note": "West end of Hermit Road; stone building, snacks and a less-packed vibe off-peak."
+      },
+      {
+        "name": "Grand Canyon Visitor Center",
+        "note": "Orientation, maps and the shuttle hub. Start here so you don't invent your own trail."
+      }
+    ],
+    "notes": [
+      "South Rim is open year-round; North Rim has a shorter season. Check NPS alerts before you go.",
+      "The canyon is about a mile deep and up to 18 miles wide. Your phone battery will not survive both rims in one day.",
+      "Leave rocks, fossils and artifacts where you found them. The park is not a loot crate.",
+      "If your theory involves ancient astronaut landscaping, keep it in the group chat \u2014 and stay on the trail."
+    ]
+  },
+  {
+    "slug": "most-suspicious-place",
+    "title": "The Most Suspicious Place on Earth",
+    "short": "Most Suspicious Place",
+    "tagline": "Central Florida. Theme parks. Tunnel talk. Perfectly timed fireworks. Coincidence?",
+    "intro": "Central Florida's mega resort area is engineered for wonder: tunnels under the pavement, a private \"utilidor\" culture of backstage logistics, and fireworks that somehow always nail the beat. This guide stays on the public guest side \u2014 no logos, no character meet-and-greets required. Just vibes, odd logistics and a checklist for the traveler who notices the seams.",
+    "warning": "Stay in guest-accessible areas. Do not enter backstage, cast-only or restricted zones. Follow posted rules and ride height/safety signs.",
+    "checklist": [
+      "A cast member who appears from nowhere (utilidor energy)",
+      "Trash can that somehow never overflows",
+      "Fireworks timed to the second",
+      "A tunnel or underpass that feels like a portal",
+      "Someone in the group swearing the buildings are \"forced perspective\"",
+      "A parade route cleared with military precision",
+      "Hidden icon pattern in architecture (spot it; invent lore)",
+      "A monorail or people-mover that feels like the future, 1971 edition",
+      "Gift shop that smells like manufactured nostalgia",
+      "A \"secret menu\" tip from a stranger who may be lying",
+      "Lightning lane / queue tech that knows too much",
+      "A perfectly clean bathroom at peak crowd hour",
+      "Nighttime projection mapping on a building facade",
+      "You lost track of time in the most suspicious way",
+      "Exit past a giant merchandise gauntlet unscathed (wallet: not so much)"
+    ],
+    "spots": [
+      {
+        "name": "Theme park resort area (Orlando / Bay Lake, FL)",
+        "note": "The public guest campuses and resorts. Stick to ticketed and openly accessible spaces."
+      },
+      {
+        "name": "Transportation hubs & monorail loops",
+        "note": "Watch the logistics. The choreography of moving millions of people is the real magic trick."
+      },
+      {
+        "name": "Disney Springs shopping district (public)",
+        "note": "Public shopping/dining district near the resorts \u2014 good for people-watching and \"is this a set?\" moments. Factual place name only; no park logos."
+      },
+      {
+        "name": "Lake Buena Vista / resort corridors",
+        "note": "Hotel strips and boulevards where the theming never quite turns off."
+      },
+      {
+        "name": "Public overlooks of nighttime spectaculars",
+        "note": "Watch fireworks and projections from guest-allowed viewing areas. No climbing. No drones where banned."
+      }
+    ],
+    "notes": [
+      "Utilidors (underground / backstage corridors) are a real operational feature of parts of the resort \u2014 guests don't get a free tour. That's the point of the mystery.",
+      "Florida heat is not a conspiracy. Hydrate. Sunscreen. Sit down.",
+      "We don't use park logos or character IP here. Your photos of public spaces are your own; our copy stays trademark-safe.",
+      "If your kids ask whether the tunnels go to another dimension, say \"maybe\" and buy them a churro."
+    ]
+  },
+  {
+    "slug": "roswell",
+    "title": "Roswell, NM",
+    "short": "Roswell",
+    "tagline": "1947 debris. 2026 gift shops. Same town. Different clearance levels.",
+    "intro": "Roswell turned a 1947 ranch-country debris story into a full municipal aesthetic: alien streetlamps, UFO museums and a Main Street that leans all the way in. The alleged crash site is actually closer to Corona, about 75 miles north on BLM land \u2014 hike only, no vehicles. Downtown is where the souvenir industrial complex thrives.",
+    "warning": "Crash-site access is a hike on BLM land near Corona \u2014 no vehicles past the trailhead parking. Respect private property. Downtown attractions are the easy mode.",
+    "checklist": [
+      "International UFO Museum admission stamp (mental or real)",
+      "Main Street alien murals / streetlamps",
+      "Photo with a downtown alien statue",
+      "Alien Zone photo-op nonsense",
+      "UFO McDonald's flyby (yes, it's a thing)",
+      "Someone insisting it was a weather balloon with confidence",
+      "Someone insisting it was not, with equal confidence",
+      "Festival poster leftover from UFO Festival season",
+      "Research Center archive rabbit hole (lose 45 minutes)",
+      "A shirt that says \"I want to believe\" in three fonts",
+      "Planetarium show that is actually about real stars",
+      "Visitor Center free alien photo op",
+      "You said \"Roswell\" and a local didn't even flinch",
+      "Road trip snack that looks radioactive (it's just Takis)",
+      "You leave still undecided \u2014 correct clearance level"
+    ],
+    "spots": [
+      {
+        "name": "International UFO Museum and Research Center",
+        "note": "114 N Main St. The mothership of downtown lore \u2014 exhibits, archives and gift shop. Open daily."
+      },
+      {
+        "name": "Roswell Visitor Center",
+        "note": "426 N Main St. Maps, tips and a free souvenir photo with the Visitor Center aliens."
+      },
+      {
+        "name": "Alien Zone: Area 51",
+        "note": "216 N Main St. Cheesy photo sets. Lean in."
+      },
+      {
+        "name": "UFO Spacewalk / Spaceport Roswell area",
+        "note": "E 2nd St blacklight and VR-ish experiences for when walking Main Street isn't weird enough."
+      },
+      {
+        "name": "Alleged UFO Skip Site (near Corona)",
+        "note": "BLM parking off Lincoln County Rd B007 / Transwestern Road; ~1 mile hike. No vehicles on the trail. Far from downtown \u2014 plan fuel and water."
+      }
+    ],
+    "notes": [
+      "The 1947 incident was handled through Roswell Army Air Field; the debris field most people mean is nearer Corona than the city limits.",
+      "Air Force reports later framed Project Mogul / balloon explanations. The town framed tourism. Both can be true in different ways.",
+      "Bottomless Lakes State Park and Bitter Lakes NWR are excellent non-alien side quests nearby.",
+      "Buy local. The alien economy funds real humans."
+    ]
+  },
+  {
+    "slug": "denver-airport",
+    "title": "Denver International Airport",
+    "short": "Denver Airport",
+    "tagline": "Blue horse. Gargoyles. Tunnels. The airport that memed itself into legend.",
+    "intro": "DEN leans into the bit. A 32-foot blue Mustang with glowing red eyes (officially \"Mustang,\" nicknamed Blucifer) greets Pe\u00f1a Boulevard. Bronze \"Notre Denver\" gargoyles watch baggage claim. Real tunnels move trains, bags and deicing fluid \u2014 not lizard cabinets, according to the airport. Bring a long layover and a sense of humor.",
+    "warning": "Stay in public terminal areas. Do not enter secure / employee-only zones. Photography rules vary by area \u2014 obey signage and TSA instructions.",
+    "checklist": [
+      "Blucifer (Mustang) red-eye photo from Pe\u00f1a Blvd / public view",
+      "Notre Denver gargoyle spotted in baggage claim",
+      "Leo Tanguma murals that look\u2026 intense",
+      "Someone whispering \"Illuminati runway layout\"",
+      "Underground train to the concourse (mundane magic)",
+      "A talking / animatronic gargoyle bit if it's running",
+      "Gift shop selling conspiracy merch about\u2026 this airport",
+      "Time capsule energy (DEN has one; lore varies)",
+      "Mountain views that make the landing worth it",
+      "A stranger explaining the New World Airport Commission plaque",
+      "You almost missed your connection chasing a mural",
+      "Blue horse plush or sticker acquired",
+      "Construction tunnels joked about on the airport's own socials",
+      "Elitch Gardens memories from the old airport site (deep cut)",
+      "You boarded without joining a secret society (or did you?)"
+    ],
+    "spots": [
+      {
+        "name": "Mustang (\"Blucifer\")",
+        "note": "Luis Jim\u00e9nez sculpture on Pe\u00f1a Boulevard. Red eyes honor neon-sign craft; the artist died in a 2006 studio accident while the piece was unfinished \u2014 his children completed it for the 2008 unveil."
+      },
+      {
+        "name": "Notre Denver gargoyles",
+        "note": "Cast-bronze pair in east and west baggage claim \u2014 public art meant to \"protect\" luggage, named with a nod to Notre-Dame."
+      },
+      {
+        "name": "Jeppesen Terminal public art",
+        "note": "Murals, installations and the general \"why does this airport feel like a thesis?\" vibe."
+      },
+      {
+        "name": "Passenger train / tunnel ride",
+        "note": "The underground train between terminal and concourses \u2014 real, useful and fuel for tunnel theories."
+      },
+      {
+        "name": "Airport overlooks & Pe\u00f1a Boulevard approach",
+        "note": "Best Blucifer views are from the public roadway approach, not from a sprint through security."
+      }
+    ],
+    "notes": [
+      "DEN has publicly joked about its own conspiracy reputation, including tunnel projects that are boringly about stormwater and deicing.",
+      "The \"secret bunker\" stories usually collide with the much duller truth of baggage systems and utilities.",
+      "If your layover is short, pick one: horse, gargoyle or mural. You can't collect them all between C and B.",
+      "Entertainment only. The airport is weird. Weird is allowed."
+    ]
+  },
+  {
+    "slug": "mount-rushmore",
+    "title": "Mount Rushmore",
+    "short": "Mount Rushmore",
+    "tagline": "Four faces. One mountain. Infinite \"what's behind the heads\" jokes.",
+    "intro": "Mount Rushmore National Memorial carves four U.S. presidents into the Black Hills of South Dakota. The visitor center, Avenue of Flags and evening lighting ceremony are the public show. Hall of Records lore (a real unfinished repository behind the sculpture) keeps the corkboard busy. Stay on park paths; the mountain is not a climbing gym.",
+    "warning": "Stay behind railings and on designated walkways. Do not attempt to climb the sculpture or enter closed areas. Weather and lightning shut viewpoints \u2014 listen to rangers.",
+    "checklist": [
+      "Classic Grand View Terrace photo",
+      "Avenue of Flags state-flag gauntlet",
+      "Someone asking where the fifth face is",
+      "Hall of Records mention from a ranger or plaque",
+      "Sculptor's Studio stop",
+      "Evening lighting ceremony (seasonal)",
+      "A kid insisting the presidents can see them",
+      "Gift-shop miniature heads",
+      "Black Hills drive that feels like a movie establishing shot",
+      "You learned Gutzon Borglum's name and immediately forgot it",
+      "Crowds synchronized raising phones at golden hour",
+      "A \"secret chamber\" theory whispered near the amphitheater",
+      "Bison or mountain goat sighting nearby (bonus wildlife)",
+      "You resisted the urge to yell echo jokes",
+      "Left still unsure what's in the unfinished hall"
+    ],
+    "spots": [
+      {
+        "name": "Grand View Terrace",
+        "note": "Main public viewpoint facing the sculpture. Arrive early for fewer elbows."
+      },
+      {
+        "name": "Avenue of Flags",
+        "note": "Walk the state and territory flags on the way to the terrace."
+      },
+      {
+        "name": "Lincoln Borglum Visitor Center",
+        "note": "Exhibits, film and context \u2014 including the imperfect, unfinished history of the carving."
+      },
+      {
+        "name": "Sculptor's Studio",
+        "note": "Tools, models and process geekery for the \"how did they even\" crowd."
+      },
+      {
+        "name": "Presidential Trail (when open)",
+        "note": "Closer viewpoints via a walking trail \u2014 check seasonal closures and mobility notes."
+      }
+    ],
+    "notes": [
+      "A Hall of Records was begun behind the sculpture as a repository for documents; it was never finished as originally dreamed. That's public NPS history, not a leaked bunker map.",
+      "The memorial sits in the Black Hills, sacred to the Lakota and other nations \u2014 visit with respect.",
+      "Nearby: Crazy Horse Memorial (separate site, privately run) if you're continuing the mountain-carving tour.",
+      "No climbing. No drones where prohibited. Your conspiracy can survive a railing."
+    ]
+  },
+  {
+    "slug": "stonehenge",
+    "title": "Stonehenge",
+    "short": "Stonehenge",
+    "tagline": "Neolithic GPS. Tour buses. Still unexplained enough for a party.",
+    "intro": "Stonehenge on Salisbury Plain, Wiltshire, is a UNESCO World Heritage site managed with a visitor centre, shuttle and a path around the stone circle. Most visitors don't walk among the stones (special access is limited). Ancient astronomy, engineering flex, or prehistoric party venue \u2014 your field notes, your call.",
+    "warning": "Stay on visitor paths. Do not touch or climb the stones. Special inner-circle access is ticketed and timed when offered \u2014 never hop barriers.",
+    "checklist": [
+      "First view of the circle from the visitor path",
+      "Someone saying \"aliens\" within 60 seconds",
+      "Someone saying \"just a calendar\" within 60 seconds",
+      "Audio guide fact that sounds made up (it isn't)",
+      "Sheep in the distance judging your theories",
+      "Solstice lore drop (even if it's October)",
+      "Visitor Centre prehistoric houses reconstruction",
+      "Shuttle bus that feels like a soft abduction",
+      "Photo where the stones look bigger than your life problems",
+      "A kid asking who moved the bluestones (good question)",
+      "Wind that rearranges your hair into a ritual style",
+      "Gift-shop miniature trilithon",
+      "Comparison debate: Stonehenge vs. every roadside replica back home",
+      "You resisted climbing (heroic)",
+      "Left still not sure about the lintels"
+    ],
+    "spots": [
+      {
+        "name": "Stonehenge stone circle (path circuit)",
+        "note": "The classic loop around the monument. Ropes exist for a reason."
+      },
+      {
+        "name": "Stonehenge Visitor Centre",
+        "note": "Exhibits, caf\u00e9 and the standing-up prehistoric houses \u2014 start or end here."
+      },
+      {
+        "name": "Exhibition & stone displays",
+        "note": "Context on construction theories, burials and the wider ritual landscape."
+      },
+      {
+        "name": "Wiltshire landscape / Avenue views",
+        "note": "Look outward \u2014 the site sits in a bigger ceremonial landscape, not a void."
+      },
+      {
+        "name": "Salisbury side quest",
+        "note": "Cathedral town nearby for when you need indoor plumbing and cream tea."
+      }
+    ],
+    "notes": [
+      "Bluestones and sarsens were hauled ridiculous distances by Neolithic people with Neolithic tech. That's already weird enough.",
+      "English Heritage manages access; inner-circle visits are limited \u2014 book officially if that's your mission.",
+      "Replicas exist worldwide (including U.S. roadside versions). Collect them like Pok\u00e9mon if you must.",
+      "No drones over the monument. No chisels. No \"just one touch.\""
+    ]
+  },
+  {
+    "slug": "bermuda-triangle",
+    "title": "Bermuda Triangle (Miami / Key West jump-off)",
+    "short": "Bermuda Triangle",
+    "tagline": "Start in South Florida. Point your boat at myth. Return with sunscreen.",
+    "intro": "The Bermuda Triangle is a pop-culture wedge of Atlantic roughly between Miami, Bermuda and Puerto Rico. You cannot buy a ticket to the Triangle itself \u2014 you launch from real ports. Miami and Key West are the classic U.S. jump-offs: piers, reefs, sunset sails and a century of disappearances that look less spooky once you add \"weather\" and \"old navigation\" to the spreadsheet. Still fun to mark the vibes.",
+    "warning": "Ocean travel is serious. Use licensed operators, check weather, wear life jackets and file float plans. This guide is entertainment, not a passage plan.",
+    "checklist": [
+      "Miami skyline from Biscayne Bay",
+      "A boat captain who has a Triangle story ready",
+      "Compass joke from someone who owns a phone GPS",
+      "Key West southernmost point photo chaos",
+      "Sunset that looks like a portal (it's just latitude)",
+      "Reef snorkel where the only aliens are parrotfish",
+      "A bar that sells \"survived the Triangle\" merch",
+      "Flight over water where you briefly do the math",
+      "Mention of Flight 19 (1945) from a true-crime podcast brain",
+      "Perfectly normal cargo ship doing perfectly normal ship things",
+      "Tropical storm app refresh (responsible paranoia)",
+      "Key lime something consumed for courage",
+      "A seagull that knows too much",
+      "You explained magnetic variation incorrectly but with confidence",
+      "Dry land afterward \u2014 always the goal"
+    ],
+    "spots": [
+      {
+        "name": "Miami / Biscayne Bay waterfront",
+        "note": "Public baywalks, piers and licensed boat tours \u2014 your mainland staging area."
+      },
+      {
+        "name": "Key West Mallory Square & harbor",
+        "note": "Sunset celebration energy; ferries and charters for legitimate on-water time."
+      },
+      {
+        "name": "Southernmost Point Buoy (Key West)",
+        "note": "Photo op chaos. Early morning = fewer elbows."
+      },
+      {
+        "name": "Dry Tortugas day trip (ferry / seaplane)",
+        "note": "Fort Jefferson out in the Gulf \u2014 remote enough to feel Triangle-adjacent without the myth tax."
+      },
+      {
+        "name": "Nova Southeastern / maritime museums (Miami area)",
+        "note": "When you want charts and history instead of vibes."
+      }
+    ],
+    "notes": [
+      "Lloyd's and insurers have long argued the region's loss rates aren't uniquely supernatural once traffic volume is counted \u2014 boring, but peer-reviewable.",
+      "Gulf Stream currents and sudden weather explain more than portals. Portals are more Instagrammable.",
+      "If you charter, pick Coast Guard\u2013licensed operators. Ghost stories don't inflate life jackets.",
+      "Puerto Rico and Bermuda are the other corners \u2014 this U.S. jump-off guide keeps the packing list shorter."
+    ]
+  },
+  {
+    "slug": "las-vegas",
+    "title": "Las Vegas Strip",
+    "short": "Las Vegas Strip",
+    "tagline": "A neon desert mirage that somehow has a power bill. Suspicious prosperity.",
+    "intro": "The Las Vegas Strip (Las Vegas Boulevard South in Clark County) is a public road wrapped in private spectacle: volcanoes, fountains, observation wheels and casinos that never sleep. Conspiracy optional. Sensory overload included. Stay hydrated; the desert is undefeated.",
+    "warning": "Traffic is real \u2014 use crosswalks. Gambling: set limits. Heat kills vibes and hikers alike. Stay out of restricted back-of-house areas.",
+    "checklist": [
+      "Welcome to Fabulous Las Vegas sign photo",
+      "Fountains doing synchronized watery jazz",
+      "A volcano, pirate ship, or other street-side spectacle",
+      "Someone who \"has a system\" at the slots",
+      "3 a.m. pizza that tastes like victory",
+      "Observation deck / High Roller type view of the grid",
+      "A wedding chapel that takes walk-ins seriously",
+      "LED billboard that knows your browser history (feels like it)",
+      "Desert sunrise after a questionable decision set",
+      "Street performer who might be a distraction (tip them)",
+      "Casino carpet pattern that hides secrets (and stains)",
+      "A free drink that was not free in the final accounting",
+      "Replica monument that made you say \"wait, is that\u2026\"",
+      "You explained the Strip isn't technically in the City of Las Vegas",
+      "Left with more stories than chips"
+    ],
+    "spots": [
+      {
+        "name": "Welcome to Fabulous Las Vegas sign",
+        "note": "Public photo plaza at the south end of the Strip. Go early."
+      },
+      {
+        "name": "Bellagio Fountains (public sidewalk view)",
+        "note": "Free water show from the boulevard \u2014 classic Strip liturgy."
+      },
+      {
+        "name": "Linq Promenade / High Roller area",
+        "note": "Pedestrian zone and observation wheel views when you need altitude."
+      },
+      {
+        "name": "Fremont Street (downtown, side quest)",
+        "note": "Not the Strip, but the older neon laboratory \u2014 LED canopy and buskers."
+      },
+      {
+        "name": "Red Rock Canyon (day trip)",
+        "note": "Actual geology 30 minutes west when the carpet patterns start whispering."
+      }
+    ],
+    "notes": [
+      "Most of the Strip is in unincorporated Paradise and Winchester, not the City of Las Vegas. Fun fact for pedants.",
+      "\"What happens here\" still ends up on someone's camera roll. Act accordingly.",
+      "Area 51 is a long day trip from Vegas \u2014 don't combine both without a sleep plan.",
+      "Free spectacles exist; you do not need a table minimum to enjoy the boulevard."
+    ]
+  },
+  {
+    "slug": "point-pleasant",
+    "title": "Point Pleasant, WV (Mothman)",
+    "short": "Point Pleasant",
+    "tagline": "Red eyes. Silver Bridge memory. World's only Mothman Museum. Bring binoculars.",
+    "intro": "In November 1966, witnesses near the WWII TNT area north of Point Pleasant described a winged, red-eyed figure. Sightings piled up; the Silver Bridge collapse in December 1967 sealed the town into American weird-history. Today: a museum, a 12-foot statue, floodwall murals and public trails through the old ordnance works. Pay respects at the bridge memorial \u2014 that part isn't a bit.",
+    "warning": "TNT Area / McClintic WMA: stay on legal trails, heed hunting-season rules and don't enter unstable structures. Downtown is strollable and statue-friendly.",
+    "checklist": [
+      "Mothman Museum visit (400 Main St)",
+      "12-foot Mothman statue selfie",
+      "Silver Bridge Memorial moment of quiet",
+      "Floodwall murals along Riverfront Park",
+      "TNT Area / McClintic WMA bunker \"igloos\" from a safe trail",
+      "Someone doing the red-eye flashlight joke",
+      "Mothman Wings mural photo (behind the Lowe Hotel)",
+      "Tu-Endie-Wei State Park river confluence view",
+      "A local who is kind about the tourists (tip well)",
+      "Festival poster leftover energy (Sept Mothman Festival)",
+      "Ohio River towboat sliding past like nothing's weird",
+      "Cryptid plush acquired",
+      "You read a plaque and got chills that weren't the wind",
+      "Night drive where every light is \"probably a tower\"",
+      "Left saying \"bird\" and \"not a bird\" in the same sentence"
+    ],
+    "spots": [
+      {
+        "name": "Mothman Museum",
+        "note": "400 Main St. Archives, film props, souvenirs. World's only \u2014 they checked."
+      },
+      {
+        "name": "Mothman Statue (Gunn Park / Main St)",
+        "note": "12-ft stainless steel by Bob Roach. The required selfie."
+      },
+      {
+        "name": "Silver Bridge Memorial",
+        "note": "Riverfront remembrance of the 46 lives lost Dec 15, 1967. Be decent."
+      },
+      {
+        "name": "McClintic Wildlife Management Area (TNT Area)",
+        "note": "~5 miles north. Hiking among WWII ordnance-works remnants; first sighting lore lives here. Public WMA rules apply."
+      },
+      {
+        "name": "Riverfront Park & floodwall murals",
+        "note": "Ohio River views, history murals and easy downtown walking."
+      }
+    ],
+    "notes": [
+      "John Keel's book and the later film amplified the legend; the museum collects the folklore layer on top of real tragedy and real sightings reports.",
+      "Mothman Festival hits downtown each September \u2014 book rooms early if that's your infiltration window.",
+      "Tu-Endie-Wei State Park marks the Battle of Point Pleasant (1774) \u2014 history stacked on history.",
+      "Cryptid tourism funds small-town Main Street. Buy coffee. Don't litter the TNT trails."
+    ]
+  }
+]
