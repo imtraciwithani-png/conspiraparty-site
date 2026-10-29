@@ -1,5 +1,5 @@
 {
-  "note": "Homepage Shop the Kits grid leads with Thanksgiving Table Cards + 3 road trip packs, then prior live kits. Pack Etsy URLs live in assets/etsy-pending-urls.js.",
+  "note": "Homepage Shop the Kits grid leads with Thanksgiving Table Cards, then prior live kits. Road trip packs removed (Etsy deactivated).",
   "kits": [
     {
       "slug": "thanksgiving-table-cards",
@@ -12,39 +12,6 @@
       "blurb": "24 conversation cards, 12 place cards and Turkey Truth Bingo. Family-safe / Kid-Friendly.",
       "rank_hint": "seasonal_thanksgiving_family",
       "badge": "Kid-Friendly"
-    },
-    {
-      "slug": "road-trip-pack",
-      "title": "Suspicious Road Trip Pack",
-      "price": "$7.99",
-      "status": "live",
-      "etsy_listing_id": "4605919469",
-      "url": "https://www.etsy.com/listing/4605919469/suspicious-road-trip-pack-printable",
-      "image": "assets/img/road-trip-pack-kit.webp",
-      "blurb": "10 field guides, bingo, passport and certificate.",
-      "rank_hint": "travel_evergreen"
-    },
-    {
-      "slug": "road-trip-west",
-      "title": "Suspicious West Road Trip Pack",
-      "price": "$7.99",
-      "status": "live",
-      "etsy_listing_id": "4605920433",
-      "url": "https://www.etsy.com/listing/4605920433/suspicious-west-road-trip-pack-printable",
-      "image": "assets/img/road-trip-west-kit.webp",
-      "blurb": "West-region weird destinations pack.",
-      "rank_hint": "travel_regional"
-    },
-    {
-      "slug": "road-trip-southwest",
-      "title": "Suspicious Southwest Road Trip Pack",
-      "price": "$7.99",
-      "status": "live",
-      "etsy_listing_id": "4605940094",
-      "url": "https://www.etsy.com/listing/4605940094/suspicious-southwest-road-trip-pack",
-      "image": "assets/img/road-trip-southwest-kit.webp",
-      "blurb": "Southwest-region weird destinations pack.",
-      "rank_hint": "travel_regional"
     },
     {
       "slug": "classified-christmas-bingo",
@@ -85,21 +52,6 @@
       "id": "4605936572",
       "title": "Conspiracy Thanksgiving Table Cards",
       "why": "seasonal_thanksgiving_family"
-    },
-    {
-      "id": "4605919469",
-      "title": "Suspicious Road Trip Pack",
-      "why": "travel_evergreen"
-    },
-    {
-      "id": "4605920433",
-      "title": "Suspicious West Road Trip Pack",
-      "why": "travel_regional"
-    },
-    {
-      "id": "4605940094",
-      "title": "Suspicious Southwest Road Trip Pack",
-      "why": "travel_regional"
     },
     {
       "id": "4601155493",
