@@ -745,20 +745,20 @@ def render_html(items: list[dict], generated_at: str) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Weird News, Wild Politics &amp; QAnon Watch | Conspiraparty</title>
-<meta name="description" content="Daily weird news, wild politics, QAnon watch, UFOs and cryptids — with skeptic Conspiraparty takes. Auto-updated. Tragedy filtered. Entertainment only.">
+<title>Weird News &amp; Political Rabbit Holes | Conspiraparty</title>
+<meta name="description" content="Daily weird news and political rabbit holes — UFOs, cryptids, wild politics and QAnon with skeptic Conspiraparty takes. Auto-updated. Tragedy filtered. Entertainment only.">
 <link rel="canonical" href="https://conspiraparty.com/weird-news.html">
 <meta property="og:site_name" content="Conspiraparty">
-<meta property="og:title" content="Weird News, Wild Politics &amp; QAnon Watch | Conspiraparty">
-<meta property="og:description" content="Weird news, wild politics and QAnon watch with skeptic Conspiraparty takes. Roast the spin. Bring snacks.">
+<meta property="og:title" content="Weird News &amp; Political Rabbit Holes | Conspiraparty">
+<meta property="og:description" content="Weird news and political rabbit holes with skeptic Conspiraparty takes. Roast the spin. Bring snacks.">
 <meta property="og:url" content="https://conspiraparty.com/weird-news.html">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://conspiraparty.com/assets/og/index.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Weird News, Wild Politics &amp; QAnon Watch | Conspiraparty">
-<meta name="twitter:description" content="Weird news, wild politics and QAnon watch. Skeptic takes. Updated automatically.">
+<meta name="twitter:title" content="Weird News &amp; Political Rabbit Holes | Conspiraparty">
+<meta name="twitter:description" content="Weird news and political rabbit holes. Skeptic takes. Updated automatically.">
 <meta name="twitter:image" content="https://conspiraparty.com/assets/og/index.jpg">
 <meta name="theme-color" content="#000000">
 <link rel="icon" type="image/png" href="assets/img/favicon-64.png">
@@ -802,7 +802,7 @@ def render_html(items: list[dict], generated_at: str) -> str:
   .share-links[hidden]{{display:flex!important}}
 }}
 </style>
-<script type="application/ld+json">{{"@context":"https://schema.org","@type":"CollectionPage","name":"Weird News, Wild Politics & QAnon Watch","description":"Daily weird news, wild politics, QAnon watch, UFOs and cryptids with skeptic Conspiraparty takes.","url":"https://conspiraparty.com/weird-news.html","isPartOf":{{"@type":"WebSite","name":"Conspiraparty","url":"https://conspiraparty.com/"}}}}</script>
+<script type="application/ld+json">{{"@context":"https://schema.org","@type":"CollectionPage","name":"Weird News & Political Rabbit Holes","description":"Daily weird news and political rabbit holes — UFOs, cryptids, wild politics and QAnon with skeptic Conspiraparty takes.","url":"https://conspiraparty.com/weird-news.html","isPartOf":{{"@type":"WebSite","name":"Conspiraparty","url":"https://conspiraparty.com/"}}}}</script>
 <script type="application/ld+json">{{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{{"@type":"ListItem","position":1,"name":"Home","item":"https://conspiraparty.com/"}},{{"@type":"ListItem","position":2,"name":"Weird News","item":"https://conspiraparty.com/weird-news.html"}}]}}</script>
 </head>
 <body>
@@ -830,7 +830,7 @@ def render_html(items: list[dict], generated_at: str) -> str:
   <section class="hero">
     <div class="wrap center">
       <span class="stamp">Leaked Daily</span>
-      <h1>WEIRD NEWS, WILD <span class="r">POLITICS</span> &amp; QANON WATCH</h1>
+      <h1>WEIRD NEWS &amp; <span class="r">POLITICAL</span> RABBIT HOLES</h1>
       <p class="lead">UFOs, cryptids, odd headlines, wild politics and QAnon rabbit holes — with a skeptic Conspiraparty take on each. We roast the spin on all sides. Auto-updated. No tragedy. Entertainment only.</p>
       <p class="updated">Last sweep: {gen_display} UTC · Headlines &amp; links only</p>
     </div>
