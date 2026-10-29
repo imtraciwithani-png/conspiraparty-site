@@ -89,35 +89,46 @@ def draw_paper_bg(c: canvas.Canvas) -> None:
     c.rect(0, H - 18, W, 18, fill=1, stroke=0)
 
 
-def draw_header_logo(c: canvas.Canvas, y_top: float, width: float = 160) -> float:
-    """Draw concept C wordmark centered (print-safe black). Returns y below logo."""
+def draw_brand_footer(c: canvas.Canvas, page_label: str = "") -> None:
+    """Concept C logo in its own footer band — clear of title/grid/content.
+
+    Layout (bottom-up): page edge → fine print → air → logo → air → content.
+    Nothing overlaps or touches the logo.
+    """
     logo = LOGO if LOGO.exists() else LOGO_FALLBACK
+    logo_w = 88.0
+    logo_h = 0.0
     if logo.exists():
         from PIL import Image as _Image
         iw, ih = _Image.open(logo).size
-        aspect = ih / iw
-        h = width * aspect
-        x = (W - width) / 2
+        logo_h = logo_w * (ih / iw)
+    # fine print baseline
+    fine_y = 22
+    # air between fine print and logo
+    logo_bottom = fine_y + 14
+    if logo.exists():
+        x = (W - logo_w) / 2
         c.drawImage(
             str(logo),
             x,
-            y_top - h,
-            width=width,
-            height=h,
+            logo_bottom,
+            width=logo_w,
+            height=logo_h,
             mask="auto",
             preserveAspectRatio=True,
         )
-        return y_top - h - 4
-    return y_top
-
-
-def draw_site_footer(c: canvas.Canvas, page_label: str = "") -> None:
     c.setFillColor(MUTED)
     c.setFont("SpecialElite", 8)
-    left = "conspiraparty.com  ·  free printable  ·  personal use"
-    c.drawString(MARGIN, 28, left)
+    left = "free printable  ·  personal use"
+    c.drawString(MARGIN, fine_y, left)
     if page_label:
-        c.drawRightString(W - MARGIN, 28, page_label)
+        c.drawRightString(W - MARGIN, fine_y, page_label)
+
+
+def content_bottom() -> float:
+    """Y above the footer brand band — keep grids/content above this."""
+    # logo_w 88 → ~26.6 tall + 14 air above fine print + 22 fine + ~16 air above logo
+    return 22 + 14 + 27 + 16  # ~79
 
 
 def wrap_centered(c: canvas.Canvas, text: str, x: float, y: float, font: str, size: float, max_w: float, leading: float | None = None) -> float:
@@ -231,20 +242,19 @@ def make_card_cells(rng: random.Random) -> list[str]:
 
 def page_how_to(c: canvas.Canvas) -> None:
     draw_paper_bg(c)
-    y = H - 40
-    y = draw_header_logo(c, y, width=180)
-    y -= 8
+    # Title owns the top — logo lives in the footer band
+    y = H - 56
 
     c.setFillColor(INK)
     c.setFont("Anton", 36)
     c.drawCentredString(W / 2, y, "ALIEN PARTY BINGO")
-    y -= 22
+    y -= 24
     c.setFillColor(RED)
     c.setFont("SpecialElite", 11)
     c.drawCentredString(W / 2, y, "How to Play  ·  10 unique cards + caller sheet")
-    y -= 18
+    y -= 22
 
-    # red rule
+    # red rule — separates title from rules
     c.setStrokeColor(RED)
     c.setLineWidth(2)
     c.line(MARGIN + 40, y, W - MARGIN - 40, y)
@@ -342,44 +352,41 @@ def page_how_to(c: canvas.Canvas) -> None:
         c.drawCentredString(W / 2, y, t)
         y -= 16
 
-    # CLASSIFIED stamp vibe
+    # CLASSIFIED stamp — lower content area only (never near logo)
     c.saveState()
-    c.setStrokeColor(RED)
-    c.setFillColor(Color(0.88, 0.11, 0.15, alpha=0.12))
     c.setLineWidth(2.5)
-    c.translate(W / 2 + 160, H / 2 + 40)
-    c.rotate(18)
-    c.setFont("Anton", 22)
-    c.setFillColor(Color(0.88, 0.11, 0.15, alpha=0.55))
+    c.translate(W / 2 + 150, 210)
+    c.rotate(16)
+    c.setFont("Anton", 20)
+    c.setFillColor(Color(0.88, 0.11, 0.15, alpha=0.45))
     c.drawCentredString(0, 0, "CLASSIFIED")
-    c.setStrokeColor(Color(0.88, 0.11, 0.15, alpha=0.55))
-    c.rect(-70, -8, 140, 28, fill=0, stroke=1)
+    c.setStrokeColor(Color(0.88, 0.11, 0.15, alpha=0.45))
+    c.rect(-68, -8, 136, 26, fill=0, stroke=1)
     c.restoreState()
 
-    draw_site_footer(c, "1 / how to play")
+    draw_brand_footer(c, "1 / how to play")
     c.showPage()
 
 
 def page_card(c: canvas.Canvas, card_num: int, cells: list[str], total_pages: int) -> None:
     draw_paper_bg(c)
-    y = H - 32
-    y = draw_header_logo(c, y, width=120)
-    y -= 2
+    # Title owns the top — logo in footer band only
+    y = H - 48
 
     c.setFillColor(INK)
     c.setFont("Anton", 26)
     c.drawCentredString(W / 2, y, "ALIEN PARTY BINGO")
-    y -= 14
+    y -= 18
     c.setFillColor(RED)
     c.setFont("SpecialElite", 9)
-    c.drawCentredString(W / 2, y, f"Card {card_num} of 10  ·  conspiraparty.com")
-    y -= 10
+    c.drawCentredString(W / 2, y, f"Card {card_num} of 10")
+    y -= 16
 
-    # CLASSIFIED corner stamp
+    # CLASSIFIED stamp — top-right, clear of title
     c.saveState()
     c.setFillColor(Color(0.88, 0.11, 0.15, alpha=0.85))
     c.setFont("Anton", 9)
-    c.translate(W - MARGIN - 50, H - 55)
+    c.translate(W - MARGIN - 48, H - 42)
     c.rotate(12)
     c.drawCentredString(0, 0, "CLASSIFIED")
     c.setStrokeColor(Color(0.88, 0.11, 0.15, alpha=0.85))
@@ -387,24 +394,23 @@ def page_card(c: canvas.Canvas, card_num: int, cells: list[str], total_pages: in
     c.rect(-38, -4, 76, 16, fill=0, stroke=1)
     c.restoreState()
 
-    grid_size = min(W - 2 * MARGIN - 20, y - 70)
+    # Grid sits above footer brand band with clear air
+    bottom = content_bottom()
+    grid_top = y - 8
+    grid_size = min(W - 2 * MARGIN - 24, grid_top - bottom)
     left = (W - grid_size) / 2
-    bottom = 58
-    # nudge if needed
-    if bottom + grid_size > y - 8:
-        grid_size = y - 8 - bottom
-        left = (W - grid_size) / 2
 
     draw_bingo_grid(c, cells, left, bottom, grid_size)
 
+    # win line sits in the air between grid and logo band
     c.setFillColor(MUTED)
     c.setFont("SpecialElite", 8)
     c.drawCentredString(
         W / 2,
-        42,
+        bottom - 10,
         "5 in a row → yell COVER-UP!   ·   FREE center square",
     )
-    draw_site_footer(c, f"{card_num + 1} / card {card_num}")
+    draw_brand_footer(c, f"{card_num + 1} / card {card_num}")
     c.showPage()
 
 
@@ -418,27 +424,25 @@ def page_caller(c: canvas.Canvas, start_page: int) -> int:
     page_i = 0
     for p in range(pages_needed):
         draw_paper_bg(c)
-        y = H - 36
-        y = draw_header_logo(c, y, width=130)
-        y -= 2
+        y = H - 48
         c.setFillColor(INK)
         c.setFont("Anton", 24)
         c.drawCentredString(W / 2, y, "CALLER SHEET")
-        y -= 14
+        y -= 18
         c.setFillColor(RED)
         c.setFont("SpecialElite", 9)
         subtitle = "Cut out the squares. Drop them in a bowl. Draw & read one at a time."
         if pages_needed > 1:
             subtitle += f"  ({p + 1}/{pages_needed})"
         c.drawCentredString(W / 2, y, subtitle)
-        y -= 18
+        y -= 22  # clear air before tiles
 
         chunk = tiles[p * per_page : (p + 1) * per_page]
-        # tile grid
+        # tile grid — stays above footer logo band
         grid_left = MARGIN + 10
         grid_right = W - MARGIN - 10
         grid_top = y
-        grid_bottom = 50
+        grid_bottom = content_bottom()
         avail_w = grid_right - grid_left
         avail_h = grid_top - grid_bottom
         tile_w = avail_w / cols
@@ -471,7 +475,7 @@ def page_caller(c: canvas.Canvas, start_page: int) -> int:
                 c.drawCentredString(cx, start_y - li * leading, ln)
 
         c.setDash()
-        draw_site_footer(c, f"{start_page + page_i} / caller")
+        draw_brand_footer(c, f"{start_page + page_i} / caller")
         c.showPage()
         page_i += 1
     return page_i
