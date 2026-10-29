@@ -713,3 +713,25 @@ footer a:hover{color:#fff;border-bottom-color:var(--red)}
 }
 .family-safe-box a,.spicy-box a{color:#fff;text-decoration:underline;text-underline-offset:2px}
 .family-safe-box a:hover,.spicy-box a:hover{color:var(--red)}
+/* ===== Printify shirts / Totally Real Tour ===== */
+.shop-store-block{padding:40px 16px 48px;max-width:40rem;margin-left:auto;margin-right:auto}
+.shop-store-logo{display:block;margin:0 auto;max-width:220px;height:auto;padding:12px}
+.shop-store-hero{margin:28px 0 8px}
+.tour-head{padding:8px 12px 4px;max-width:36rem;margin-left:auto;margin-right:auto}
+.tour-head .stamp,
+.shop-store-block .stamp,
+#totally-real-tour .stamp,
+#printify-store .stamp{display:inline-block}
+.tour-grid{gap:22px}
+@media(max-width:700px){
+  .shop-store-block{padding:32px 12px 40px}
+  .tour-head{padding:4px 8px}
+  .tour-grid{gap:18px;margin-top:20px!important}
+  #printify-store{padding:48px 0}
+  #totally-real-tour{padding:48px 0 56px}
+}
+@media(min-width:701px){
+  .shop-store-block{padding:56px 24px 64px}
+  .tour-grid{gap:28px}
+  #printify-store,#totally-real-tour{padding:64px 0}
+}
