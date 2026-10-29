@@ -1,8 +1,4 @@
-# Daily Weird News refresh.
-# Preview: lives on the weird-news branch only. GitHub scheduled workflows
-# only run from the default branch (main), so this will NOT auto-refresh
-# until Traci approves merging to main. Manual workflow_dispatch on this
-# branch is also gated below so a mistaken run never pushes to main.
+# Daily Weird News refresh on main (live site).
 name: Update Weird News
 
 on:
@@ -16,15 +12,13 @@ permissions:
 
 jobs:
   fetch:
-    # Never run / push against main until this workflow is intentionally
-    # enabled there after Traci's approval. Preview branch only for now.
-    if: github.ref == 'refs/heads/weird-news'
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: weird-news
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -34,11 +28,11 @@ jobs:
       - name: Fetch headlines and rebuild page
         run: python3 scripts/fetch_weird_news.py
 
-      - name: Commit and push if changed (weird-news branch only)
+      - name: Commit and push if changed (main only)
         run: |
           set -e
           branch="$(git rev-parse --abbrev-ref HEAD)"
-          if [ "$branch" != "weird-news" ]; then
+          if [ "$branch" != "main" ]; then
             echo "Refusing to push from branch: $branch"
             exit 1
           fi
@@ -49,5 +43,5 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "chore: daily weird news refresh"
-            git push origin HEAD:weird-news
+            git push origin HEAD:main
           fi
