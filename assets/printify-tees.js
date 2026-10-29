@@ -4,7 +4,7 @@
   var DATA = 'data/printify-tees.json';
   function unlock(card, url) {
     if (!card || !url) return;
-    var btn = card.querySelector('[data-buy-url], a.btn.is-soon, a.btn.sm');
+    var btn = card.querySelector('a.buy-btn, [data-buy-url], a.btn.is-soon');
     if (!btn) return;
     btn.href = url;
     btn.setAttribute('data-buy-url', url);
