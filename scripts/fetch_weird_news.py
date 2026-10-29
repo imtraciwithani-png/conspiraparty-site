@@ -22,9 +22,23 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parent))
+from weird_news_share import prune_share_pages, write_share_pages
+
+try:
+    from PIL import Image, ImageDraw, ImageFont
+except ImportError:  # pragma: no cover
+    Image = ImageDraw = ImageFont = None  # type: ignore
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "weird-news.json"
 HTML_PATH = ROOT / "weird-news.html"
+SHARE_DIR = ROOT / "weird-news" / "s"
+SHARE_OG_DIR = ROOT / "assets" / "og" / "weird-news"
+SHARE_MAX_AGE_DAYS = 30
+LOGO_PATH = ROOT / "assets" / "img" / "logo.png"
+FONT_PATH = ROOT / "assets" / "fonts" / "Anton-Regular.ttf"
 MAX_ITEMS = 24
 USER_AGENT = "ConspirapartyWeirdNews/1.0 (+https://conspiraparty.com; daily aggregator)"
 
@@ -676,14 +690,17 @@ def render_card(it: dict) -> str:
     tag = html.escape(it["tag"])
     slug = story_slug(it)
     anchor = html.escape(slug, quote=True)
-    share_path = f"https://conspiraparty.com/weird-news.html#story-{slug}"
+    share_path = f"https://conspiraparty.com/weird-news/s/{slug}.html"
     share_url = html.escape(share_path, quote=True)
     text = share_text(it)
     text_esc = html.escape(text)
     text_q = html.escape(quote(text), quote=True)
     url_q = html.escape(quote(share_path, safe=""), quote=True)
-    # Pinterest wants a page image; use site OG image
-    media_q = html.escape(quote("https://conspiraparty.com/assets/og/index.jpg", safe=""), quote=True)
+    # Per-story OG image for Pinterest / cards
+    media_q = html.escape(
+        quote(f"https://conspiraparty.com/assets/og/weird-news/{slug}.jpg", safe=""),
+        quote=True,
+    )
     x_href = f"https://x.com/intent/post?text={text_q}&url={url_q}"
     fb_href = f"https://www.facebook.com/sharer/sharer.php?u={url_q}"
     pin_href = f"https://www.pinterest.com/pin/create/button/?url={url_q}&media={media_q}&description={text_q}"
@@ -767,7 +784,7 @@ def render_html(items: list[dict], generated_at: str) -> str:
 <link rel="stylesheet" href="assets/style.css">
 <style>
 .news-feed{{display:flex;flex-direction:column;gap:16px;max-width:820px;margin:0 auto}}
-.news-card{{padding:18px 18px 16px!important;display:block!important}}
+.news-card{{padding:18px 18px 16px!important;display:block!important}}.news-card.is-filtered-out,.kit-cta.is-filtered-out{{display:none!important}}
 .news-card .news-title{{font-family:var(--font-display);font-size:clamp(1.15rem,3.5vw,1.55rem);line-height:1.15;margin:0 0 8px;text-transform:uppercase;letter-spacing:.02em;font-weight:400}}
 .news-card .news-title a{{color:inherit;text-decoration:none}}
 .news-card .news-title a:hover{{color:var(--red)}}
@@ -932,11 +949,15 @@ def render_html(items: list[dict], generated_at: str) -> str:
     bar.addEventListener('click', function(e){{
       var btn = e.target.closest('button[data-tag]');
       if(!btn) return;
+      e.preventDefault();
       var tag = btn.getAttribute('data-tag');
       bar.querySelectorAll('button').forEach(function(b){{ b.setAttribute('aria-pressed', b===btn ? 'true' : 'false'); }});
       cards.forEach(function(c){{
         var show = tag === 'all' || c.getAttribute('data-tag') === tag;
-        c.style.display = show ? '' : 'none';
+        c.classList.toggle('is-filtered-out', !show);
+      }});
+      document.querySelectorAll('.kit-cta').forEach(function(k){{
+        k.classList.toggle('is-filtered-out', tag !== 'all');
       }});
     }});
   }}
@@ -1002,7 +1023,12 @@ def main() -> int:
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     DATA_PATH.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     HTML_PATH.write_text(render_html(items, payload["generated_at_display"]), encoding="utf-8")
-    print(f"Wrote {len(items)} items → {DATA_PATH.relative_to(ROOT)} and {HTML_PATH.relative_to(ROOT)}")
+    slugs = write_share_pages(items, story_slug)
+    pruned = prune_share_pages(slugs)
+    print(
+        f"Wrote {len(items)} items → {DATA_PATH.relative_to(ROOT)} and {HTML_PATH.relative_to(ROOT)}; "
+        f"{len(slugs)} share pages; pruned {pruned} old share files"
+    )
     return 0
 
 
