@@ -1,16 +1,12 @@
 /* =============================================================================
-   ETSY PENDING LISTING URLS — single edit spot for new-etsy-items packs
-   Replace each TODO-ETSY-<slug> value with the live listing URL when ready.
+   ETSY LISTING URLS — single edit spot for new-etsy-items packs
    Used by index.html Shop the Kits + field-guides.html "Take it on the road".
-   Thanksgiving cards are already live (not a placeholder).
+   Thanksgiving cards: https://www.etsy.com/listing/4605936572/conspiracy-thanksgiving-table-cards
    ============================================================================= */
 window.ETSY_PENDING_URLS = {
-  /* TODO-ETSY-road-trip-pack */
-  "road-trip-pack": "https://www.etsy.com/listing/TODO-ETSY-road-trip-pack",
-  /* TODO-ETSY-road-trip-west */
-  "road-trip-west": "https://www.etsy.com/listing/TODO-ETSY-road-trip-west",
-  /* TODO-ETSY-road-trip-southwest */
-  "road-trip-southwest": "https://www.etsy.com/listing/TODO-ETSY-road-trip-southwest"
+  "road-trip-pack": "https://www.etsy.com/listing/4605919469/suspicious-road-trip-pack-printable",
+  "road-trip-west": "https://www.etsy.com/listing/4605920433/suspicious-west-road-trip-pack-printable",
+  "road-trip-southwest": "https://www.etsy.com/listing/4605940094/suspicious-southwest-road-trip-pack"
 };
 (function () {
   var map = window.ETSY_PENDING_URLS || {};

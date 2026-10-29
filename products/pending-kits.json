@@ -1,5 +1,5 @@
 {
-  "note": "Homepage Shop the Kits grid leads with Thanksgiving Table Cards + 3 road trip packs, then prior live kits. Pack Etsy URLs still TODO in assets/etsy-pending-urls.js.",
+  "note": "Homepage Shop the Kits grid leads with Thanksgiving Table Cards + 3 road trip packs, then prior live kits. Pack Etsy URLs live in assets/etsy-pending-urls.js.",
   "kits": [
     {
       "slug": "thanksgiving-table-cards",
@@ -17,9 +17,9 @@
       "slug": "road-trip-pack",
       "title": "Suspicious Road Trip Pack",
       "price": "$7.99",
-      "status": "pending_etsy_url",
-      "etsy_listing_id": "TODO-ETSY-road-trip-pack",
-      "url": "https://www.etsy.com/listing/TODO-ETSY-road-trip-pack",
+      "status": "live",
+      "etsy_listing_id": "4605919469",
+      "url": "https://www.etsy.com/listing/4605919469/suspicious-road-trip-pack-printable",
       "image": "assets/img/road-trip-pack-kit.webp",
       "blurb": "10 field guides, bingo, passport and certificate.",
       "rank_hint": "travel_evergreen"
@@ -28,9 +28,9 @@
       "slug": "road-trip-west",
       "title": "Suspicious West Road Trip Pack",
       "price": "$7.99",
-      "status": "pending_etsy_url",
-      "etsy_listing_id": "TODO-ETSY-road-trip-west",
-      "url": "https://www.etsy.com/listing/TODO-ETSY-road-trip-west",
+      "status": "live",
+      "etsy_listing_id": "4605920433",
+      "url": "https://www.etsy.com/listing/4605920433/suspicious-west-road-trip-pack-printable",
       "image": "assets/img/road-trip-west-kit.webp",
       "blurb": "West-region weird destinations pack.",
       "rank_hint": "travel_regional"
@@ -39,9 +39,9 @@
       "slug": "road-trip-southwest",
       "title": "Suspicious Southwest Road Trip Pack",
       "price": "$7.99",
-      "status": "pending_etsy_url",
-      "etsy_listing_id": "TODO-ETSY-road-trip-southwest",
-      "url": "https://www.etsy.com/listing/TODO-ETSY-road-trip-southwest",
+      "status": "live",
+      "etsy_listing_id": "4605940094",
+      "url": "https://www.etsy.com/listing/4605940094/suspicious-southwest-road-trip-pack",
       "image": "assets/img/road-trip-southwest-kit.webp",
       "blurb": "Southwest-region weird destinations pack.",
       "rank_hint": "travel_regional"
@@ -87,17 +87,17 @@
       "why": "seasonal_thanksgiving_family"
     },
     {
-      "id": "TODO-ETSY-road-trip-pack",
+      "id": "4605919469",
       "title": "Suspicious Road Trip Pack",
       "why": "travel_evergreen"
     },
     {
-      "id": "TODO-ETSY-road-trip-west",
+      "id": "4605920433",
       "title": "Suspicious West Road Trip Pack",
       "why": "travel_regional"
     },
     {
-      "id": "TODO-ETSY-road-trip-southwest",
+      "id": "4605940094",
       "title": "Suspicious Southwest Road Trip Pack",
       "why": "travel_regional"
     },
