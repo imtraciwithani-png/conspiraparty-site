@@ -37,40 +37,4 @@
   }
   load();
 
-  function canNativeShare(){
-    return typeof navigator !== 'undefined' && typeof navigator.share === 'function'
-      && (window.matchMedia('(max-width:720px)').matches || /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent||''));
-  }
-  document.addEventListener('click', function(e){
-    var shareBtn = e.target.closest('[data-share]');
-    if(shareBtn){
-      var box = shareBtn.closest('.share-box');
-      if(!box) return;
-      var url = box.getAttribute('data-share-url') || location.href;
-      var text = box.getAttribute('data-share-text') || document.title;
-      if(canNativeShare()){
-        navigator.share({ title: document.title, text: text, url: url }).catch(function(){});
-        return;
-      }
-      var links = box.querySelector('.share-links');
-      if(links) links.hidden = !links.hidden;
-      return;
-    }
-    var copyBtn = e.target.closest('[data-copy]');
-    if(copyBtn){
-      var box = copyBtn.closest('.share-box');
-      if(!box) return;
-      var url = box.getAttribute('data-share-url') || location.href;
-      var done = function(){
-        copyBtn.classList.add('copied');
-        copyBtn.textContent = 'Copied';
-        setTimeout(function(){ copyBtn.classList.remove('copied'); copyBtn.textContent = 'Copy link'; }, 1600);
-      };
-      if(navigator.clipboard && navigator.clipboard.writeText){
-        navigator.clipboard.writeText(url).then(done).catch(function(){ window.prompt('Copy link', url); });
-      } else {
-        window.prompt('Copy link', url);
-      }
-    }
-  });
 })();

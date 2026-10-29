@@ -1,0 +1,18 @@
+/* Sitewide share — mobile-first, compact; mirrors Weird News / shirts */
+.share-box{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;width:100%}
+.share-box .btn.sm{width:auto;margin-top:0;padding:5px 10px;font-size:.75rem}
+.share-links{display:flex;flex-wrap:wrap;gap:6px;align-items:center;width:100%}
+.share-links[hidden]{display:none!important}
+.share-links:not([hidden]){display:flex}
+.share-box .share-copy.copied{background:var(--red);border-color:var(--red);color:#fff}
+.share-box.page-share{margin:18px 0 0;justify-content:center}
+.share-box.page-share .share-links{justify-content:center}
+@media (max-width:720px){
+  .share-links{display:none!important}
+  .share-native{display:inline-flex}
+}
+@media (min-width:721px){
+  .share-native{display:none}
+  .share-links{display:flex!important}
+  .share-links[hidden]{display:flex!important}
+}
