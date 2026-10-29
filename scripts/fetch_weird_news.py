@@ -833,6 +833,7 @@ def render_html(items: list[dict], generated_at: str) -> str:
       <h1>WEIRD NEWS &amp; <span class="r">POLITICAL</span> RABBIT HOLES</h1>
       <p class="lead">UFOs, cryptids, odd headlines, wild politics and QAnon rabbit holes — with a skeptic Conspiraparty take on each. We roast the spin on all sides. Auto-updated. No tragedy. Entertainment only.</p>
       <p class="updated">Last sweep: {gen_display} UTC · Headlines &amp; links only</p>
+      <p class="x-follow-inline"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow @conspiraparty on X</a></p>
     </div>
   </section>
 
@@ -890,6 +891,7 @@ def render_html(items: list[dict], generated_at: str) -> str:
         <button class="btn alt" type="submit">Send My Free Badge</button>
         <span class="notice" role="status" aria-live="polite"></span>
       </form>
+      <p class="x-follow-inline"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow @conspiraparty on X</a></p>
     </div>
   </section>
 </main>
@@ -916,6 +918,7 @@ def render_html(items: list[dict], generated_at: str) -> str:
       </ul>
     </nav>
     <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases. Some links on this site are affiliate links, which means we may earn a small commission at no extra cost to you.</p>
+    <p class="x-follow"><a href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow @conspiraparty on X</a></p>
     <p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p>
   </div>
 </footer>
