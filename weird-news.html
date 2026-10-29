@@ -3,20 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Weird News &amp; UFO Headlines Aggregator | Conspiraparty</title>
-<meta name="description" content="Daily weird news, UFO/UAP headlines, cryptid sightings and strange science — with funny Conspiraparty takes. Updated automatically. No politics.">
+<title>Weird News, Wild Politics &amp; QAnon Watch | Conspiraparty</title>
+<meta name="description" content="Daily weird news, wild politics, QAnon watch, UFOs and cryptids — with skeptic Conspiraparty takes. Auto-updated. Tragedy filtered. Entertainment only.">
 <link rel="canonical" href="https://conspiraparty.com/weird-news.html">
 <meta property="og:site_name" content="Conspiraparty">
-<meta property="og:title" content="Weird News &amp; UFO Headlines | Conspiraparty">
-<meta property="og:description" content="Daily weird news, UFO headlines, cryptids and strange science with funny Conspiraparty takes. No politics.">
+<meta property="og:title" content="Weird News, Wild Politics &amp; QAnon Watch | Conspiraparty">
+<meta property="og:description" content="Weird news, wild politics and QAnon watch with skeptic Conspiraparty takes. Roast the spin. Bring snacks.">
 <meta property="og:url" content="https://conspiraparty.com/weird-news.html">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://conspiraparty.com/assets/og/index.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Weird News &amp; UFO Headlines | Conspiraparty">
-<meta name="twitter:description" content="Daily weird news, UFO headlines, cryptids and strange science. Updated automatically.">
+<meta name="twitter:title" content="Weird News, Wild Politics &amp; QAnon Watch | Conspiraparty">
+<meta name="twitter:description" content="Weird news, wild politics and QAnon watch. Skeptic takes. Updated automatically.">
 <meta name="twitter:image" content="https://conspiraparty.com/assets/og/index.jpg">
 <meta name="theme-color" content="#000000">
 <link rel="icon" type="image/png" href="assets/img/favicon-64.png">
@@ -44,8 +44,23 @@
 .kit-cta h3{margin-top:8px}
 .kit-cta .btn{margin-top:12px;display:inline-flex;width:auto}
 .kit-cta p{color:#cfcfd4!important}
+.share-box{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.share-box .btn.sm{width:auto;margin-top:0;padding:6px 12px;font-size:.8rem}
+.share-links{display:flex;flex-wrap:wrap;gap:8px;align-items:center;width:100%}
+.share-links[hidden]{display:none!important}
+.share-links:not([hidden]){display:flex}
+.share-box .share-copy.copied{background:var(--red);border-color:var(--red)}
+@media (max-width:720px){
+  .share-links{display:none!important}
+  .news-card .share-native{display:inline-flex}
+}
+@media (min-width:721px){
+  .news-card .share-native{display:none}
+  .share-links{display:flex!important}
+  .share-links[hidden]{display:flex!important}
+}
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Weird News","description":"Daily weird news, UFO/UAP headlines, cryptid sightings and strange science with funny Conspiraparty takes.","url":"https://conspiraparty.com/weird-news.html","isPartOf":{"@type":"WebSite","name":"Conspiraparty","url":"https://conspiraparty.com/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Weird News, Wild Politics & QAnon Watch","description":"Daily weird news, wild politics, QAnon watch, UFOs and cryptids with skeptic Conspiraparty takes.","url":"https://conspiraparty.com/weird-news.html","isPartOf":{"@type":"WebSite","name":"Conspiraparty","url":"https://conspiraparty.com/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://conspiraparty.com/"},{"@type":"ListItem","position":2,"name":"Weird News","item":"https://conspiraparty.com/weird-news.html"}]}</script>
 </head>
 <body>
@@ -73,9 +88,9 @@
   <section class="hero">
     <div class="wrap center">
       <span class="stamp">Leaked Daily</span>
-      <h1>WEIRD <span class="r">NEWS</span></h1>
-      <p class="lead">UFOs, cryptids, strange science and odd headlines — with a Conspiraparty take on each. Auto-updated. No politics. No QAnon. Just the fun weird.</p>
-      <p class="updated">Last sweep: Oct 29, 2026 18:42 UTC · Headlines &amp; links only</p>
+      <h1>WEIRD NEWS, WILD <span class="r">POLITICS</span> &amp; QANON WATCH</h1>
+      <p class="lead">UFOs, cryptids, odd headlines, wild politics and QAnon rabbit holes — with a skeptic Conspiraparty take on each. We roast the spin on all sides. Auto-updated. No tragedy. Entertainment only.</p>
+      <p class="updated">Last sweep: Oct 29, 2026 18:57 UTC · Headlines &amp; links only</p>
     </div>
   </section>
 
@@ -83,6 +98,8 @@
     <div class="wrap">
       <div class="filter-bar" role="group" aria-label="Filter by topic">
         <button type="button" data-tag="all" aria-pressed="true">All</button>
+        <button type="button" data-tag="Politics" aria-pressed="false">Politics</button>
+        <button type="button" data-tag="QAnon" aria-pressed="false">QAnon</button>
         <button type="button" data-tag="UFO" aria-pressed="false">UFOs</button>
         <button type="button" data-tag="Cryptid" aria-pressed="false">Cryptids</button>
         <button type="button" data-tag="Strange" aria-pressed="false">Strange</button>
@@ -90,41 +107,95 @@
         <button type="button" data-tag="Science" aria-pressed="false">Science</button>
       </div>
       <div class="news-feed" id="news-feed">
-<article class="news-card card" data-tag="UFO">
+<article class="news-card card" id="story-freddy-krueger-meets-wolverine-tsa-makes-a-stran-2f2dffc8ee35" data-tag="Odd" data-share-url="https://conspiraparty.com/weird-news.html#story-freddy-krueger-meets-wolverine-tsa-makes-a-stran-2f2dffc8ee35" data-share-text="Freddy Krueger Meets Wolverine? TSA Makes a Strange Seattle Airport Find — Pin this to the fridge. Trust us. via conspiraparty.com">
+  <div class="news-meta"><span class="news-tag">Odd</span><span class="news-date">Oct 29, 2026</span></div>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxPT1kzSHh4ai15WVJMU1o0NXpuOFc4QXBaTVdXVl9kVlJIczhOdE9ldlBxNU01UHRxZVZLeVk5T1pGNWExWXp4bU1GUTRHbTdfNlB2X3c2Y01lcEtIZ1ZQZUlNanBGTGNUb05sRk9OMFNiZDlKdVBSUUNZMVp3Z0dLaEhCNA?oc=5" target="_blank" rel="noopener noreferrer">Freddy Krueger Meets Wolverine? TSA Makes a Strange Seattle Airport Find</a></h3>
+  <p class="news-source">via NEWStalk 870</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Pin this to the fridge. Trust us.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=Freddy%20Krueger%20Meets%20Wolverine%3F%20TSA%20Makes%20a%20Strange%20Seattle%20Airport%20Find%20%E2%80%94%20Pin%20this%20to%20the%20fridge.%20Trust%20us.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-freddy-krueger-meets-wolverine-tsa-makes-a-stran-2f2dffc8ee35" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-freddy-krueger-meets-wolverine-tsa-makes-a-stran-2f2dffc8ee35" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-freddy-krueger-meets-wolverine-tsa-makes-a-stran-2f2dffc8ee35&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=Freddy%20Krueger%20Meets%20Wolverine%3F%20TSA%20Makes%20a%20Strange%20Seattle%20Airport%20Find%20%E2%80%94%20Pin%20this%20to%20the%20fridge.%20Trust%20us.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
+</article>
+<article class="news-card card" id="story-puzzled-pilots-report-pill-shaped-ufo-over-ohio-29095828de14" data-tag="UFO" data-share-url="https://conspiraparty.com/weird-news.html#story-puzzled-pilots-report-pill-shaped-ufo-over-ohio-29095828de14" data-share-text="Puzzled Pilots Report Pill-Shaped UFO Over Ohio — Case file stamped CURIOUS. Proceed with popcorn. via conspiraparty.com">
   <div class="news-meta"><span class="news-tag">UFO</span><span class="news-date">Oct 29, 2026</span></div>
-  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxQdS1nbmx5SGZvX2hPYXpuMmZRbG5ST19EUUpWR0ZPZ3ZteThZQmhCLVNXNHl5eVpKWXA1SlNQUTh2M01leXctbzh4ZXd2cWYxYXZkLWVhdW95VWUtOU1JY1EtZDZ4Q3VqUjA5VGViOEpBVHBXNEtuQklUS0lsenNKSmpndEhEZEs3Mmhwa3c2dWU2bHc?oc=5" target="_blank" rel="noopener noreferrer">Newly-Released Pentagon UFO Files Contain Witness Drawings Of Alleged Skinwalkers In Utah</a></h3>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxQQWNtQ0hSbTVwWDJWTEZtRlg2N3Jqekc0SHoySmxEUmhLc2gxWXFxUkJOazYwNXBIUldkVVFLMjdTV3FSNTZ6MUJqc3lyMW5IVUtSS2ktTkluUFVoV3otTERSM05xVmhfQjNyQ1dqZC1iMFBXQ2kxVkY0ZENIS0VYbHJrOFAxRFdOdUlSdnhtTXBFMkhjRjNhUEMxN3FOMUtQRHp4M2I4T1k5UVVBbjNpWmtGRjc1RlczQUE?oc=5" target="_blank" rel="noopener noreferrer">Puzzled Pilots Report Pill-Shaped UFO Over Ohio</a></h3>
+  <p class="news-source">via NewsRadio 1370 AM &amp; 92.9 FM WSPD</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Case file stamped CURIOUS. Proceed with popcorn.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=Puzzled%20Pilots%20Report%20Pill-Shaped%20UFO%20Over%20Ohio%20%E2%80%94%20Case%20file%20stamped%20CURIOUS.%20Proceed%20with%20popcorn.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-puzzled-pilots-report-pill-shaped-ufo-over-ohio-29095828de14" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-puzzled-pilots-report-pill-shaped-ufo-over-ohio-29095828de14" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-puzzled-pilots-report-pill-shaped-ufo-over-ohio-29095828de14&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=Puzzled%20Pilots%20Report%20Pill-Shaped%20UFO%20Over%20Ohio%20%E2%80%94%20Case%20file%20stamped%20CURIOUS.%20Proceed%20with%20popcorn.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
+</article>
+<article class="news-card card" id="story-newly-released-pentagon-ufo-files-contain-witnes-9704db343d52" data-tag="UFO" data-share-url="https://conspiraparty.com/weird-news.html#story-newly-released-pentagon-ufo-files-contain-witnes-9704db343d52" data-share-text="Newly-Released Pentagon UFO Files Contain Witness Drawings Of Alleged Skinwalkers In Utah — Your group chat is going to lose it. via conspiraparty.com">
+  <div class="news-meta"><span class="news-tag">UFO</span><span class="news-date">Oct 29, 2026</span></div>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxOZF9YblFWeU1Ya3JDNTllQ3lqRkhpY09LemVNM1VqcTdKcURxazdMQ0J4N050bDIzbkJVY0ppRW92cWk2bzB2RW10eUtHWkJXS21ESXp4enBobll6NXlLRUFJbnhHUmd5VU13eVpqTV91T0RleXlLN2VxN1NacWlpQjJfR3oyYkFyb1ZhRUQ5TjdzYjhy?oc=5" target="_blank" rel="noopener noreferrer">Newly-Released Pentagon UFO Files Contain Witness Drawings Of Alleged Skinwalkers In Utah</a></h3>
   <p class="news-source">via BroBible</p>
   <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Your group chat is going to lose it.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=Newly-Released%20Pentagon%20UFO%20Files%20Contain%20Witness%20Drawings%20Of%20Alleged%20Skinwalkers%20In%20Utah%20%E2%80%94%20Your%20group%20chat%20is%20going%20to%20lose%20it.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-newly-released-pentagon-ufo-files-contain-witnes-9704db343d52" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-newly-released-pentagon-ufo-files-contain-witnes-9704db343d52" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-newly-released-pentagon-ufo-files-contain-witnes-9704db343d52&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=Newly-Released%20Pentagon%20UFO%20Files%20Contain%20Witness%20Drawings%20Of%20Alleged%20Skinwalkers%20In%20Utah%20%E2%80%94%20Your%20group%20chat%20is%20going%20to%20lose%20it.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
 </article>
-<article class="news-card card" data-tag="Odd">
+<article class="news-card card" id="story-south-broadway-gallery-offers-brush-with-the-biz-edd06049b9cd" data-tag="Odd" data-share-url="https://conspiraparty.com/weird-news.html#story-south-broadway-gallery-offers-brush-with-the-biz-edd06049b9cd" data-share-text="South Broadway gallery offers brush with the bizarre — Pin this to the fridge. Trust us. via conspiraparty.com">
   <div class="news-meta"><span class="news-tag">Odd</span><span class="news-date">Oct 29, 2026</span></div>
   <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxQdUdoSHJRaHNpcURwMk1xZjkySkhWLURYOFpkTUdmcFZiRDBrRnJueWx4cmpaYVJudktaMGpsY0QweHo3bnA2NFBwVzFtS1BSX1IwV3ptYm1lb3BRX3VNX3FqcHk3bFEza0gwSG5YUGN1RlMzbGlxNnFuQWJfYWJYNmt1aEtiNGRLQkJEcV9pSkpVMDY1VFFPWTVtMHByV0hSZmtZ?oc=5" target="_blank" rel="noopener noreferrer">South Broadway gallery offers brush with the bizarre</a></h3>
   <p class="news-source">via Thirst Colorado</p>
   <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Pin this to the fridge. Trust us.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=South%20Broadway%20gallery%20offers%20brush%20with%20the%20bizarre%20%E2%80%94%20Pin%20this%20to%20the%20fridge.%20Trust%20us.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-south-broadway-gallery-offers-brush-with-the-biz-edd06049b9cd" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-south-broadway-gallery-offers-brush-with-the-biz-edd06049b9cd" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-south-broadway-gallery-offers-brush-with-the-biz-edd06049b9cd&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=South%20Broadway%20gallery%20offers%20brush%20with%20the%20bizarre%20%E2%80%94%20Pin%20this%20to%20the%20fridge.%20Trust%20us.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
 </article>
-<article class="news-card card" data-tag="UFO">
-  <div class="news-meta"><span class="news-tag">UFO</span><span class="news-date">Oct 29, 2026</span></div>
-  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ3hFZ0ZxRmVsZVJ2Z0lfc2VqbVA3amxUcVNiOXRKTHpSLWhEdWdUZzFxWlUtUkV1Sm1JS2tPTDB0Z01KcWUzRFZzYVc4U2FBcUxyQTg3d1JvVE04QnRzT3NXUlZzRGdzdTAtdmdJekNFNDZzVTkzZ3VxMnU2VVRjdTktN1lyWFIzeXNoX1prendzNi1ueTE4YnU3WkFnNUdBaUlYWmt4RUpGX016TllLZHRCYWNmSGdDUFowN1M4TQ?oc=5" target="_blank" rel="noopener noreferrer">UFO Experts Tell Kemmerer Residents to Keep Their Eyes on the Skies Above Natrium</a></h3>
-  <p class="news-source">via Cowboy State Daily</p>
-  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> The sky called. It wants its secrets back.</p>
+<article class="news-card card" id="story-newsletter-the-midterms-final-stretch-high-stake-1c721a1b49e1" data-tag="Politics" data-share-url="https://conspiraparty.com/weird-news.html#story-newsletter-the-midterms-final-stretch-high-stake-1c721a1b49e1" data-share-text="NEWSLETTER: The midterms&#x27; final stretch: High stakes, bizarre distractions — Filed under: loud takes, quiet evidence. via conspiraparty.com">
+  <div class="news-meta"><span class="news-tag">Politics</span><span class="news-date">Oct 29, 2026</span></div>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOeXNSQnFVMVFoVGdFQ1ZwRUdhMEpiT2ZvTFlDdFBtd1drX3F3VEg2UVJQUXV0MjVFSlBkZjNuZGZEa1RPTVdFSzE1MUdyQ1ZYTkFGcDI5c1lMYkswOEUxSnhzODFXbEE3dVg2aTc4eWpFTVZUUlROak5HdVR0VDZLVlRvQjhjdTlvTTNsZmVKc0dxYXRzQ0JuUGFuMi05TnprYlE?oc=5" target="_blank" rel="noopener noreferrer">NEWSLETTER: The midterms&#x27; final stretch: High stakes, bizarre distractions</a></h3>
+  <p class="news-source">via Reuters</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Filed under: loud takes, quiet evidence.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=NEWSLETTER%3A%20The%20midterms%27%20final%20stretch%3A%20High%20stakes%2C%20bizarre%20distractions%20%E2%80%94%20Filed%20under%3A%20loud%20takes%2C%20quiet%20evidence.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-newsletter-the-midterms-final-stretch-high-stake-1c721a1b49e1" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-newsletter-the-midterms-final-stretch-high-stake-1c721a1b49e1" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-newsletter-the-midterms-final-stretch-high-stake-1c721a1b49e1&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=NEWSLETTER%3A%20The%20midterms%27%20final%20stretch%3A%20High%20stakes%2C%20bizarre%20distractions%20%E2%80%94%20Filed%20under%3A%20loud%20takes%2C%20quiet%20evidence.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
 </article>
-<article class="news-card card" data-tag="Cryptid">
-  <div class="news-meta"><span class="news-tag">Cryptid</span><span class="news-date">Oct 29, 2026</span></div>
-  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQdy1DYldaZ0VPamNHRWhvZXYtb1R0bUhCdnpZM2ZWeU9pRjdoekI4UFRwOEZzR05FNi1kNkhtQUpiMV9DNkJnSk96X0dySlk5T1U1QzlOanJMVWNpX3F4ZUlkVTc1MEI1em80OWEydkxraVRjcmVKMWl2cUZkaTdEZWd4MFZGQ2xVT0pUcEEzS3BhUi1vY2FKVUVDU2NFREpwN1ZwZmhGQV9DX2wyZUhab2Frbw?oc=5" target="_blank" rel="noopener noreferrer">Bigfoot Hunters Believe New Jersey Could Hold the Key to Solving the Sasquatch Mystery</a></h3>
-  <p class="news-source">via globemagazine.com</p>
-  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Stamp this one: UNCONFIRMED BUT ICONIC.</p>
-</article>
-<article class="news-card card" data-tag="Odd">
-  <div class="news-meta"><span class="news-tag">Odd</span><span class="news-date">Oct 29, 2026</span></div>
-  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE9CcGJGc1AtbjFaSE1RZ3NnZlNUemRuSVV1Nm5FdXJzQUUyS3JkbXl2a29sSzFUSHp2dl9ZWEFiNTZFSXVOdjhiLVQ3TlhoVk90RW0wTWF2Y3ZGWjFBZnJ5LTFaMW5KQlQ0bkNjMFU0c2QtTC1oSzBaOHJ4cmY3QQ?oc=5" target="_blank" rel="noopener noreferrer">The Cheesecake Factory Is Over-the-Top, Gaudy and Bizarre. That’s the Point.</a></h3>
-  <p class="news-source">via WSJ</p>
-  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> The universe is freestyling again.</p>
-</article>
-<article class="news-card card" data-tag="UFO">
-  <div class="news-meta"><span class="news-tag">UFO</span><span class="news-date">Oct 29, 2026</span></div>
-  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOdHk5UnJMaDMwRWszcXhSOWdpeUdhVXA5dXFtUmxnTDhHQ2I1Z0lJUVl3VW16cFhHSE11WENmZnJFQnRhamNhZWlxQ3ROWGtXTC1hbFdhX3BQWlRhVHdqZFdrWXJDM3JnVmJ6NXV2YnpLajZZMnVXV2hBc0xrcHVZdmpsWjA0M05jVFIxRjdaN1BKQWhHbGFfdXJyRXpYbE1sT0E?oc=5" target="_blank" rel="noopener noreferrer">‘Skinwalkers’ and a Silent Black Triangle: The Pentagon’s Latest UFO Revelations</a></h3>
-  <p class="news-source">via LAmag</p>
-  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> The sky called. It wants its secrets back.</p>
+<article class="news-card card" id="story-trump-s-increasingly-bizarre-behavior-reaches-a-d7fa7a4ee791" data-tag="Politics" data-share-url="https://conspiraparty.com/weird-news.html#story-trump-s-increasingly-bizarre-behavior-reaches-a-d7fa7a4ee791" data-share-text="Trump’s increasingly bizarre behavior reaches a tipping point — Filed under: loud takes, quiet evidence. via conspiraparty.com">
+  <div class="news-meta"><span class="news-tag">Politics</span><span class="news-date">Oct 29, 2026</span></div>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SMlJ0ZjRnY1VYOHBmUHF4QkJ2a3Y1YXBPSjZMTTZTamRaaXpwancwQ1lqS2hHZGtmaXNlTmVHTXBvQW1TY0MzNEdta2RHV0V5b2c?oc=5" target="_blank" rel="noopener noreferrer">Trump’s increasingly bizarre behavior reaches a tipping point</a></h3>
+  <p class="news-source">via AlterNet</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Filed under: loud takes, quiet evidence.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=Trump%E2%80%99s%20increasingly%20bizarre%20behavior%20reaches%20a%20tipping%20point%20%E2%80%94%20Filed%20under%3A%20loud%20takes%2C%20quiet%20evidence.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-trump-s-increasingly-bizarre-behavior-reaches-a-d7fa7a4ee791" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-trump-s-increasingly-bizarre-behavior-reaches-a-d7fa7a4ee791" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-trump-s-increasingly-bizarre-behavior-reaches-a-d7fa7a4ee791&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=Trump%E2%80%99s%20increasingly%20bizarre%20behavior%20reaches%20a%20tipping%20point%20%E2%80%94%20Filed%20under%3A%20loud%20takes%2C%20quiet%20evidence.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
 </article>
 <aside class="kit-cta card">
   <span class="stamp tiny">Supply Drop</span>
@@ -132,41 +203,95 @@
   <p>Print the props, pass out the badges, and let the theories fly. Full printable kit — use code LEAKED20.</p>
   <a class="btn sm" href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>
 </aside>
-<article class="news-card card" data-tag="Cryptid">
-  <div class="news-meta"><span class="news-tag">Cryptid</span><span class="news-date">Oct 29, 2026</span></div>
-  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxOeEd0TGUtTmNyV01uZ1hpQmR5djdPZFNST1NkUk56N1dFYWZWQ3p4RXBaYlJvcXNIX1ZibW03S0NFMlRid25YN1lTdHNyZTFoaUJCdXVtX0I2UzNkejJmdW1CMXM1TDBwVGtwdE14OHVzMFY5X1Z2cS0yTXN1VndDN2YxU01uQTlrd2phR1FmYUI5UVdyaTY0Q295VQ?oc=5" target="_blank" rel="noopener noreferrer">Cryptid-Themed Adventure Game Announces With Smash Hit Trailer</a></h3>
-  <p class="news-source">via Games Press</p>
-  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Field agents: bring binoculars and snacks.</p>
-</article>
-<article class="news-card card" data-tag="Odd">
-  <div class="news-meta"><span class="news-tag">Odd</span><span class="news-date">Oct 29, 2026</span></div>
-  <h3 class="news-title"><a href="https://www.upi.com/Odd_News/2026/10/29/lotto-north-carolina-education-lottery-beginners-luck/9531793297438/" target="_blank" rel="noopener noreferrer">N.C. lottery player wins $1.9M from her first-ever online game</a></h3>
-  <p class="news-source">via UPI Odd News</p>
-  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> The universe is freestyling again.</p>
-</article>
-<article class="news-card card" data-tag="UFO">
+<article class="news-card card" id="story-ufo-experts-tell-kemmerer-residents-to-keep-thei-0a5eb99283b4" data-tag="UFO" data-share-url="https://conspiraparty.com/weird-news.html#story-ufo-experts-tell-kemmerer-residents-to-keep-thei-0a5eb99283b4" data-share-text="UFO Experts Tell Kemmerer Residents to Keep Their Eyes on the Skies Above Natrium — The sky called. It wants its secrets back. via conspiraparty.com">
   <div class="news-meta"><span class="news-tag">UFO</span><span class="news-date">Oct 29, 2026</span></div>
-  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNbGhKOU51akZzbEpzZVVVZ1RUd3RDMnZ4eVNoWG5SeHFySEVqSjFILWVZc243Vmp0RmhydWp1UlNyQzg4MU5xWGgxemFPdVA3Vm5DdDE4SGhZMFo5VFVtbVVVSjBaazhNWnZGekVjdGxwN1V2bEZyd1JKNDZaS0xfTHBMWlRrc1JjVXRjMDBTejA2UmJiSVE?oc=5" target="_blank" rel="noopener noreferrer">Naval expert believes UFOs are hiding in the oceans</a></h3>
-  <p class="news-source">via Female First</p>
-  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Not a weather balloon. Not this time. Probably.</p>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ3hFZ0ZxRmVsZVJ2Z0lfc2VqbVA3amxUcVNiOXRKTHpSLWhEdWdUZzFxWlUtUkV1Sm1JS2tPTDB0Z01KcWUzRFZzYVc4U2FBcUxyQTg3d1JvVE04QnRzT3NXUlZzRGdzdTAtdmdJekNFNDZzVTkzZ3VxMnU2VVRjdTktN1lyWFIzeXNoX1prendzNi1ueTE4YnU3WkFnNUdBaUlYWmt4RUpGX016TllLZHRCYWNmSGdDUFowN1M4TQ?oc=5" target="_blank" rel="noopener noreferrer">UFO Experts Tell Kemmerer Residents to Keep Their Eyes on the Skies Above Natrium</a></h3>
+  <p class="news-source">via Cowboy State Daily</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> The sky called. It wants its secrets back.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=UFO%20Experts%20Tell%20Kemmerer%20Residents%20to%20Keep%20Their%20Eyes%20on%20the%20Skies%20Above%20Natrium%20%E2%80%94%20The%20sky%20called.%20It%20wants%20its%20secrets%20back.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-ufo-experts-tell-kemmerer-residents-to-keep-thei-0a5eb99283b4" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-ufo-experts-tell-kemmerer-residents-to-keep-thei-0a5eb99283b4" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-ufo-experts-tell-kemmerer-residents-to-keep-thei-0a5eb99283b4&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=UFO%20Experts%20Tell%20Kemmerer%20Residents%20to%20Keep%20Their%20Eyes%20on%20the%20Skies%20Above%20Natrium%20%E2%80%94%20The%20sky%20called.%20It%20wants%20its%20secrets%20back.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
 </article>
-<article class="news-card card" data-tag="Cryptid">
-  <div class="news-meta"><span class="news-tag">Cryptid</span><span class="news-date">Oct 29, 2026</span></div>
-  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMijgJBVV95cUxNUktESmZhZXZucmJYd2NyOUQ1WU5OUUF0bmtDMkpiaXlKb3lPbV9Sa1AweklxQkxHVnJXU3hBQTFYNHh2VlEtX01BZTFZTlhvM3NabVVuZ0VVdnpHZlFDOUlMcVBJQkhHT3FpU1hLa0x5cDlhb3RuektNTlp5LUR5dGgwSy1Dd2dsWk1XNHllN1Q0dDlqQ3BTR3pRWUswLWhlZG9DY2xZUUVwUWdsRUViUWxyTXJKMVQzeE1iaHNkUkFRamN6OFlXQXZsU3JqY3dmWm5FcTFMV3Zic25keVI2NDF6NnRROXhFRzBUREdNM2dXNDJtTXdmMkxESDhacHJYUnF2bm1ZRWxJOGVac1E?oc=5" target="_blank" rel="noopener noreferrer">West Virginia DMV releases new cryptid license plates by late artist Jesse Corlis</a></h3>
-  <p class="news-source">via Charleston Gazette-Mail</p>
-  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Nature documentary, but make it suspicious.</p>
-</article>
-<article class="news-card card" data-tag="Odd">
+<article class="news-card card" id="story-a-kentucky-man-becomes-the-first-humanist-grante-49bffc26681f" data-tag="Odd" data-share-url="https://conspiraparty.com/weird-news.html#story-a-kentucky-man-becomes-the-first-humanist-grante-49bffc26681f" data-share-text="A Kentucky man becomes the first humanist granted religious exemption from AI — Weirdness level: party-ready. via conspiraparty.com">
   <div class="news-meta"><span class="news-tag">Odd</span><span class="news-date">Oct 29, 2026</span></div>
-  <h3 class="news-title"><a href="https://www.upi.com/Odd_News/2026/10/29/guinness-world-records/8391793293721/" target="_blank" rel="noopener noreferrer">Man moves ice cubes with his mouth to break Guinness World Record</a></h3>
-  <p class="news-source">via UPI Odd News</p>
-  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Reality called in sick. This filled in.</p>
+  <h3 class="news-title"><a href="https://www.reddit.com/r/nottheonion/comments/1xiqi33/a_kentucky_man_becomes_the_first_humanist_granted/" target="_blank" rel="noopener noreferrer">A Kentucky man becomes the first humanist granted religious exemption from AI</a></h3>
+  <p class="news-source">via r/nottheonion</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Weirdness level: party-ready.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=A%20Kentucky%20man%20becomes%20the%20first%20humanist%20granted%20religious%20exemption%20from%20AI%20%E2%80%94%20Weirdness%20level%3A%20party-ready.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-a-kentucky-man-becomes-the-first-humanist-grante-49bffc26681f" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-a-kentucky-man-becomes-the-first-humanist-grante-49bffc26681f" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-a-kentucky-man-becomes-the-first-humanist-grante-49bffc26681f&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=A%20Kentucky%20man%20becomes%20the%20first%20humanist%20granted%20religious%20exemption%20from%20AI%20%E2%80%94%20Weirdness%20level%3A%20party-ready.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
 </article>
-<article class="news-card card" data-tag="Cryptid">
+<article class="news-card card" id="story-this-is-us-chris-sullivan-confronts-conspiracy-t-fcf9238969e5" data-tag="QAnon" data-share-url="https://conspiraparty.com/weird-news.html#story-this-is-us-chris-sullivan-confronts-conspiracy-t-fcf9238969e5" data-share-text="This Is Us’ Chris Sullivan Confronts Conspiracy Theories in New Thriller Movie With Big Silo Star — Ask better questions. Skip the absolute certainty. via conspiraparty.com">
+  <div class="news-meta"><span class="news-tag">QAnon</span><span class="news-date">Oct 29, 2026</span></div>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxPWDVlSHRNejN0bHVSR1ZRd25vOGtjZGZ0WXIwRUszeGl6aklNN2RfVUVoSjVhVkhva2FrOWRGLTlDU3dmbllDMWROWmxIQXZ2UGZvaGpMSk1RS3ByWVk0clJubFVDd01fckZDeVJ0LUp0bmNWdlNXVEM4WUktN2RwRkhCa2I0dWd0c3Bhc0hwYjB6WDg?oc=5" target="_blank" rel="noopener noreferrer">This Is Us’ Chris Sullivan Confronts Conspiracy Theories in New Thriller Movie With Big Silo Star</a></h3>
+  <p class="news-source">via Crave Online</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Ask better questions. Skip the absolute certainty.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=This%20Is%20Us%E2%80%99%20Chris%20Sullivan%20Confronts%20Conspiracy%20Theories%20in%20New%20Thriller%20Movie%20With%20Big%20Silo%20Star%20%E2%80%94%20Ask%20better%20questions.%20Skip%20the%20absolute%20certainty.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-this-is-us-chris-sullivan-confronts-conspiracy-t-fcf9238969e5" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-this-is-us-chris-sullivan-confronts-conspiracy-t-fcf9238969e5" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-this-is-us-chris-sullivan-confronts-conspiracy-t-fcf9238969e5&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=This%20Is%20Us%E2%80%99%20Chris%20Sullivan%20Confronts%20Conspiracy%20Theories%20in%20New%20Thriller%20Movie%20With%20Big%20Silo%20Star%20%E2%80%94%20Ask%20better%20questions.%20Skip%20the%20absolute%20certainty.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
+</article>
+<article class="news-card card" id="story-dmv-announces-new-cryptid-themed-license-plate-f-c2f7e1bd8af4" data-tag="Cryptid" data-share-url="https://conspiraparty.com/weird-news.html#story-dmv-announces-new-cryptid-themed-license-plate-f-c2f7e1bd8af4" data-share-text="DMV announces new cryptid-themed license plate featuring Mothman, Bigfoot &amp; more — Blurry photo energy: elite tier. via conspiraparty.com">
   <div class="news-meta"><span class="news-tag">Cryptid</span><span class="news-date">Oct 29, 2026</span></div>
-  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxPcEhmdk1vdnI1TjhjdHE3V1FUWW9qRWd6eHRJVFRTUHdfT1A4UzMyVFdHckxtd3ZTLXc2Q24tZkVKT0ZMOFNqSGFKUzVNUndwSFhjZUNFalBVWVVIUUxKVDlKSHRmUEJjNzRXMU9kb1RLQllYU2tWNmc1ZGdZTHh1TFdkRTh1S0RjMVE4Z1YtMmp2VzFBUXVabzdfSVBGZC0zbVVCenpvQUtINEN6UEVwRnNrc3dfSG8?oc=5" target="_blank" rel="noopener noreferrer">Loch Ness Monster expert reveals common mistakes in Nessie sightings</a></h3>
-  <p class="news-source">via Female First</p>
-  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Stamp this one: UNCONFIRMED BUT ICONIC.</p>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ0dfZWROTGVEcW5GTTA3d3dEeVZZeGFpNXFUNld0QlNmZkF6SXZrVl9Sdjk2blNldDhncE5hMkFSQlRhZkVoYzloU1pFMWFaYkdtRU1OMERLZ0N5TXRwSl9HYU5uM0U0QjRJeEFHalZHVEEzZHB3cDZuR2k4cnZfVVpma0tsS2ZRdWswTW8zTlRSOEtNbUZjWEdmR3VkYk00U3NrLUlJaERRUDlGUE9ZVjRpYnQ5NFdHUld3VGJyWU54UkHSAcMBQVVfeXFMUGdHX2VkTkxlRHFuRk0wN3d3RHlWWXhhaTVxVDZXdEJTZmZBekl2a1ZfUnY5Nm5TZXQ4Z3BOYTJBUkJUYWZFaGM5aFNaRTFhWmJHbUVNTjBES2dDeU10cEpfR2FObjNFNEI0SXhBR2pWR1RBM2Rwd3A2bkdpOHJ2X1VaZmtLbEtmUXVrME1vM05UUjhLTW1GY1hHZkd1ZGJNNFNzay1JSWhEUVA5RlBPWVY0aWJ0OTRXR1JXd1RicllOeFJB?oc=5" target="_blank" rel="noopener noreferrer">DMV announces new cryptid-themed license plate featuring Mothman, Bigfoot &amp; more</a></h3>
+  <p class="news-source">via WDTV 5</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Blurry photo energy: elite tier.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=DMV%20announces%20new%20cryptid-themed%20license%20plate%20featuring%20Mothman%2C%20Bigfoot%20%26%20more%20%E2%80%94%20Blurry%20photo%20energy%3A%20elite%20tier.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-dmv-announces-new-cryptid-themed-license-plate-f-c2f7e1bd8af4" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-dmv-announces-new-cryptid-themed-license-plate-f-c2f7e1bd8af4" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-dmv-announces-new-cryptid-themed-license-plate-f-c2f7e1bd8af4&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=DMV%20announces%20new%20cryptid-themed%20license%20plate%20featuring%20Mothman%2C%20Bigfoot%20%26%20more%20%E2%80%94%20Blurry%20photo%20energy%3A%20elite%20tier.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
+</article>
+<article class="news-card card" id="story-the-cheesecake-factory-is-over-the-top-gaudy-and-477918d2e409" data-tag="Odd" data-share-url="https://conspiraparty.com/weird-news.html#story-the-cheesecake-factory-is-over-the-top-gaudy-and-477918d2e409" data-share-text="The Cheesecake Factory Is Over-the-Top, Gaudy and Bizarre. That’s the Point. — The universe is freestyling again. via conspiraparty.com">
+  <div class="news-meta"><span class="news-tag">Odd</span><span class="news-date">Oct 29, 2026</span></div>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE9CcGJGc1AtbjFaSE1RZ3NnZlNUemRuSVV1Nm5FdXJzQUUyS3JkbXl2a29sSzFUSHp2dl9ZWEFiNTZFSXVOdjhiLVQ3TlhoVk90RW0wTWF2Y3ZGWjFBZnJ5LTFaMW5KQlQ0bkNjMFU0c2QtTC1oSzBaOHJ4cmY3QQ?oc=5" target="_blank" rel="noopener noreferrer">The Cheesecake Factory Is Over-the-Top, Gaudy and Bizarre. That’s the Point.</a></h3>
+  <p class="news-source">via WSJ</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> The universe is freestyling again.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=The%20Cheesecake%20Factory%20Is%20Over-the-Top%2C%20Gaudy%20and%20Bizarre.%20That%E2%80%99s%20the%20Point.%20%E2%80%94%20The%20universe%20is%20freestyling%20again.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-the-cheesecake-factory-is-over-the-top-gaudy-and-477918d2e409" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-the-cheesecake-factory-is-over-the-top-gaudy-and-477918d2e409" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-the-cheesecake-factory-is-over-the-top-gaudy-and-477918d2e409&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=The%20Cheesecake%20Factory%20Is%20Over-the-Top%2C%20Gaudy%20and%20Bizarre.%20That%E2%80%99s%20the%20Point.%20%E2%80%94%20The%20universe%20is%20freestyling%20again.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
+</article>
+<article class="news-card card" id="story-a-state-owned-socialist-bank-thrives-in-north-da-a66776b2074d" data-tag="Politics" data-share-url="https://conspiraparty.com/weird-news.html#story-a-state-owned-socialist-bank-thrives-in-north-da-a66776b2074d" data-share-text="A state owned &#x27;socialist&#x27; bank thrives in North Dakota and Republicans love it. — Perfect PowerPoint Night bait. Fact-check optional, snacks required. via conspiraparty.com">
+  <div class="news-meta"><span class="news-tag">Politics</span><span class="news-date">Oct 29, 2026</span></div>
+  <h3 class="news-title"><a href="https://www.reddit.com/r/nottheonion/comments/1xinnny/a_state_owned_socialist_bank_thrives_in_north/" target="_blank" rel="noopener noreferrer">A state owned &#x27;socialist&#x27; bank thrives in North Dakota and Republicans love it.</a></h3>
+  <p class="news-source">via r/nottheonion</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Perfect PowerPoint Night bait. Fact-check optional, snacks required.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=A%20state%20owned%20%27socialist%27%20bank%20thrives%20in%20North%20Dakota%20and%20Republicans%20love%20it.%20%E2%80%94%20Perfect%20PowerPoint%20Night%20bait.%20Fact-check%20optional%2C%20snacks%20required.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-a-state-owned-socialist-bank-thrives-in-north-da-a66776b2074d" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-a-state-owned-socialist-bank-thrives-in-north-da-a66776b2074d" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-a-state-owned-socialist-bank-thrives-in-north-da-a66776b2074d&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=A%20state%20owned%20%27socialist%27%20bank%20thrives%20in%20North%20Dakota%20and%20Republicans%20love%20it.%20%E2%80%94%20Perfect%20PowerPoint%20Night%20bait.%20Fact-check%20optional%2C%20snacks%20required.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
 </article>
 <aside class="kit-cta card">
   <span class="stamp tiny">Mission Brief</span>
@@ -174,41 +299,95 @@
   <p>Conspiracy PowerPoint Night: slides, host script, and topic cards for the weirdest headlines.</p>
   <a class="btn sm" href="https://www.etsy.com/listing/4604436132/conspiracy-powerpoint-night-party-kit" target="_blank" rel="noopener sponsored">Get PowerPoint Night – $9.99</a>
 </aside>
-<article class="news-card card" data-tag="UFO">
+<article class="news-card card" id="story-skinwalkers-and-a-silent-black-triangle-the-pent-bc9031728205" data-tag="UFO" data-share-url="https://conspiraparty.com/weird-news.html#story-skinwalkers-and-a-silent-black-triangle-the-pent-bc9031728205" data-share-text="‘Skinwalkers’ and a Silent Black Triangle: The Pentagon’s Latest UFO Revelations — The sky called. It wants its secrets back. via conspiraparty.com">
   <div class="news-meta"><span class="news-tag">UFO</span><span class="news-date">Oct 29, 2026</span></div>
-  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxPdUI5WkRycHhnRHFoTjlxVUlZbUcwZnEtYzhJUlBoTXhiODUxWUhoSTlZTUJnMkc2dGMtRi11MzdoeFNXVndnYTR2NEFLWTNXOXpmaTF5SHp5MzNTOFVqT3NUeHRaY1JXeXlIYjlYRFBkcFN3bDExM0lfWlZ4cmw5UmJ2RzhidnZ3Y2c?oc=5" target="_blank" rel="noopener noreferrer">Peel&#x27;s pulsing UFO has people perplexed</a></h3>
-  <p class="news-source">via 3FM Isle of Man</p>
-  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Perfect PowerPoint Night opener. Bring snacks.</p>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOdHk5UnJMaDMwRWszcXhSOWdpeUdhVXA5dXFtUmxnTDhHQ2I1Z0lJUVl3VW16cFhHSE11WENmZnJFQnRhamNhZWlxQ3ROWGtXTC1hbFdhX3BQWlRhVHdqZFdrWXJDM3JnVmJ6NXV2YnpLajZZMnVXV2hBc0xrcHVZdmpsWjA0M05jVFIxRjdaN1BKQWhHbGFfdXJyRXpYbE1sT0E?oc=5" target="_blank" rel="noopener noreferrer">‘Skinwalkers’ and a Silent Black Triangle: The Pentagon’s Latest UFO Revelations</a></h3>
+  <p class="news-source">via LAmag</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> The sky called. It wants its secrets back.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=%E2%80%98Skinwalkers%E2%80%99%20and%20a%20Silent%20Black%20Triangle%3A%20The%20Pentagon%E2%80%99s%20Latest%20UFO%20Revelations%20%E2%80%94%20The%20sky%20called.%20It%20wants%20its%20secrets%20back.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-skinwalkers-and-a-silent-black-triangle-the-pent-bc9031728205" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-skinwalkers-and-a-silent-black-triangle-the-pent-bc9031728205" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-skinwalkers-and-a-silent-black-triangle-the-pent-bc9031728205&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=%E2%80%98Skinwalkers%E2%80%99%20and%20a%20Silent%20Black%20Triangle%3A%20The%20Pentagon%E2%80%99s%20Latest%20UFO%20Revelations%20%E2%80%94%20The%20sky%20called.%20It%20wants%20its%20secrets%20back.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
 </article>
-<article class="news-card card" data-tag="Odd">
-  <div class="news-meta"><span class="news-tag">Odd</span><span class="news-date">Oct 29, 2026</span></div>
-  <h3 class="news-title"><a href="https://www.upi.com/Odd_News/2026/10/29/manassas-park-sheep-escape-police/6071793292849/" target="_blank" rel="noopener noreferrer">Mystery sheep leads police on &#x27;food pursuit&#x27; in Virginia</a></h3>
-  <p class="news-source">via UPI Odd News</p>
-  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Reality called in sick. This filled in.</p>
+<article class="news-card card" id="story-cryptid-themed-adventure-game-announces-with-sma-420f928d825a" data-tag="Cryptid" data-share-url="https://conspiraparty.com/weird-news.html#story-cryptid-themed-adventure-game-announces-with-sma-420f928d825a" data-share-text="Cryptid-Themed Adventure Game Announces With Smash Hit Trailer — Field agents: bring binoculars and snacks. via conspiraparty.com">
+  <div class="news-meta"><span class="news-tag">Cryptid</span><span class="news-date">Oct 29, 2026</span></div>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxOeEd0TGUtTmNyV01uZ1hpQmR5djdPZFNST1NkUk56N1dFYWZWQ3p4RXBaYlJvcXNIX1ZibW03S0NFMlRid25YN1lTdHNyZTFoaUJCdXVtX0I2UzNkejJmdW1CMXM1TDBwVGtwdE14OHVzMFY5X1Z2cS0yTXN1VndDN2YxU01uQTlrd2phR1FmYUI5UVdyaTY0Q295VQ?oc=5" target="_blank" rel="noopener noreferrer">Cryptid-Themed Adventure Game Announces With Smash Hit Trailer</a></h3>
+  <p class="news-source">via Games Press</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Field agents: bring binoculars and snacks.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=Cryptid-Themed%20Adventure%20Game%20Announces%20With%20Smash%20Hit%20Trailer%20%E2%80%94%20Field%20agents%3A%20bring%20binoculars%20and%20snacks.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-cryptid-themed-adventure-game-announces-with-sma-420f928d825a" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-cryptid-themed-adventure-game-announces-with-sma-420f928d825a" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-cryptid-themed-adventure-game-announces-with-sma-420f928d825a&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=Cryptid-Themed%20Adventure%20Game%20Announces%20With%20Smash%20Hit%20Trailer%20%E2%80%94%20Field%20agents%3A%20bring%20binoculars%20and%20snacks.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
 </article>
-<article class="news-card card" data-tag="Odd">
-  <div class="news-meta"><span class="news-tag">Odd</span><span class="news-date">Oct 29, 2026</span></div>
-  <h3 class="news-title"><a href="https://www.upi.com/Odd_News/2026/10/29/latam-guatemala-Guinness-world-records-largest-fiambre-salad/8871793291959/" target="_blank" rel="noopener noreferrer">Chefs prepare world&#x27;s largest fiambre salad in Guatemala</a></h3>
-  <p class="news-source">via UPI Odd News</p>
-  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Strange but true-ish. Party fuel either way.</p>
+<article class="news-card card" id="story-west-virginia-dmv-releases-new-cryptid-license-p-952a54a89c28" data-tag="Cryptid" data-share-url="https://conspiraparty.com/weird-news.html#story-west-virginia-dmv-releases-new-cryptid-license-p-952a54a89c28" data-share-text="West Virginia DMV releases new cryptid license plates by late artist Jesse Corlis — Nature documentary, but make it suspicious. via conspiraparty.com">
+  <div class="news-meta"><span class="news-tag">Cryptid</span><span class="news-date">Oct 29, 2026</span></div>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMijgJBVV95cUxNUktESmZhZXZucmJYd2NyOUQ1WU5OUUF0bmtDMkpiaXlKb3lPbV9Sa1AweklxQkxHVnJXU3hBQTFYNHh2VlEtX01BZTFZTlhvM3NabVVuZ0VVdnpHZlFDOUlMcVBJQkhHT3FpU1hLa0x5cDlhb3RuektNTlp5LUR5dGgwSy1Dd2dsWk1XNHllN1Q0dDlqQ3BTR3pRWUswLWhlZG9DY2xZUUVwUWdsRUViUWxyTXJKMVQzeE1iaHNkUkFRamN6OFlXQXZsU3JqY3dmWm5FcTFMV3Zic25keVI2NDF6NnRROXhFRzBUREdNM2dXNDJtTXdmMkxESDhacHJYUnF2bm1ZRWxJOGVac1E?oc=5" target="_blank" rel="noopener noreferrer">West Virginia DMV releases new cryptid license plates by late artist Jesse Corlis</a></h3>
+  <p class="news-source">via Charleston Gazette-Mail</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Nature documentary, but make it suspicious.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=West%20Virginia%20DMV%20releases%20new%20cryptid%20license%20plates%20by%20late%20artist%20Jesse%20Corlis%20%E2%80%94%20Nature%20documentary%2C%20but%20make%20it%20suspicious.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-west-virginia-dmv-releases-new-cryptid-license-p-952a54a89c28" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-west-virginia-dmv-releases-new-cryptid-license-p-952a54a89c28" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-west-virginia-dmv-releases-new-cryptid-license-p-952a54a89c28&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=West%20Virginia%20DMV%20releases%20new%20cryptid%20license%20plates%20by%20late%20artist%20Jesse%20Corlis%20%E2%80%94%20Nature%20documentary%2C%20but%20make%20it%20suspicious.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
 </article>
-<article class="news-card card" data-tag="Science">
+<article class="news-card card" id="story-trump-becomes-the-butt-of-online-jokes-after-biz-2e94e33758b4" data-tag="Politics" data-share-url="https://conspiraparty.com/weird-news.html#story-trump-becomes-the-butt-of-online-jokes-after-biz-2e94e33758b4" data-share-text="Trump becomes the butt of online jokes after bizarre attack on Texas Democrat — Filed under: loud takes, quiet evidence. via conspiraparty.com">
+  <div class="news-meta"><span class="news-tag">Politics</span><span class="news-date">Oct 29, 2026</span></div>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxQbFdJVlMtbEN2eHNkUEU5X0ktbVM1TEd5dG12Xzh5UllTRGRVMjB1SjNNZzZQWmpYaWlZZTB2ZWNDX1o1aVVqYmNCLUY0ZGNncDhfOTQzbVp5eFZQdmtsQnVSRG9kb0xnNTJXRER4emtsTEtCWkVwZVF6elpvS0MwR1dsWXMxX1NYQTlwY2ktQnNvMTQ?oc=5" target="_blank" rel="noopener noreferrer">Trump becomes the butt of online jokes after bizarre attack on Texas Democrat</a></h3>
+  <p class="news-source">via The Independent</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Filed under: loud takes, quiet evidence.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=Trump%20becomes%20the%20butt%20of%20online%20jokes%20after%20bizarre%20attack%20on%20Texas%20Democrat%20%E2%80%94%20Filed%20under%3A%20loud%20takes%2C%20quiet%20evidence.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-trump-becomes-the-butt-of-online-jokes-after-biz-2e94e33758b4" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-trump-becomes-the-butt-of-online-jokes-after-biz-2e94e33758b4" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-trump-becomes-the-butt-of-online-jokes-after-biz-2e94e33758b4&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=Trump%20becomes%20the%20butt%20of%20online%20jokes%20after%20bizarre%20attack%20on%20Texas%20Democrat%20%E2%80%94%20Filed%20under%3A%20loud%20takes%2C%20quiet%20evidence.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
+</article>
+<article class="news-card card" id="story-off-the-deep-end-alarm-bells-ring-over-bizarre-n-b19110b4b31b" data-tag="Politics" data-share-url="https://conspiraparty.com/weird-news.html#story-off-the-deep-end-alarm-bells-ring-over-bizarre-n-b19110b4b31b" data-share-text="&#x27;Off the deep end&#x27;: Alarm bells ring over &#x27;bizarre&#x27; new Trump campaign spree — Campaign energy meets corkboard energy. via conspiraparty.com">
+  <div class="news-meta"><span class="news-tag">Politics</span><span class="news-date">Oct 29, 2026</span></div>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE5tRk1aZWdDMEZhTjhyMnV0elRweklMeHhWd2RhT3FZR2VXWTVvam1fbkFfd05uWXNyTUwtQzVBOGZwLWJtekFyd1dLWXRzUQ?oc=5" target="_blank" rel="noopener noreferrer">&#x27;Off the deep end&#x27;: Alarm bells ring over &#x27;bizarre&#x27; new Trump campaign spree</a></h3>
+  <p class="news-source">via Alternet</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Campaign energy meets corkboard energy.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=%27Off%20the%20deep%20end%27%3A%20Alarm%20bells%20ring%20over%20%27bizarre%27%20new%20Trump%20campaign%20spree%20%E2%80%94%20Campaign%20energy%20meets%20corkboard%20energy.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-off-the-deep-end-alarm-bells-ring-over-bizarre-n-b19110b4b31b" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-off-the-deep-end-alarm-bells-ring-over-bizarre-n-b19110b4b31b" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-off-the-deep-end-alarm-bells-ring-over-bizarre-n-b19110b4b31b&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=%27Off%20the%20deep%20end%27%3A%20Alarm%20bells%20ring%20over%20%27bizarre%27%20new%20Trump%20campaign%20spree%20%E2%80%94%20Campaign%20energy%20meets%20corkboard%20energy.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
+</article>
+<article class="news-card card" id="story-scientists-ran-100-000-simulations-of-comets-str-04d3ac2e253a" data-tag="Science" data-share-url="https://conspiraparty.com/weird-news.html#story-scientists-ran-100-000-simulations-of-comets-str-04d3ac2e253a" data-share-text="Scientists Ran 100,000 Simulations of Comets Striking Earth. The Results Are a Surprise. — Peer-reviewed? Maybe. Party-reviewed? Absolutely. via conspiraparty.com">
   <div class="news-meta"><span class="news-tag">Science</span><span class="news-date">Oct 29, 2026</span></div>
   <h3 class="news-title"><a href="https://www.sciencealert.com/scientists-ran-100000-simulations-of-comets-striking-earth-the-results-are-a-surprise" target="_blank" rel="noopener noreferrer">Scientists Ran 100,000 Simulations of Comets Striking Earth. The Results Are a Surprise.</a></h3>
   <p class="news-source">via sciencealert.com</p>
   <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Peer-reviewed? Maybe. Party-reviewed? Absolutely.</p>
-</article>
-<article class="news-card card" data-tag="Strange">
-  <div class="news-meta"><span class="news-tag">Strange</span><span class="news-date">Oct 29, 2026</span></div>
-  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE1SZkJqaWI0ZDlwbjJfVXVmVFNMcW5CWHBUTVQ1YW5MNGE0T0VaT2Z4UzNXaVBweDhEcVFncEE0MGJzR1BJRFZJZQ?oc=5" target="_blank" rel="noopener noreferrer">Mysterious object discovered beyond Pluto&#x27;s orbit could be a new dwarf planet</a></h3>
-  <p class="news-source">via NEWS.am TECH</p>
-  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> They&#x27;ll say it&#x27;s normal. We have questions.</p>
-</article>
-<article class="news-card card" data-tag="Strange">
-  <div class="news-meta"><span class="news-tag">Strange</span><span class="news-date">Oct 28, 2026</span></div>
-  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxPNmZ2MXZKdkMycnNUY3N5MXFYOG1ueHV4R2NValkwWFlrdXcxYk5FQUVQd1RWcVZub2YtdC1rMW5Ybk9zcjJZZDhZMXlOaEM1Z0xHYXlxOFFsa2FPZlkxU2ZheElVZldNRUFNdS14TkZzOG9YMWt4VkZIOVJlVlRnNE4tcV9ULVltMkE?oc=5" target="_blank" rel="noopener noreferrer">Astronomers Spot Mysterious Object Lurking Beyond Pluto</a></h3>
-  <p class="news-source">via Futurism</p>
-  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> They&#x27;ll say it&#x27;s normal. We have questions.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=Scientists%20Ran%20100%2C000%20Simulations%20of%20Comets%20Striking%20Earth.%20The%20Results%20Are%20a%20Surprise.%20%E2%80%94%20Peer-reviewed%3F%20Maybe.%20Party-reviewed%3F%20Absolutely.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-scientists-ran-100-000-simulations-of-comets-str-04d3ac2e253a" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-scientists-ran-100-000-simulations-of-comets-str-04d3ac2e253a" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-scientists-ran-100-000-simulations-of-comets-str-04d3ac2e253a&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=Scientists%20Ran%20100%2C000%20Simulations%20of%20Comets%20Striking%20Earth.%20The%20Results%20Are%20a%20Surprise.%20%E2%80%94%20Peer-reviewed%3F%20Maybe.%20Party-reviewed%3F%20Absolutely.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
 </article>
 <aside class="kit-cta card">
   <span class="stamp tiny">Free Intel</span>
@@ -216,8 +395,98 @@
   <p>Steal a vintage-style conspiracy meme, then come back for tomorrow&#x27;s sweep.</p>
   <a class="btn sm" href="memes.html">Browse free memes</a>
 </aside>
+<article class="news-card card" id="story-rigged-polls-conspiracy-theory-cnn-politics-e28ce05f57e6" data-tag="QAnon" data-share-url="https://conspiraparty.com/weird-news.html#story-rigged-polls-conspiracy-theory-cnn-politics-e28ce05f57e6" data-share-text="‘Rigged’ polls conspiracy theory | CNN Politics — The map is not the territory. The meme is not the brief. via conspiraparty.com">
+  <div class="news-meta"><span class="news-tag">QAnon</span><span class="news-date">Oct 29, 2026</span></div>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNNFoyXzdnaDhGZGZBNEdKNndJb1lxcXcwMU5NUzVlMmNKa0VSaDQzSDVYRjhLcm10aE9xUHlpbDEwSXh3TXM0RmprUVZMZ2w4RjV5UjFtSEs4aWtSd1FBMHVoRVhwemtPUFMwVFVzQmZNRnd5Z2pzQjlZRzI4UHh4cmMzTzNYX2JKZ0ZkejBhR3BQa0J5TFE?oc=5" target="_blank" rel="noopener noreferrer">‘Rigged’ polls conspiracy theory | CNN Politics</a></h3>
+  <p class="news-source">via CNN</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> The map is not the territory. The meme is not the brief.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=%E2%80%98Rigged%E2%80%99%20polls%20conspiracy%20theory%20%7C%20CNN%20Politics%20%E2%80%94%20The%20map%20is%20not%20the%20territory.%20The%20meme%20is%20not%20the%20brief.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-rigged-polls-conspiracy-theory-cnn-politics-e28ce05f57e6" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-rigged-polls-conspiracy-theory-cnn-politics-e28ce05f57e6" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-rigged-polls-conspiracy-theory-cnn-politics-e28ce05f57e6&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=%E2%80%98Rigged%E2%80%99%20polls%20conspiracy%20theory%20%7C%20CNN%20Politics%20%E2%80%94%20The%20map%20is%20not%20the%20territory.%20The%20meme%20is%20not%20the%20brief.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
+</article>
+<article class="news-card card" id="story-possible-dwarf-planet-rubin-observatory-finds-my-49b6a1d7fc54" data-tag="Strange" data-share-url="https://conspiraparty.com/weird-news.html#story-possible-dwarf-planet-rubin-observatory-finds-my-49b6a1d7fc54" data-share-text="POSSIBLE DWARF PLANET! Rubin Observatory finds mysterious object beyond Pluto among millions of stars — Strange enough to screenshot. Do it. via conspiraparty.com">
+  <div class="news-meta"><span class="news-tag">Strange</span><span class="news-date">Oct 29, 2026</span></div>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE5zUXV2RF9GYTFnNHdhUklRSTRWWTZzR2psQ1doRTRlTHBWQVRZUVdxT1RzNFphOEg1YW1FM1BzcU4wM0pHYTVJWUdFT1ZrODNJZjFB?oc=5" target="_blank" rel="noopener noreferrer">POSSIBLE DWARF PLANET! Rubin Observatory finds mysterious object beyond Pluto among millions of stars</a></h3>
+  <p class="news-source">via Starlust.org</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Strange enough to screenshot. Do it.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=POSSIBLE%20DWARF%20PLANET%21%20Rubin%20Observatory%20finds%20mysterious%20object%20beyond%20Pluto%20among%20millions%20of%20stars%20%E2%80%94%20Strange%20enough%20to%20screenshot.%20Do%20it.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-possible-dwarf-planet-rubin-observatory-finds-my-49b6a1d7fc54" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-possible-dwarf-planet-rubin-observatory-finds-my-49b6a1d7fc54" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-possible-dwarf-planet-rubin-observatory-finds-my-49b6a1d7fc54&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=POSSIBLE%20DWARF%20PLANET%21%20Rubin%20Observatory%20finds%20mysterious%20object%20beyond%20Pluto%20among%20millions%20of%20stars%20%E2%80%94%20Strange%20enough%20to%20screenshot.%20Do%20it.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
+</article>
+<article class="news-card card" id="story-mysterious-object-discovered-beyond-pluto-s-orbi-076f929f2c21" data-tag="Strange" data-share-url="https://conspiraparty.com/weird-news.html#story-mysterious-object-discovered-beyond-pluto-s-orbi-076f929f2c21" data-share-text="Mysterious object discovered beyond Pluto&#x27;s orbit could be a new dwarf planet — They&#x27;ll say it&#x27;s normal. We have questions. via conspiraparty.com">
+  <div class="news-meta"><span class="news-tag">Strange</span><span class="news-date">Oct 29, 2026</span></div>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE1SZkJqaWI0ZDlwbjJfVXVmVFNMcW5CWHBUTVQ1YW5MNGE0T0VaT2Z4UzNXaVBweDhEcVFncEE0MGJzR1BJRFZJZQ?oc=5" target="_blank" rel="noopener noreferrer">Mysterious object discovered beyond Pluto&#x27;s orbit could be a new dwarf planet</a></h3>
+  <p class="news-source">via NEWS.am TECH</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> They&#x27;ll say it&#x27;s normal. We have questions.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=Mysterious%20object%20discovered%20beyond%20Pluto%27s%20orbit%20could%20be%20a%20new%20dwarf%20planet%20%E2%80%94%20They%27ll%20say%20it%27s%20normal.%20We%20have%20questions.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-mysterious-object-discovered-beyond-pluto-s-orbi-076f929f2c21" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-mysterious-object-discovered-beyond-pluto-s-orbi-076f929f2c21" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-mysterious-object-discovered-beyond-pluto-s-orbi-076f929f2c21&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=Mysterious%20object%20discovered%20beyond%20Pluto%27s%20orbit%20could%20be%20a%20new%20dwarf%20planet%20%E2%80%94%20They%27ll%20say%20it%27s%20normal.%20We%20have%20questions.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
+</article>
+<article class="news-card card" id="story-now-corruption-in-brazil-is-a-conspiracy-theory-42d7628fb5db" data-tag="QAnon" data-share-url="https://conspiraparty.com/weird-news.html#story-now-corruption-in-brazil-is-a-conspiracy-theory-42d7628fb5db" data-share-text="Now Corruption in Brazil Is a &#x27;Conspiracy Theory&#x27; — Trust, but verify. Then verify again. Then throw a party. via conspiraparty.com">
+  <div class="news-meta"><span class="news-tag">QAnon</span><span class="news-date">Oct 29, 2026</span></div>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxQVjZEOFE4d0RYbmtkc0VoWnBUYUtwS19OUkdMU0dCSjloSDBBNjE0YmFMa09STkN2aUx1NTNCVWFWeEVROUhQdzlCekpqUnJjbTNVMFNCclFnX3pPVFFZeGdNbm0tS3F5S1NlX1c4T0t2dVV2QWgzWVVzbWlUUF8tOFE0S1l0V0Y2dUF6THlwd1FGU0VTMXJrd2dlenZ1RDAwcTVRNjh1NGpvQzJ2Q0tncg?oc=5" target="_blank" rel="noopener noreferrer">Now Corruption in Brazil Is a &#x27;Conspiracy Theory&#x27;</a></h3>
+  <p class="news-source">via Townhall</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Trust, but verify. Then verify again. Then throw a party.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=Now%20Corruption%20in%20Brazil%20Is%20a%20%27Conspiracy%20Theory%27%20%E2%80%94%20Trust%2C%20but%20verify.%20Then%20verify%20again.%20Then%20throw%20a%20party.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-now-corruption-in-brazil-is-a-conspiracy-theory-42d7628fb5db" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-now-corruption-in-brazil-is-a-conspiracy-theory-42d7628fb5db" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-now-corruption-in-brazil-is-a-conspiracy-theory-42d7628fb5db&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=Now%20Corruption%20in%20Brazil%20Is%20a%20%27Conspiracy%20Theory%27%20%E2%80%94%20Trust%2C%20but%20verify.%20Then%20verify%20again.%20Then%20throw%20a%20party.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
+</article>
+<article class="news-card card" id="story-trump-supporters-blame-the-deep-state-for-high-g-feeda6bbb155" data-tag="QAnon" data-share-url="https://conspiraparty.com/weird-news.html#story-trump-supporters-blame-the-deep-state-for-high-g-feeda6bbb155" data-share-text="🇺🇸 TRUMP SUPPORTERS BLAME THE DEEP STATE FOR HIGH GAS PRICES “He’s trying his best. He’s being opposed every step of the way. Gas prices are high, but I think they’re being manipulated. I don’t think  — The map is not the territory. The meme is not the brief. via conspiraparty.com">
+  <div class="news-meta"><span class="news-tag">QAnon</span><span class="news-date">Oct 29, 2026</span></div>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9QX0ZKU05kRUstN2FjZWl5b242LThIUTB4Y1JQZ0RpcnVLc19FYzQzV1EwSUx4WThoWEdOOWxVNWdwejVuZEUwQ1Z3QllheGNYNVpaTkt3UmVzR0ozTmZYbEYwdFRpYjY1Snh0Qg?oc=5" target="_blank" rel="noopener noreferrer">🇺🇸 TRUMP SUPPORTERS BLAME THE DEEP STATE FOR HIGH GAS PRICES “He’s trying his best. He’s being opposed every step of the way. Gas prices are high, but I think they’re being manipulated. I don’t think </a></h3>
+  <p class="news-source">via X</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> The map is not the territory. The meme is not the brief.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=%F0%9F%87%BA%F0%9F%87%B8%20TRUMP%20SUPPORTERS%20BLAME%20THE%20DEEP%20STATE%20FOR%20HIGH%20GAS%20PRICES%20%E2%80%9CHe%E2%80%99s%20trying%20his%20best.%20He%E2%80%99s%20being%20opposed%20every%20step%20of%20the%20way.%20Gas%20prices%20are%20high%2C%20but%20I%20think%20they%E2%80%99re%20being%20manipulated.%20I%20don%E2%80%99t%20think%20%20%E2%80%94%20The%20map%20is%20not%20the%20territory.%20The%20meme%20is%20not%20the%20brief.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-trump-supporters-blame-the-deep-state-for-high-g-feeda6bbb155" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-trump-supporters-blame-the-deep-state-for-high-g-feeda6bbb155" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-trump-supporters-blame-the-deep-state-for-high-g-feeda6bbb155&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=%F0%9F%87%BA%F0%9F%87%B8%20TRUMP%20SUPPORTERS%20BLAME%20THE%20DEEP%20STATE%20FOR%20HIGH%20GAS%20PRICES%20%E2%80%9CHe%E2%80%99s%20trying%20his%20best.%20He%E2%80%99s%20being%20opposed%20every%20step%20of%20the%20way.%20Gas%20prices%20are%20high%2C%20but%20I%20think%20they%E2%80%99re%20being%20manipulated.%20I%20don%E2%80%99t%20think%20%20%E2%80%94%20The%20map%20is%20not%20the%20territory.%20The%20meme%20is%20not%20the%20brief.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
+</article>
+<article class="news-card card" id="story-libs-of-tiktok-is-reviving-an-old-conspiracy-the-bf16892b0e21" data-tag="QAnon" data-share-url="https://conspiraparty.com/weird-news.html#story-libs-of-tiktok-is-reviving-an-old-conspiracy-the-bf16892b0e21" data-share-text="Libs of TikTok Is Reviving an Old Conspiracy Theory About California’s Ballots — Skeptic cosplay recommended. Tin foil optional. via conspiraparty.com">
+  <div class="news-meta"><span class="news-tag">QAnon</span><span class="news-date">Oct 29, 2026</span></div>
+  <h3 class="news-title"><a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxPcVIyRHFQRnBFWVNPOWxRbGRzbnhMTFJhNWtleWxIbUlVOVNXcUREcFhvbzl6aGl6WXVyVk5RbENIR01NeVozQ3k3MUkxdFRlSlAyVUQ1dHZDb1I2cW4yc08tNms4RWpHYWpqeFgtT1BmNFhfRW4zekNiVHhra2lqdjNrbHZ1aGFlQXQwQk5pQXFjV1poSmxfUnFNZ01MTUJHZ0tKSkVqalo2NC1pdEVaUFhuNA?oc=5" target="_blank" rel="noopener noreferrer">Libs of TikTok Is Reviving an Old Conspiracy Theory About California’s Ballots</a></h3>
+  <p class="news-source">via Mother Jones</p>
+  <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> Skeptic cosplay recommended. Tin foil optional.</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="https://x.com/intent/post?text=Libs%20of%20TikTok%20Is%20Reviving%20an%20Old%20Conspiracy%20Theory%20About%20California%E2%80%99s%20Ballots%20%E2%80%94%20Skeptic%20cosplay%20recommended.%20Tin%20foil%20optional.%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-libs-of-tiktok-is-reviving-an-old-conspiracy-the-bf16892b0e21" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-libs-of-tiktok-is-reviving-an-old-conspiracy-the-bf16892b0e21" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2Fweird-news.html%23story-libs-of-tiktok-is-reviving-an-old-conspiracy-the-bf16892b0e21&amp;media=https%3A%2F%2Fconspiraparty.com%2Fassets%2Fog%2Findex.jpg&amp;description=Libs%20of%20TikTok%20Is%20Reviving%20an%20Old%20Conspiracy%20Theory%20About%20California%E2%80%99s%20Ballots%20%E2%80%94%20Skeptic%20cosplay%20recommended.%20Tin%20foil%20optional.%20via%20conspiraparty.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
+</article>
       </div>
-      <p class="disclaimer">We link out to the original publishers. We never copy article bodies. Filters drop politics, real politicians, QAnon, and tragedy. If a headline sneaks through, blame the algorithm — then throw a party.</p>
+      <p class="disclaimer">We link out to the original publishers. We never copy article bodies. Takes are skeptic entertainment — we roast spin on all sides and never invent factual claims about real people. Tragedy and death stories are filtered. If something sneaks through, blame the algorithm — then throw a party.</p>
     </div>
   </section>
 
@@ -290,17 +559,60 @@
 <script>
 (function(){
   var bar = document.querySelector('.filter-bar');
-  if(!bar) return;
-  var cards = Array.prototype.slice.call(document.querySelectorAll('.news-card'));
-  bar.addEventListener('click', function(e){
-    var btn = e.target.closest('button[data-tag]');
-    if(!btn) return;
-    var tag = btn.getAttribute('data-tag');
-    bar.querySelectorAll('button').forEach(function(b){ b.setAttribute('aria-pressed', b===btn ? 'true' : 'false'); });
-    cards.forEach(function(c){
-      var show = tag === 'all' || c.getAttribute('data-tag') === tag;
-      c.style.display = show ? '' : 'none';
+  if(bar){
+    var cards = Array.prototype.slice.call(document.querySelectorAll('.news-card'));
+    bar.addEventListener('click', function(e){
+      var btn = e.target.closest('button[data-tag]');
+      if(!btn) return;
+      var tag = btn.getAttribute('data-tag');
+      bar.querySelectorAll('button').forEach(function(b){ b.setAttribute('aria-pressed', b===btn ? 'true' : 'false'); });
+      cards.forEach(function(c){
+        var show = tag === 'all' || c.getAttribute('data-tag') === tag;
+        c.style.display = show ? '' : 'none';
+      });
     });
+  }
+})();
+(function(){
+  function canNativeShare(){
+    return typeof navigator !== 'undefined' && typeof navigator.share === 'function'
+      && (window.matchMedia('(max-width:720px)').matches || /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent||''));
+  }
+  document.addEventListener('click', function(e){
+    var shareBtn = e.target.closest('[data-share]');
+    if(shareBtn){
+      var card = shareBtn.closest('.news-card');
+      if(!card) return;
+      var url = card.getAttribute('data-share-url') || (location.origin + location.pathname + '#' + card.id);
+      var text = card.getAttribute('data-share-text') || document.title;
+      if(canNativeShare()){
+        navigator.share({ title: 'Conspiraparty Weird News', text: text, url: url }).catch(function(){});
+        return;
+      }
+      var links = card.querySelector('.share-links');
+      if(links){
+        links.hidden = !links.hidden;
+      }
+      return;
+    }
+    var copyBtn = e.target.closest('[data-copy]');
+    if(copyBtn){
+      var card = copyBtn.closest('.news-card');
+      if(!card) return;
+      var url = card.getAttribute('data-share-url') || (location.origin + location.pathname + '#' + card.id);
+      var done = function(){
+        copyBtn.classList.add('copied');
+        copyBtn.textContent = 'Copied';
+        setTimeout(function(){ copyBtn.classList.remove('copied'); copyBtn.textContent = 'Copy link'; }, 1600);
+      };
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(url).then(done).catch(function(){
+          window.prompt('Copy link', url);
+        });
+      } else {
+        window.prompt('Copy link', url);
+      }
+    }
   });
 })();
 </script>

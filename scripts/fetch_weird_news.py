@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Fetch weird/UFO/cryptid/odd-news headlines from public RSS feeds,
-filter out politics/QAnon/tragedy, attach Conspiraparty one-liners, and
+"""Fetch weird/UFO/cryptid/odd/politics/QAnon headlines from public RSS feeds,
+filter out tragedy/death, attach skeptic Conspiraparty one-liners, and
 write data/weird-news.json + weird-news.html for the static site.
 
+Politics and QAnon are allowed on this page (skeptic roast, no defamatory claims).
 No AI API keys. Headlines and links only — never article bodies.
 """
 from __future__ import annotations
@@ -15,6 +16,7 @@ import ssl
 import sys
 import urllib.error
 import urllib.request
+from urllib.parse import quote
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
@@ -23,7 +25,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "weird-news.json"
 HTML_PATH = ROOT / "weird-news.html"
-MAX_ITEMS = 18
+MAX_ITEMS = 24
 USER_AGENT = "ConspirapartyWeirdNews/1.0 (+https://conspiraparty.com; daily aggregator)"
 
 KIT_URL = "https://happyplaceinkandart.etsy.com/listing/4502272966"
@@ -101,27 +103,39 @@ FEEDS = [
             "pyramid", "lost", "asteroid", "comet",
         ],
     },
+    {
+        "name": "Google News · QAnon / conspiracy culture",
+        "url": "https://news.google.com/rss/search?q=QAnon+OR+%22Q+Anon%22+OR+%22conspiracy+theory%22+OR+%22conspiracy+theories%22+OR+%22deep+state%22+-death+-killed+-murder&hl=en-US&gl=US&ceid=US:en",
+        "tag": "QAnon",
+        "require_any": [
+            "qanon", "q anon", "conspiracy theory", "conspiracy theories",
+            "deep state", "false flag", "chemtrail", "flat earth",
+            "lizard people", "illuminati", "new world order",
+        ],
+    },
+    {
+        "name": "Google News · Bizarre politics",
+        "url": "https://news.google.com/rss/search?q=%22bizarre%22+OR+%22strange%22+OR+%22odd%22+OR+%22wild%22+(politics+OR+politician+OR+congress+OR+campaign+OR+election)+-death+-killed+-murder&hl=en-US&gl=US&ceid=US:en",
+        "tag": "Politics",
+        "require_any": [
+            "bizarre", "strange", "odd", "wild", "weird", "absurd",
+            "unusual", "viral", "meltdown", "rant", "gaffe",
+        ],
+    },
+    {
+        "name": "Google News · Conspiracy theory news",
+        "url": "https://news.google.com/rss/search?q=%22conspiracy+theory%22+OR+%22conspiracy+theories%22+OR+conspiracist+OR+%22rabbit+hole%22+-death+-killed&hl=en-US&gl=US&ceid=US:en",
+        "tag": "QAnon",
+        "require_any": [
+            "conspiracy theory", "conspiracy theories", "conspiracist",
+            "debunk", "qanon", "deep state", "baseless", "unfounded",
+        ],
+    },
 ]
 
-# Politics, politicians, QAnon — keyword blocklist (case-insensitive).
-BLOCK = re.compile(
-    r"\b("
-    r"qanon|q-anon|pizzagate|deep state|"
-    r"trump|biden|harris|obama|clinton|putin|zelensky|netanyahu|"
-    r"republican|democrat|gop|maga|congress|senate|house of representatives|"
-    r"election|electoral|ballot|campaign|primary|caucus|"
-    r"president|vice president|senator|congressman|congresswoman|"
-    r"governor|mayor|white house|capitol hill|"
-    r"impeach|filibuster|legislation|bill passes|supreme court|"
-    r"war in|invasion of|ceasefire|nato|pentagon brief|"
-    r"israel|gaza|hamas|hezbollah|ukraine|russia war|"
-    r"abortion|gun control|immigration bill|border bill|"
-    r"vaccine mandate|covid mandate|"
-    r"midterms?|mid-terms?|dems\b|republicans\b|burlison|aoc\b|pelosi|mcconnell|"
-    r"poll\b|polling|swing state|voter|high stakes"
-    r")\b",
-    re.I,
-)
+# Politics / QAnon are ALLOWED on this page (Traci approved for Weird News only).
+# Keep a no-op so older call sites that mention BLOCK still import cleanly.
+BLOCK = re.compile(r"^$")  # never matches
 
 # Tragedy / death / violence — keep the page fun.
 TRAGEDY = re.compile(
@@ -145,13 +159,14 @@ NOISE = re.compile(
     r"premier league|champions league|stump mic|cricket|liverpool|chelsea|footballer|"
     r"touchdown|homerun|home run|goalkeeper|midfielder|striker|"
     r"wnba|nba finals|clippers|lakers|warriors|turnover just|non-primetime|"
+    r"canucks|boeser|hellebuyck|nhl|hockey|mlb pitcher|fantasy football|"
+    r"dark web|onion links|lifecycle and onion|"
     r"obituary|wedding announcement|"
     r"best chest|best \d+|the \d+ best|product roundup|"
     r"lunch ride|tires?\b|fork make sense|pinkbike|"
     r"robot\b.*anime|go nagai|manga\b|"
     r"auction at|up for auction|"
-    r"nsfw|onlyfans|"
-    r"two koreas|north korea|south korea|kremlin|tone-deaf"
+    r"nsfw|onlyfans"
     r")\b",
     re.I,
 )
@@ -192,7 +207,7 @@ ONE_LINERS = {
         "Reality called in sick. This filled in.",
         "Tell your group chat before someone else does.",
         "Weirdness level: party-ready.",
-        "No politics. Just pure, uncut odd.",
+        "Odd enough for the corkboard. Bring snacks.",
         "The universe is freestyling again.",
         "Pin this to the fridge. Trust us.",
         "Strange but true-ish. Party fuel either way.",
@@ -206,6 +221,26 @@ ONE_LINERS = {
         "Hypothesis: this is excellent party small talk.",
         "The data is weird. We approve.",
         "Discovery unlocked. Conspiracy optional.",
+    ],
+    "Politics": [
+        "Skeptic mode: ON. Popcorn: also ON.",
+        "Both sides brought volume. Receipts still pending.",
+        "Filed under: loud takes, quiet evidence.",
+        "Question everything. Especially the spin.",
+        "Perfect PowerPoint Night bait. Fact-check optional, snacks required.",
+        "The timeline wants a timeout. We want a theory board.",
+        "Equal-opportunity side-eye. All parties welcome.",
+        "Campaign energy meets corkboard energy.",
+    ],
+    "QAnon": [
+        "Rabbit hole detected. Bring a flashlight and a grain of salt.",
+        "Trust, but verify. Then verify again. Then throw a party.",
+        "Claims are free. Evidence still costs receipts.",
+        "Corkboard fuel — label every pin UNCONFIRMED.",
+        "Skeptic cosplay recommended. Tin foil optional.",
+        "The map is not the territory. The meme is not the brief.",
+        "Ask better questions. Skip the absolute certainty.",
+        "Entertainment first. Extraordinary claims need extraordinary snacks.",
     ],
 }
 
@@ -479,7 +514,56 @@ def gather() -> list[dict]:
                 "anomaly",
                 "enigmatic",
             )
-            if any(k in tl for k in cryptid_keys):
+            qanon_keys = (
+                "qanon",
+                "q anon",
+                "q-anon",
+                "deep state",
+                "pizzagate",
+                "chemtrail",
+                "flat earth",
+                "lizard people",
+                "illuminati",
+                "new world order",
+                "false flag",
+            )
+            politics_keys = (
+                "congress",
+                "senator",
+                "campaign",
+                "election",
+                "ballot",
+                "white house",
+                "governor",
+                "democrat",
+                "republican",
+                "gop",
+                "maga",
+                "primary",
+                "midterm",
+                "politician",
+                "capitol",
+                "trump",
+                "biden",
+                "harris",
+                "obama",
+                "clinton",
+                "pelosi",
+                "mcconnell",
+                "aoc",
+                "voter",
+                "polling",
+            )
+            # QAnon tag: explicit movement/lore words, or "conspiracy theory" in a politics context
+            if any(k in tl for k in qanon_keys):
+                tag = "QAnon"
+            elif "conspiracy theor" in tl and any(k in tl for k in politics_keys + ("ballot", "poll", "deep state", "debunk")):
+                tag = "QAnon"
+            elif "conspiracy theor" in tl and feed["tag"] == "QAnon":
+                tag = "QAnon"
+            elif any(k in tl for k in politics_keys):
+                tag = "Politics"
+            elif any(k in tl for k in cryptid_keys):
                 tag = "Cryptid"
             elif any(k in tl for k in ufo_keys):
                 tag = "UFO"
@@ -545,7 +629,7 @@ def gather() -> list[dict]:
 
     collected.sort(key=sort_key, reverse=True)
 
-    per_tag_cap = {"UFO": 5, "Cryptid": 4, "Strange": 4, "Odd": 6, "Science": 4}
+    per_tag_cap = {"UFO": 4, "Cryptid": 3, "Strange": 3, "Odd": 4, "Science": 3, "Politics": 5, "QAnon": 5}
     counts = {k: 0 for k in per_tag_cap}
     balanced = []
     for it in collected:
@@ -569,6 +653,20 @@ def gather() -> list[dict]:
     return balanced[:MAX_ITEMS]
 
 
+
+def story_slug(it: dict) -> str:
+    """Stable short anchor id for a headline card."""
+    base = re.sub(r"[^a-z0-9]+", "-", it["title"].lower()).strip("-")[:48].strip("-")
+    sid = it.get("id") or hashlib.md5(it["url"].encode()).hexdigest()[:8]
+    if not base:
+        base = "story"
+    return f"{base}-{sid}"
+
+
+def share_text(it: dict) -> str:
+    return f'{it["title"]} — {it["one_liner"]} via conspiraparty.com'
+
+
 def render_card(it: dict) -> str:
     title = html.escape(it["title"])
     url = html.escape(it["url"], quote=True)
@@ -576,11 +674,33 @@ def render_card(it: dict) -> str:
     date = html.escape(it["published_display"])
     liner = html.escape(it["one_liner"])
     tag = html.escape(it["tag"])
-    return f"""<article class="news-card card" data-tag="{tag}">
+    slug = story_slug(it)
+    anchor = html.escape(slug, quote=True)
+    share_path = f"https://conspiraparty.com/weird-news.html#story-{slug}"
+    share_url = html.escape(share_path, quote=True)
+    text = share_text(it)
+    text_esc = html.escape(text)
+    text_q = html.escape(quote(text), quote=True)
+    url_q = html.escape(quote(share_path, safe=""), quote=True)
+    # Pinterest wants a page image; use site OG image
+    media_q = html.escape(quote("https://conspiraparty.com/assets/og/index.jpg", safe=""), quote=True)
+    x_href = f"https://x.com/intent/post?text={text_q}&url={url_q}"
+    fb_href = f"https://www.facebook.com/sharer/sharer.php?u={url_q}"
+    pin_href = f"https://www.pinterest.com/pin/create/button/?url={url_q}&media={media_q}&description={text_q}"
+    return f"""<article class="news-card card" id="story-{anchor}" data-tag="{tag}" data-share-url="{share_url}" data-share-text="{text_esc}">
   <div class="news-meta"><span class="news-tag">{tag}</span><span class="news-date">{date}</span></div>
   <h3 class="news-title"><a href="{url}" target="_blank" rel="noopener noreferrer">{title}</a></h3>
   <p class="news-source">via {source}</p>
   <p class="news-liner"><span class="stamp tiny">Conspiraparty take</span> {liner}</p>
+  <div class="share-box">
+    <button type="button" class="btn sm share-native" data-share>Share this</button>
+    <div class="share-links" hidden>
+      <a class="btn sm" href="{html.escape(x_href, quote=True)}" target="_blank" rel="noopener noreferrer">X</a>
+      <a class="btn sm" href="{html.escape(fb_href, quote=True)}" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="btn sm" href="{html.escape(pin_href, quote=True)}" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <button type="button" class="btn sm share-copy" data-copy>Copy link</button>
+    </div>
+  </div>
 </article>"""
 
 
@@ -625,20 +745,20 @@ def render_html(items: list[dict], generated_at: str) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Weird News &amp; UFO Headlines Aggregator | Conspiraparty</title>
-<meta name="description" content="Daily weird news, UFO/UAP headlines, cryptid sightings and strange science — with funny Conspiraparty takes. Updated automatically. No politics.">
+<title>Weird News, Wild Politics &amp; QAnon Watch | Conspiraparty</title>
+<meta name="description" content="Daily weird news, wild politics, QAnon watch, UFOs and cryptids — with skeptic Conspiraparty takes. Auto-updated. Tragedy filtered. Entertainment only.">
 <link rel="canonical" href="https://conspiraparty.com/weird-news.html">
 <meta property="og:site_name" content="Conspiraparty">
-<meta property="og:title" content="Weird News &amp; UFO Headlines | Conspiraparty">
-<meta property="og:description" content="Daily weird news, UFO headlines, cryptids and strange science with funny Conspiraparty takes. No politics.">
+<meta property="og:title" content="Weird News, Wild Politics &amp; QAnon Watch | Conspiraparty">
+<meta property="og:description" content="Weird news, wild politics and QAnon watch with skeptic Conspiraparty takes. Roast the spin. Bring snacks.">
 <meta property="og:url" content="https://conspiraparty.com/weird-news.html">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://conspiraparty.com/assets/og/index.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Weird News &amp; UFO Headlines | Conspiraparty">
-<meta name="twitter:description" content="Daily weird news, UFO headlines, cryptids and strange science. Updated automatically.">
+<meta name="twitter:title" content="Weird News, Wild Politics &amp; QAnon Watch | Conspiraparty">
+<meta name="twitter:description" content="Weird news, wild politics and QAnon watch. Skeptic takes. Updated automatically.">
 <meta name="twitter:image" content="https://conspiraparty.com/assets/og/index.jpg">
 <meta name="theme-color" content="#000000">
 <link rel="icon" type="image/png" href="assets/img/favicon-64.png">
@@ -666,8 +786,23 @@ def render_html(items: list[dict], generated_at: str) -> str:
 .kit-cta h3{{margin-top:8px}}
 .kit-cta .btn{{margin-top:12px;display:inline-flex;width:auto}}
 .kit-cta p{{color:#cfcfd4!important}}
+.share-box{{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}}
+.share-box .btn.sm{{width:auto;margin-top:0;padding:6px 12px;font-size:.8rem}}
+.share-links{{display:flex;flex-wrap:wrap;gap:8px;align-items:center;width:100%}}
+.share-links[hidden]{{display:none!important}}
+.share-links:not([hidden]){{display:flex}}
+.share-box .share-copy.copied{{background:var(--red);border-color:var(--red)}}
+@media (max-width:720px){{
+  .share-links{{display:none!important}}
+  .news-card .share-native{{display:inline-flex}}
+}}
+@media (min-width:721px){{
+  .news-card .share-native{{display:none}}
+  .share-links{{display:flex!important}}
+  .share-links[hidden]{{display:flex!important}}
+}}
 </style>
-<script type="application/ld+json">{{"@context":"https://schema.org","@type":"CollectionPage","name":"Weird News","description":"Daily weird news, UFO/UAP headlines, cryptid sightings and strange science with funny Conspiraparty takes.","url":"https://conspiraparty.com/weird-news.html","isPartOf":{{"@type":"WebSite","name":"Conspiraparty","url":"https://conspiraparty.com/"}}}}</script>
+<script type="application/ld+json">{{"@context":"https://schema.org","@type":"CollectionPage","name":"Weird News, Wild Politics & QAnon Watch","description":"Daily weird news, wild politics, QAnon watch, UFOs and cryptids with skeptic Conspiraparty takes.","url":"https://conspiraparty.com/weird-news.html","isPartOf":{{"@type":"WebSite","name":"Conspiraparty","url":"https://conspiraparty.com/"}}}}</script>
 <script type="application/ld+json">{{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{{"@type":"ListItem","position":1,"name":"Home","item":"https://conspiraparty.com/"}},{{"@type":"ListItem","position":2,"name":"Weird News","item":"https://conspiraparty.com/weird-news.html"}}]}}</script>
 </head>
 <body>
@@ -695,8 +830,8 @@ def render_html(items: list[dict], generated_at: str) -> str:
   <section class="hero">
     <div class="wrap center">
       <span class="stamp">Leaked Daily</span>
-      <h1>WEIRD <span class="r">NEWS</span></h1>
-      <p class="lead">UFOs, cryptids, strange science and odd headlines — with a Conspiraparty take on each. Auto-updated. No politics. No QAnon. Just the fun weird.</p>
+      <h1>WEIRD NEWS, WILD <span class="r">POLITICS</span> &amp; QANON WATCH</h1>
+      <p class="lead">UFOs, cryptids, odd headlines, wild politics and QAnon rabbit holes — with a skeptic Conspiraparty take on each. We roast the spin on all sides. Auto-updated. No tragedy. Entertainment only.</p>
       <p class="updated">Last sweep: {gen_display} UTC · Headlines &amp; links only</p>
     </div>
   </section>
@@ -705,6 +840,8 @@ def render_html(items: list[dict], generated_at: str) -> str:
     <div class="wrap">
       <div class="filter-bar" role="group" aria-label="Filter by topic">
         <button type="button" data-tag="all" aria-pressed="true">All</button>
+        <button type="button" data-tag="Politics" aria-pressed="false">Politics</button>
+        <button type="button" data-tag="QAnon" aria-pressed="false">QAnon</button>
         <button type="button" data-tag="UFO" aria-pressed="false">UFOs</button>
         <button type="button" data-tag="Cryptid" aria-pressed="false">Cryptids</button>
         <button type="button" data-tag="Strange" aria-pressed="false">Strange</button>
@@ -714,7 +851,7 @@ def render_html(items: list[dict], generated_at: str) -> str:
       <div class="news-feed" id="news-feed">
 {feed_html}
       </div>
-      <p class="disclaimer">We link out to the original publishers. We never copy article bodies. Filters drop politics, real politicians, QAnon, and tragedy. If a headline sneaks through, blame the algorithm — then throw a party.</p>
+      <p class="disclaimer">We link out to the original publishers. We never copy article bodies. Takes are skeptic entertainment — we roast spin on all sides and never invent factual claims about real people. Tragedy and death stories are filtered. If something sneaks through, blame the algorithm — then throw a party.</p>
     </div>
   </section>
 
@@ -787,17 +924,60 @@ def render_html(items: list[dict], generated_at: str) -> str:
 <script>
 (function(){{
   var bar = document.querySelector('.filter-bar');
-  if(!bar) return;
-  var cards = Array.prototype.slice.call(document.querySelectorAll('.news-card'));
-  bar.addEventListener('click', function(e){{
-    var btn = e.target.closest('button[data-tag]');
-    if(!btn) return;
-    var tag = btn.getAttribute('data-tag');
-    bar.querySelectorAll('button').forEach(function(b){{ b.setAttribute('aria-pressed', b===btn ? 'true' : 'false'); }});
-    cards.forEach(function(c){{
-      var show = tag === 'all' || c.getAttribute('data-tag') === tag;
-      c.style.display = show ? '' : 'none';
+  if(bar){{
+    var cards = Array.prototype.slice.call(document.querySelectorAll('.news-card'));
+    bar.addEventListener('click', function(e){{
+      var btn = e.target.closest('button[data-tag]');
+      if(!btn) return;
+      var tag = btn.getAttribute('data-tag');
+      bar.querySelectorAll('button').forEach(function(b){{ b.setAttribute('aria-pressed', b===btn ? 'true' : 'false'); }});
+      cards.forEach(function(c){{
+        var show = tag === 'all' || c.getAttribute('data-tag') === tag;
+        c.style.display = show ? '' : 'none';
+      }});
     }});
+  }}
+}})();
+(function(){{
+  function canNativeShare(){{
+    return typeof navigator !== 'undefined' && typeof navigator.share === 'function'
+      && (window.matchMedia('(max-width:720px)').matches || /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent||''));
+  }}
+  document.addEventListener('click', function(e){{
+    var shareBtn = e.target.closest('[data-share]');
+    if(shareBtn){{
+      var card = shareBtn.closest('.news-card');
+      if(!card) return;
+      var url = card.getAttribute('data-share-url') || (location.origin + location.pathname + '#' + card.id);
+      var text = card.getAttribute('data-share-text') || document.title;
+      if(canNativeShare()){{
+        navigator.share({{ title: 'Conspiraparty Weird News', text: text, url: url }}).catch(function(){{}});
+        return;
+      }}
+      var links = card.querySelector('.share-links');
+      if(links){{
+        links.hidden = !links.hidden;
+      }}
+      return;
+    }}
+    var copyBtn = e.target.closest('[data-copy]');
+    if(copyBtn){{
+      var card = copyBtn.closest('.news-card');
+      if(!card) return;
+      var url = card.getAttribute('data-share-url') || (location.origin + location.pathname + '#' + card.id);
+      var done = function(){{
+        copyBtn.classList.add('copied');
+        copyBtn.textContent = 'Copied';
+        setTimeout(function(){{ copyBtn.classList.remove('copied'); copyBtn.textContent = 'Copy link'; }}, 1600);
+      }};
+      if(navigator.clipboard && navigator.clipboard.writeText){{
+        navigator.clipboard.writeText(url).then(done).catch(function(){{
+          window.prompt('Copy link', url);
+        }});
+      }} else {{
+        window.prompt('Copy link', url);
+      }}
+    }}
   }});
 }})();
 </script>
