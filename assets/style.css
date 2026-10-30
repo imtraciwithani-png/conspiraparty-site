@@ -77,7 +77,7 @@ h3{
   text-transform:none;
   line-height:1.3;
 }
-.r{color:var(--red-on-dark)}
+.r{color:var(--red)}
 .wrap{max-width:var(--w);margin:0 auto;padding:0 var(--pad)}
 .skip{position:absolute;left:-999px}
 .skip:focus{left:8px;top:8px;background:#fff;color:#000;padding:8px;z-index:9;border-radius:4px}
@@ -96,15 +96,15 @@ h3{
   border-bottom:1px solid var(--line);
 }
 .promo a{
-  display:inline-block;margin-left:6px;color:#fff;
+  display:inline-block;margin-left:6px;
   background:transparent;
   font-family:var(--font-body);
   font-weight:700;
   letter-spacing:.12em;text-decoration:none;
   padding:1px 8px;
-  border:1px solid var(--red);
+  border:1px solid var(--red-on-dark);
   border-radius:3px;
-  color:var(--red);
+  color:var(--red-on-dark);
   transform:none;
 }
 .promo a:hover{background:var(--red);color:#fff}
@@ -234,19 +234,6 @@ section:first-of-type{border-top:0}
   text-align:center;
   letter-spacing:.04em;
 }
-/* figcaption readable on cream/paper surfaces */
-.paper figcaption,
-.cork figcaption,
-figure.paper figcaption,
-.hero-mock.paper figcaption,
-figcaption{
-  color:var(--text-dim);
-}
-.paper figure figcaption,
-figure[style*="background"] figcaption,
-.paper .hero-mock figcaption{
-  color:#333 !important;
-}
 
 @media(max-width:799px){
   .hero{padding:48px 0 56px}
@@ -344,17 +331,14 @@ section.cork{
   border:1.5px solid rgba(255,255,255,.35);
 }
 .btn.alt:hover{background:rgba(255,255,255,.06);border-color:#fff}
-/* Alt buttons on cream/paper need dark ink (default alt is white-on-transparent for dark bands) */
-.paper .btn.alt,
-.cork .theory-box .btn.alt,
+/* Alt buttons on cream theory-box only (site .paper/.cork bands are dark) */
 .theory-box .btn.alt,
-.paper .btn.sm.alt,
-.theory-box .btn.sm.alt{
+.theory-box .btn.sm.alt,
+.cork .theory-box .btn.alt{
   color:#111 !important;
   border-color:#111 !important;
   background:transparent !important;
 }
-.paper .btn.alt:hover,
 .theory-box .btn.alt:hover{
   background:rgba(0,0,0,.06) !important;
   color:#111 !important;
@@ -796,20 +780,33 @@ p[style*="color: #111"] a:not(.btn){
   #printify-store,#totally-real-tour{padding:64px 0}
 }
 
-/* Readable red labels on near-black (Weird News takes, code, etc.) */
+/* Readable red labels on near-black (Weird News takes, promo code chips) */
 .take strong,
 strong[style*="var(--red)"],
-code.r, span.r{
+.promo a,
+code:not(pre code){
   color:var(--red-on-dark) !important;
 }
+.promo a{border-color:var(--red-on-dark) !important}
+/* Keep .r brand red (titles). On near-black it's AA for large text. */
 
-/* Cream pin-grid / paper figures: dark captions */
+/* Cream pin-grid figures: dark captions */
 .pin-grid figcaption,
-.pin-grid figure figcaption,
-figure figcaption{
-  color:#222;
-}
-.cork .pin-grid figcaption,
-.paper .pin-grid figcaption{
+.pin-grid figure figcaption{
   color:#111 !important;
+}
+
+/* Captions on dark bands stay light; cream pin grids handled above */
+.cork > .wrap figure:not(.pin-grid figure) figcaption,
+.black figure figcaption,
+.cork .grid figure figcaption{
+  color:var(--text-dim) !important;
+}
+
+/* Figcaptions inside dark product cards */
+.cork .card figcaption,
+.paper .card figcaption,
+.black .card figcaption,
+figure.card figcaption{
+  color:#cfcfd4 !important;
 }
