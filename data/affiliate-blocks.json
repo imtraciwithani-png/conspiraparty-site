@@ -1,6 +1,6 @@
 {
   "tag": "traciw02-20",
-  "viator_pid": "VIATOR_AFFILIATE_ID",
+  "viator_pid": "P00329144",
   "field_guides": {
     "area-51": {
       "books": [
@@ -19,7 +19,7 @@
       ],
       "tour": {
         "label": "Area 51 / Extraterrestrial Highway tours",
-        "url": "https://www.viator.com/searchResults/all?text=Area+51&pid=VIATOR_AFFILIATE_ID"
+        "url": "https://www.viator.com/searchResults/all?text=Area+51&pid=P00329144&mcid=42383&medium=link"
       }
     },
     "roswell": {
@@ -39,7 +39,7 @@
       ],
       "tour": {
         "label": "Roswell UFO tours & museums",
-        "url": "https://www.viator.com/searchResults/all?text=Roswell&pid=VIATOR_AFFILIATE_ID"
+        "url": "https://www.viator.com/searchResults/all?text=Roswell&pid=P00329144&mcid=42383&medium=link"
       }
     },
     "point-pleasant": {
@@ -59,7 +59,7 @@
       ],
       "tour": {
         "label": "Point Pleasant / Mothman tours",
-        "url": "https://www.viator.com/searchResults/all?text=Mothman+Point+Pleasant&pid=VIATOR_AFFILIATE_ID"
+        "url": "https://www.viator.com/searchResults/all?text=Mothman+Point+Pleasant&pid=P00329144&mcid=42383&medium=link"
       }
     },
     "denver-airport": {
@@ -79,7 +79,7 @@
       ],
       "tour": {
         "label": "Denver city & airport-area tours",
-        "url": "https://www.viator.com/searchResults/all?text=Denver+city+tour&pid=VIATOR_AFFILIATE_ID"
+        "url": "https://www.viator.com/searchResults/all?text=Denver+city+tour&pid=P00329144&mcid=42383&medium=link"
       }
     },
     "las-vegas": {
@@ -99,7 +99,7 @@
       ],
       "tour": {
         "label": "Las Vegas / Area 51 day tours",
-        "url": "https://www.viator.com/searchResults/all?text=Area+51+Las+Vegas&pid=VIATOR_AFFILIATE_ID"
+        "url": "https://www.viator.com/searchResults/all?text=Area+51+Las+Vegas&pid=P00329144&mcid=42383&medium=link"
       }
     },
     "bermuda-triangle": {
@@ -119,7 +119,7 @@
       ],
       "tour": {
         "label": "Miami / Florida Keys boat tours",
-        "url": "https://www.viator.com/searchResults/all?text=Florida+Keys+boat+tour&pid=VIATOR_AFFILIATE_ID"
+        "url": "https://www.viator.com/searchResults/all?text=Florida+Keys+boat+tour&pid=P00329144&mcid=42383&medium=link"
       }
     },
     "stonehenge": {
@@ -139,7 +139,7 @@
       ],
       "tour": {
         "label": "Stonehenge & Salisbury tours",
-        "url": "https://www.viator.com/searchResults/all?text=Stonehenge&pid=VIATOR_AFFILIATE_ID"
+        "url": "https://www.viator.com/searchResults/all?text=Stonehenge&pid=P00329144&mcid=42383&medium=link"
       }
     },
     "mount-rushmore": {
@@ -159,7 +159,7 @@
       ],
       "tour": {
         "label": "Black Hills / Mount Rushmore tours",
-        "url": "https://www.viator.com/searchResults/all?text=Mount+Rushmore&pid=VIATOR_AFFILIATE_ID"
+        "url": "https://www.viator.com/searchResults/all?text=Mount+Rushmore&pid=P00329144&mcid=42383&medium=link"
       }
     },
     "grand-canyon": {
@@ -179,7 +179,7 @@
       ],
       "tour": {
         "label": "Grand Canyon tours",
-        "url": "https://www.viator.com/searchResults/all?text=Grand+Canyon&pid=VIATOR_AFFILIATE_ID"
+        "url": "https://www.viator.com/searchResults/all?text=Grand+Canyon&pid=P00329144&mcid=42383&medium=link"
       }
     },
     "most-suspicious-place": {
@@ -199,7 +199,7 @@
       ],
       "tour": {
         "label": "Weird / haunted city tours near you",
-        "url": "https://www.viator.com/searchResults/all?text=haunted+tour&pid=VIATOR_AFFILIATE_ID"
+        "url": "https://www.viator.com/searchResults/all?text=haunted+tour&pid=P00329144&mcid=42383&medium=link"
       }
     }
   },
@@ -220,7 +220,7 @@
     ],
     "tour": {
       "label": "Weird & haunted tours near your route",
-      "url": "https://www.viator.com/searchResults/all?text=haunted+ghost+tour&pid=VIATOR_AFFILIATE_ID"
+      "url": "https://www.viator.com/searchResults/all?text=haunted+ghost+tour&pid=P00329144&mcid=42383&medium=link"
     }
   }
 }
