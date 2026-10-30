@@ -28,6 +28,9 @@ OUT = ROOT / "data" / "rhmap-news.json"
 MAP = ROOT / "data" / "rabbit-hole-map.json"
 USER_AGENT = "ConspirapartyRhMapNews/1.0 (+https://conspiraparty.com; daily aggregator)"
 MAX_PER_TOPIC = 6
+
+# Headlines that hand down a verdict are skipped (site voice: no verdicts).
+VERDICT = re.compile(r"\b(debunk\w*|fact[- ]?check\w*|false claims?|misinformation|disinformation|baseless)\b", re.I)
 CTX = ssl.create_default_context()
 
 # Topic → Google News query keywords
@@ -412,7 +415,7 @@ def main() -> int:
     topics_out: dict[str, list[dict]] = {}
     counts: dict[str, int] = {}
     for nid in node_ids:
-        picked = balance_pick(buckets.get(nid, []))
+        picked = balance_pick([c for c in buckets.get(nid, []) if not VERDICT.search(c.get("title", ""))])
         clean = []
         for p in picked:
             clean.append({

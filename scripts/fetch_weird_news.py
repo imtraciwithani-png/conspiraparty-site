@@ -155,7 +155,7 @@ BLOCK = re.compile(r"^$")  # never matches
 TRAGEDY = re.compile(
     r"\b("
     r"dies?|died|dying|death|dead|killed|killing|murder|suicide|fatal|"
-    r"funeral|obituary|massacre|shooting|shot dead|stabbed|"
+    r"funeral|obituary|massacre|shooting|shot dead|shot at|was shot|shot by|gunman|gunfire|stabbed|"
     r"body found|bodies found|corpse|homicide|executed|beheaded|"
     r"terrorist|terror attack|bombing|explosion kills|"
     r"crash kills|plane crash|died of|mourns|victims? of|"
