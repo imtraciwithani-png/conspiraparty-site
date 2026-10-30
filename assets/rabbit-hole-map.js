@@ -10,6 +10,7 @@
     data: null,
     mode: 'both', // bunk | debunk | both
     active: null,
+    news: null,
     scale: 1,
     tx: 0,
     ty: 0,
@@ -24,14 +25,22 @@
   var gWorld = null;
 
   function fetchData() {
-    return fetch(dataUrl, { credentials: 'same-origin' })
-      .then(function (r) { return r.json(); })
-      .then(function (d) {
+    var newsUrl = 'data/rhmap-news.json?v=news1';
+    var mapP = fetch(dataUrl, { credentials: 'same-origin' }).then(function (r) { return r.json(); });
+    var newsP = fetch(newsUrl, { credentials: 'same-origin' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .catch(function () { return null; });
+    return Promise.all([mapP, newsP])
+      .then(function (pair) {
+        var d = pair[0];
         state.data = d;
+        state.news = pair[1];
+        if (state.news && state.news.topics) {
+          window.__RH_BREAKING = state.news.topics;
+        }
         buildMap();
         buildList();
         bindToolbar();
-        // deep link
         var hash = (location.hash || '').replace(/^#/, '');
         if (hash && d.content[hash]) selectNode(hash, false);
       })
@@ -323,16 +332,23 @@
     (c.unanswered || []).forEach(function (q) { html += '<li>' + escapeHtml(q) + '</li>'; });
     html += '</ul>';
 
-    // Breaking
-    html += '<div class="rh-break"><p class="rh-break-meta">Breaking · from Weird News · updated ' + escapeHtml(state.data.weird_news_updated || '') + '</p>';
-    var breaking = (window.__RH_BREAKING && window.__RH_BREAKING[id]) || [];
+    // Breaking (multi-source feed from data/rhmap-news.json)
+    var newsMeta = (state.news && state.news.generated_at_display) || state.data.weird_news_updated || '';
+    html += '<div class="rh-break"><p class="rh-break-meta">Breaking · multi-source · updated ' + escapeHtml(newsMeta) + '</p>';
+    var breaking = [];
+    if (state.news && state.news.topics && state.news.topics[id]) breaking = state.news.topics[id];
+    else if (window.__RH_BREAKING && window.__RH_BREAKING[id]) breaking = window.__RH_BREAKING[id];
     if (breaking.length) {
       breaking.forEach(function (it) {
+        var kind = it.kind || '';
+        html += '<div class="rh-break-item">';
+        if (kind) html += '<span class="rh-kind rh-kind-' + escapeHtml(kind.toLowerCase()) + '">' + escapeHtml(kind) + '</span>';
         html += '<a href="' + escapeHtml(it.url) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(it.title) + '</a>';
-        html += '<div style="font-size:.85rem;color:#333">' + escapeHtml(it.published_display || '') + ' · ' + escapeHtml(it.source || '') + '</div>';
+        html += '<div class="rh-break-meta-line">' + escapeHtml(it.published_display || '') + (it.source ? ' · ' + escapeHtml(it.source) : '') + '</div>';
+        html += '</div>';
       });
     } else {
-      html += '<a href="weird-news.html">No fresh match tagged for this node — browse Weird News</a>';
+      html += '<a href="weird-news.html">No fresh match for this node yet — browse Weird News</a>';
     }
     html += '</div>';
 

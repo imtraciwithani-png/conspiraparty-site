@@ -284,3 +284,15 @@
   .rh-stage-wrap{height:min(70vh,540px)}
   .rh-tag-text{font-size:16px}
 }
+
+.rh-break-item{margin:10px 0 12px;padding-bottom:8px;border-bottom:1px dashed #ccc}
+.rh-break-item:last-child{border-bottom:0;margin-bottom:0}
+.rh-break-item a{display:block;margin:4px 0 2px;font-weight:700;line-height:1.35}
+.rh-break-meta-line{font-size:.85rem;color:#333!important}
+.rh-kind{
+  display:inline-block;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;
+  font-weight:700;padding:2px 7px;border:2px solid #111;margin-right:6px;background:#fff;color:#111!important;
+}
+.rh-kind-mainstream{background:#e8e8e8}
+.rh-kind-independent{background:#fff3c4}
+.rh-kind-believers{background:#f3eee6;border-color:#9b1219;color:#6b1d22!important}
