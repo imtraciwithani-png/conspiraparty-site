@@ -6,134 +6,153 @@
       "id": "qanon",
       "label": "QAnon",
       "x": 520,
-      "y": 120,
-      "group": "pol"
+      "y": 70,
+      "group": "pol",
+      "short": "QAnon"
     },
     {
       "id": "nine11",
       "label": "9/11",
-      "x": 280,
-      "y": 160,
-      "group": "hist"
+      "x": 310,
+      "y": 145,
+      "group": "hist",
+      "short": "9/11"
     },
     {
       "id": "uap",
       "label": "UAP Disclosure",
-      "x": 760,
-      "y": 140,
-      "group": "ufo"
+      "x": 740,
+      "y": 70,
+      "group": "ufo",
+      "short": "UAP"
     },
     {
       "id": "epstein",
       "label": "Epstein Files",
-      "x": 480,
-      "y": 260,
-      "group": "pol"
+      "x": 520,
+      "y": 275,
+      "group": "pol",
+      "short": "Epstein"
     },
     {
       "id": "jfk",
       "label": "JFK",
-      "x": 200,
-      "y": 280,
-      "group": "hist"
+      "x": 250,
+      "y": 310,
+      "group": "hist",
+      "short": "JFK"
     },
     {
       "id": "moon",
       "label": "Moon Landing",
-      "x": 860,
-      "y": 280,
-      "group": "space"
+      "x": 840,
+      "y": 270,
+      "group": "space",
+      "short": "Moon"
     },
     {
       "id": "deepstate",
       "label": "Deep State",
-      "x": 400,
-      "y": 180,
-      "group": "pol"
+      "x": 430,
+      "y": 175,
+      "group": "pol",
+      "short": "Deep State"
     },
     {
       "id": "election2016",
       "label": "Election 2016",
-      "x": 160,
-      "y": 400,
-      "group": "pol"
+      "x": 155,
+      "y": 450,
+      "group": "pol",
+      "short": "Election 2016"
     },
     {
       "id": "election2020",
       "label": "Election 2020",
-      "x": 320,
-      "y": 420,
-      "group": "pol"
+      "x": 350,
+      "y": 475,
+      "group": "pol",
+      "short": "Election 2020"
     },
     {
       "id": "covid",
       "label": "COVID Origins",
-      "x": 620,
-      "y": 380,
-      "group": "sci"
+      "x": 560,
+      "y": 400,
+      "group": "sci",
+      "short": "COVID"
     },
     {
       "id": "chemtrails",
       "label": "Chemtrails",
-      "x": 780,
-      "y": 400,
-      "group": "sci"
+      "x": 730,
+      "y": 430,
+      "group": "sci",
+      "short": "Chemtrails"
     },
     {
       "id": "mkultra",
       "label": "MKUltra",
-      "x": 140,
-      "y": 180,
-      "group": "hist"
+      "x": 145,
+      "y": 220,
+      "group": "hist",
+      "short": "MKUltra"
     },
     {
       "id": "area51",
       "label": "Area 51",
-      "x": 900,
-      "y": 180,
-      "group": "ufo"
+      "x": 910,
+      "y": 120,
+      "group": "ufo",
+      "short": "Area 51"
     },
     {
       "id": "bigfoot",
       "label": "Bigfoot",
-      "x": 940,
-      "y": 360,
-      "group": "cryptid"
+      "x": 945,
+      "y": 370,
+      "group": "cryptid",
+      "short": "Bigfoot"
     },
     {
       "id": "flatearth",
       "label": "Flat Earth",
-      "x": 700,
-      "y": 500,
-      "group": "space"
+      "x": 620,
+      "y": 545,
+      "group": "space",
+      "short": "Flat Earth"
     },
     {
       "id": "birds",
       "label": "Birds Aren't Real",
-      "x": 860,
-      "y": 480,
-      "group": "cryptid"
+      "x": 850,
+      "y": 540,
+      "group": "cryptid",
+      "short": "Birds Aren't Real"
     },
     {
       "id": "rothschilds",
       "label": "Banking Dynasties",
-      "x": 100,
-      "y": 100,
-      "group": "money"
+      "x": 70,
+      "y": 130,
+      "group": "money",
+      "short": "Rothschilds"
     },
     {
       "id": "fed",
       "label": "Federal Reserve",
-      "x": 80,
-      "y": 320,
-      "group": "money"
+      "x": 70,
+      "y": 360,
+      "group": "money",
+      "short": "Fed"
     },
     {
       "id": "bilderberg",
       "label": "Bilderberg / WEF",
-      "x": 240,
-      "y": 80,
-      "group": "money"
+      "x": 230,
+      "y": 55,
+      "group": "money",
+      "short": "Bilderberg"
     }
   ],
   "edges": [
@@ -313,7 +332,7 @@
         "Why did major predicted 'storm' dates pass without the forecasted mass arrests?"
       ],
       "talk": [
-        "If an anonymous poster claimed to be military intel, what would convince you they were real \u2014 or not?",
+        "If an anonymous poster claimed to be military intel, what would convince you they were real — or not?",
         "Where should people draw the line between asking hard questions and treating online lore as evidence?"
       ],
       "primary": [
@@ -324,7 +343,7 @@
         },
         {
           "kind": "Primary document",
-          "title": "Church Committee overview (Senate) \u2014 historical domestic-intel abuse",
+          "title": "Church Committee overview (Senate) — historical domestic-intel abuse",
           "url": "https://www.senate.gov/about/powers-procedures/investigations/church-committee.htm"
         }
       ],
@@ -397,7 +416,7 @@
         }
       ],
       "bunk": "Believers say the official story leaves explosive gaps (especially WTC 7), that foreknowledge or controlled demolition is on the table, and that intelligence failures look too convenient. Some point to put options, war plans, and the 28 pages.",
-      "debunk": "Skeptics point to the 9/11 Commission Report, NIST engineering studies, and the large open-source record of the hijackings. They argue controlled-demolition claims fail physical tests and that bureaucratic failure is not the same as an inside job \u2014 while still criticizing intel silos and Saudi-related unanswered questions.",
+      "debunk": "Skeptics point to the 9/11 Commission Report, NIST engineering studies, and the large open-source record of the hijackings. They argue controlled-demolition claims fail physical tests and that bureaucratic failure is not the same as an inside job — while still criticizing intel silos and Saudi-related unanswered questions.",
       "believers": "Believers say jet fuel can't explain molten metal / WTC 7 free-fall signatures, and that the government used the attacks to expand surveillance and wars.",
       "on_record": "On the record: 19 hijackers; four planes; WTC 1/2/7 and Pentagon damage; nearly 3,000 dead. The 9/11 Commission Report (2004) is a public primary document. NIST published WTC collapse reports. Portions of the '28 pages' related to foreign support were later declassified. The PATRIOT Act and wars in Afghanistan/Iraq followed.",
       "unanswered": [
@@ -407,7 +426,7 @@
       ],
       "talk": [
         "Have you ever read even one chapter of the 9/11 Commission Report yourself?",
-        "What's the difference between 'intel failed' and 'intel planned it' \u2014 and how would you tell?"
+        "What's the difference between 'intel failed' and 'intel planned it' — and how would you tell?"
       ],
       "primary": [
         {
@@ -462,7 +481,7 @@
       ]
     },
     "uap": {
-      "hook": "From 'UFOs are for cranks' to Pentagon programs, congressional hearings, and AARO reports \u2014 the stigma cracked.",
+      "hook": "From 'UFOs are for cranks' to Pentagon programs, congressional hearings, and AARO reports — the stigma cracked.",
       "paths": [
         {
           "title": "2017 NYT / AATIP",
@@ -472,7 +491,7 @@
         {
           "title": "2023 House hearing",
           "to": "deepstate",
-          "blurb": "Whistleblower testimony under oath \u2014 claims vs proof."
+          "blurb": "Whistleblower testimony under oath — claims vs proof."
         },
         {
           "title": "AARO / ODNI reports",
@@ -566,7 +585,7 @@
         {
           "title": "Intelligence rumors",
           "to": "deepstate",
-          "blurb": "Claims of kompromat / intel ties \u2014 labeled as claims."
+          "blurb": "Claims of kompromat / intel ties — labeled as claims."
         },
         {
           "title": "Money & clients",
@@ -576,7 +595,7 @@
         {
           "title": "Island / logistics",
           "to": null,
-          "blurb": "Little St. James, planes, staff \u2014 documented pieces vs leaps."
+          "blurb": "Little St. James, planes, staff — documented pieces vs leaps."
         }
       ],
       "bunk": "Believers say Epstein ran a blackmail operation for (or with) intelligence services, that client lists are being protected, and that his 2019 jail death was not a simple suicide.",
@@ -590,7 +609,7 @@
       ],
       "talk": [
         "What's the difference between a name in an unsealed filing and a guilty verdict?",
-        "Why do elite abuse cases make people leap to intelligence plots \u2014 and when is that fair?"
+        "Why do elite abuse cases make people leap to intelligence plots — and when is that fair?"
       ],
       "primary": [
         {
@@ -655,7 +674,7 @@
         {
           "title": "HSCA / acoustic debate",
           "to": null,
-          "blurb": "Later Congress suggested possible conspiracy \u2014 then fights over the data."
+          "blurb": "Later Congress suggested possible conspiracy — then fights over the data."
         },
         {
           "title": "CIA / Cuba / Mafia triangles",
@@ -668,7 +687,7 @@
           "blurb": "National Archives JFK collection waves."
         }
       ],
-      "bunk": "Believers say Oswald didn't act alone \u2014 CIA, Cubans, mob, or LBJ-adjacent plots appear depending on the book \u2014 and that destroyed or delayed files prove a cover-up.",
+      "bunk": "Believers say Oswald didn't act alone — CIA, Cubans, mob, or LBJ-adjacent plots appear depending on the book — and that destroyed or delayed files prove a cover-up.",
       "debunk": "Skeptics stick with Oswald as the shooter based on ballistics and timeline evidence in the Warren Report, while conceding CIA/FBI withheld information and that secrecy fed distrust. They treat every new name-drop as not automatically a second gunman.",
       "believers": "Believers say the magic-bullet theory is absurd, that intelligence agencies had motive after Bay of Pigs / Cuba plots, and that file delays are the tell.",
       "on_record": "On the record: President Kennedy was assassinated in Dallas on Nov 22, 1963; Lee Harvey Oswald was arrested and then killed by Jack Ruby. The Warren Commission (1964) concluded Oswald acted alone. The HSCA (1979) concluded a 'probable conspiracy' on acoustic evidence later disputed. The National Archives continues JFK Records Collection releases. CIA plots against Castro and other Cold War operations are documented separately.",
@@ -678,18 +697,18 @@
         "How should 'probable conspiracy' from HSCA be read after acoustic critiques?"
       ],
       "talk": [
-        "If new files name more CIA contacts, does that prove a second shooter \u2014 or just a messy Cold War?",
+        "If new files name more CIA contacts, does that prove a second shooter — or just a messy Cold War?",
         "Why do assassinations create permanent alternate maps?"
       ],
       "primary": [
         {
           "kind": "Primary document",
-          "title": "National Archives \u2014 JFK research hub",
+          "title": "National Archives — JFK research hub",
           "url": "https://www.archives.gov/research/jfk"
         },
         {
           "kind": "Primary document",
-          "title": "National Archives \u2014 JFK releases",
+          "title": "National Archives — JFK releases",
           "url": "https://www.archives.gov/research/jfk/release"
         }
       ],
@@ -758,16 +777,16 @@
         }
       ],
       "bunk": "Believers say Apollo footage was filmed on Earth, that radiation made crewed transit impossible with 1960s shielding, and that photo anomalies (shadows, wind-blown flag) are the giveaway. Documentaries like Bart Sibrel's and Massimo Mazzucco's American Moon argue the case at length.",
-      "debunk": "Skeptics point to retroreflectors on the Moon, independent tracking by other countries, rock samples, and thousands of mission photos/telemetries. They argue 'flag waving' is inertia in vacuum and that radiation risk was managed with trajectory/timing \u2014 while admitting NASA PR sometimes oversimplified.",
+      "debunk": "Skeptics point to retroreflectors on the Moon, independent tracking by other countries, rock samples, and thousands of mission photos/telemetries. They argue 'flag waving' is inertia in vacuum and that radiation risk was managed with trajectory/timing — while admitting NASA PR sometimes oversimplified.",
       "believers": "Believers say you can see the stage lighting in the photos, that later programs can't easily repeat 1969 feats, and that whistleblower interviews were suppressed.",
       "on_record": "On the record: NASA's Apollo 11 mission page and mission materials describe the July 1969 landing. Rock samples and laser retroreflectors are part of the public scientific record. Moon-landing-hoax documentaries exist as published media (Sibrel 2001; Mazzucco's American Moon 2017).",
       "unanswered": [
         "Which specific photo 'anomalies' survive when photographers recreate lighting in vacuum-analog conditions?",
         "What exactly was lost in tape recycling, and what still exists in archives?",
-        "Why do Artemis architectures look so different from Apollo \u2014 engineering, politics, or both?"
+        "Why do Artemis architectures look so different from Apollo — engineering, politics, or both?"
       ],
       "talk": [
-        "Watch five minutes of a hoax documentary and five minutes of mission film \u2014 what jumps out to you?",
+        "Watch five minutes of a hoax documentary and five minutes of mission film — what jumps out to you?",
         "If another country tracked Apollo, how much weight does that carry for you?"
       ],
       "primary": [
@@ -785,12 +804,12 @@
       "dig": [
         {
           "kind": "Believers",
-          "title": "A Funny Thing Happened on the Way to the Moon (Bart Sibrel) \u2014 YouTube",
+          "title": "A Funny Thing Happened on the Way to the Moon (Bart Sibrel) — YouTube",
           "url": "https://www.youtube.com/watch?v=xciCJfbTvE4"
         },
         {
           "kind": "Believers",
-          "title": "American Moon (Massimo Mazzucco) \u2014 YouTube English",
+          "title": "American Moon (Massimo Mazzucco) — YouTube English",
           "url": "https://www.youtube.com/watch?v=KpuKu3F0BvY"
         },
         {
@@ -800,7 +819,7 @@
         },
         {
           "kind": "Believers",
-          "title": "Film page: A Funny Thing Happened\u2026",
+          "title": "Film page: A Funny Thing Happened…",
           "url": "https://en.wikipedia.org/wiki/A_Funny_Thing_Happened_on_the_Way_to_the_Moon"
         },
         {
@@ -828,12 +847,12 @@
       ]
     },
     "deepstate": {
-      "hook": "Career bureaucracy, intel agencies, contractors \u2014 or a mystical hydra, depending who you ask.",
+      "hook": "Career bureaucracy, intel agencies, contractors — or a mystical hydra, depending who you ask.",
       "paths": [
         {
           "title": "Documented programs",
           "to": "mkultra",
-          "blurb": "COINTELPRO, MKUltra, PRISM \u2014 real files."
+          "blurb": "COINTELPRO, MKUltra, PRISM — real files."
         },
         {
           "title": "Both-party versions",
@@ -854,7 +873,7 @@
       "bunk": "Believers (on the right) say a permanent intel/administrative cabal sabotages elected outsiders. Believers (on the left) say corporate donors, captured regulators, and security state continuity are the real shadow government. Both say 'accountability theater' hides continuity of agendas.",
       "debunk": "Skeptics say agencies are powerful and often abusive (see Church Committee) but not a single omniscient hive mind; incentives, turf wars, and ideology explain a lot without a secret membership card. They warn 'Deep State' can become an unfalsifiable catch-all.",
       "believers": "Believers say leaks, surveillance powers, and revolving-door contractors prove an unaccountable parallel government.",
-      "on_record": "On the record: Church Committee documented FBI/CIA abuses; Snowden disclosures revealed PRISM and related programs; classified budgets and contractors are large. Watergate showed a president's apparatus committing crimes. None of that requires a single cartoon cabal \u2014 and it also shows why distrust is rational.",
+      "on_record": "On the record: Church Committee documented FBI/CIA abuses; Snowden disclosures revealed PRISM and related programs; classified budgets and contractors are large. Watergate showed a president's apparatus committing crimes. None of that requires a single cartoon cabal — and it also shows why distrust is rational.",
       "unanswered": [
         "Where does legitimate secrecy end and democratic oversight fail?",
         "Which modern programs have never had Church-Committee-level sunlight?",
@@ -934,7 +953,7 @@
         {
           "title": "CrowdStrike / DNC server lore",
           "to": null,
-          "blurb": "What was examined by whom \u2014 still argued."
+          "blurb": "What was examined by whom — still argued."
         },
         {
           "title": "2020 mirror",
@@ -1006,7 +1025,7 @@
       ]
     },
     "election2020": {
-      "hook": "Mail ballots, late-night counts, lawsuits, Jan 6 \u2014 and a right-leaning 'stolen' narrative that mirrored 2016's energy.",
+      "hook": "Mail ballots, late-night counts, lawsuits, Jan 6 — and a right-leaning 'stolen' narrative that mirrored 2016's energy.",
       "paths": [
         {
           "title": "Lawsuit record",
@@ -1021,7 +1040,7 @@
         {
           "title": "Jan 6",
           "to": "qanon",
-          "blurb": "Protest, riot, and prosecutions \u2014 contested frames."
+          "blurb": "Protest, riot, and prosecutions — contested frames."
         },
         {
           "title": "2016 mirror",
@@ -1030,7 +1049,7 @@
         }
       ],
       "bunk": "Believers on the right say fraud, illegal ballot rules, and machine manipulation stole 2020. They treat certifications as coerced and point to affidavits and anomaly charts.",
-      "debunk": "Skeptics say certifications stood, many lawsuits failed on standing or merits, and recounts/audits in key states did not flip electors. They still argue some pandemic rule changes deserved more sunlight \u2014 without leaping to nationwide machine theft.",
+      "debunk": "Skeptics say certifications stood, many lawsuits failed on standing or merits, and recounts/audits in key states did not flip electors. They still argue some pandemic rule changes deserved more sunlight — without leaping to nationwide machine theft.",
       "believers": "Believers say statistical impossibilities + suppressed evidence + Big Tech censorship equal a stolen election.",
       "on_record": "On the record: Biden won the certified Electoral College; Trump and allies filed numerous lawsuits with mixed procedural outcomes; some states conducted audits/recounts; Jan 6, 2021 breach of the Capitol led to many federal prosecutions. DOJ has election-infrastructure materials in public archives.",
       "unanswered": [
@@ -1108,12 +1127,12 @@
         {
           "title": "Gain-of-function funding",
           "to": "bilderberg",
-          "blurb": "Who funded what \u2014 FOIA and grant trails."
+          "blurb": "Who funded what — FOIA and grant trails."
         },
         {
           "title": "Policy power",
           "to": "fed",
-          "blurb": "Emergency powers, pharma, and money \u2014 separate from origin."
+          "blurb": "Emergency powers, pharma, and money — separate from origin."
         }
       ],
       "bunk": "Believers say SARS-CoV-2 leaked from a lab (accidentally or worse), that early dismissal was political, and that gain-of-function research is the smoking gun.",
@@ -1180,7 +1199,7 @@
       ]
     },
     "chemtrails": {
-      "hook": "Contrails vs 'chemtrails' \u2014 weather, geoengineering patents, and sky-watching communities.",
+      "hook": "Contrails vs 'chemtrails' — weather, geoengineering patents, and sky-watching communities.",
       "paths": [
         {
           "title": "Contrail physics",
@@ -1198,7 +1217,7 @@
           "blurb": "Overlapping online communities."
         }
       ],
-      "bunk": "Believers say persistent sky grids are deliberate chemical/biological spraying for weather control, population control, or mind influence \u2014 not ordinary contrails.",
+      "bunk": "Believers say persistent sky grids are deliberate chemical/biological spraying for weather control, population control, or mind influence — not ordinary contrails.",
       "debunk": "Skeptics say persistent contrails are ice crystals from engine exhaust in cold humid air, documented for decades; they note geoengineering is mostly proposals/models, not proof of a secret global spray program. They still say governments should be transparent about climate-intervention research.",
       "believers": "Believers say patents, tanker flight paths, and soil tests prove spraying.",
       "on_record": "On the record: Contrails are a documented aviation phenomenon. Solar geoengineering appears in academic and policy literature as proposed research. 'Chemtrail' as a secret mass-spray program remains a community claim rather than a published operational program with primary-document proof.",
@@ -1271,10 +1290,10 @@
           "blurb": "People connect behavioral programs to larger Cold War maps."
         }
       ],
-      "bunk": "Believers say MKUltra never ended \u2014 it just rebranded \u2014 and that modern media/tech is mass behavioral control descended from those programs.",
+      "bunk": "Believers say MKUltra never ended — it just rebranded — and that modern media/tech is mass behavioral control descended from those programs.",
       "debunk": "Skeptics say the historical program is documented and ugly enough; leaps to 'every ad algorithm is MKUltra' erase the specific archival record. They urge reading the hearing record before the TikTok version.",
       "believers": "Believers say unwitting dosing and destroyed files prove you can't trust official 'it ended' dates.",
-      "on_record": "On the record: MKUltra was a CIA program (~1953\u20131960s) funding behavioral modification research including drugs; many files were destroyed in 1973; Senate hearings in the 1970s documented the program. Unwitting testing on persons in the U.S. was later discontinued after IG review.",
+      "on_record": "On the record: MKUltra was a CIA program (~1953–1960s) funding behavioral modification research including drugs; many files were destroyed in 1973; Senate hearings in the 1970s documented the program. Unwitting testing on persons in the U.S. was later discontinued after IG review.",
       "unanswered": [
         "What was permanently lost in the 1973 destruction?",
         "Which related compartmented programs stayed outside the hearing record?"
@@ -1354,7 +1373,7 @@
         }
       ],
       "bunk": "Believers say Area 51 stores alien craft/bodies and reverse-engineers non-human tech.",
-      "debunk": "Skeptics say the base's documented job was classified aircraft; secrecy + desert lights explain most folklore. They note official acknowledgments of the site came late, which fed suspicion \u2014 without proving aliens.",
+      "debunk": "Skeptics say the base's documented job was classified aircraft; secrecy + desert lights explain most folklore. They note official acknowledgments of the site came late, which fed suspicion — without proving aliens.",
       "believers": "Believers say whistleblowers and overlapping UAP testimony point here.",
       "on_record": "On the record: Area 51 is a real detachment of Edwards AFB used for classified aviation programs; CIA history materials discuss U-2 and related secrecy. Public UFO folklore around the site is extensive. Official alien-craft inventories have not been released.",
       "unanswered": [
@@ -1362,7 +1381,7 @@
         "How many historic UFO flaps were misidentified test flights?"
       ],
       "talk": [
-        "If the government lied about the base existing, what else might they lie about \u2014 and what does that not prove?"
+        "If the government lied about the base existing, what else might they lie about — and what does that not prove?"
       ],
       "primary": [
         {
@@ -1420,9 +1439,9 @@
       "hook": "Footprints, blurry film, and a North American folklore industry with zero type specimen in a museum drawer.",
       "paths": [
         {
-          "title": "Patterson\u2013Gimlin film",
+          "title": "Patterson–Gimlin film",
           "to": null,
-          "blurb": "1967 classic \u2014 hoax or holy grail?"
+          "blurb": "1967 classic — hoax or holy grail?"
         },
         {
           "title": "Indigenous + settler lore",
@@ -1438,9 +1457,9 @@
       "bunk": "Believers say a relict hominid persists in remote forests; they cite footprint casts, hair samples, and witness maps.",
       "debunk": "Skeptics say bears, hoaxes, and pareidolia explain the data set; they note the absence of bodies, bones, or clear DNA accepted by mainstream zoology.",
       "believers": "Believers say the creature is rare, intelligent, and avoids leaving obvious remains.",
-      "on_record": "On the record: Bigfoot/Sasquatch is a widespread folklore and cryptozoology topic; no confirmed scientific type specimen is recognized by mainstream zoology. The Patterson\u2013Gimlin film (1967) remains debated. Tourism and media around the topic are real industries.",
+      "on_record": "On the record: Bigfoot/Sasquatch is a widespread folklore and cryptozoology topic; no confirmed scientific type specimen is recognized by mainstream zoology. The Patterson–Gimlin film (1967) remains debated. Tourism and media around the topic are real industries.",
       "unanswered": [
-        "What would count as decisive evidence for you \u2014 a body, clear DNA, or multi-sensor footage?"
+        "What would count as decisive evidence for you — a body, clear DNA, or multi-sensor footage?"
       ],
       "talk": [
         "Why do cryptids thrive in the same decades as better cameras?"
@@ -1491,7 +1510,7 @@
       ]
     },
     "flatearth": {
-      "hook": "A modern revival arguing ice walls, NASA fakery, and globe 'indoctrination' \u2014 with its own film scene.",
+      "hook": "A modern revival arguing ice walls, NASA fakery, and globe 'indoctrination' — with its own film scene.",
       "paths": [
         {
           "title": "200 Proofs / Dubay-style lists",
@@ -1506,7 +1525,7 @@
         {
           "title": "Moon-hoax crossover",
           "to": "moon",
-          "blurb": "If the globe is fake, Apollo goes with it \u2014 say some communities."
+          "blurb": "If the globe is fake, Apollo goes with it — say some communities."
         },
         {
           "title": "Trust in institutions",
@@ -1523,7 +1542,7 @@
         "How much of the movement is cosmology vs institutional distrust?"
       ],
       "talk": [
-        "Watch a believer proof-list and a globe-defense explainer back-to-back \u2014 what felt like evidence vs rhetoric?"
+        "Watch a believer proof-list and a globe-defense explainer back-to-back — what felt like evidence vs rhetoric?"
       ],
       "primary": [
         {
@@ -1540,22 +1559,22 @@
       "dig": [
         {
           "kind": "Believers",
-          "title": "200 Proofs Earth is Not a Spinning Ball \u2014 BitChute",
+          "title": "200 Proofs Earth is Not a Spinning Ball — BitChute",
           "url": "https://www.bitchute.com/video/XvAwLc7FZm2z"
         },
         {
           "kind": "Believers",
-          "title": "200 Proofs (2024 remaster) \u2014 BitChute",
+          "title": "200 Proofs (2024 remaster) — BitChute",
           "url": "https://www.bitchute.com/video/JF1EmPHTppdb/"
         },
         {
           "kind": "Believers",
-          "title": "200 Proofs remaster \u2014 Odysee mirror",
+          "title": "200 Proofs remaster — Odysee mirror",
           "url": "https://odysee.com/@rebel_lyon_369:9/200ProofsEarthisNotaSpinningBall2024RemasteredEdition:f"
         },
         {
           "kind": "Believers",
-          "title": "Eric Dubay channel \u2014 Odysee",
+          "title": "Eric Dubay channel — Odysee",
           "url": "https://odysee.com/@EricDubay:c"
         },
         {
@@ -1570,7 +1589,7 @@
         },
         {
           "kind": "Independent",
-          "title": "Behind the Curve full film \u2014 Tubi",
+          "title": "Behind the Curve full film — Tubi",
           "url": "https://tubitv.com/movies/100000939/behind-the-curve"
         }
       ],
@@ -1593,7 +1612,7 @@
       ]
     },
     "birds": {
-      "hook": "A satire movement claiming birds were replaced by drone spies \u2014 that half the internet treats as half-true vibes.",
+      "hook": "A satire movement claiming birds were replaced by drone spies — that half the internet treats as half-true vibes.",
       "paths": [
         {
           "title": "Origin as satire",
@@ -1611,8 +1630,8 @@
           "blurb": "Shared meme ecosystems."
         }
       ],
-      "bunk": "In-character believers say the U.S. government exterminated birds 1959\u20132001 and replaced them with surveillance drones.",
-      "debunk": "Out-of-character: organizers and coverage describe Birds Aren't Real as satirical activism about misinformation \u2014 which doesn't stop people from quoting it sincerely.",
+      "bunk": "In-character believers say the U.S. government exterminated birds 1959–2001 and replaced them with surveillance drones.",
+      "debunk": "Out-of-character: organizers and coverage describe Birds Aren't Real as satirical activism about misinformation — which doesn't stop people from quoting it sincerely.",
       "believers": "In-character: every pigeon is a camera. Out-of-character believers in surveillance overreach use it as metaphor.",
       "on_record": "On the record: Birds Aren't Real is a documented satirical conspiracy-theory movement/brand with rallies, merch, and press coverage. Actual birds remain biologically real.",
       "unanswered": [
@@ -1668,7 +1687,7 @@
       ]
     },
     "rothschilds": {
-      "hook": "A real European banking family whose name got glued to two centuries of 'secret rulers of the world' pamphlets \u2014 including forged ones.",
+      "hook": "A real European banking family whose name got glued to two centuries of 'secret rulers of the world' pamphlets — including forged ones.",
       "paths": [
         {
           "title": "Actual banking history",
@@ -1688,11 +1707,11 @@
         {
           "title": "Central banks today",
           "to": "fed",
-          "blurb": "Keep the critique on institutions and statutes \u2014 not ethnicity."
+          "blurb": "Keep the critique on institutions and statutes — not ethnicity."
         }
       ],
-      "bunk": "Believers in the classic theory say a small set of banking dynasties (often naming the Rothschilds) covertly control nations through debt and central banks. (We state this as what the theory claims about banking power \u2014 not as a claim about any ethnic or religious group.)",
-      "debunk": "Historians note the Rothschilds were influential 19th-century bankers, and also that conspiracy literature repeatedly transformed that history into a fantasy of total world control. The Protocols of the Elders of Zion is a documented forgery that fueled antisemitic versions of 'banker' myths. Critiques of central banking and financial concentration can be made about laws, institutions, and incentives without recycling ethnic scapegoats. If a take needs a whole people as the villain, it's not analysis \u2014 it's an old hate script.",
+      "bunk": "Believers in the classic theory say a small set of banking dynasties (often naming the Rothschilds) covertly control nations through debt and central banks. (We state this as what the theory claims about banking power — not as a claim about any ethnic or religious group.)",
+      "debunk": "Historians note the Rothschilds were influential 19th-century bankers, and also that conspiracy literature repeatedly transformed that history into a fantasy of total world control. The Protocols of the Elders of Zion is a documented forgery that fueled antisemitic versions of 'banker' myths. Critiques of central banking and financial concentration can be made about laws, institutions, and incentives without recycling ethnic scapegoats. If a take needs a whole people as the villain, it's not analysis — it's an old hate script.",
       "believers": "Believers focus on dynasty + debt + war financing as the control mechanism.",
       "on_record": "On the record: The Rothschild banking family is a real historical financial dynasty. Central banks (including the U.S. Federal Reserve System) are real institutions created by statute. The Protocols of the Elders of Zion is a proven plagiarism/forgery used historically to promote antisemitic conspiracy theories. Modern 'globalist banker' memes often remix these older tropes.",
       "unanswered": [
@@ -1716,7 +1735,7 @@
         },
         {
           "kind": "Primary document",
-          "title": "Federal Reserve \u2014 About the Fed",
+          "title": "Federal Reserve — About the Fed",
           "url": "https://www.federalreserve.gov/aboutthefed.htm"
         }
       ],
@@ -1788,12 +1807,12 @@
         "How should emergency lending be overseen in the next crisis?"
       ],
       "talk": [
-        "What problem was the Fed created to solve \u2014 and did it trade that for new ones?"
+        "What problem was the Fed created to solve — and did it trade that for new ones?"
       ],
       "primary": [
         {
           "kind": "Primary document",
-          "title": "Federal Reserve \u2014 About the Fed",
+          "title": "Federal Reserve — About the Fed",
           "url": "https://www.federalreserve.gov/aboutthefed.htm"
         },
         {
@@ -1805,7 +1824,7 @@
       "dig": [
         {
           "kind": "Believers",
-          "title": "Banking-dynasty theories (read carefully \u2014 see antisemitism warning on that node)",
+          "title": "Banking-dynasty theories (read carefully — see antisemitism warning on that node)",
           "url": "#rothschilds"
         },
         {
@@ -1839,7 +1858,7 @@
       ]
     },
     "bilderberg": {
-      "hook": "A real invite-only conference of elites \u2014 perfect inkblot for 'they run the world' maps.",
+      "hook": "A real invite-only conference of elites — perfect inkblot for 'they run the world' maps.",
       "paths": [
         {
           "title": "What the meeting is",
@@ -1857,7 +1876,7 @@
           "blurb": "Finance ministers + CEOs in one hotel."
         }
       ],
-      "bunk": "Believers say Bilderberg and WEF set global policy in secret \u2014 pandemics, wars, currency \u2014 while elections are theater.",
+      "bunk": "Believers say Bilderberg and WEF set global policy in secret — pandemics, wars, currency — while elections are theater.",
       "debunk": "Skeptics say networking among powerful people is real and often undemocratic in spirit, but a hotel conference is not a world legislature; many policies attributed to Bilderberg have boring public legislative histories. Secrecy still deserves journalism.",
       "believers": "Believers say attendee lists + Chatham House rules = the smoking gun of coordinated rule.",
       "on_record": "On the record: Bilderberg Meetings have occurred for decades with published attendee lists in many years; discussions are private. The World Economic Forum is a separate real organization known for Davos meetings and public-private initiatives. Neither publishes binding global statutes.",

@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  var dataUrl = 'data/rabbit-hole-map.json';
+  var dataUrl = 'data/rabbit-hole-map.json?v=labels';
   var stage = document.getElementById('rh-stage');
   var panel = document.getElementById('rh-panel');
   var list = document.getElementById('rh-list');
@@ -57,7 +57,7 @@
   function buildMap() {
     var NS = 'http://www.w3.org/2000/svg';
     while (stage.firstChild) stage.removeChild(stage.firstChild);
-    var vb = '0 0 1000 600';
+    var vb = '0 0 1000 640';
     stage.setAttribute('viewBox', vb);
     stage.setAttribute('role', 'img');
     stage.setAttribute('aria-label', 'Corkboard rabbit hole map. Drag to pan, pinch or scroll to zoom, tap a node to dig.');
@@ -69,7 +69,7 @@
     // cork tint rect
     var bg = document.createElementNS(NS, 'rect');
     bg.setAttribute('x', 0); bg.setAttribute('y', 0);
-    bg.setAttribute('width', 1000); bg.setAttribute('height', 600);
+    bg.setAttribute('width', 1000); bg.setAttribute('height', 640);
     bg.setAttribute('fill', '#6b4330');
     gWorld.appendChild(bg);
 
@@ -94,7 +94,7 @@
       gWorld.appendChild(path);
     });
 
-    // nodes
+    // nodes — pin + always-visible cream paper tag
     state.data.nodes.forEach(function (n) {
       var g = document.createElementNS(NS, 'g');
       g.setAttribute('class', 'rh-node');
@@ -104,26 +104,49 @@
       g.setAttribute('aria-label', n.label);
       var c = document.createElementNS(NS, 'circle');
       c.setAttribute('cx', n.x); c.setAttribute('cy', n.y);
-      c.setAttribute('r', 28);
+      c.setAttribute('r', 18);
+      // red pushpin head
+      var pin = document.createElementNS(NS, 'circle');
+      pin.setAttribute('class', 'rh-pin');
+      pin.setAttribute('cx', n.x); pin.setAttribute('cy', n.y);
+      pin.setAttribute('r', 6);
+
+      var tagLabel = n.short || n.label;
+      var lines = wrapLabel(tagLabel, 14);
+      var longest = lines.reduce(function (m, s) { return Math.max(m, s.length); }, 0);
+      var tw = Math.max(72, Math.min(210, longest * 11 + 28));
+      var lineH = 18;
+      var th = 14 + lines.length * lineH;
+      var tagX = clamp(n.x - tw / 2, 4, 996 - tw);
+      var tagY = n.y + 22;
+      if (tagY + th > 636) tagY = Math.max(4, n.y - th - 22);
+
+      var shadow = document.createElementNS(NS, 'rect');
+      shadow.setAttribute('class', 'rh-tag-shadow');
+      shadow.setAttribute('x', tagX + 3); shadow.setAttribute('y', tagY + 3);
+      shadow.setAttribute('width', tw); shadow.setAttribute('height', th);
+      shadow.setAttribute('rx', 3);
+
+      var tag = document.createElementNS(NS, 'rect');
+      tag.setAttribute('class', 'rh-tag');
+      tag.setAttribute('x', tagX); tag.setAttribute('y', tagY);
+      tag.setAttribute('width', tw); tag.setAttribute('height', th);
+      tag.setAttribute('rx', 3);
+
       var t = document.createElementNS(NS, 'text');
-      t.setAttribute('x', n.x); t.setAttribute('y', n.y + 46);
-      // wrap long labels
-      var label = n.label;
-      if (label.length > 14) {
-        var parts = label.split(' ');
-        var mid = Math.ceil(parts.length / 2);
-        t.textContent = '';
-        var t1 = document.createElementNS(NS, 'tspan');
-        t1.setAttribute('x', n.x); t1.setAttribute('dy', 0);
-        t1.textContent = parts.slice(0, mid).join(' ');
-        var t2 = document.createElementNS(NS, 'tspan');
-        t2.setAttribute('x', n.x); t2.setAttribute('dy', 14);
-        t2.textContent = parts.slice(mid).join(' ');
-        t.appendChild(t1); t.appendChild(t2);
-      } else {
-        t.textContent = label;
-      }
-      g.appendChild(c); g.appendChild(t);
+      t.setAttribute('class', 'rh-tag-text');
+      t.setAttribute('x', tagX + tw / 2);
+      t.setAttribute('y', tagY + 12 + lineH * 0.72);
+      t.setAttribute('text-anchor', 'middle');
+      lines.forEach(function (line, i) {
+        var tsp = document.createElementNS(NS, 'tspan');
+        tsp.setAttribute('x', tagX + tw / 2);
+        tsp.setAttribute('dy', i === 0 ? 0 : lineH);
+        tsp.textContent = line;
+        t.appendChild(tsp);
+      });
+
+      g.appendChild(shadow); g.appendChild(tag); g.appendChild(c); g.appendChild(pin); g.appendChild(t);
       g.addEventListener('click', function (ev) {
         ev.stopPropagation();
         selectNode(n.id, true);
@@ -178,7 +201,7 @@
         // convert screen delta roughly into svg units
         var rect = stage.getBoundingClientRect();
         state.tx += dx * (1000 / rect.width);
-        state.ty += dy * (600 / rect.height);
+        state.ty += dy * (640 / rect.height);
         applyTransform();
       }
     });
@@ -202,6 +225,17 @@
     return Math.sqrt(dx * dx + dy * dy);
   }
   function clamp(v, a, b) { return Math.max(a, Math.min(b, v)); }
+
+  function wrapLabel(label, maxChars) {
+    if (!label || label.length <= maxChars) return [label];
+    var parts = label.split(' ');
+    if (parts.length === 1) {
+      return [label.slice(0, maxChars), label.slice(maxChars)];
+    }
+    var mid = Math.ceil(parts.length / 2);
+    return [parts.slice(0, mid).join(' '), parts.slice(mid).join(' ')];
+  }
+
 
   function highlight(id) {
     var neigh = neighbors(id);
