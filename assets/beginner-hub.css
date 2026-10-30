@@ -41,3 +41,7 @@
 .quiz-q label{display:block;margin:8px 0;cursor:pointer}
 .result-box{max-width:640px;margin:24px auto;padding:24px}
 #hub-cards .card{text-decoration:none}
+
+.political-disclaimer{font-size:.92rem;line-height:1.45}
+.political-section{scroll-margin-top:80px}
+.rabbit-node.political-section{box-shadow:6px 6px 0 #111}
