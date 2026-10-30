@@ -8,6 +8,7 @@
   --red:#e11d26;
   --red-deep:#9e1015;
   --red-soft:#ff3b3f;
+  --red-on-dark:#ff4d55; /* AA body text on near-black */
   --bg:#0b0b0b;
   --bg-2:#141414;
   --bg-3:#1a1a1a;
@@ -76,7 +77,7 @@ h3{
   text-transform:none;
   line-height:1.3;
 }
-.r{color:var(--red)}
+.r{color:var(--red-on-dark)}
 .wrap{max-width:var(--w);margin:0 auto;padding:0 var(--pad)}
 .skip{position:absolute;left:-999px}
 .skip:focus{left:8px;top:8px;background:#fff;color:#000;padding:8px;z-index:9;border-radius:4px}
@@ -233,6 +234,20 @@ section:first-of-type{border-top:0}
   text-align:center;
   letter-spacing:.04em;
 }
+/* figcaption readable on cream/paper surfaces */
+.paper figcaption,
+.cork figcaption,
+figure.paper figcaption,
+.hero-mock.paper figcaption,
+figcaption{
+  color:var(--text-dim);
+}
+.paper figure figcaption,
+figure[style*="background"] figcaption,
+.paper .hero-mock figcaption{
+  color:#333 !important;
+}
+
 @media(max-width:799px){
   .hero{padding:48px 0 56px}
   .hero h1{max-width:none;font-size:clamp(2.4rem,11vw,3.4rem)}
@@ -329,6 +344,22 @@ section.cork{
   border:1.5px solid rgba(255,255,255,.35);
 }
 .btn.alt:hover{background:rgba(255,255,255,.06);border-color:#fff}
+/* Alt buttons on cream/paper need dark ink (default alt is white-on-transparent for dark bands) */
+.paper .btn.alt,
+.cork .theory-box .btn.alt,
+.theory-box .btn.alt,
+.paper .btn.sm.alt,
+.theory-box .btn.sm.alt{
+  color:#111 !important;
+  border-color:#111 !important;
+  background:transparent !important;
+}
+.paper .btn.alt:hover,
+.theory-box .btn.alt:hover{
+  background:rgba(0,0,0,.06) !important;
+  color:#111 !important;
+}
+
 .btn.sm{font-size:.78rem;padding:10px 14px;letter-spacing:.08em;box-shadow:none}
 .btn.sm:hover{box-shadow:0 6px 16px rgba(225,29,38,.3)}
 .btn.big{font-size:1.15rem;padding:16px 28px;letter-spacing:.12em}
@@ -416,7 +447,7 @@ section.cork{
 /* ===== Stamps ===== */
 .stamp{
   display:inline-block;
-  border:2px solid var(--red);color:var(--red);
+  border:2px solid var(--red-on-dark);color:var(--red-on-dark);
   font-family:var(--font-accent);
   font-size:1rem;letter-spacing:.14em;
   padding:2px 12px;transform:rotate(-5deg);
@@ -424,7 +455,7 @@ section.cork{
   border-radius:2px;
 }
 .stamp.big{font-size:1.8rem}
-.cork .stamp,.paper .stamp{background:transparent;color:var(--red);border-color:var(--red)}
+.cork .stamp,.paper .stamp{background:transparent;color:var(--red-on-dark);border-color:var(--red-on-dark)}
 .stamp{display:none}
 .folder .stamp,.theory-box .stamp,.cork .folder .stamp{display:inline-block}
 .redact{background:#000;color:#000;padding:0 .3em;user-select:none}
@@ -476,7 +507,7 @@ section.cork{
   border:1px solid var(--line);
   border-left-width:4px;
 }
-.entry dt{font-family:var(--font-display);text-transform:uppercase;color:var(--red);margin-top:12px;letter-spacing:.06em}
+.entry dt{font-family:var(--font-display);text-transform:uppercase;color:var(--red-on-dark);margin-top:12px;letter-spacing:.06em}
 .entry dd{margin:2px 0 0;color:var(--text-dim)}
 .rating{letter-spacing:.2em;font-size:1.2rem}
 .howto{background:rgba(255,255,255,.04);padding:14px;border:1px dashed rgba(255,255,255,.2);margin:16px 0;border-radius:8px}
@@ -584,7 +615,30 @@ footer nav a{
   padding:4px 0;border-bottom:1px solid transparent;
 }
 footer a:hover{color:#fff;border-bottom-color:var(--red)}
-.disclosure{font-size:.8rem;opacity:.75;max-width:70ch;line-height:1.5}
+.disclosure{font-size:.8rem;opacity:1;max-width:70ch;line-height:1.5;color:var(--text-dim)}
+/* Yellow/cream/white callout bars (often inline) need dark ink + dark links */
+p.disclosure[style*="background"],
+p[style*="background:#fff3"],
+p[style*="background: #fff3"],
+p[style*="background:#fff"],
+p[style*="background: #fff"],
+p[style*="background:rgba(255"],
+p[style*="background: rgba(255"]{
+  color:#111 !important;
+  opacity:1 !important;
+}
+p.disclosure[style*="background"] strong,
+p.disclosure[style*="background"] em,
+p[style*="background:#fff3"] a:not(.btn),
+p[style*="background: #fff3"] a:not(.btn),
+p[style*="background:#fff"] a:not(.btn),
+p[style*="background: #fff"] a:not(.btn),
+p[style*="background:rgba(255"] a:not(.btn),
+p[style*="background: rgba(255"] a:not(.btn),
+p[style*="color:#111"] a:not(.btn),
+p[style*="color: #111"] a:not(.btn){
+  color:#111 !important;
+}
 .friends{margin:16px 0;opacity:.9}
 .friends a{color:#fff;text-decoration:underline}
 .preview-flag{
@@ -644,6 +698,11 @@ footer a:hover{color:#fff;border-bottom-color:var(--red)}
 /* readable cards on dark sections */
 .cork .card{background:#16161a!important;border:1px solid #2a2a30!important;color:#eee!important}.cork .card h3{color:#fff!important}.cork .card .why,.cork .card p{color:#cfcfd4!important}
 .paper .card{background:#16161a!important;border:1px solid #2a2a30!important;color:#eee!important}.paper .card h3{color:#fff!important}.paper .card p{color:#cfcfd4!important}
+.black .card{background:#16161a!important;border:1px solid #2a2a30!important;color:#eee!important}
+.black .card h3{color:#fff!important}
+.black .card .why,.black .card p{color:#cfcfd4!important}
+.black .card .price{color:#fff!important}
+
 
 
 /* X follow */
@@ -735,4 +794,22 @@ footer a:hover{color:#fff;border-bottom-color:var(--red)}
   .shop-store-block{padding:56px 24px 64px}
   .tour-grid{gap:28px}
   #printify-store,#totally-real-tour{padding:64px 0}
+}
+
+/* Readable red labels on near-black (Weird News takes, code, etc.) */
+.take strong,
+strong[style*="var(--red)"],
+code.r, span.r{
+  color:var(--red-on-dark) !important;
+}
+
+/* Cream pin-grid / paper figures: dark captions */
+.pin-grid figcaption,
+.pin-grid figure figcaption,
+figure figcaption{
+  color:#222;
+}
+.cork .pin-grid figcaption,
+.paper .pin-grid figcaption{
+  color:#111 !important;
 }

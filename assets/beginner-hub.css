@@ -273,50 +273,65 @@ fieldset.quiz-q label,
   border-color:#111!important;
 }
 
-/* Hub tool cards (dark band): keep card ink dark on white */
+/* Dark product/tool cards on cork/paper bands.
+   style.css paints .cork/.paper .card as near-black (#16161a).
+   Do NOT force dark ink here — that made titles invisible. */
+.cork .card,
+.paper .card,
 .cork #hub-cards .card,
-.cork #hub-cards .card h3,
-.cork #hub-cards .card .why,
-.cork #hub-cards .card p,
-#hub-cards .card{
-  color:#111!important;
-  text-decoration:none;
-}
-.cork #hub-cards .card .why,
-#hub-cards .card .why{color:#333!important;opacity:1!important}
-.cork #hub-cards .card h3,
-#hub-cards .card h3{color:#111!important}
-
-/* Map / pack cards on dark */
+.paper #hub-cards .card,
+#hub-cards .card,
 .map-list .card,
 .pack-row .card,
+.cork .grid > .card{
+  color:#eee!important;
+  text-decoration:none;
+}
+.cork .card h3,
+.paper .card h3,
+.cork #hub-cards .card h3,
+#hub-cards .card h3,
 .map-list .card h3,
 .pack-row .card h3,
+.cork .grid > .card h3{
+  color:#fff!important;
+  text-shadow:none!important;
+}
+.cork .card .why,
+.paper .card .why,
+.cork .card p,
+.paper .card p,
+.cork #hub-cards .card .why,
+#hub-cards .card .why,
 .map-list .card .why,
 .pack-row .card .why,
 .map-list .card p,
-.pack-row .card p{
-  color:#111!important;
+.pack-row .card p,
+.cork .grid > .card .why,
+.cork .grid > .card p{
+  color:#cfcfd4!important;
+  opacity:1!important;
 }
-.map-list .card .why,
-.pack-row .card .why{color:#333!important;opacity:1!important}
 .map-list .card .btn,
-.pack-row .card .btn{
+.pack-row .card .btn,
+.cork .grid > .card .btn,
+#hub-cards .card .btn{
   background:var(--red,#e11d26)!important;
   color:#fff!important;
 }
 
-/* Starter list / misc cream-adjacent cards in cork */
-.cork .grid > .card h3,
-.cork .grid > .card .why,
-.cork .grid > .card p,
-.cork .grid > .card{
+/* Political / yellow callouts must stay fully opaque dark ink */
+.political-disclaimer,
+.disclosure.political-disclaimer,
+p.disclosure.political-disclaimer{
   color:#111!important;
+  opacity:1!important;
 }
-.cork .grid > .card .why{color:#333!important;opacity:1!important}
-.cork .grid > .card .btn{
-  background:var(--red,#e11d26)!important;
-  color:#fff!important;
+.political-disclaimer strong,
+.political-disclaimer em,
+.disclosure.political-disclaimer strong{
+  color:#111!important;
+  opacity:1!important;
 }
 
 .rabbit-map{display:grid;gap:18px;margin-top:24px}
