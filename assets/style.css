@@ -435,7 +435,7 @@ section.cork{
   font-family:var(--font-accent);
   font-size:1rem;letter-spacing:.14em;
   padding:2px 12px;transform:rotate(-5deg);
-  text-transform:uppercase;opacity:.9;background:transparent;
+  text-transform:uppercase;opacity:1;background:transparent;
   border-radius:2px;
 }
 .stamp.big{font-size:1.8rem}
@@ -809,4 +809,30 @@ code:not(pre code){
 .black .card figcaption,
 figure.card figcaption{
   color:#cfcfd4 !important;
+}
+
+/* Light-bg leads/callouts inside dark cork/paper bands */
+.cork .lead[style*="background"],
+.paper .lead[style*="background"],
+.cork p.lead[style*="background"],
+.paper p.lead[style*="background"],
+.cork p[style*="background:rgba(255"],
+.paper p[style*="background:rgba(255"],
+.cork p[style*="background:#fff"],
+.paper p[style*="background:#fff"]{
+  color:#111 !important;
+  opacity:1 !important;
+}
+/* Red band copy */
+.redbg, .redbg p, .redbg .lead, .redbg h2, .redbg h3{
+  color:#fff !important;
+}
+.redbg .lead{color:#fff !important; opacity:1 !important;}
+/* Cream theory-box stamps: dark red, not neon */
+.theory-box .stamp,
+.cork .theory-box .stamp{
+  color:#9b1219 !important;
+  border-color:#9b1219 !important;
+  opacity:1 !important;
+  background:var(--paper) !important;
 }
