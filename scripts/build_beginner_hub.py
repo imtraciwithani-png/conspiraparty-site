@@ -57,7 +57,7 @@ def footer():
     links = ''.join(f'<li><a href="{h}">{l}</a></li>' for h,l in FOOTER_LINKS)
     return f'''<footer><div class="wrap"><nav aria-label="Footer"><ul>{links}</ul></nav>
 <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases. Some links on this site are affiliate links, which means we may earn a small commission at no extra cost to you.</p>
-<p class="x-follow"><a href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow @conspiraparty on X</a></p>
+<p class="x-follow"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a></p>
 <p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p></div></footer>
 <a class="sticky-cta" href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>
 <script src="assets/site.js" defer></script>
@@ -82,7 +82,7 @@ def signup(form_id='bh'):
 <button class="btn alt" type="submit">Send My Free Badge</button>
 <span class="notice" role="status" aria-live="polite"></span>
 </form>
-<p class="x-follow-inline"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow @conspiraparty on X</a></p>
+<p class="x-follow-inline"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a></p>
 </div></section>'''
 
 HUB = '''<p class="beginner-hub-strip">
