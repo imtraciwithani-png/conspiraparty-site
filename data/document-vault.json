@@ -1,0 +1,509 @@
+{
+  "generated": "2026-10-30",
+  "mission": "Primary documents and declassified files. Dig in yourself. No verdicts from us.",
+  "docs": [
+    {
+      "id": "jfk-nara",
+      "title": "JFK Assassination Records Collection",
+      "summary": "National Archives collection of assassination records, including waves of releases under the JFK Records Act. Search finding aids and released PDFs here.",
+      "date": "1992\u2013present",
+      "agency": "National Archives",
+      "tags": [
+        "JFK",
+        "assassination",
+        "NARA"
+      ],
+      "topics": [
+        "jfk",
+        "deepstate"
+      ],
+      "url": "https://www.archives.gov/research/jfk",
+      "kind": "Primary document"
+    },
+    {
+      "id": "jfk-2025",
+      "title": "JFK Records \u2014 March 2025 release page",
+      "summary": "NARA page covering the March 18, 2025 public release of remaining assassination records previously withheld.",
+      "date": "2025-03-18",
+      "agency": "National Archives",
+      "tags": [
+        "JFK",
+        "releases"
+      ],
+      "topics": [
+        "jfk"
+      ],
+      "url": "https://www.archives.gov/research/jfk/release-2025",
+      "kind": "Primary document"
+    },
+    {
+      "id": "mkultra-senate",
+      "title": "Church Committee Book II \u2014 Domestic intelligence abuses (AARC)",
+      "summary": "Assassination Archives host of Church Committee Book II materials covering domestic intelligence abuses, including context for MKUltra-era programs. Senate PDF hosting often bot-blocks; this archive mirrors the record.",
+      "date": "1977",
+      "agency": "Church Committee / AARC",
+      "tags": [
+        "MKUltra",
+        "CIA",
+        "Church Committee"
+      ],
+      "topics": [
+        "mkultra",
+        "deepstate"
+      ],
+      "url": "https://www.aarclibrary.org/publib/church/reports/book2/contents.htm",
+      "kind": "Independent"
+    },
+    {
+      "id": "mkultra-cia",
+      "title": "CIA Reading Room \u2014 MKUltra-related collections",
+      "summary": "CIA FOIA Reading Room search hub. Use collection/search tools for MKUltra, ARTICHOKE, and related behavioral programs.",
+      "date": "1950s\u20131970s",
+      "agency": "CIA",
+      "tags": [
+        "MKUltra",
+        "CIA",
+        "FOIA"
+      ],
+      "topics": [
+        "mkultra"
+      ],
+      "url": "https://www.cia.gov/readingroom/",
+      "kind": "Primary document"
+    },
+    {
+      "id": "family-jewels",
+      "title": "CIA Family Jewels collection",
+      "summary": "Internal CIA compilation of potentially illegal activities (wiretaps, plots, domestic ops). Includes Project MOCKINGBIRD telephone intercept notes often confused with the broader 'Mockingbird' lore.",
+      "date": "1973 (released later)",
+      "agency": "CIA",
+      "tags": [
+        "Family Jewels",
+        "Mockingbird",
+        "CIA"
+      ],
+      "topics": [
+        "deepstate",
+        "mkultra"
+      ],
+      "url": "https://www.cia.gov/readingroom/collection/family-jewels",
+      "kind": "Primary document"
+    },
+    {
+      "id": "church-committee",
+      "title": "Church Committee overview (U.S. Senate)",
+      "summary": "Senate overview of the 1975\u201376 investigation into intelligence abuses: COINTELPRO, assassination plots, domestic surveillance, and more. Gateway to reports and hearing context.",
+      "date": "1975\u20131976",
+      "agency": "U.S. Senate",
+      "tags": [
+        "Church Committee",
+        "COINTELPRO",
+        "surveillance"
+      ],
+      "topics": [
+        "deepstate",
+        "mkultra"
+      ],
+      "url": "https://www.senate.gov/about/powers-procedures/investigations/church-committee.htm",
+      "kind": "Primary document"
+    },
+    {
+      "id": "cointelpro-vault",
+      "title": "FBI Vault \u2014 COINTELPRO",
+      "summary": "FBI Vault file sets on COINTELPRO counterintelligence programs targeting domestic groups from the mid-1950s until exposure in 1971.",
+      "date": "1956\u20131971",
+      "agency": "FBI",
+      "tags": [
+        "COINTELPRO",
+        "FBI"
+      ],
+      "topics": [
+        "deepstate"
+      ],
+      "url": "https://vault.fbi.gov/cointel-pro",
+      "kind": "Primary document"
+    },
+    {
+      "id": "northwoods-nara",
+      "title": "Operation Northwoods \u2014 NARA catalog",
+      "summary": "Joint Chiefs memorandum proposing staged pretexts to justify invading Cuba (1962). Not carried out. Catalog entry for the record in the JFK Collection.",
+      "date": "1962",
+      "agency": "National Archives / JCS",
+      "tags": [
+        "Northwoods",
+        "Cuba",
+        "JCS"
+      ],
+      "topics": [
+        "jfk",
+        "deepstate"
+      ],
+      "url": "https://catalog.archives.gov/id/305036",
+      "kind": "Primary document"
+    },
+    {
+      "id": "northwoods-nsa-archive",
+      "title": "National Security Archive \u2014 Northwoods context",
+      "summary": "GWU National Security Archive page on the Joint Chiefs' pretexts-to-invade memo and related Cuba contingency planning.",
+      "date": "1962",
+      "agency": "National Security Archive",
+      "tags": [
+        "Northwoods",
+        "Cuba"
+      ],
+      "topics": [
+        "jfk"
+      ],
+      "url": "https://nsarchive.gwu.edu/NSAEBB/NSAEBB13/",
+      "kind": "Independent"
+    },
+    {
+      "id": "tonkin-nsa",
+      "title": "National Security Archive \u2014 Gulf of Tonkin / SIGINT press note",
+      "summary": "NSA declassification page for Gulf of Tonkin materials, including the historian review that the Aug 4, 1964 'second attack' SIGINT did not support the public claim.",
+      "date": "1964 / released 2005\u201306",
+      "agency": "National Security Archive",
+      "tags": [
+        "Gulf of Tonkin",
+        "Vietnam",
+        "SIGINT"
+      ],
+      "topics": [
+        "deepstate"
+      ],
+      "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB132/press20051201.htm",
+      "kind": "Independent"
+    },
+    {
+      "id": "tonkin-hanyok",
+      "title": "National Security Archive \u2014 Gulf of Tonkin Electronic Briefing Book",
+      "summary": "NSA Archive briefing book collecting declassified Gulf of Tonkin materials and press context for the Hanyok SIGINT study. Pair with Wikipedia overview.",
+      "date": "2001 (public later)",
+      "agency": "NSA",
+      "tags": [
+        "Gulf of Tonkin",
+        "NSA"
+      ],
+      "topics": [
+        "deepstate"
+      ],
+      "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB132/",
+      "kind": "Independent"
+    },
+    {
+      "id": "pentagon-papers",
+      "title": "Pentagon Papers \u2014 National Archives",
+      "summary": "DoD Vietnam study leaked by Daniel Ellsberg. NARA hosts the report volumes and research guidance.",
+      "date": "1967\u201369 / published 1971",
+      "agency": "National Archives / DoD",
+      "tags": [
+        "Pentagon Papers",
+        "Vietnam"
+      ],
+      "topics": [
+        "deepstate"
+      ],
+      "url": "https://www.archives.gov/research/pentagon-papers",
+      "kind": "Primary document"
+    },
+    {
+      "id": "aaro",
+      "title": "AARO \u2014 overview & pointers",
+      "summary": "Hub overview of the All-domain Anomaly Resolution Office with links out to DoD materials. Official aaro.mil often bot-blocks; use this plus House hearing docs.",
+      "date": "2022\u2013present",
+      "agency": "DoD / public overview",
+      "tags": [
+        "UAP",
+        "AARO",
+        "DoD"
+      ],
+      "topics": [
+        "uap",
+        "area51"
+      ],
+      "url": "https://en.wikipedia.org/wiki/All-domain_Anomaly_Resolution_Office",
+      "kind": "Independent"
+    },
+    {
+      "id": "aaro-historical",
+      "title": "AARO Historical Record Report \u2014 context hub",
+      "summary": "Public overview of AARO and its Historical Record Report Vol. 1 claims (no ET tech in reviewed holdings). Follow citations to the PDF when DoD hosting allows.",
+      "date": "2024-03",
+      "agency": "U.S. House",
+      "tags": [
+        "UAP",
+        "AARO"
+      ],
+      "topics": [
+        "uap",
+        "area51"
+      ],
+      "url": "https://en.wikipedia.org/wiki/All-domain_Anomaly_Resolution_Office",
+      "kind": "Independent"
+    },
+    {
+      "id": "uap-hearing-2023",
+      "title": "House UAP hearing \u2014 July 26, 2023 (Congress.gov)",
+      "summary": "House Oversight hearing with Grusch, Fravor, and Graves. Watch testimony and read the hearing record; separate sworn statements from later media spin.",
+      "date": "2023-07-26",
+      "agency": "U.S. House",
+      "tags": [
+        "UAP",
+        "hearing",
+        "Congress"
+      ],
+      "topics": [
+        "uap"
+      ],
+      "url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=116282",
+      "kind": "Primary document"
+    },
+    {
+      "id": "epstein-giuffre",
+      "title": "Giuffre v. Maxwell \u2014 court docket (CourtListener)",
+      "summary": "Public docket for the civil case that produced large unsealed document releases naming associates and flight-related materials. Court filings, not social posts.",
+      "date": "2015\u20132022",
+      "agency": "U.S. District Court (SDNY)",
+      "tags": [
+        "Epstein",
+        "Maxwell",
+        "court"
+      ],
+      "topics": [
+        "epstein"
+      ],
+      "url": "https://www.courtlistener.com/docket/4352958/giuffre-v-maxwell/",
+      "kind": "Primary document"
+    },
+    {
+      "id": "epstein-doj",
+      "title": "DOJ OPR \u2014 Epstein NPA executive summary (PDF)",
+      "summary": "OPR report on the 2008 Epstein non-prosecution agreement and related DOJ handling. Official review of process \u2014 dig the PDF yourself.",
+      "date": "2020",
+      "agency": "U.S. Department of Justice",
+      "tags": [
+        "Epstein",
+        "DOJ",
+        "NPA"
+      ],
+      "topics": [
+        "epstein"
+      ],
+      "url": "https://www.justice.gov/opr/page/file/1336471/dl",
+      "kind": "Primary document"
+    },
+    {
+      "id": "fed-history",
+      "title": "Federal Reserve History \u2014 founding",
+      "summary": "Fed's own history portal on the Federal Reserve Act (1913), Jekyll Island context, and how the System was built. Compare with independent and believer takes on banking power.",
+      "date": "1913",
+      "agency": "Federal Reserve",
+      "tags": [
+        "Federal Reserve",
+        "banking"
+      ],
+      "topics": [
+        "fed",
+        "rothschilds"
+      ],
+      "url": "https://www.federalreservehistory.org/essays/federal-reserve-act-signed",
+      "kind": "Primary document"
+    },
+    {
+      "id": "fed-act",
+      "title": "Federal Reserve Act (Board of Governors)",
+      "summary": "Digitized legislative and historical materials around the Federal Reserve Act via FRASER.",
+      "date": "1913",
+      "agency": "Federal Reserve Board",
+      "tags": [
+        "Federal Reserve",
+        "legislation"
+      ],
+      "topics": [
+        "fed"
+      ],
+      "url": "https://www.federalreserve.gov/aboutthefed/fract.htm",
+      "kind": "Primary document"
+    },
+    {
+      "id": "911-commission",
+      "title": "9/11 Commission Report",
+      "summary": "Final report of the National Commission on Terrorist Attacks Upon the United States. Primary official narrative \u2014 compare with NIST, FOIA dumps, and critic archives.",
+      "date": "2004-07-22",
+      "agency": "9/11 Commission",
+      "tags": [
+        "9/11",
+        "Commission"
+      ],
+      "topics": [
+        "nine11"
+      ],
+      "url": "https://www.govinfo.gov/app/details/GPO-911REPORT",
+      "kind": "Primary document"
+    },
+    {
+      "id": "nist-wtc",
+      "title": "NIST WTC Disaster Study",
+      "summary": "NIST investigation pages and reports on WTC 1, 2, and 7 collapses. Engineering record often cited in both official and critic debates.",
+      "date": "2005\u20132008",
+      "agency": "NIST",
+      "tags": [
+        "9/11",
+        "WTC",
+        "NIST"
+      ],
+      "topics": [
+        "nine11"
+      ],
+      "url": "https://www.nist.gov/topics/disaster-failure-studies/world-trade-center-disaster-study",
+      "kind": "Primary document"
+    },
+    {
+      "id": "paperclip-nara",
+      "title": "National Archives \u2014 Captured German records (Paperclip-adjacent research)",
+      "summary": "NARA research hub for captured German WWII records \u2014 useful starting point for Operation Paperclip and related transfers. Pair with secondary histories; stick to record series.",
+      "date": "1945\u2013",
+      "agency": "National Archives",
+      "tags": [
+        "Paperclip",
+        "WWII"
+      ],
+      "topics": [
+        "deepstate",
+        "area51"
+      ],
+      "url": "https://www.archives.gov/research/captured-german-records",
+      "kind": "Primary document"
+    },
+    {
+      "id": "tuskegee-cdc",
+      "title": "CDC \u2014 USPHS Untreated Syphilis Study at Tuskegee",
+      "summary": "Overview of the 1932\u20131972 USPHS study with citations out to CDC and archives. CDC pages often bot-block; dig the cited primary links yourself.",
+      "date": "1932\u20131972",
+      "agency": "CDC",
+      "tags": [
+        "Tuskegee",
+        "medical ethics"
+      ],
+      "topics": [
+        "mkultra",
+        "deepstate"
+      ],
+      "url": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
+      "kind": "Independent"
+    },
+    {
+      "id": "snowden-eff",
+      "title": "EFF \u2014 NSA spying / Snowden revelations hub",
+      "summary": "Electronic Frontier Foundation tracker for PRISM, upstream collection, and related programs disclosed in 2013. Independent legal/tech analysis with document links.",
+      "date": "2013\u2013",
+      "agency": "EFF (independent)",
+      "tags": [
+        "NSA",
+        "PRISM",
+        "Snowden"
+      ],
+      "topics": [
+        "deepstate"
+      ],
+      "url": "https://www.eff.org/nsa-spying",
+      "kind": "Independent"
+    },
+    {
+      "id": "foia-gov",
+      "title": "FOIA.gov \u2014 how to request records",
+      "summary": "Official U.S. FOIA portal: find agencies, file requests, track status. The boring skill that unlocks rabbit holes.",
+      "date": "ongoing",
+      "agency": "DOJ / FOIA.gov",
+      "tags": [
+        "FOIA",
+        "how-to"
+      ],
+      "topics": [
+        "deepstate"
+      ],
+      "url": "https://www.foia.gov/",
+      "kind": "Primary document"
+    },
+    {
+      "id": "bilderberg-meetings",
+      "title": "Bilderberg Meetings \u2014 official site",
+      "summary": "Official Bilderberg page listing recent meeting participants and press releases. Compare with critic coverage of closed-door elite networking.",
+      "date": "1954\u2013present",
+      "agency": "Bilderberg Meetings",
+      "tags": [
+        "Bilderberg",
+        "WEF-adjacent"
+      ],
+      "topics": [
+        "bilderberg"
+      ],
+      "url": "https://www.bilderbergmeetings.org/",
+      "kind": "Primary document"
+    },
+    {
+      "id": "wef-davos",
+      "title": "World Economic Forum \u2014 official site",
+      "summary": "Overview of WEF with citations. Official weforum.org often bot-blocks automated checks \u2014 dig their programs and Great Reset materials directly in a browser.",
+      "date": "ongoing",
+      "agency": "World Economic Forum",
+      "tags": [
+        "WEF",
+        "Davos"
+      ],
+      "topics": [
+        "bilderberg"
+      ],
+      "url": "https://en.wikipedia.org/wiki/World_Economic_Forum",
+      "kind": "Independent"
+    },
+    {
+      "id": "iran-contra-nara",
+      "title": "NARA \u2014 Records of Lawrence Walsh (Iran/Contra)",
+      "summary": "National Archives page for Independent Counsel Walsh Iran/Contra records (1986\u20131993), access notes, and related finding aids.",
+      "date": "1980s",
+      "agency": "National Archives",
+      "tags": [
+        "Iran-Contra"
+      ],
+      "topics": [
+        "deepstate"
+      ],
+      "url": "https://www.archives.gov/research/investigations/walsh.html",
+      "kind": "Primary document"
+    },
+    {
+      "id": "church-book2",
+      "title": "Assassination Archives \u2014 Church Committee Book II excerpt hub",
+      "summary": "Assassination Archives and Research Center host of Church Committee materials including domestic intelligence abuses. Independent archive of primary text.",
+      "date": "1976",
+      "agency": "AARC (archive)",
+      "tags": [
+        "Church Committee",
+        "archive"
+      ],
+      "topics": [
+        "deepstate",
+        "jfk"
+      ],
+      "url": "https://www.aarclibrary.org/publib/church/reports/book2/contents.htm",
+      "kind": "Independent"
+    },
+    {
+      "id": "rand-sunshine",
+      "title": "Project Sunshine \u2014 overview with citations",
+      "summary": "Overview of AEC/RAND fallout research including the 1953 SUNSHINE report. RAND PDF hosting is flaky from some networks \u2014 follow citations to the report yourself.",
+      "date": "1953",
+      "agency": "RAND / AEC",
+      "tags": [
+        "Project Sunshine",
+        "nuclear"
+      ],
+      "topics": [
+        "deepstate"
+      ],
+      "url": "https://en.wikipedia.org/wiki/Project_Sunshine",
+      "kind": "Independent"
+    }
+  ]
+}

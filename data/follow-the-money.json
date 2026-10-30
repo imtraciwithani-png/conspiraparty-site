@@ -1,0 +1,231 @@
+{
+  "generated": "2026-10-30",
+  "note": "Money and testimony trails from public records. Not accusations \u2014 dig the links.",
+  "cards": [
+    {
+      "id": "epstein",
+      "topic": "Epstein Files",
+      "funded": [
+        {
+          "who": "Jeffrey Epstein's own financial network / clients",
+          "detail": "Wealth sourcing still opaque in public; civil filings and reporting track banking relationships and co-defendants.",
+          "url": "https://www.courtlistener.com/docket/4352958/giuffre-v-maxwell/"
+        }
+      ],
+      "profited": [
+        {
+          "who": "Enablers named in civil discovery",
+          "detail": "Unsealed docs allege facilitation. Allegations in filings are not the same as criminal convictions \u2014 read the docket.",
+          "url": "https://www.courtlistener.com/docket/4352958/giuffre-v-maxwell/"
+        }
+      ],
+      "testified": [
+        {
+          "who": "Ghislaine Maxwell trial witnesses",
+          "detail": "Criminal trial produced sworn testimony; sentencing and appeal record public.",
+          "url": "https://www.justice.gov/usao-sdny/press-release/file/1466886/dl"
+        },
+        {
+          "who": "DOJ OPR review of 2008 NPA",
+          "detail": "Office of Professional Responsibility report on Acosta-era non-prosecution agreement.",
+          "url": "https://www.justice.gov/opr/page/file/1336471/dl"
+        }
+      ]
+    },
+    {
+      "id": "fed",
+      "topic": "Federal Reserve",
+      "funded": [
+        {
+          "who": "Member banks (Reserve Bank stock)",
+          "detail": "Regional Reserve Banks issue stock to member commercial banks under the Federal Reserve Act \u2014 not the same as 'privately owned Fed' memes, not nothing either.",
+          "url": "https://www.federalreserve.gov/aboutthefed/fract.htm"
+        }
+      ],
+      "profited": [
+        {
+          "who": "Primary dealers & markets around Fed operations",
+          "detail": "Open-market operations and emergency facilities move trillions. Follow FOMC minutes and facility disclosures.",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomc_historical.htm"
+        }
+      ],
+      "testified": [
+        {
+          "who": "Fed Chairs before Congress (Humphrey-Hawkins / oversight)",
+          "detail": "Regular testimony on monetary policy. Transcripts and videos are public.",
+          "url": "https://www.federalreserve.gov/newsevents/testimony.htm"
+        }
+      ]
+    },
+    {
+      "id": "nine11",
+      "topic": "9/11",
+      "funded": [
+        {
+          "who": "al-Qaeda financing networks (Commission findings)",
+          "detail": "9/11 Commission traced fundraising and wire channels. Later Treasury designations expanded the map.",
+          "url": "https://www.govinfo.gov/app/details/GPO-911REPORT"
+        }
+      ],
+      "profited": [
+        {
+          "who": "Defense & security contractors post-9/11",
+          "detail": "Wars and homeland-security budgets surged. Follow appropriations and contract databases \u2014 correlation \u2260 insider plot proof.",
+          "url": "https://www.govinfo.gov/app/details/GPO-911REPORT"
+        }
+      ],
+      "testified": [
+        {
+          "who": "9/11 Commission witnesses",
+          "detail": "Officials, intel, FAA, NORAD, survivors. Hearing records and the final report.",
+          "url": "https://www.govinfo.gov/app/details/GPO-911REPORT"
+        },
+        {
+          "who": "NIST investigators (engineering)",
+          "detail": "Technical testimony and reports on WTC collapses.",
+          "url": "https://www.nist.gov/topics/disaster-failure-studies/world-trade-center-disaster-study"
+        }
+      ]
+    },
+    {
+      "id": "uap",
+      "topic": "UAP Disclosure",
+      "funded": [
+        {
+          "who": "DoD / IC UAP task forces \u2192 AARO",
+          "detail": "Public budget lines and authorizing language for UAP offices. Follow NDAA text and AARO site.",
+          "url": "https://en.wikipedia.org/wiki/All-domain_Anomaly_Resolution_Office"
+        }
+      ],
+      "profited": [
+        {
+          "who": "Aerospace & sensor contractors",
+          "detail": "UAP detection needs radars, IR, and data fusion. Contracts exist; that alone is not proof of alien hardware.",
+          "url": "https://en.wikipedia.org/wiki/All-domain_Anomaly_Resolution_Office"
+        }
+      ],
+      "testified": [
+        {
+          "who": "Grusch, Fravor, Graves (House hearing 2023)",
+          "detail": "Sworn hearing July 26, 2023. Separate claims carefully.",
+          "url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=116282"
+        },
+        {
+          "who": "AARO directors / DoD officials",
+          "detail": "Historical report and briefings dispute crash-retrieval evidence in reviewed holdings.",
+          "url": "https://en.wikipedia.org/wiki/All-domain_Anomaly_Resolution_Office"
+        }
+      ]
+    },
+    {
+      "id": "mkultra",
+      "topic": "MKUltra",
+      "funded": [
+        {
+          "who": "CIA via front organizations & universities",
+          "detail": "Church/Senate record: grants routed through cut-outs to researchers. Surviving financial files matter because operational files were destroyed.",
+          "url": "https://www.aarclibrary.org/publib/church/reports/book2/contents.htm"
+        }
+      ],
+      "profited": [
+        {
+          "who": "Contract researchers & institutions on the payroll",
+          "detail": "Some unwitting; some knowing. Dig hearing appendices for names and amounts.",
+          "url": "https://www.senate.gov/about/powers-procedures/investigations/church-committee.htm"
+        }
+      ],
+      "testified": [
+        {
+          "who": "CIA officials before Church Committee / Senate",
+          "detail": "Sworn testimony on drugs, hypnosis research, and destruction of files.",
+          "url": "https://www.senate.gov/about/powers-procedures/investigations/church-committee.htm"
+        }
+      ]
+    },
+    {
+      "id": "bilderberg",
+      "topic": "Bilderberg / WEF",
+      "funded": [
+        {
+          "who": "Corporate & foundation sponsors (WEF); participant orgs (Bilderberg)",
+          "detail": "WEF publishes partner tiers. Bilderberg lists attendees; funding opacity is part of the critic case \u2014 compare official lists with investigative reporting.",
+          "url": "https://en.wikipedia.org/wiki/World_Economic_Forum"
+        },
+        {
+          "who": "Bilderberg Meetings (official)",
+          "detail": "Participant lists and press notes on the official site.",
+          "url": "https://www.bilderbergmeetings.org/"
+        }
+      ],
+      "profited": [
+        {
+          "who": "Policy-adjacent consultancies & multinationals",
+          "detail": "Networking value is the product. No public 'vote' minutes \u2014 that's the transparency fight.",
+          "url": "https://www.bilderbergmeetings.org/"
+        }
+      ],
+      "testified": [
+        {
+          "who": "Rarely under oath about the meetings themselves",
+          "detail": "Attendees sometimes discuss themes in interviews. For sworn record, look to separate antitrust, lobbying, or financial hearings involving the same people \u2014 different dockets.",
+          "url": "https://www.bilderbergmeetings.org/"
+        }
+      ]
+    },
+    {
+      "id": "covid",
+      "topic": "COVID Origins / response money",
+      "funded": [
+        {
+          "who": "NIH / NIAID grants; EcoHealth & partner labs (public grant record)",
+          "detail": "FOIA and NIH reporters map grant chains to Wuhan-area research. Funding \u2260 proof of origin \u2014 it's a trail to read.",
+          "url": "https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part"
+        }
+      ],
+      "profited": [
+        {
+          "who": "Vaccine manufacturers under Operation Warp Speed contracts",
+          "detail": "Huge public contracts and liability shields. Follow GAO and contract releases alongside pharma filings.",
+          "url": "https://en.wikipedia.org/wiki/Operation_Warp_Speed"
+        }
+      ],
+      "testified": [
+        {
+          "who": "Public health officials before Congress",
+          "detail": "Fauci and others in multiple hearings; transcripts on House hearing materials and related oversight pages.",
+          "url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=116282"
+        },
+        {
+          "who": "ODNI / intel community (origins assessment)",
+          "detail": "Unclassified summary of agency views on origins.",
+          "url": "https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part"
+        }
+      ]
+    },
+    {
+      "id": "rothschilds",
+      "topic": "Banking Dynasties",
+      "funded": [
+        {
+          "who": "Historical Rothschild banking houses (19th c. Europe)",
+          "detail": "Real historical banking power in Europe is well-studied. Leap to 'secretly owns the Fed/world' is the contested part \u2014 separate history books from meme charts.",
+          "url": "https://www.federalreservehistory.org/essays/federal-reserve-act-signed"
+        }
+      ],
+      "profited": [
+        {
+          "who": "19th\u201320th c. bond & rail financing (historical)",
+          "detail": "Standard economic history. Modern conspiracy charts often erase competition from other banks and states.",
+          "url": "https://www.federalreserve.gov/aboutthefed/fract.htm"
+        }
+      ],
+      "testified": [
+        {
+          "who": "Not a single modern 'dynasty hearing'",
+          "detail": "Follow actual central-bank oversight testimony and historical archives instead of a fictional one-family docket.",
+          "url": "https://www.federalreserve.gov/newsevents/testimony.htm"
+        }
+      ]
+    }
+  ]
+}

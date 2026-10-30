@@ -1,0 +1,190 @@
+{
+  "generated": "2026-10-30",
+  "note": "Called it = later put on the public record. Still open = contested or unresolved. No verdicts from us \u2014 follow the record links.",
+  "called_it": [
+    {
+      "id": "tonkin",
+      "title": "Gulf of Tonkin second attack sold to Congress",
+      "blurb": "Critics said the Aug 4, 1964 attack was exaggerated or fabricated as a pretext. NSA historian Hanyok later concluded SIGINT did not support the second attack as presented.",
+      "when_called": "1960s dissent / later scholarship",
+      "when_record": "2005\u20132006 NSA releases",
+      "record_url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB132/press20051201.htm",
+      "record_label": "NSA Gulf of Tonkin releases",
+      "tags": [
+        "Vietnam",
+        "pretext"
+      ]
+    },
+    {
+      "id": "mkultra",
+      "title": "CIA mind-control / drug experiments on people",
+      "blurb": "Long dismissed as paranoia. Church Committee and Senate MKUltra hearings put behavioral-modification programs \u2014 including unwitting dosing \u2014 on the record.",
+      "when_called": "Before 1975",
+      "when_record": "1975\u20131977 hearings",
+      "record_url": "https://www.aarclibrary.org/publib/church/reports/book2/contents.htm",
+      "record_label": "Church Committee Book II (AARC)",
+      "tags": [
+        "CIA",
+        "MKUltra"
+      ]
+    },
+    {
+      "id": "cointelpro",
+      "title": "FBI covertly disrupting domestic political groups",
+      "blurb": "Activists claimed the Bureau was sabotaging movements. COINTELPRO files and Church Committee reports confirmed covert disruption tactics.",
+      "when_called": "1960s\u201370s activists",
+      "when_record": "1971 burglary exposure + Church Committee",
+      "record_url": "https://vault.fbi.gov/cointel-pro",
+      "record_label": "FBI Vault COINTELPRO",
+      "tags": [
+        "FBI",
+        "COINTELPRO"
+      ]
+    },
+    {
+      "id": "northwoods",
+      "title": "Pentagon planners drafted fake-attack pretexts",
+      "blurb": "Sounds like movie lore. The 1962 Joint Chiefs Northwoods memo proposed staged incidents to justify invading Cuba. Not approved \u2014 but the paper is real.",
+      "when_called": "Skeptics of 'governments don't plan false flags'",
+      "when_record": "Declassified JCS memo in NARA / NSA Archive",
+      "record_url": "https://catalog.archives.gov/id/305036",
+      "record_label": "NARA catalog \u2014 Northwoods",
+      "tags": [
+        "Northwoods",
+        "JCS"
+      ]
+    },
+    {
+      "id": "tuskegee",
+      "title": "U.S. Public Health Service withheld syphilis treatment",
+      "blurb": "Medical-abuse warnings sounded extreme until the Tuskegee study record showed decades without informed consent or proper treatment.",
+      "when_called": "Whistleblowers / press 1972",
+      "when_record": "CDC official history; Clinton apology 1997",
+      "record_url": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
+      "record_label": "CDC Tuskegee page",
+      "tags": [
+        "medical ethics"
+      ]
+    },
+    {
+      "id": "prism",
+      "title": "NSA mass digital collection on Americans' traffic",
+      "blurb": "Surveillance warnings called tin-foil \u2014 until Snowden disclosures and court/FOIA fights put PRISM and related programs into public view.",
+      "when_called": "Pre-2013 privacy advocates",
+      "when_record": "2013 disclosures + ongoing litigation docs",
+      "record_url": "https://www.eff.org/nsa-spying",
+      "record_label": "EFF NSA spying hub",
+      "tags": [
+        "NSA",
+        "Snowden"
+      ]
+    },
+    {
+      "id": "mockingbird-narrow",
+      "title": "CIA wiretapped journalists (Project MOCKINGBIRD)",
+      "blurb": "Broader 'Mockingbird controls all media' lore is still argued. Narrower record: Family Jewels describe a 1963 telephone intercept on two Washington newsmen under Project MOCKINGBIRD.",
+      "when_called": "Press-CIA skeptics",
+      "when_record": "CIA Family Jewels release",
+      "record_url": "https://www.cia.gov/readingroom/collection/family-jewels",
+      "record_label": "CIA Family Jewels",
+      "tags": [
+        "CIA",
+        "press"
+      ]
+    },
+    {
+      "id": "paperclip",
+      "title": "U.S. recruited Nazi-affiliated scientists after WWII",
+      "blurb": "Dismissed as Soviet propaganda by some at the time. National Archives and later histories document Operation Paperclip transfers.",
+      "when_called": "Postwar critics",
+      "when_record": "NARA records + published histories",
+      "record_url": "https://www.archives.gov/research/captured-german-records",
+      "record_label": "NARA WWII research hub",
+      "tags": [
+        "Paperclip"
+      ]
+    }
+  ],
+  "still_open": [
+    {
+      "id": "jfk-who",
+      "title": "Who exactly was behind JFK's assassination beyond Oswald?",
+      "blurb": "Lone gunman vs conspiracy still splits researchers. Millions of pages released; no single file ends the fight. HSCA said probable conspiracy; acoustics later contested.",
+      "record_url": "https://www.archives.gov/research/jfk",
+      "record_label": "NARA JFK Collection",
+      "tags": [
+        "JFK"
+      ]
+    },
+    {
+      "id": "uap-crash",
+      "title": "Do crash-retrieval / non-human craft programs exist?",
+      "blurb": "Whistleblowers sworn under oath say yes. AARO historical review says it found no extraterrestrial tech in reviewed holdings. Hearings continue; evidence standard is the whole game.",
+      "record_url": "https://en.wikipedia.org/wiki/All-domain_Anomaly_Resolution_Office",
+      "record_label": "AARO Reports",
+      "tags": [
+        "UAP"
+      ]
+    },
+    {
+      "id": "covid-origin",
+      "title": "COVID-19 origin: lab, market, or still unknowable?",
+      "blurb": "Intel agencies split or undecided in public summaries. Scientific papers conflict. FOIA and hearings keep adding fragments \u2014 no public consensus slam-dunk.",
+      "record_url": "https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part",
+      "record_label": "ODNI origins assessment summary",
+      "tags": [
+        "COVID"
+      ]
+    },
+    {
+      "id": "epstein-client",
+      "title": "Full scope of Epstein's client / trafficker network",
+      "blurb": "Unsealed civil docs and flight materials name many people. Naming \u2260 conviction. Criminal case ended with his death; Maxwell convicted. Huge unanswered graph remains.",
+      "record_url": "https://www.courtlistener.com/docket/4352958/giuffre-v-maxwell/",
+      "record_label": "Giuffre v. Maxwell docket",
+      "tags": [
+        "Epstein"
+      ]
+    },
+    {
+      "id": "911-wtc7",
+      "title": "WTC 7 collapse \u2014 fire vs controlled demolition debate",
+      "blurb": "NIST attributes WTC 7 to fire-induced failure. Architects & Engineers for 9/11 Truth and others dispute. Primary engineering reports vs critic analyses \u2014 dig both.",
+      "record_url": "https://www.nist.gov/topics/disaster-failure-studies/world-trade-center-disaster-study",
+      "record_label": "NIST WTC study",
+      "tags": [
+        "9/11"
+      ]
+    },
+    {
+      "id": "fed-ownership",
+      "title": "Who really 'owns' and directs the Federal Reserve?",
+      "blurb": "Structure is public/private hybrid created by Congress. Believer lore adds dynastic bank control narratives. Read the Act, FOMC transcripts, and critic books side by side.",
+      "record_url": "https://www.federalreserve.gov/aboutthefed/fract.htm",
+      "record_label": "Federal Reserve Act (FRASER)",
+      "tags": [
+        "Fed"
+      ]
+    },
+    {
+      "id": "election2020-fraud-scale",
+      "title": "Scale of 2020 election irregularities (if any)",
+      "blurb": "Officials and CISA called it secure; believers cite machine vendors, ballot rules, and affidavits. Courts largely declined to overturn. Dockets and audit reports > viral clips.",
+      "record_url": "https://www.cisa.gov/news-events/news/joint-statement-elections-infrastructure-government-coordinating-council-election",
+      "record_label": "CISA joint statement",
+      "tags": [
+        "Election 2020"
+      ]
+    },
+    {
+      "id": "moon-hoax",
+      "title": "Apollo landings faked in studio?",
+      "blurb": "Believer documentaries argue lighting, radiation, and film anomalies. NASA, LRO imagery, and retroreflectors are the mainstream record. Still a live culture war \u2014 compare primary mission data with Rumble/YouTube essays.",
+      "record_url": "https://science.nasa.gov/mission/lro/",
+      "record_label": "NASA LRO mission",
+      "tags": [
+        "Moon"
+      ]
+    }
+  ]
+}

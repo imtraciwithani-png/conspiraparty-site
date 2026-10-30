@@ -1,0 +1,251 @@
+{
+  "generated": "2026-10-30",
+  "topics": [
+    {
+      "id": "jfk",
+      "label": "JFK",
+      "events": [
+        {
+          "date": "1963-11-22",
+          "claimed": "President Kennedy shot in Dallas. Official early narrative: lone gunman Lee Harvey Oswald.",
+          "surfaced": "Warren Commission (1964) backs lone-gunman frame; critics immediately dispute single-bullet and timeline details.",
+          "record": "https://www.archives.gov/research/jfk"
+        },
+        {
+          "date": "1976-1979",
+          "claimed": "Public doubt grows; House Select Committee on Assassinations (HSCA) convened.",
+          "surfaced": "HSCA concludes probable conspiracy based largely on acoustic evidence later contested; still rejects many popular plots.",
+          "record": "https://www.archives.gov/research/jfk"
+        },
+        {
+          "date": "1992",
+          "claimed": "JFK Records Act orders release of assassination records.",
+          "surfaced": "Assassination Records Review Board oversees massive transfers to NARA; waves of releases follow for decades.",
+          "record": "https://www.archives.gov/research/jfk"
+        },
+        {
+          "date": "2017-2025",
+          "claimed": "Remaining withheld records will clear everything up.",
+          "surfaced": "Multiple release waves (incl. 2025). Tons of paperwork; no single smoking-gun file that ends debate. Dig the PDFs.",
+          "record": "https://www.archives.gov/research/jfk/release-2025"
+        }
+      ]
+    },
+    {
+      "id": "mkultra",
+      "label": "MKUltra",
+      "events": [
+        {
+          "date": "1953",
+          "claimed": "Cold War: need defenses against 'brainwashing' and interrogation drugs.",
+          "surfaced": "CIA launches MKUltra umbrella funding behavioral research, including LSD and unwitting subjects.",
+          "record": "https://www.cia.gov/readingroom/"
+        },
+        {
+          "date": "1973",
+          "claimed": "Program quietly wound down; many files ordered destroyed.",
+          "surfaced": "Destruction confirmed later \u2014 surviving financials and testimony become the backbone of what we know.",
+          "record": "https://www.aarclibrary.org/publib/church/reports/book2/contents.htm"
+        },
+        {
+          "date": "1975-1977",
+          "claimed": "Church Committee / Senate hearings will expose mind-control extremes.",
+          "surfaced": "Hearings put MKUltra on the record: drugs, front orgs, ethics failures. Not every rumor equals a memo.",
+          "record": "https://www.senate.gov/about/powers-procedures/investigations/church-committee.htm"
+        }
+      ]
+    },
+    {
+      "id": "nine11",
+      "label": "9/11",
+      "events": [
+        {
+          "date": "2001-09-11",
+          "claimed": "Immediate public story: al-Qaeda hijackings; buildings fail from impact and fire.",
+          "surfaced": "Emergency response chaos; rapid political consensus for wars; early alternative theories spread online.",
+          "record": "https://www.govinfo.gov/app/details/GPO-911REPORT"
+        },
+        {
+          "date": "2002-2004",
+          "claimed": "Independent commission will answer all questions.",
+          "surfaced": "9/11 Commission Report published July 2004 \u2014 detailed but critics flag ignored leads and WTC 7 timing.",
+          "record": "https://www.govinfo.gov/app/details/GPO-911REPORT"
+        },
+        {
+          "date": "2005-2008",
+          "claimed": "NIST engineering reports settle collapse mechanics.",
+          "surfaced": "NIST WTC studies released; WTC 7 report 2008. Engineers still argue fire vs demolition frames in public forums.",
+          "record": "https://www.nist.gov/topics/disaster-failure-studies/world-trade-center-disaster-study"
+        }
+      ]
+    },
+    {
+      "id": "epstein",
+      "label": "Epstein Files",
+      "events": [
+        {
+          "date": "2008",
+          "claimed": "Florida deal quietly resolves Epstein case.",
+          "surfaced": "Non-prosecution agreement later blasted; OPR reviews Acosta/DOJ handling years after.",
+          "record": "https://www.justice.gov/opr/page/file/1336471/dl"
+        },
+        {
+          "date": "2019",
+          "claimed": "New federal charges; death in custody ends trial.",
+          "surfaced": "Arrest, indictment, death ruled suicide by NYC ME; skepticism remains loud. Flight logs and black book circulate as public artifacts.",
+          "record": "https://www.courtlistener.com/docket/4352958/giuffre-v-maxwell/"
+        },
+        {
+          "date": "2015-2022",
+          "claimed": "Civil discovery will name everyone.",
+          "surfaced": "Giuffre v. Maxwell unsealing dumps large document sets. Names in filings \u2260 proven guilt \u2014 read the docket.",
+          "record": "https://www.courtlistener.com/docket/4352958/giuffre-v-maxwell/"
+        }
+      ]
+    },
+    {
+      "id": "uap",
+      "label": "UAP Disclosure",
+      "events": [
+        {
+          "date": "2017",
+          "claimed": "NYT AATIP story + Navy videos mean secret crash-retrieval programs.",
+          "surfaced": "Pentagon confirms videos are authentic UAP footage; program history gets messy in follow-ups.",
+          "record": "https://en.wikipedia.org/wiki/All-domain_Anomaly_Resolution_Office"
+        },
+        {
+          "date": "2023-07-26",
+          "claimed": "Whistleblower hearing will force full disclosure.",
+          "surfaced": "House hearing with Grusch/Fravor/Graves. Sworn claims of retrieval programs; AARO/DoD dispute crash-retrieval evidence.",
+          "record": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=116282"
+        },
+        {
+          "date": "2024-03",
+          "claimed": "Historical review will prove legacy cover-up \u2014 or close the case.",
+          "surfaced": "AARO Historical Record Report Vol. 1 finds no evidence of extraterrestrial tech in reviewed holdings; believers call scope incomplete.",
+          "record": "https://en.wikipedia.org/wiki/All-domain_Anomaly_Resolution_Office"
+        }
+      ]
+    },
+    {
+      "id": "tonkin",
+      "label": "Gulf of Tonkin",
+      "events": [
+        {
+          "date": "1964-08-02",
+          "claimed": "USS Maddox clash with North Vietnamese boats.",
+          "surfaced": "Real engagement on Aug 2 becomes part of escalation case.",
+          "record": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB132/press20051201.htm"
+        },
+        {
+          "date": "1964-08-04",
+          "claimed": "Second attack forces Congress to authorize force.",
+          "surfaced": "Gulf of Tonkin Resolution passes. Later SIGINT reviews say Aug 4 attack did not happen as sold.",
+          "record": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB132/"
+        },
+        {
+          "date": "2005-2006",
+          "claimed": "Declassification settles the history.",
+          "surfaced": "NSA releases Hanyok study and related materials \u2014 classic 'called it' for critics of the pretext.",
+          "record": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB132/press20051201.htm"
+        }
+      ]
+    },
+    {
+      "id": "covid",
+      "label": "COVID Origins",
+      "events": [
+        {
+          "date": "2020-early",
+          "claimed": "Public health messaging leans zoonotic / natural spillover; lab-leak talk dismissed as fringe.",
+          "surfaced": "WHO China joint study; letters and papers circulate; social platforms throttle some lab-leak posts.",
+          "record": "https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part"
+        },
+        {
+          "date": "2021-mid",
+          "claimed": "Lab-leak becomes discussable in mainstream outlets.",
+          "surfaced": "Biden orders intel assessment; some agencies lean natural, some undecided, one leans lab. No consensus slam-dunk.",
+          "record": "https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part"
+        },
+        {
+          "date": "2023-2025",
+          "claimed": "Hearings and FOIA will prove one origin story.",
+          "surfaced": "More emails, grant trails, and committee probes. Still contested \u2014 dig primary intel summaries and FOIA dumps yourself.",
+          "record": "https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part"
+        }
+      ]
+    },
+    {
+      "id": "fed",
+      "label": "Federal Reserve",
+      "events": [
+        {
+          "date": "1910",
+          "claimed": "Secret Jekyll Island meeting plots a private central bank.",
+          "surfaced": "Bankers and politicians did meet at Jekyll Island to draft a plan that informed the Federal Reserve Act \u2014 on the record in histories the Fed itself recounts.",
+          "record": "https://www.federalreservehistory.org/essays/federal-reserve-act-signed"
+        },
+        {
+          "date": "1913-12-23",
+          "claimed": "Fed Act sneaks through while country sleeps.",
+          "surfaced": "Act signed by Wilson after public debate and legislative process. Structure: public/private hybrid with regional banks \u2014 still argued over.",
+          "record": "https://www.federalreserve.gov/aboutthefed/fract.htm"
+        },
+        {
+          "date": "2010s-2020s",
+          "claimed": "QE and emergency facilities prove the Fed answers only to banks.",
+          "surfaced": "Crisis facilities, audits fights (e.g. GAO limits), and transparency debates continue. Read the Act and the transcripts.",
+          "record": "https://www.federalreserve.gov/monetarypolicy/fomc_historical.htm"
+        }
+      ]
+    },
+    {
+      "id": "election2020",
+      "label": "Election 2020",
+      "events": [
+        {
+          "date": "2020-11",
+          "claimed": "Believers: stolen via machines/mail. Officials: secure election.",
+          "surfaced": "Dozens of lawsuits filed; most dismissed for standing/evidence. Some counties audit; CISA calls it secure \u2014 critics reject CISA.",
+          "record": "https://www.cisa.gov/news-events/news/joint-statement-elections-infrastructure-government-coordinating-council-election"
+        },
+        {
+          "date": "2021-01-06",
+          "claimed": "Protest becomes Capitol breach; narratives split hard left/right.",
+          "surfaced": "Criminal cases, congressional investigation, and competing media frames. Primary: charging docs and hearing records.",
+          "record": "https://www.justice.gov/usao-dc"
+        },
+        {
+          "date": "2022-2024",
+          "claimed": "Machine-vendor and ballot lawsuits will flip certification.",
+          "surfaced": "Ongoing civil fights and state law changes. No court-ordered nationwide reverse. Keep reading dockets, not just clips.",
+          "record": "https://www.justice.gov/usao-dc"
+        }
+      ]
+    },
+    {
+      "id": "moon",
+      "label": "Moon Landing",
+      "events": [
+        {
+          "date": "1969-07-20",
+          "claimed": "Apollo 11 lands; Armstrong/Aldrin walk.",
+          "surfaced": "Global broadcast; rock samples; Soviet tracking. Hoax theories grow later with film/photo arguments.",
+          "record": "https://www.nasa.gov/mission/apollo-11/"
+        },
+        {
+          "date": "1970s-1990s",
+          "claimed": "Believers: studio flags, lighting, Van Allen belts make it impossible.",
+          "surfaced": "NASA and independent physicists publish rebuttals; laser retroreflectors left on Moon still used.",
+          "record": "https://www.nasa.gov/mission/apollo-11/"
+        },
+        {
+          "date": "2009-",
+          "claimed": "New imagery will expose fake sites \u2014 or confirm them.",
+          "surfaced": "LRO photos show landers/tracks at Apollo sites. Debate continues in believer communities anyway \u2014 dig both stacks.",
+          "record": "https://science.nasa.gov/mission/lro/"
+        }
+      ]
+    }
+  ]
+}
