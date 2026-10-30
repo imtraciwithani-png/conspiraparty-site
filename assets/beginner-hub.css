@@ -374,3 +374,172 @@ p.disclosure.political-disclaimer{
 .political-disclaimer strong{
   color:#111!important;
 }
+
+/* from start-here-simple */
+.start-simple-hero{padding:36px 0 28px}
+.start-simple-title{
+  font-size:clamp(2.1rem,9vw,3.4rem);
+  line-height:1.05;
+  margin:0 0 14px;
+  letter-spacing:.02em;
+  text-transform:none;
+}
+.start-simple-lead{
+  font-size:clamp(1.15rem,4.2vw,1.4rem);
+  color:#fff!important;
+  max-width:28em;
+  margin:0 auto 18px;
+  line-height:1.35;
+  opacity:1!important;
+}
+.start-pick-grid{
+  display:grid;
+  gap:16px;
+  grid-template-columns:1fr;
+  margin-top:8px;
+}
+@media(min-width:640px){
+  .start-pick-grid{grid-template-columns:1fr 1fr;gap:18px}
+}
+.start-pick-card{
+  display:flex;
+  flex-direction:column;
+  background:#f3eee6!important;
+  color:#111!important;
+  border:3px solid #111!important;
+  box-shadow:6px 6px 0 var(--red,#e11d26);
+  text-decoration:none!important;
+  overflow:hidden;
+  min-height:100%;
+}
+.start-pick-card:hover{transform:translateY(-2px)}
+.start-pick-card img{
+  width:100%;
+  aspect-ratio:16/10;
+  object-fit:cover;
+  display:block;
+  background:#ddd;
+}
+.start-pick-body{padding:16px 16px 18px;display:flex;flex-direction:column;gap:10px;flex:1}
+.cork .start-pick-card h2,
+.start-pick-card h2{
+  margin:0!important;
+  font-size:clamp(1.35rem,5vw,1.75rem)!important;
+  line-height:1.1;
+  color:#111!important;
+  text-transform:uppercase;
+  font-family:var(--font-display,Anton,Impact,sans-serif);
+  letter-spacing:.03em;
+}
+.cork .start-pick-card p,
+.start-pick-card p{
+  margin:0!important;
+  font-size:1.05rem!important;
+  line-height:1.35;
+  color:#1a1a1a!important;
+  opacity:1!important;
+  flex:1;
+}
+.cork .start-pick-card .start-pick-btn,
+.start-pick-card .start-pick-btn,
+.start-pick-btn{
+  display:inline-block!important;
+  width:100%;
+  text-align:center;
+  margin-top:8px;
+  padding:14px 16px!important;
+  font-size:1.05rem!important;
+  font-weight:700!important;
+  background:var(--red,#e11d26)!important;
+  color:#fff!important;
+  border:2px solid var(--red,#e11d26)!important;
+  text-decoration:none!important;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+}
+.start-pick-card:hover .start-pick-btn{
+  background:#111!important;
+  border-color:#111!important;
+  color:#fff!important;
+}
+.start-simple-note{margin-top:22px!important;font-size:1rem!important}
+
+.start-steps-title{
+  text-align:center;
+  font-size:clamp(1.8rem,6vw,2.6rem);
+  margin:0 0 22px;
+}
+.start-steps{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:grid;
+  gap:16px;
+  max-width:640px;
+  margin-inline:auto;
+}
+.start-steps li{
+  background:#f3eee6!important;
+  color:#111!important;
+  border:3px solid #111;
+  box-shadow:5px 5px 0 var(--red,#e11d26);
+  padding:18px 18px 16px;
+  display:grid;
+  gap:8px;
+}
+.black .start-steps strong,
+.start-steps strong{
+  font-size:clamp(1.2rem,4.5vw,1.45rem);
+  color:#111!important;
+  font-family:var(--font-display,Anton,Impact,sans-serif);
+  letter-spacing:.03em;
+  text-transform:uppercase;
+}
+.black .start-steps span,
+.start-steps span{
+  color:#1a1a1a!important;
+  font-size:1.05rem;
+  line-height:1.35;
+}
+.black .start-steps .btn,
+.start-steps .btn{
+  justify-self:start;
+  margin-top:6px;
+  background:var(--red,#e11d26)!important;
+  color:#fff!important;
+}
+
+.start-deeper{
+  background:#f3eee6!important;
+  color:#111!important;
+  border:3px solid #111;
+  padding:14px 16px;
+  max-width:640px;
+  margin:0 auto;
+}
+.cork .start-deeper summary,
+.start-deeper summary{
+  cursor:pointer;
+  font-size:1.15rem;
+  font-weight:700;
+  color:#111!important;
+  list-style:none;
+}
+.start-deeper summary::-webkit-details-marker{display:none}
+.start-deeper summary::before{content:"▸ ";color:var(--red,#e11d26)}
+.start-deeper[open] summary::before{content:"▾ "}
+.start-deeper-list{
+  margin:14px 0 4px;
+  padding-left:1.1em;
+  display:grid;
+  gap:8px;
+}
+.cork .start-deeper-list a,
+.start-deeper-list a{
+  color:#111!important;
+  font-size:1.05rem;
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+.cork .start-deeper-list a:hover,
+.start-deeper-list a:hover{color:#9b1219!important}
