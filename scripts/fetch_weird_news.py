@@ -781,7 +781,7 @@ def render_html(items: list[dict], generated_at: str) -> str:
 <link rel="icon" type="image/png" href="assets/img/favicon-64.png">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="preload" href="assets/fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css?v=xshow1">
 <style>
 .news-feed{{display:flex;flex-direction:column;gap:16px;max-width:820px;margin:0 auto}}
 .news-card{{padding:18px 18px 16px!important;display:block!important}}.news-card.is-filtered-out,.kit-cta.is-filtered-out{{display:none!important}}
@@ -850,7 +850,11 @@ def render_html(items: list[dict], generated_at: str) -> str:
       <h1>WEIRD NEWS &amp; <span class="r">POLITICAL</span> RABBIT HOLES</h1>
       <p class="lead">UFOs, cryptids, odd headlines, wild politics and QAnon rabbit holes — with a skeptic Conspiraparty take on each. We roast the spin on all sides. Auto-updated. No tragedy. Entertainment only.</p>
       <p class="updated">Last sweep: {gen_display} UTC · Headlines &amp; links only</p>
-      <p class="x-follow-inline"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow @conspiraparty on X</a></p>
+      <div class="x-agency-callout" role="complementary" aria-label="Follow on X">
+        <p class="x-agency-kicker">Agency channel</p>
+        <p class="x-agency-lead">Weird headlines hit X first. Roast along.</p>
+        <a class="btn x-follow-btn x-follow-btn-lg" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a>
+      </div>
     </div>
   </section>
 
@@ -908,7 +912,7 @@ def render_html(items: list[dict], generated_at: str) -> str:
         <button class="btn alt" type="submit">Send My Free Badge</button>
         <span class="notice" role="status" aria-live="polite"></span>
       </form>
-      <p class="x-follow-inline"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow @conspiraparty on X</a></p>
+      <p class="x-follow-inline"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a></p>
     </div>
   </section>
 </main>
@@ -935,7 +939,7 @@ def render_html(items: list[dict], generated_at: str) -> str:
       </ul>
     </nav>
     <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases. Some links on this site are affiliate links, which means we may earn a small commission at no extra cost to you.</p>
-    <p class="x-follow"><a href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow @conspiraparty on X</a></p>
+    <p class="x-follow"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a></p>
     <p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p>
   </div>
 </footer>

@@ -700,19 +700,7 @@ p[style*="color: #111"] a:not(.btn){
 
 
 
-/* X follow */
-.x-follow{margin:16px 0 0;font-size:.95rem}
-.x-follow a{color:#fff;text-decoration:underline;text-underline-offset:3px}
-.x-follow a:hover{color:var(--red)}
-.x-follow-inline{margin:16px 0 0;text-align:center}
-.btn.x-follow-btn{
-  display:inline-flex;align-items:center;justify-content:center;gap:8px;
-  background:#111;color:#fff;border:1px solid rgba(255,255,255,.35);
-  width:auto;box-shadow:none;
-}
-.btn.x-follow-btn:hover{background:var(--red);border-color:var(--red);color:#fff}
-.redbg .btn.x-follow-btn{border-color:rgba(255,255,255,.7)}
-.hero .x-follow-inline{margin-top:14px}
+
 
 /* new-etsy-items badges + cross-links */
 .badge.kid{
@@ -847,3 +835,64 @@ figure.card figcaption{
   opacity:1 !important;
   background:var(--paper) !important;
 }
+
+
+/* ===== X Agency showcase (x-showcase) ===== */
+.x-follow{margin:16px 0 0}
+.x-follow .x-follow-btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  background:#111;color:#fff!important;border:1px solid rgba(255,255,255,.4);
+  text-decoration:none!important;width:auto;box-shadow:none;
+  font-size:.78rem;padding:10px 14px;letter-spacing:.08em;
+}
+.x-follow .x-follow-btn:hover{background:var(--red);border-color:var(--red);color:#fff!important}
+.btn.x-follow-btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  background:#111;color:#fff!important;border:1px solid rgba(255,255,255,.35);
+  width:auto;box-shadow:none;text-decoration:none!important;
+}
+.btn.x-follow-btn:hover{background:var(--red);border-color:var(--red);color:#fff!important}
+.redbg .btn.x-follow-btn{border-color:rgba(255,255,255,.7);color:#fff!important}
+.x-follow-btn-lg{font-size:1rem!important;padding:14px 22px!important;letter-spacing:.1em!important}
+.x-agency-callout{
+  margin:22px auto 0;max-width:28rem;padding:18px 18px 20px;
+  background:#141414;border:1px solid rgba(255,255,255,.18);
+  border-left:4px solid var(--red);border-radius:var(--radius-sm);
+  text-align:center;
+}
+.x-agency-kicker{
+  font-family:var(--font-display);letter-spacing:.12em;text-transform:uppercase;
+  color:var(--red-on-dark);font-size:.78rem;margin:0 0 6px;
+}
+.x-agency-lead{margin:0 0 14px;color:var(--text)!important;font-size:1.02rem;line-height:1.4}
+.x-feed{
+  display:grid;gap:16px;grid-template-columns:1fr;
+  max-width:900px;margin:28px auto 0;
+}
+@media(min-width:700px){.x-feed{grid-template-columns:repeat(3,1fr);gap:18px}}
+/* Dark-band quote cards (site .paper/.cork are near-black) — AA on #1a1a1a */
+.x-quote{
+  background:#1a1a1a;border:1px solid rgba(255,255,255,.16);
+  border-radius:var(--radius-sm);padding:18px 16px 14px;
+  display:flex;flex-direction:column;gap:14px;
+  box-shadow:var(--shadow-soft);
+}
+.x-quote blockquote{margin:0;padding:0;border:0}
+.x-quote blockquote p{
+  margin:0;font-family:var(--font-accent);font-size:1.02rem;line-height:1.45;
+  color:#f2efe8!important; /* beat .paper p !important */
+}
+.x-quote-meta{
+  display:flex;justify-content:space-between;align-items:center;gap:10px;
+  margin-top:auto;padding-top:12px;border-top:1px dashed rgba(255,255,255,.2);
+  font-size:.82rem;
+}
+.x-quote-handle{
+  color:#d4cfc3!important; /* >=4.5:1 on #1a1a1a */
+  font-family:var(--font-display);letter-spacing:.04em;
+}
+.x-quote-link{
+  color:var(--red-on-dark)!important;font-weight:600;text-decoration:underline;
+  text-underline-offset:3px;white-space:nowrap;
+}
+.x-quote-link:hover{color:#fff!important}
