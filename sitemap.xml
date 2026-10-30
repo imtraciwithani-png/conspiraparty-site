@@ -62,4 +62,44 @@
   <url><loc>https://conspiraparty.com/field-guides/point-pleasant.html</loc><lastmod>2026-10-29</lastmod></url>
   <url><loc>https://conspiraparty.com/blog-how-to-bring-up-conspiracy-theories-at-thanksgiving.html</loc><lastmod>2026-10-29</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/blog-how-to-bring-up-conspiracy-theories-at-thanksgiving-pin.jpg</image:loc></image:image></url>
   <url><loc>https://conspiraparty.com/free-thanksgiving-conspiracy-cards.html</loc><lastmod>2026-10-29</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/free-thanksgiving-conspiracy-cards-pin.jpg</image:loc></image:image></url>
+  <url>
+    <loc>https://conspiraparty.com/start-here.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://conspiraparty.com/quiz-theorist.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://conspiraparty.com/glossary.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://conspiraparty.com/true-stories.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://conspiraparty.com/theory-of-the-week.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://conspiraparty.com/starter-list.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://conspiraparty.com/weird-map.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://conspiraparty.com/join-the-agency.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
