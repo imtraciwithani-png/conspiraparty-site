@@ -36,3 +36,28 @@
   .fg-page .share-links{display:flex!important}
   .fg-page .share-links[hidden]{display:flex!important}
 }
+
+
+/* Subtle affiliate dig-deeper blocks */
+.aff-dig{
+  margin:28px 0 8px;
+  padding:16px 18px;
+  border:1px dashed #b9a99a;
+  background:rgba(255,248,240,.7);
+  border-radius:8px;
+}
+.aff-dig h2, .aff-dig .aff-label{
+  margin:0 0 10px;
+  font-size:.78rem;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--text-dim,#5a4a3a);
+  font-weight:700;
+  font-family:inherit;
+}
+.aff-dig ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.aff-dig li a{color:inherit;text-decoration:underline;text-underline-offset:3px;font-size:.95rem}
+.aff-dig li a:hover{color:var(--red,#e11d26)}
+.aff-dig .aff-tour{margin:0 0 8px}
+.aff-dig .aff-note{margin:10px 0 0;font-size:.72rem;color:var(--text-dim,#6a5a4a);line-height:1.35}
+.aff-dig + .aff-dig{margin-top:14px}

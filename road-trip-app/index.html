@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Suspicious Road Trip | Conspiraparty</title>
+<meta name="description" content="Phone companion for The Suspicious Road Trip Guide — check off weird sightings in all 50 states, earn agent ranks, share your trip report.">
+<link rel="canonical" href="https://conspiraparty.com/road-trip-app/">
+<meta name="theme-color" content="#0b0b0b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta property="og:site_name" content="Conspiraparty">
+<meta property="og:title" content="Suspicious Road Trip">
+<meta property="og:description" content="Track weird sightings across 50 states. Pairs with The Suspicious Road Trip Guide.">
+<meta property="og:url" content="https://conspiraparty.com/road-trip-app/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://conspiraparty.com/assets/img/logo-concept-c-full.png">
+<meta name="twitter:card" content="summary">
+<link rel="icon" type="image/png" href="icons/icon-64.png">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preload" href="../assets/fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/share.css">
+<link rel="stylesheet" href="app.css">
+</head>
+<body class="srt-body">
+<a class="skip" href="#srt-main">Skip to content</a>
+<div class="srt-app" id="srt-app">
+  <header class="srt-top">
+    <a class="srt-brand" href="../index.html">
+      <img src="../assets/img/logo.png" width="220" height="70" alt="Conspiraparty">
+      <span class="srt-brand-text">
+        <strong>Suspicious <span class="r" style="color:var(--red)">Road Trip</span></strong>
+        <span>Agent field tracker</span>
+      </span>
+    </a>
+    <div class="srt-status" aria-live="polite">
+      <span class="srt-pill"><span class="dot"></span><b id="srt-points">0</b>&nbsp;pts</span>
+      <span class="srt-pill"><b id="srt-rank">Recruit</b></span>
+      <span class="srt-pill"><b id="srt-done">0/50</b>&nbsp;done</span>
+    </div>
+  </header>
+
+  <main id="srt-main">
+    <!-- HOME -->
+    <section class="srt-panel is-active" data-panel="home">
+      <h1>50 STATES OF <span class="r">WEIRD</span></h1>
+      <p class="srt-lede">Tap a state. Check off suspicious spots and weird things from <em>The Suspicious Road Trip Guide</em>. Progress stays on this phone.</p>
+      <div class="srt-mode" role="group" aria-label="Content mode">
+        <span class="srt-mode-label">Mode</span>
+        <button type="button" class="srt-mode-btn" data-mode="kids" id="srt-mode-kids" aria-pressed="true">Kids</button>
+        <button type="button" class="srt-mode-btn" data-mode="adult" id="srt-mode-adult" aria-pressed="false">Adult</button>
+      </div>
+      <p class="srt-note" id="srt-mode-blurb">Kids: family-safe mysteries, quizzes, car games. Mild or Spooky tone.</p>
+      <div class="srt-spooky" id="srt-spooky-wrap">
+        <span class="srt-mode-label">Spooky level</span>
+        <button type="button" class="srt-mode-btn" data-spooky="mild" id="srt-spooky-mild" aria-pressed="true">Mild</button>
+        <button type="button" class="srt-mode-btn" data-spooky="spooky" id="srt-spooky-spooky" aria-pressed="false">Spooky</button>
+      </div>
+      <div class="srt-actions">
+        <button type="button" class="srt-btn" id="srt-near-btn">Near me</button>
+        <button type="button" class="srt-btn soft" id="srt-jump-family">Family HQ</button>
+        <a class="srt-btn ghost" href="#shop" id="srt-jump-shop">Get the book</a>
+      </div>
+      <p class="srt-note" id="srt-near-note" hidden></p>
+      <div class="srt-map-wrap">
+        <p class="srt-map-label">Mission map</p>
+        <div class="srt-map" id="srt-map" role="group" aria-label="United States mission map"></div>
+        <div class="srt-legend">
+          <span><i class="lg-open"></i>Open</span>
+          <span><i class="lg-prog"></i>In progress</span>
+          <span><i class="lg-done"></i>Complete</span>
+        </div>
+      </div>
+      <input class="srt-search" id="srt-search" type="search" placeholder="Search states or spots…" autocomplete="off">
+      <ul class="srt-state-list" id="srt-state-list"></ul>
+    
+      <div class="aff-dig srt-aff srt-aff-home">
+        <p class="aff-label">Dig deeper: books</p>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=Atlas+Obscura+book&tag=traciw02-20" rel="noopener sponsored" target="_blank">Atlas Obscura — Foer, Thuras, Morton</a></li>
+          <li><a href="https://www.amazon.com/dp/0316202304?tag=traciw02-20" rel="noopener sponsored" target="_blank">Area 51 — Annie Jacobsen</a></li>
+          <li><a href="https://www.amazon.com/dp/1616082143?tag=traciw02-20" rel="noopener sponsored" target="_blank">American Conspiracies — Jesse Ventura</a></li>
+        </ul>
+        <p class="aff-note">As an Amazon Associate, Conspiraparty earns from qualifying purchases. · <a href="https://www.viator.com/searchResults/all?text=haunted+ghost+tour&pid=VIATOR_AFFILIATE_ID" rel="noopener sponsored" target="_blank">Book a weird tour</a></p>
+      </div>
+
+    </section>
+
+    <!-- STATE DETAIL -->
+    <section class="srt-panel" data-panel="state">
+      <div id="srt-state-root"></div>
+    </section>
+
+    <!-- BADGES -->
+    <section class="srt-panel" data-panel="badges">
+      <h1>Agent <span class="r">clearance</span></h1>
+      <p class="srt-lede">Points, ranks and badges unlock as you log sightings. All progress is saved in this browser.</p>
+      <div class="srt-rank-card" id="srt-rank-card"></div>
+      <div class="srt-badge-grid" id="srt-badge-grid"></div>
+      <p style="margin-top:18px">
+        <button type="button" class="srt-btn soft sm" id="srt-reset">Reset progress</button>
+      </p>
+    </section>
+
+    <!-- REPORT -->
+    <section class="srt-panel" data-panel="report">
+      <h1>Trip <span class="r">report</span></h1>
+      <p class="srt-lede">Share your classified field summary. Copy the text, download the image, or use the site share buttons.</p>
+      <div class="srt-report">
+        <div class="srt-report-card" id="srt-report-card"></div>
+        <div class="srt-actions" style="margin-top:12px">
+          <button type="button" class="srt-btn sm" id="srt-copy-report">Copy text</button>
+          <a class="srt-btn ghost sm" id="srt-download-report" href="#">Download image</a>
+        </div>
+        <div class="share-box page-share" id="srt-share-box"
+             data-share-url="https://conspiraparty.com/road-trip-app/"
+             data-share-text="My Suspicious Road Trip field report — tracking weird America one state at a time. via conspiraparty.com">
+          <button class="btn sm share-native" data-share type="button">Share this</button>
+          <div class="share-links" hidden>
+            <a class="btn sm" href="https://x.com/intent/post?text=My%20Suspicious%20Road%20Trip%20field%20report%20%E2%80%94%20via%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2Froad-trip-app%2F" rel="noopener noreferrer" target="_blank">X</a>
+            <a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2Froad-trip-app%2F" rel="noopener noreferrer" target="_blank">Facebook</a>
+            <button class="btn sm share-copy" data-copy type="button">Copy link</button>
+          </div>
+        </div>
+        <canvas id="srt-report-canvas" width="780" height="1100" hidden></canvas>
+      </div>
+    </section>
+
+
+    <!-- FAMILY / KIDS HQ (Kids mode content; Adult dossier lives on state pages) -->
+    <section class="srt-panel" data-panel="family">
+      <h1>Family <span class="r">HQ</span></h1>
+      <p class="srt-lede" id="srt-family-lede">Road-trip mysteries for curious kids and parents—legends, real history, and how to investigate.</p>
+      <div id="srt-family-root"></div>
+    </section>
+
+    <!-- SHOP -->
+    <section class="srt-panel" data-panel="shop" id="shop">
+      <h1>Gear <span class="r">up</span></h1>
+      <p class="srt-lede">This app pairs with the paperback and the printable regional field guide packs.</p>
+      <div class="srt-shop" id="srt-shop-list"></div>
+
+      <div class="aff-dig srt-aff">
+        <p class="aff-label">Dig deeper: books</p>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=Atlas+Obscura+book&tag=traciw02-20" rel="noopener sponsored" target="_blank">Atlas Obscura — Foer, Thuras, Morton</a></li>
+          <li><a href="https://www.amazon.com/dp/0316202304?tag=traciw02-20" rel="noopener sponsored" target="_blank">Area 51 — Annie Jacobsen</a></li>
+          <li><a href="https://www.amazon.com/dp/1616082143?tag=traciw02-20" rel="noopener sponsored" target="_blank">American Conspiracies — Jesse Ventura</a></li>
+        </ul>
+        <p class="aff-note">As an Amazon Associate, Conspiraparty earns from qualifying purchases.</p>
+      </div>
+      <div class="aff-dig srt-aff">
+        <p class="aff-label">Book a weird tour</p>
+        <p class="aff-tour"><a href="https://www.viator.com/searchResults/all?text=haunted+ghost+tour&pid=VIATOR_AFFILIATE_ID" rel="noopener sponsored" target="_blank">Weird & haunted tours near your route</a></p>
+        <p class="aff-note">Tour links may earn a commission once Viator signup is complete (affiliate ID placeholder for now).</p>
+      </div>
+
+      <p class="srt-note">Etsy links open in a new tab. Family-safe road-trip fun — stay on public land, stay outside the gates.</p>
+    </section>
+  </main>
+
+  <nav class="srt-nav" aria-label="App">
+    <button type="button" data-nav="home" aria-current="page"><span class="ico">🗺️</span>Map</button>
+    <button type="button" data-nav="family"><span class="ico">👨‍👩‍👧</span>Family</button>
+    <button type="button" data-nav="badges"><span class="ico">🎖️</span>Badges</button>
+    <button type="button" data-nav="report"><span class="ico">📋</span>Report</button>
+    <button type="button" data-nav="shop"><span class="ico">📦</span>Shop</button>
+  </nav>
+</div>
+<div class="srt-toast" id="srt-toast" role="status"></div>
+<script src="../assets/share.js" defer></script>
+<script src="app.js" defer></script>
+<script src="family.js" defer></script>
+<script>
+document.getElementById('srt-jump-shop').addEventListener('click', function(e){
+  e.preventDefault();
+  document.querySelector('.srt-nav button[data-nav="shop"]').click();
+});
+document.getElementById('srt-jump-family').addEventListener('click', function(){
+  document.querySelector('.srt-nav button[data-nav="family"]').click();
+});
+</script>
+</body>
+</html>

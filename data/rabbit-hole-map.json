@@ -389,7 +389,25 @@
           "True Stories",
           "true-stories.html"
         ]
-      ]
+      ],
+      "books": [
+        {
+          "title": "Republic of Lies — Anna Merlan",
+          "url": "https://www.amazon.com/dp/1250231272?tag=traciw02-20"
+        },
+        {
+          "title": "The Storm Is Upon Us — Mike Rothschild",
+          "url": "https://www.amazon.com/s?k=The+Storm+Is+Upon+Us+Mike+Rothschild&tag=traciw02-20"
+        },
+        {
+          "title": "None Dare Call It Conspiracy — Gary Allen",
+          "url": "https://www.amazon.com/dp/B0CLFLKJB3?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "DC monuments & Capitol tours",
+        "url": "https://www.viator.com/searchResults/all?text=Washington+DC+monuments+tour&pid=VIATOR_AFFILIATE_ID"
+      }
     },
     "nine11": {
       "hook": "The attacks, the Commission Report, Building 7, and decades of 'what aren't they telling us' debates.",
@@ -478,7 +496,25 @@
           "Glossary",
           "glossary.html"
         ]
-      ]
+      ],
+      "books": [
+        {
+          "title": "The 9/11 Commission Report",
+          "url": "https://www.amazon.com/s?k=9%2F11+Commission+Report+official&tag=traciw02-20"
+        },
+        {
+          "title": "American Conspiracies — Jesse Ventura",
+          "url": "https://www.amazon.com/dp/1616082143?tag=traciw02-20"
+        },
+        {
+          "title": "Rule by Secrecy — Jim Marrs",
+          "url": "https://www.amazon.com/dp/0060931841?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "NYC 9/11 Memorial area tours",
+        "url": "https://www.viator.com/searchResults/all?text=9%2F11+Memorial+New+York+tour&pid=VIATOR_AFFILIATE_ID"
+      }
     },
     "uap": {
       "hook": "From 'UFOs are for cranks' to Pentagon programs, congressional hearings, and AARO reports — the stigma cracked.",
@@ -567,7 +603,25 @@
           "Weird News",
           "weird-news.html"
         ]
-      ]
+      ],
+      "books": [
+        {
+          "title": "UFOs — Leslie Kean",
+          "url": "https://www.amazon.com/dp/0307716848?tag=traciw02-20"
+        },
+        {
+          "title": "Area 51 — Annie Jacobsen",
+          "url": "https://www.amazon.com/dp/0316202304?tag=traciw02-20"
+        },
+        {
+          "title": "Imminent — Luis Elizondo",
+          "url": "https://www.amazon.com/s?k=Imminent+Luis+Elizondo&tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "UFO & Area 51 tours",
+        "url": "https://www.viator.com/searchResults/all?text=Area+51+UFO&pid=VIATOR_AFFILIATE_ID"
+      }
     },
     "epstein": {
       "hook": "A convicted sex offender, an island, flight logs, sealed then unsealed court files, and a death that still splits the room.",
@@ -661,7 +715,25 @@
           "True Stories",
           "true-stories.html#watergate"
         ]
-      ]
+      ],
+      "books": [
+        {
+          "title": "Filthy Rich — James Patterson",
+          "url": "https://www.amazon.com/s?k=Filthy+Rich+James+Patterson+Epstein&tag=traciw02-20"
+        },
+        {
+          "title": "Perversion of Justice — Julie K. Brown",
+          "url": "https://www.amazon.com/s?k=Perversion+of+Justice+Julie+Brown&tag=traciw02-20"
+        },
+        {
+          "title": "Republic of Lies — Anna Merlan",
+          "url": "https://www.amazon.com/dp/1250231272?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "NYC history walking tours",
+        "url": "https://www.viator.com/searchResults/all?text=New+York+City+walking+tour&pid=VIATOR_AFFILIATE_ID"
+      }
     },
     "jfk": {
       "hook": "Dallas, 1963. Warren Commission vs House Select Committee. Millions of pages still argued over.",
@@ -750,7 +822,25 @@
           "Glossary",
           "glossary.html"
         ]
-      ]
+      ],
+      "books": [
+        {
+          "title": "The Devil's Chessboard — David Talbot",
+          "url": "https://www.amazon.com/dp/0062276174?tag=traciw02-20"
+        },
+        {
+          "title": "Chaos — Tom O'Neill",
+          "url": "https://www.amazon.com/dp/0316477540?tag=traciw02-20"
+        },
+        {
+          "title": "Case Closed — Gerald Posner",
+          "url": "https://www.amazon.com/s?k=Case+Closed+Gerald+Posner&tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Dallas Dealey Plaza tours",
+        "url": "https://www.viator.com/searchResults/all?text=Dealey+Plaza+Dallas&pid=VIATOR_AFFILIATE_ID"
+      }
     },
     "moon": {
       "hook": "Flags, shadows, Van Allen belts, and a cottage industry of documentaries arguing studio vs Sea of Tranquility.",
@@ -844,7 +934,25 @@
           "Field Guides",
           "field-guides.html"
         ]
-      ]
+      ],
+      "books": [
+        {
+          "title": "A Man on the Moon — Andrew Chaikin",
+          "url": "https://www.amazon.com/s?k=A+Man+on+the+Moon+Andrew+Chaikin&tag=traciw02-20"
+        },
+        {
+          "title": "Area 51 — Annie Jacobsen",
+          "url": "https://www.amazon.com/dp/0316202304?tag=traciw02-20"
+        },
+        {
+          "title": "Behold a Pale Horse — William Cooper",
+          "url": "https://www.amazon.com/dp/0929385225?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Kennedy Space Center tours",
+        "url": "https://www.viator.com/searchResults/all?text=Kennedy+Space+Center&pid=VIATOR_AFFILIATE_ID"
+      }
     },
     "deepstate": {
       "hook": "Career bureaucracy, intel agencies, contractors — or a mystical hydra, depending who you ask.",
@@ -935,7 +1043,25 @@
           "Theory of the Week",
           "theory-of-the-week.html"
         ]
-      ]
+      ],
+      "books": [
+        {
+          "title": "The Devil's Chessboard — David Talbot",
+          "url": "https://www.amazon.com/dp/0062276174?tag=traciw02-20"
+        },
+        {
+          "title": "Legacy of Ashes — Tim Weiner",
+          "url": "https://www.amazon.com/dp/1400030846?tag=traciw02-20"
+        },
+        {
+          "title": "Permanent Record — Edward Snowden",
+          "url": "https://www.amazon.com/dp/0393352706?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Washington DC intelligence tours",
+        "url": "https://www.viator.com/searchResults/all?text=Washington+DC+spy+tour&pid=VIATOR_AFFILIATE_ID"
+      }
     },
     "election2016": {
       "hook": "Russia probes, Comey letters, WikiLeaks, and a left-leaning 'stolen' narrative that flipped jerseys later.",
@@ -1022,7 +1148,25 @@
           "Theory of the Week",
           "theory-of-the-week.html"
         ]
-      ]
+      ],
+      "books": [
+        {
+          "title": "Republic of Lies — Anna Merlan",
+          "url": "https://www.amazon.com/dp/1250231272?tag=traciw02-20"
+        },
+        {
+          "title": "American Conspiracies — Jesse Ventura",
+          "url": "https://www.amazon.com/dp/1616082143?tag=traciw02-20"
+        },
+        {
+          "title": "Permanent Record — Edward Snowden",
+          "url": "https://www.amazon.com/dp/0393352706?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Washington DC Capitol tours",
+        "url": "https://www.viator.com/searchResults/all?text=US+Capitol+tour&pid=VIATOR_AFFILIATE_ID"
+      }
     },
     "election2020": {
       "hook": "Mail ballots, late-night counts, lawsuits, Jan 6 — and a right-leaning 'stolen' narrative that mirrored 2016's energy.",
@@ -1109,7 +1253,25 @@
           "Theory of the Week",
           "theory-of-the-week.html"
         ]
-      ]
+      ],
+      "books": [
+        {
+          "title": "Republic of Lies — Anna Merlan",
+          "url": "https://www.amazon.com/dp/1250231272?tag=traciw02-20"
+        },
+        {
+          "title": "American Conspiracies — Jesse Ventura",
+          "url": "https://www.amazon.com/dp/1616082143?tag=traciw02-20"
+        },
+        {
+          "title": "Rule by Secrecy — Jim Marrs",
+          "url": "https://www.amazon.com/dp/0060931841?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Washington DC Capitol tours",
+        "url": "https://www.viator.com/searchResults/all?text=US+Capitol+tour&pid=VIATOR_AFFILIATE_ID"
+      }
     },
     "covid": {
       "hook": "Lab leak vs zoonosis, gain-of-function fights, and a info-war that made everyone trust less.",
@@ -1196,7 +1358,25 @@
           "Glossary",
           "glossary.html"
         ]
-      ]
+      ],
+      "books": [
+        {
+          "title": "The Premonition — Michael Lewis",
+          "url": "https://www.amazon.com/s?k=The+Premonition+Michael+Lewis&tag=traciw02-20"
+        },
+        {
+          "title": "Republic of Lies — Anna Merlan",
+          "url": "https://www.amazon.com/dp/1250231272?tag=traciw02-20"
+        },
+        {
+          "title": "American Conspiracies — Jesse Ventura",
+          "url": "https://www.amazon.com/dp/1616082143?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "City walking tours near you",
+        "url": "https://www.viator.com/searchResults/all?text=city+walking+tour&pid=VIATOR_AFFILIATE_ID"
+      }
     },
     "chemtrails": {
       "hook": "Contrails vs 'chemtrails' — weather, geoengineering patents, and sky-watching communities.",
@@ -1269,7 +1449,25 @@
           "Weird News",
           "weird-news.html"
         ]
-      ]
+      ],
+      "books": [
+        {
+          "title": "Rule by Secrecy — Jim Marrs",
+          "url": "https://www.amazon.com/dp/0060931841?tag=traciw02-20"
+        },
+        {
+          "title": "Behold a Pale Horse — William Cooper",
+          "url": "https://www.amazon.com/dp/0929385225?tag=traciw02-20"
+        },
+        {
+          "title": "Republic of Lies — Anna Merlan",
+          "url": "https://www.amazon.com/dp/1250231272?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Aviation museum tours",
+        "url": "https://www.viator.com/searchResults/all?text=aviation+museum+tour&pid=VIATOR_AFFILIATE_ID"
+      }
     },
     "mkultra": {
       "hook": "The CIA really did fund mind-control research. Files were destroyed. Then Congress looked.",
@@ -1351,7 +1549,25 @@
           "Glossary",
           "glossary.html"
         ]
-      ]
+      ],
+      "books": [
+        {
+          "title": "The Search for the Manchurian Candidate — Marks",
+          "url": "https://www.amazon.com/dp/0393307948?tag=traciw02-20"
+        },
+        {
+          "title": "Poisoner in Chief — Stephen Kinzer",
+          "url": "https://www.amazon.com/dp/1250140439?tag=traciw02-20"
+        },
+        {
+          "title": "Chaos — Tom O'Neill",
+          "url": "https://www.amazon.com/dp/0316477540?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Washington DC spy & intelligence tours",
+        "url": "https://www.viator.com/searchResults/all?text=CIA+Spy+Museum+Washington&pid=VIATOR_AFFILIATE_ID"
+      }
     },
     "area51": {
       "hook": "A real classified flight-test site that became America's favorite alien campus.",
@@ -1433,7 +1649,25 @@
           "Weird Map",
           "weird-map.html"
         ]
-      ]
+      ],
+      "books": [
+        {
+          "title": "Area 51 — Annie Jacobsen",
+          "url": "https://www.amazon.com/dp/0316202304?tag=traciw02-20"
+        },
+        {
+          "title": "UFOs — Leslie Kean",
+          "url": "https://www.amazon.com/dp/0307716848?tag=traciw02-20"
+        },
+        {
+          "title": "Witness to Roswell — Carey & Schmitt",
+          "url": "https://www.amazon.com/dp/1933665122?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Area 51 / Las Vegas UFO tours",
+        "url": "https://www.viator.com/searchResults/all?text=Area+51&pid=VIATOR_AFFILIATE_ID"
+      }
     },
     "bigfoot": {
       "hook": "Footprints, blurry film, and a North American folklore industry with zero type specimen in a museum drawer.",
@@ -1507,7 +1741,25 @@
           "Field Guides",
           "field-guides.html"
         ]
-      ]
+      ],
+      "books": [
+        {
+          "title": "Abominable Science! — Loxton & Prothero",
+          "url": "https://www.amazon.com/s?k=Abominable+Science+Loxton+Prothero&tag=traciw02-20"
+        },
+        {
+          "title": "Sasquatch — Coleman & Huyghe",
+          "url": "https://www.amazon.com/s?k=Sasquatch+Coleman+Huyghe+Field+Guide&tag=traciw02-20"
+        },
+        {
+          "title": "American Conspiracies — Jesse Ventura",
+          "url": "https://www.amazon.com/dp/1616082143?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Pacific Northwest cryptid tours",
+        "url": "https://www.viator.com/searchResults/all?text=Bigfoot+tour&pid=VIATOR_AFFILIATE_ID"
+      }
     },
     "flatearth": {
       "hook": "A modern revival arguing ice walls, NASA fakery, and globe 'indoctrination' — with its own film scene.",
@@ -1609,7 +1861,25 @@
           "Glossary",
           "glossary.html"
         ]
-      ]
+      ],
+      "books": [
+        {
+          "title": "Off the Edge — Kelly Weill",
+          "url": "https://www.amazon.com/s?k=Off+the+Edge+Kelly+Weill+Flat+Earth&tag=traciw02-20"
+        },
+        {
+          "title": "Republic of Lies — Anna Merlan",
+          "url": "https://www.amazon.com/dp/1250231272?tag=traciw02-20"
+        },
+        {
+          "title": "Abominable Science! — Loxton & Prothero",
+          "url": "https://www.amazon.com/s?k=Abominable+Science+Loxton&tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Planetarium & observatory visits",
+        "url": "https://www.viator.com/searchResults/all?text=planetarium+tour&pid=VIATOR_AFFILIATE_ID"
+      }
     },
     "birds": {
       "hook": "A satire movement claiming birds were replaced by drone spies — that half the internet treats as half-true vibes.",
@@ -1684,7 +1954,25 @@
           "Weird News",
           "weird-news.html"
         ]
-      ]
+      ],
+      "books": [
+        {
+          "title": "Birds Aren't Real — Peter McIndoe",
+          "url": "https://www.amazon.com/s?k=Birds+Aren%27t+Real+Peter+McIndoe&tag=traciw02-20"
+        },
+        {
+          "title": "Republic of Lies — Anna Merlan",
+          "url": "https://www.amazon.com/dp/1250231272?tag=traciw02-20"
+        },
+        {
+          "title": "American Conspiracies — Jesse Ventura",
+          "url": "https://www.amazon.com/dp/1616082143?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Birding & nature tours (yes, really)",
+        "url": "https://www.viator.com/searchResults/all?text=bird+watching+tour&pid=VIATOR_AFFILIATE_ID"
+      }
     },
     "rothschilds": {
       "hook": "A real European banking family whose name got glued to two centuries of 'secret rulers of the world' pamphlets — including forged ones.",
@@ -1777,7 +2065,25 @@
           "True Stories",
           "true-stories.html"
         ]
-      ]
+      ],
+      "books": [
+        {
+          "title": "The Creature from Jekyll Island — G. Edward Griffin",
+          "url": "https://www.amazon.com/dp/0912986212?tag=traciw02-20"
+        },
+        {
+          "title": "Lords of Finance — Liaquat Ahamed",
+          "url": "https://www.amazon.com/s?k=Lords+of+Finance+Liaquat+Ahamed&tag=traciw02-20"
+        },
+        {
+          "title": "The Alchemists — Neil Irwin",
+          "url": "https://www.amazon.com/s?k=The+Alchemists+Neil+Irwin+central+bankers&tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Wall Street / NYC finance tours",
+        "url": "https://www.viator.com/searchResults/all?text=Wall+Street+tour&pid=VIATOR_AFFILIATE_ID"
+      }
     },
     "fed": {
       "hook": "A central bank born in 1913, still argued as either stabilizer or cartel.",
@@ -1855,7 +2161,25 @@
           "Glossary",
           "glossary.html"
         ]
-      ]
+      ],
+      "books": [
+        {
+          "title": "The Creature from Jekyll Island — G. Edward Griffin",
+          "url": "https://www.amazon.com/dp/0912986212?tag=traciw02-20"
+        },
+        {
+          "title": "Lords of Finance — Liaquat Ahamed",
+          "url": "https://www.amazon.com/s?k=Lords+of+Finance+Liaquat+Ahamed&tag=traciw02-20"
+        },
+        {
+          "title": "The Alchemists — Neil Irwin",
+          "url": "https://www.amazon.com/s?k=The+Alchemists+Neil+Irwin&tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Wall Street / Federal Reserve area tours",
+        "url": "https://www.viator.com/searchResults/all?text=Wall+Street+Federal+Reserve+tour&pid=VIATOR_AFFILIATE_ID"
+      }
     },
     "bilderberg": {
       "hook": "A real invite-only conference of elites — perfect inkblot for 'they run the world' maps.",
@@ -1938,7 +2262,25 @@
           "Glossary",
           "glossary.html"
         ]
-      ]
+      ],
+      "books": [
+        {
+          "title": "Rule by Secrecy — Jim Marrs",
+          "url": "https://www.amazon.com/dp/0060931841?tag=traciw02-20"
+        },
+        {
+          "title": "Superclass — David Rothkopf",
+          "url": "https://www.amazon.com/s?k=Superclass+David+Rothkopf&tag=traciw02-20"
+        },
+        {
+          "title": "The Biggest Secret — David Icke",
+          "url": "https://www.amazon.com/dp/0952614766?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "European capital city tours",
+        "url": "https://www.viator.com/searchResults/all?text=European+capital+walking+tour&pid=VIATOR_AFFILIATE_ID"
+      }
     }
   }
 }

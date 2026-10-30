@@ -1,0 +1,226 @@
+{
+  "tag": "traciw02-20",
+  "viator_pid": "VIATOR_AFFILIATE_ID",
+  "field_guides": {
+    "area-51": {
+      "books": [
+        {
+          "title": "Area 51 \u2014 Annie Jacobsen",
+          "url": "https://www.amazon.com/dp/0316202304?tag=traciw02-20"
+        },
+        {
+          "title": "UFOs \u2014 Leslie Kean",
+          "url": "https://www.amazon.com/dp/0307716848?tag=traciw02-20"
+        },
+        {
+          "title": "Witness to Roswell \u2014 Carey & Schmitt",
+          "url": "https://www.amazon.com/dp/1933665122?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Area 51 / Extraterrestrial Highway tours",
+        "url": "https://www.viator.com/searchResults/all?text=Area+51&pid=VIATOR_AFFILIATE_ID"
+      }
+    },
+    "roswell": {
+      "books": [
+        {
+          "title": "Witness to Roswell \u2014 Carey & Schmitt",
+          "url": "https://www.amazon.com/dp/1933665122?tag=traciw02-20"
+        },
+        {
+          "title": "Area 51 \u2014 Annie Jacobsen",
+          "url": "https://www.amazon.com/dp/0316202304?tag=traciw02-20"
+        },
+        {
+          "title": "UFOs \u2014 Leslie Kean",
+          "url": "https://www.amazon.com/dp/0307716848?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Roswell UFO tours & museums",
+        "url": "https://www.viator.com/searchResults/all?text=Roswell&pid=VIATOR_AFFILIATE_ID"
+      }
+    },
+    "point-pleasant": {
+      "books": [
+        {
+          "title": "The Mothman Prophecies \u2014 John Keel",
+          "url": "https://www.amazon.com/s?k=The+Mothman+Prophecies+John+Keel&tag=traciw02-20"
+        },
+        {
+          "title": "Abominable Science! \u2014 Loxton & Prothero",
+          "url": "https://www.amazon.com/s?k=Abominable+Science+Loxton&tag=traciw02-20"
+        },
+        {
+          "title": "American Conspiracies \u2014 Jesse Ventura",
+          "url": "https://www.amazon.com/dp/1616082143?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Point Pleasant / Mothman tours",
+        "url": "https://www.viator.com/searchResults/all?text=Mothman+Point+Pleasant&pid=VIATOR_AFFILIATE_ID"
+      }
+    },
+    "denver-airport": {
+      "books": [
+        {
+          "title": "Rule by Secrecy \u2014 Jim Marrs",
+          "url": "https://www.amazon.com/dp/0060931841?tag=traciw02-20"
+        },
+        {
+          "title": "American Conspiracies \u2014 Jesse Ventura",
+          "url": "https://www.amazon.com/dp/1616082143?tag=traciw02-20"
+        },
+        {
+          "title": "Republic of Lies \u2014 Anna Merlan",
+          "url": "https://www.amazon.com/dp/1250231272?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Denver city & airport-area tours",
+        "url": "https://www.viator.com/searchResults/all?text=Denver+city+tour&pid=VIATOR_AFFILIATE_ID"
+      }
+    },
+    "las-vegas": {
+      "books": [
+        {
+          "title": "Area 51 \u2014 Annie Jacobsen",
+          "url": "https://www.amazon.com/dp/0316202304?tag=traciw02-20"
+        },
+        {
+          "title": "UFOs \u2014 Leslie Kean",
+          "url": "https://www.amazon.com/dp/0307716848?tag=traciw02-20"
+        },
+        {
+          "title": "American Conspiracies \u2014 Jesse Ventura",
+          "url": "https://www.amazon.com/dp/1616082143?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Las Vegas / Area 51 day tours",
+        "url": "https://www.viator.com/searchResults/all?text=Area+51+Las+Vegas&pid=VIATOR_AFFILIATE_ID"
+      }
+    },
+    "bermuda-triangle": {
+      "books": [
+        {
+          "title": "The Bermuda Triangle \u2014 Charles Berlitz",
+          "url": "https://www.amazon.com/s?k=Bermuda+Triangle+Charles+Berlitz&tag=traciw02-20"
+        },
+        {
+          "title": "Abominable Science! \u2014 Loxton & Prothero",
+          "url": "https://www.amazon.com/s?k=Abominable+Science+Loxton&tag=traciw02-20"
+        },
+        {
+          "title": "American Conspiracies \u2014 Jesse Ventura",
+          "url": "https://www.amazon.com/dp/1616082143?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Miami / Florida Keys boat tours",
+        "url": "https://www.viator.com/searchResults/all?text=Florida+Keys+boat+tour&pid=VIATOR_AFFILIATE_ID"
+      }
+    },
+    "stonehenge": {
+      "books": [
+        {
+          "title": "Stonehenge \u2014 a brief history search",
+          "url": "https://www.amazon.com/s?k=Stonehenge+complete+archaeology&tag=traciw02-20"
+        },
+        {
+          "title": "The 12th Planet \u2014 Zecharia Sitchin",
+          "url": "https://www.amazon.com/dp/0061379131?tag=traciw02-20"
+        },
+        {
+          "title": "Rule by Secrecy \u2014 Jim Marrs",
+          "url": "https://www.amazon.com/dp/0060931841?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Stonehenge & Salisbury tours",
+        "url": "https://www.viator.com/searchResults/all?text=Stonehenge&pid=VIATOR_AFFILIATE_ID"
+      }
+    },
+    "mount-rushmore": {
+      "books": [
+        {
+          "title": "American Conspiracies \u2014 Jesse Ventura",
+          "url": "https://www.amazon.com/dp/1616082143?tag=traciw02-20"
+        },
+        {
+          "title": "Rule by Secrecy \u2014 Jim Marrs",
+          "url": "https://www.amazon.com/dp/0060931841?tag=traciw02-20"
+        },
+        {
+          "title": "Republic of Lies \u2014 Anna Merlan",
+          "url": "https://www.amazon.com/dp/1250231272?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Black Hills / Mount Rushmore tours",
+        "url": "https://www.viator.com/searchResults/all?text=Mount+Rushmore&pid=VIATOR_AFFILIATE_ID"
+      }
+    },
+    "grand-canyon": {
+      "books": [
+        {
+          "title": "A field-friendly geology pick",
+          "url": "https://www.amazon.com/s?k=Grand+Canyon+geology+guide+book&tag=traciw02-20"
+        },
+        {
+          "title": "American Conspiracies \u2014 Jesse Ventura",
+          "url": "https://www.amazon.com/dp/1616082143?tag=traciw02-20"
+        },
+        {
+          "title": "Behold a Pale Horse \u2014 William Cooper",
+          "url": "https://www.amazon.com/dp/0929385225?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Grand Canyon tours",
+        "url": "https://www.viator.com/searchResults/all?text=Grand+Canyon&pid=VIATOR_AFFILIATE_ID"
+      }
+    },
+    "most-suspicious-place": {
+      "books": [
+        {
+          "title": "Atlas Obscura \u2014 Foer, Thuras, Morton",
+          "url": "https://www.amazon.com/s?k=Atlas+Obscura+book&tag=traciw02-20"
+        },
+        {
+          "title": "American Conspiracies \u2014 Jesse Ventura",
+          "url": "https://www.amazon.com/dp/1616082143?tag=traciw02-20"
+        },
+        {
+          "title": "Republic of Lies \u2014 Anna Merlan",
+          "url": "https://www.amazon.com/dp/1250231272?tag=traciw02-20"
+        }
+      ],
+      "tour": {
+        "label": "Weird / haunted city tours near you",
+        "url": "https://www.viator.com/searchResults/all?text=haunted+tour&pid=VIATOR_AFFILIATE_ID"
+      }
+    }
+  },
+  "road_trip_default": {
+    "books": [
+      {
+        "title": "Atlas Obscura \u2014 Foer, Thuras, Morton",
+        "url": "https://www.amazon.com/s?k=Atlas+Obscura+book&tag=traciw02-20"
+      },
+      {
+        "title": "Area 51 \u2014 Annie Jacobsen",
+        "url": "https://www.amazon.com/dp/0316202304?tag=traciw02-20"
+      },
+      {
+        "title": "American Conspiracies \u2014 Jesse Ventura",
+        "url": "https://www.amazon.com/dp/1616082143?tag=traciw02-20"
+      }
+    ],
+    "tour": {
+      "label": "Weird & haunted tours near your route",
+      "url": "https://www.viator.com/searchResults/all?text=haunted+ghost+tour&pid=VIATOR_AFFILIATE_ID"
+    }
+  }
+}

@@ -296,3 +296,43 @@
 .rh-kind-mainstream{background:#e8e8e8}
 .rh-kind-independent{background:#fff3c4}
 .rh-kind-believers{background:#f3eee6;border-color:#9b1219;color:#6b1d22!important}
+
+
+/* Affiliate dig-deeper hints — quiet, not salesy */
+.rh-aff{
+  margin:16px 0 10px;
+  padding:12px 14px;
+  border:1px dashed #b9a99a;
+  background:rgba(255,255,255,.55);
+  border-radius:6px;
+}
+.rh-aff-label{
+  margin:0 0 8px!important;
+  font-size:.72rem!important;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:#5a4a3a!important;
+  font-weight:700;
+}
+.rh-aff-list{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:grid;
+  gap:6px;
+}
+.rh-aff-list a{
+  font-size:.92rem!important;
+  color:#1a1a1a!important;
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+.rh-aff-list a:hover{color:#9b1219!important}
+.rh-aff-tour-line{margin:0 0 6px!important}
+.rh-aff-tour-line a{font-size:.95rem!important}
+.rh-aff-note{
+  margin:8px 0 0!important;
+  font-size:.72rem!important;
+  color:#6a5a4a!important;
+  line-height:1.35!important;
+}

@@ -378,6 +378,26 @@
     });
     html += '</ul>';
 
+    // Dig deeper: books (affiliate) + weird tours (Viator placeholder)
+    if (c.books && c.books.length) {
+      html += '<div class="rh-aff">';
+      html += '<p class="rh-aff-label">Dig deeper: books</p>';
+      html += '<ul class="rh-aff-list">';
+      c.books.forEach(function (b) {
+        html += '<li><a href="' + escapeHtml(b.url) + '" target="_blank" rel="noopener sponsored">' + escapeHtml(b.title) + '</a></li>';
+      });
+      html += '</ul>';
+      html += '<p class="rh-aff-note">As an Amazon Associate, Conspiraparty earns from qualifying purchases.</p>';
+      html += '</div>';
+    }
+    if (c.tour && c.tour.url) {
+      html += '<div class="rh-aff rh-aff-tour">';
+      html += '<p class="rh-aff-label">Book a weird tour</p>';
+      html += '<p class="rh-aff-tour-line"><a href="' + escapeHtml(c.tour.url) + '" target="_blank" rel="noopener sponsored">' + escapeHtml(c.tour.label || 'Browse tours') + '</a></p>';
+      html += '<p class="rh-aff-note">Tour links may earn a commission. Viator affiliate ID pending signup.</p>';
+      html += '</div>';
+    }
+
     if (c.site && c.site.length) {
       html += '<h3>On this site</h3><p>';
       c.site.forEach(function (s) {
