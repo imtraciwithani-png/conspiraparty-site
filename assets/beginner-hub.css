@@ -1,47 +1,361 @@
-/* Beginner hub – rabbit hole, map, glossary, vote */
+/* Beginner hub – high-contrast cream cards on dark bands.
+   Site style.css forces .cork/.paper text to light cream with !important;
+   we re-darken ink inside cream surfaces so titles/links are readable. */
+
 .logo{padding:6px 8px}
 .logo img{display:block}
+
 .beginner-hub-strip{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:18px 0 8px}
-.beginner-hub-strip a{font-size:.78rem;letter-spacing:.06em;text-transform:uppercase}
-.rabbit-map{display:grid;gap:18px;margin-top:24px}
-.rabbit-node{background:var(--paper,#f7f4ee);color:#111;border:3px solid #111;padding:18px;box-shadow:6px 6px 0 var(--red,#c00);position:relative}
-.rabbit-node h3{margin:0 0 8px;font-family:var(--font-display,Anton,Impact,sans-serif);letter-spacing:.04em;text-transform:uppercase}
-.rabbit-node .depth{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;opacity:.7;margin:0 0 10px}
+.beginner-hub-strip a{font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:#fff!important;text-decoration:underline;text-underline-offset:3px}
+.beginner-hub-strip a:hover{color:var(--red,#e11d26)!important}
+
+/* ----- Cream surfaces: rabbit nodes, glossary, stories, quiz, vote ----- */
+.rabbit-node,
+.gloss-term,
+.story-card,
+fieldset.quiz-q,
+.quiz-q.paper,
+.vote-panel.paper,
+.vote-panel,
+.result-box.paper,
+.result-box,
+.political-disclaimer{
+  background:#f3eee6!important;
+  background-image:none!important;
+  color:#111!important;
+  border:3px solid #111!important;
+}
+
+.rabbit-node,
+.story-card{
+  padding:18px;
+  margin:0;
+  box-shadow:6px 6px 0 var(--red,#e11d26);
+  position:relative;
+}
+.story-card{margin:0 0 18px;box-shadow:5px 5px 0 #111}
+.gloss-term{padding:14px 16px;border-width:2px!important;box-shadow:none}
+fieldset.quiz-q,
+.quiz-q.paper{
+  padding:18px;
+  margin:18px 0;
+  text-align:left;
+  box-shadow:4px 4px 0 #111;
+}
+.vote-panel,
+.vote-panel.paper{
+  max-width:640px;
+  margin:0 auto;
+  text-align:left;
+  padding:22px!important;
+  box-shadow:6px 6px 0 var(--red,#e11d26);
+}
+.result-box,
+.result-box.paper{
+  max-width:640px;
+  margin:24px auto;
+  padding:24px;
+  box-shadow:6px 6px 0 var(--red,#e11d26);
+}
+.political-disclaimer{
+  border-left:5px solid var(--red,#e11d26)!important;
+  border-width:0 0 0 5px!important;
+  box-shadow:none;
+  padding:12px 14px!important;
+  margin:18px 0!important;
+  font-size:.92rem;
+  line-height:1.45;
+  color:#111!important;
+}
+
+/* Titles / body / labels on cream — beat .cork h3 / .cork p !important */
+.cork .rabbit-node,
+.paper .rabbit-node,
+.cork .gloss-term,
+.paper .gloss-term,
+.cork .story-card,
+.paper .story-card,
+.cork fieldset.quiz-q,
+.paper fieldset.quiz-q,
+.cork .vote-panel,
+.paper .vote-panel,
+.cork .result-box,
+.paper .result-box,
+.cork .political-disclaimer,
+.paper .political-disclaimer,
+.rabbit-node,
+.gloss-term,
+.story-card,
+fieldset.quiz-q,
+.vote-panel,
+.result-box{
+  color:#111!important;
+}
+
+.cork .rabbit-node h1,
+.cork .rabbit-node h2,
+.cork .rabbit-node h3,
+.cork .story-card h1,
+.cork .story-card h2,
+.cork .story-card h3,
+.cork .vote-panel h1,
+.cork .vote-panel h2,
+.cork .vote-panel h3,
+.cork .result-box h1,
+.cork .result-box h2,
+.cork .result-box h3,
+.cork fieldset.quiz-q legend,
+.cork fieldset.quiz-q legend strong,
+.paper .rabbit-node h1,
+.paper .rabbit-node h2,
+.paper .rabbit-node h3,
+.paper .story-card h1,
+.paper .story-card h2,
+.paper .story-card h3,
+.paper .vote-panel h1,
+.paper .vote-panel h2,
+.paper .vote-panel h3,
+.paper .result-box h1,
+.paper .result-box h2,
+.paper .result-box h3,
+.paper fieldset.quiz-q legend,
+.paper fieldset.quiz-q legend strong,
+.rabbit-node h3,
+.story-card h3,
+.vote-panel h2,
+.result-box h2,
+fieldset.quiz-q legend{
+  color:#111!important;
+  text-shadow:none!important;
+  margin:0 0 8px;
+  font-family:var(--font-display,Anton,Impact,sans-serif);
+  letter-spacing:.04em;
+  text-transform:uppercase;
+}
+
+.cork .rabbit-node p,
+.cork .rabbit-node li,
+.cork .story-card p,
+.cork .story-card li,
+.cork .vote-panel p,
+.cork .vote-panel li,
+.cork .result-box p,
+.cork fieldset.quiz-q label,
+.cork fieldset.quiz-q p,
+.cork .gloss-term dd,
+.cork .gloss-term p,
+.paper .rabbit-node p,
+.paper .rabbit-node li,
+.paper .story-card p,
+.paper .story-card li,
+.paper .vote-panel p,
+.paper .vote-panel li,
+.paper .result-box p,
+.paper fieldset.quiz-q label,
+.paper .gloss-term dd,
+.rabbit-node p,
+.story-card p,
+.vote-panel p,
+.result-box p,
+fieldset.quiz-q label,
+.gloss-term dd{
+  color:#1a1a1a!important;
+  opacity:1!important;
+}
+
+.cork .rabbit-node .depth,
+.cork .story-card .when,
+.cork .vote-panel .vote-note,
+.paper .rabbit-node .depth,
+.paper .story-card .when,
+.paper .vote-panel .vote-note,
+.rabbit-node .depth,
+.story-card .when,
+.vote-note{
+  color:#6b1d22!important; /* dark red-grey, readable on cream */
+  opacity:1!important;
+  font-size:.75rem;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  margin:0 0 10px;
+}
+.story-card .when{font-size:.8rem}
+
+.cork .gloss-term dt,
+.paper .gloss-term dt,
+.gloss-term dt{
+  color:#9b1219!important; /* dark red, AA on cream */
+  font-family:var(--font-display,Anton,Impact,sans-serif);
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  margin:0 0 6px;
+}
+.gloss-term dd{margin:0;line-height:1.45}
+
+/* Branch / in-card links: NOT white — site sets .cork a { color:#fff !important } */
+.cork .rabbit-node a,
+.cork .story-card a,
+.cork .gloss-term a,
+.cork .vote-panel a:not(.btn),
+.cork .result-box a:not(.btn),
+.cork fieldset.quiz-q a,
+.paper .rabbit-node a,
+.paper .story-card a,
+.paper .gloss-term a,
+.paper .vote-panel a:not(.btn),
+.paper .result-box a:not(.btn),
+.rabbit-node a,
+.story-card a,
+.gloss-term a{
+  color:#111!important;
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+.cork .rabbit-node a:hover,
+.cork .story-card a:hover,
+.paper .rabbit-node a:hover,
+.paper .story-card a:hover,
+.rabbit-node a:hover,
+.story-card a:hover{
+  color:#9b1219!important;
+}
+
+/* Branch chips = real buttons with visible ink */
 .rabbit-branches{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
-.rabbit-branches a{display:inline-block;padding:6px 10px;border:2px solid #111;background:#fff;text-decoration:none;color:#111;font-size:.85rem}
-.rabbit-branches a:hover{background:var(--red,#c00);color:#fff;border-color:var(--red,#c00)}
+.cork .rabbit-branches a,
+.paper .rabbit-branches a,
+.rabbit-branches a{
+  display:inline-block!important;
+  padding:8px 12px!important;
+  border:2px solid #111!important;
+  background:#111!important;
+  color:#fff!important;
+  text-decoration:none!important;
+  font-size:.85rem!important;
+  font-weight:700!important;
+  letter-spacing:.02em;
+  line-height:1.2;
+}
+.cork .rabbit-branches a:hover,
+.paper .rabbit-branches a:hover,
+.rabbit-branches a:hover{
+  background:var(--red,#e11d26)!important;
+  border-color:var(--red,#e11d26)!important;
+  color:#fff!important;
+}
+
+/* Buttons inside cream panels stay high-contrast */
+.cork .rabbit-node .btn,
+.cork .story-card .btn,
+.cork .vote-panel .btn,
+.cork .result-box .btn,
+.cork fieldset.quiz-q + .btn,
+.paper .vote-panel .btn,
+.paper .result-box .btn,
+.vote-panel .btn,
+.result-box .btn{
+  background:var(--red,#e11d26)!important;
+  color:#fff!important;
+  border:2px solid var(--red,#e11d26)!important;
+}
+.cork .vote-panel .btn.alt,
+.paper .vote-panel .btn.alt,
+.vote-panel .btn.alt{
+  background:#111!important;
+  color:#fff!important;
+  border-color:#111!important;
+}
+.cork .vote-panel .btn.sm,
+.paper .vote-panel .btn.sm,
+.vote-panel .btn.sm{
+  background:#111!important;
+  color:#fff!important;
+  border-color:#111!important;
+}
+
+/* Hub tool cards (dark band): keep card ink dark on white */
+.cork #hub-cards .card,
+.cork #hub-cards .card h3,
+.cork #hub-cards .card .why,
+.cork #hub-cards .card p,
+#hub-cards .card{
+  color:#111!important;
+  text-decoration:none;
+}
+.cork #hub-cards .card .why,
+#hub-cards .card .why{color:#333!important;opacity:1!important}
+.cork #hub-cards .card h3,
+#hub-cards .card h3{color:#111!important}
+
+/* Map / pack cards on dark */
+.map-list .card,
+.pack-row .card,
+.map-list .card h3,
+.pack-row .card h3,
+.map-list .card .why,
+.pack-row .card .why,
+.map-list .card p,
+.pack-row .card p{
+  color:#111!important;
+}
+.map-list .card .why,
+.pack-row .card .why{color:#333!important;opacity:1!important}
+.map-list .card .btn,
+.pack-row .card .btn{
+  background:var(--red,#e11d26)!important;
+  color:#fff!important;
+}
+
+/* Starter list / misc cream-adjacent cards in cork */
+.cork .grid > .card h3,
+.cork .grid > .card .why,
+.cork .grid > .card p,
+.cork .grid > .card{
+  color:#111!important;
+}
+.cork .grid > .card .why{color:#333!important;opacity:1!important}
+.cork .grid > .card .btn{
+  background:var(--red,#e11d26)!important;
+  color:#fff!important;
+}
+
+.rabbit-map{display:grid;gap:18px;margin-top:24px}
 .glossary-grid{display:grid;gap:12px;grid-template-columns:1fr;margin-top:20px}
 @media(min-width:640px){.glossary-grid{grid-template-columns:1fr 1fr}}
-.gloss-term{background:var(--paper,#f7f4ee);border:2px solid #111;padding:14px 16px}
-.gloss-term dt{font-family:var(--font-display,Anton,Impact,sans-serif);letter-spacing:.06em;text-transform:uppercase;margin:0 0 6px;color:var(--red,#c00)}
-.gloss-term dd{margin:0;line-height:1.45}
-.story-card{background:var(--paper,#f7f4ee);color:#111;border:3px solid #111;padding:20px;margin:0 0 18px;box-shadow:5px 5px 0 #111}
-.story-card h3{margin:0 0 8px;font-family:var(--font-display,Anton,Impact,sans-serif);text-transform:uppercase}
-.story-card .when{font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;opacity:.7;margin:0 0 10px}
+
 .story-card .sources{margin-top:12px;font-size:.9rem}
 .story-card .sources a{margin-right:10px}
-.vote-panel{max-width:640px;margin:0 auto;text-align:left}
+
 .vote-bars{margin:18px 0}
 .vote-bar{margin:10px 0}
-.vote-bar .label{display:flex;justify-content:space-between;font-size:.9rem;margin-bottom:4px}
-.vote-bar .track{height:18px;background:#222;border:2px solid #fff;overflow:hidden}
-.vote-bar .fill{height:100%;background:var(--red,#c00);width:0;transition:width .35s ease}
-.vote-note{font-size:.85rem;opacity:.8;margin-top:8px}
+.vote-bar .label{
+  display:flex;justify-content:space-between;font-size:.9rem;margin-bottom:4px;
+  color:#111!important;
+}
+.vote-bar .track{height:18px;background:#222;border:2px solid #111;overflow:hidden}
+.vote-bar .fill{height:100%;background:var(--red,#e11d26);width:0;transition:width .35s ease}
+
 .map-wrap{position:relative;max-width:720px;margin:0 auto}
 .map-wrap svg{width:100%;height:auto;display:block;background:#0b0b0b;border:3px solid #fff}
-.map-pin{fill:var(--red,#c00);stroke:#fff;stroke-width:2;cursor:pointer}
-.map-pin:hover,.map-pin:focus{fill:#fff;stroke:var(--red,#c00)}
+.map-pin{fill:var(--red,#e11d26);stroke:#fff;stroke-width:2;cursor:pointer}
+.map-pin:hover,.map-pin:focus{fill:#fff;stroke:var(--red,#e11d26)}
 .map-list{display:grid;gap:12px;margin-top:24px}
 @media(min-width:640px){.map-list{grid-template-columns:1fr 1fr}}
 .pack-row{display:grid;gap:12px;margin-top:18px}
 @media(min-width:640px){.pack-row{grid-template-columns:1fr 1fr}}
-.agency-hero{text-align:center;padding:28px 0}
-.agency-hero .badge-preview{max-width:280px;margin:18px auto;border:4px solid #fff;box-shadow:8px 8px 0 var(--red,#c00)}
-.quiz-q{margin:18px 0;padding:18px;text-align:left}
-.quiz-q label{display:block;margin:8px 0;cursor:pointer}
-.result-box{max-width:640px;margin:24px auto;padding:24px}
-#hub-cards .card{text-decoration:none}
 
-.political-disclaimer{font-size:.92rem;line-height:1.45}
+.agency-hero{text-align:center;padding:28px 0}
+.agency-hero .badge-preview{max-width:280px;margin:18px auto;border:4px solid #fff;box-shadow:8px 8px 0 var(--red,#e11d26)}
+
+.quiz-q label{display:block;margin:8px 0;cursor:pointer;color:#1a1a1a!important}
 .political-section{scroll-margin-top:80px}
 .rabbit-node.political-section{box-shadow:6px 6px 0 #111}
+
+/* Strong emphasis inside cream cards */
+.rabbit-node strong,
+.story-card strong,
+.vote-panel strong,
+.gloss-term strong,
+.political-disclaimer strong{
+  color:#111!important;
+}
