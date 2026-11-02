@@ -1,0 +1,126 @@
+{
+  "updated": "2026-11-01",
+  "note": "Mixed perspectives. Labels are voice tags, not verdicts. Dig in yourself.",
+  "videos": [
+    {
+      "id": "lw-natgeo-area51",
+      "title": "Area 51: The CIA's Secret (Full Episode)",
+      "creator": "National Geographic",
+      "creatorUrl": "https://www.youtube.com/@NatGeo",
+      "url": "https://www.youtube.com/watch?v=kVpJ6BwG8zg",
+      "embedId": "kVpJ6BwG8zg",
+      "label": "Mainstream",
+      "topic": "Area 51"
+    },
+    {
+      "id": "lw-history-area51",
+      "title": "America's Book of Secrets: The World's Most Mysterious Military Base",
+      "creator": "HISTORY",
+      "creatorUrl": "https://www.youtube.com/@HISTORY",
+      "url": "https://www.youtube.com/watch?v=_dYXEoxBOUo",
+      "embedId": "_dYXEoxBOUo",
+      "label": "Mainstream",
+      "topic": "Area 51"
+    },
+    {
+      "id": "lw-cbs-uap",
+      "title": "UAP videos declassified by Pentagon and played in Congress",
+      "creator": "CBS News",
+      "creatorUrl": "https://www.youtube.com/@CBSNews",
+      "url": "https://www.youtube.com/watch?v=m-lj46iSCEU",
+      "embedId": "m-lj46iSCEU",
+      "label": "Mainstream",
+      "topic": "UAP"
+    },
+    {
+      "id": "lw-fox-hearing",
+      "title": "FULL HEARING: Congress discusses Unidentified Anomalous Phenomena",
+      "creator": "FOX 5 Washington DC",
+      "creatorUrl": "https://www.youtube.com/@fox5dc",
+      "url": "https://www.youtube.com/watch?v=Z5tzv0Mk7as",
+      "embedId": "Z5tzv0Mk7as",
+      "label": "Mainstream",
+      "topic": "UAP hearing"
+    },
+    {
+      "id": "lw-gop-oversight",
+      "title": "Unidentified Anomalous Phenomena: Exposing the Truth",
+      "creator": "GOP Oversight",
+      "creatorUrl": "https://www.youtube.com/@GOPoversight",
+      "url": "https://www.youtube.com/watch?v=kT2iWKZr0qA",
+      "embedId": "kT2iWKZr0qA",
+      "label": "Independent",
+      "topic": "UAP hearing"
+    },
+    {
+      "id": "lw-disclosure-uap",
+      "title": "Understanding UAP: Science, National Security & Innovation",
+      "creator": "Disclosure Foundation",
+      "creatorUrl": "https://www.youtube.com/@DisclosureFoundation",
+      "url": "https://www.youtube.com/watch?v=XVdux73iJEk",
+      "embedId": "XVdux73iJEk",
+      "label": "Independent",
+      "topic": "UAP"
+    },
+    {
+      "id": "lw-flir-pack",
+      "title": "Pentagon UFO Videos — Gimbal, Go Fast, FLIR",
+      "creator": "Unidentified Anomalous Phenomena",
+      "creatorUrl": "https://www.youtube.com/watch?v=oIN4BOzN-DI",
+      "url": "https://www.youtube.com/watch?v=oIN4BOzN-DI",
+      "embedId": "oIN4BOzN-DI",
+      "label": "Primary document",
+      "topic": "Navy FLIR"
+    },
+    {
+      "id": "lw-gallaudet",
+      "title": "Rear Admiral Timothy Gallaudet — Under Oath Testimony 11/13/2024",
+      "creator": "The Disclosure Process",
+      "creatorUrl": "https://www.youtube.com/@TheDisclosureProcess",
+      "url": "https://www.youtube.com/watch?v=FRp1dlflKK4",
+      "embedId": "FRp1dlflKK4",
+      "label": "Believers",
+      "topic": "UAP testimony"
+    },
+    {
+      "id": "lw-ancient-roswell",
+      "title": "Ancient Aliens: Secrets of Roswell Revealed",
+      "creator": "HISTORY",
+      "creatorUrl": "https://www.youtube.com/@HISTORY",
+      "url": "https://www.youtube.com/watch?v=4VJD2mM6uUU",
+      "embedId": "4VJD2mM6uUU",
+      "label": "Believers",
+      "topic": "Roswell"
+    },
+    {
+      "id": "lw-mothman",
+      "title": "The UnXplained: Mystery of the Mothman",
+      "creator": "HISTORY",
+      "creatorUrl": "https://www.youtube.com/@HISTORY",
+      "url": "https://www.youtube.com/watch?v=CxDb2lKVdgQ",
+      "embedId": "CxDb2lKVdgQ",
+      "label": "Believers",
+      "topic": "Cryptids"
+    },
+    {
+      "id": "lw-cryptid-files",
+      "title": "Bigfoot, Mothman and the Chupacabra: The Cryptid Files",
+      "creator": "Post Apocalypse",
+      "creatorUrl": "https://www.youtube.com/@PostApocalypse",
+      "url": "https://www.youtube.com/watch?v=08gOnY5UWP8",
+      "embedId": "08gOnY5UWP8",
+      "label": "Independent",
+      "topic": "Cryptids"
+    },
+    {
+      "id": "lw-60min-birds",
+      "title": "Birds Aren't Real: the conspiracy theory that satirizes conspiracy theories",
+      "creator": "60 Minutes",
+      "creatorUrl": "https://www.youtube.com/@60Minutes",
+      "url": "https://www.youtube.com/watch?v=lsgnrYog6W0",
+      "embedId": "lsgnrYog6W0",
+      "label": "Mainstream",
+      "topic": "Humor / culture"
+    }
+  ]
+}

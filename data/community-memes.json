@@ -1,0 +1,54 @@
+{
+  "updated": "2026-11-01",
+  "note": "Only Traci-approved memes appear here. Submissions go to review first.",
+  "memes": [
+    {
+      "id": "cp-01",
+      "title": "That's not a drone. Sit down.",
+      "image": "assets/img/memes/01-not-a-drone.png",
+      "credit": "Conspiraparty",
+      "creditUrl": "https://conspiraparty.com/memes.html",
+      "tags": ["Aliens", "Approved starter"]
+    },
+    {
+      "id": "cp-05",
+      "title": "Birds aren't real. This owl works for them.",
+      "image": "assets/img/memes/05-birds-arent-real.png",
+      "credit": "Conspiraparty",
+      "creditUrl": "https://conspiraparty.com/memes.html",
+      "tags": ["Classic", "Approved starter"]
+    },
+    {
+      "id": "cp-12",
+      "title": "Trust no one. Except this meme.",
+      "image": "assets/img/memes/12-trust-this-meme.png",
+      "credit": "Conspiraparty",
+      "creditUrl": "https://conspiraparty.com/memes.html",
+      "tags": ["Cryptids", "Approved starter"]
+    },
+    {
+      "id": "cp-16",
+      "title": "Bigfoot called. He's running late.",
+      "image": "assets/img/memes/16-bigfoot-running-late.png",
+      "credit": "Conspiraparty",
+      "creditUrl": "https://conspiraparty.com/memes.html",
+      "tags": ["Cryptids", "Approved starter"]
+    },
+    {
+      "id": "cp-07",
+      "title": "Simulation glitch detected. Please reboot reality.",
+      "image": "assets/img/memes/07-simulation-glitch.png",
+      "credit": "Conspiraparty",
+      "creditUrl": "https://conspiraparty.com/memes.html",
+      "tags": ["Classic", "Approved starter"]
+    },
+    {
+      "id": "cp-08",
+      "title": "Area 51 gift shop: now open (classified).",
+      "image": "assets/img/memes/08-area-51-gift-shop.png",
+      "credit": "Conspiraparty",
+      "creditUrl": "https://conspiraparty.com/memes.html",
+      "tags": ["Aliens", "Approved starter"]
+    }
+  ]
+}
