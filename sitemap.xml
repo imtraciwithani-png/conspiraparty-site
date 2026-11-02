@@ -9,7 +9,7 @@
   <url><loc>https://conspiraparty.com/blog-how-to-throw-a-conspiracy-theory-party.html</loc><lastmod>2026-10-26</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/blog-how-to-throw-a-conspiracy-theory-party-pin.jpg</image:loc></image:image></url>
   <url><loc>https://conspiraparty.com/blog.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/blog-pin.jpg</image:loc></image:image></url>
   <url><loc>https://conspiraparty.com/bonus-mission.html</loc><lastmod>2026-10-26</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/bonus-mission-pin.jpg</image:loc></image:image></url>
-  <url><loc>https://conspiraparty.com/books.html</loc><lastmod>2026-10-26</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/books-pin.jpg</image:loc></image:image></url>
+  <url><loc>https://conspiraparty.com/books.html</loc><lastmod>2026-11-01</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/books-pin.jpg</image:loc></image:image></url>
   <url><loc>https://conspiraparty.com/christmas-party-game.html</loc><lastmod>2026-10-26</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/christmas-party-game-pin.jpg</image:loc></image:image></url>
   <url><loc>https://conspiraparty.com/classified-books.html</loc><lastmod>2026-10-26</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/classified-books-pin.jpg</image:loc></image:image></url>
   <url><loc>https://conspiraparty.com/conspiracy-library.html</loc><lastmod>2026-10-26</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/conspiracy-library-pin.jpg</image:loc></image:image></url>
@@ -104,5 +104,47 @@
     <loc>https://conspiraparty.com/join-the-agency.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://conspiraparty.com/skeptic-tools.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://conspiraparty.com/document-vault.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://conspiraparty.com/follow-the-money.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://conspiraparty.com/timeline.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://conspiraparty.com/weekly-dig.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://conspiraparty.com/scoreboard.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://conspiraparty.com/submit.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
   </url>
 </urlset>

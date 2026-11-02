@@ -33,3 +33,20 @@ document.querySelectorAll('form[data-signup]').forEach(f=>{
   });
 });
 if(/[?&]enlisted=1/.test(location.search))document.querySelectorAll('form[data-signup] .notice').forEach(n=>n.textContent='You’re in, agent. Watch your inbox (and your back).');
+
+/* Unlock Amazon Buy buttons when data-asin is filled (traffic-boost). */
+(function () {
+  document.querySelectorAll('[data-amazon-slot][data-asin]').forEach(function (el) {
+    var asin = (el.getAttribute('data-asin') || '').trim();
+    var tag = el.getAttribute('data-tag') || 'traciw02-20';
+    if (!asin) return;
+    var a = document.createElement('a');
+    a.className = 'btn sm';
+    a.rel = 'noopener sponsored';
+    a.target = '_blank';
+    a.href = 'https://www.amazon.com/dp/' + encodeURIComponent(asin) + '?tag=' + encodeURIComponent(tag);
+    a.textContent = 'Buy on Amazon';
+    a.id = el.id || undefined;
+    el.replaceWith(a);
+  });
+})();
