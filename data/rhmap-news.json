@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T15:50:09.561637+00:00",
-  "generated_at_display": "Nov 1, 2026 3:50 PM UTC",
+  "generated_at": "2026-11-02T15:54:37.502637+00:00",
+  "generated_at_display": "Nov 2, 2026 3:54 PM UTC",
   "script": "scripts/fetch_rhmap_news.py",
   "max_per_topic": 6,
   "feed_status": {
@@ -46,10 +46,10 @@
     "The Grayzone": "ok:12",
     "MintPress News": "ok:10",
     "Unlimited Hangout": "ok:15",
-    "Rumble (via Google News)": "ok:100",
+    "Rumble (via Google News)": "ok:77",
     "The Black Vault": "ok:25",
     "The Debrief": "ok:100",
-    "BBC News": "ok:25",
+    "BBC News": "ok:30",
     "NPR": "ok:10",
     "The Guardian": "ok:45",
     "Politico": "ok:30"
@@ -81,28 +81,28 @@
         "published_iso": "2025-08-21T07:00:00+00:00"
       },
       {
+        "title": "Former UK Prime Minister CONFIRMS The Deep State Is In Control! - Rumble",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPN3pFN21ucUVURVNaa2M5TXk3cDNwZ0g0ZU1fYkduWWozbXVUMlJwalZMSzR4bEJJWmVURzdzT0kwSExpSXZodDVQbEVhWHZrOEs0MkF4SEdzSEtyQnltcEFHRkpyb3lBT0RtUTh3NW4tS2ZQSzNjVTJhbkQxRkJsOHhQRm4wX3hKRGU0NW92LUljUTR6X3RrTllQSDczWEQxZmFubm52aUNMZXFvcmxqZ2JBY2VvMDAwMGVIWW1qb3VBUQ?oc=5",
+        "source": "Rumble",
+        "kind": "Mainstream",
+        "published_display": "Oct 31, 2026",
+        "published_iso": "2026-10-31T22:15:17+00:00"
+      },
+      {
+        "title": "Trump Clues - Major Deep State Op SHOCKER! Sat 10:30 AM CST 10-31-26 - Rumble",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbEdENi1uUkpkeEpLaTY1bTBUQVJuaGk3VTVjT2dKTjl4SVNDYmdYeF90RXRaUGs4VWU4ZVlXUzhJVkItZXVhMmZBWUhkRDc3ZEdzbU9yU1UxSzR5Zk1RSWg2QzlvYlprSkNXMmtLMEdkU1dRZEdmM05hWk9uTGxtMnpjTGVtWi1xd3hrNmZPSVFNXzJLcGo0TURqSmQ?oc=5",
+        "source": "Rumble",
+        "kind": "Mainstream",
+        "published_display": "Oct 31, 2026",
+        "published_iso": "2026-10-31T02:04:35+00:00"
+      },
+      {
         "title": "The Battle According to Q - Crisis Magazine",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5selBpamwybnFhUmRxbXhXdURiQXhtamRrRC1MRkJCS2w4eDU4OThKMzhyOTdMaHctT2pZa0JjMUhvNmxwUXoyVmR0OVlHS1h1RmdmWF8yNFpFTkpiM3pLdVRKOGNaNmI4d015Nw?oc=5",
         "source": "Crisis Magazine",
         "kind": "Mainstream",
         "published_display": "Oct 30, 2026",
         "published_iso": "2026-10-30T09:10:59+00:00"
-      },
-      {
-        "title": "QAnon | Meaning, Beliefs, & Conspiracy Theory - Britannica",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mdGI4OEctR1NuMXpkYXQ1VjhSdUx6a1JqcjB3WGl1OFc2ak40U3RNbHpnVFhnS2gyZU9WM3JFTHdvRTRPd29FTjJvZWVZd0E?oc=5",
-        "source": "Britannica",
-        "kind": "Mainstream",
-        "published_display": "Oct 25, 2026",
-        "published_iso": "2026-10-25T05:00:00+00:00"
-      },
-      {
-        "title": "Trump’s new QAnon press secretary exposes his desperation - Salon.com",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeGZPRV82NUNJVzBsbXZQWWlsRUdYRXRCU1ptdmxaMlFYWG1YTUREaTI2SDJ2eWoxejRXQ05VakxLRGtFY1FGY0JsR21qWVNGM2xsOG1CQzF2YXFLTHZITmxxTDhzNTFRVGJwdHNkc002TGdjUmhXYXdnRldwWHFWOTRlbEJSNDMtZEpiZUpsRkdKMl9w?oc=5",
-        "source": "Salon.com",
-        "kind": "Mainstream",
-        "published_display": "Oct 14, 2026",
-        "published_iso": "2026-10-14T07:00:00+00:00"
       }
     ],
     "nine11": [
@@ -131,28 +131,28 @@
         "published_iso": "2026-09-15T07:00:00+00:00"
       },
       {
+        "title": "U.S. military joins forces with East African nation for airstrikes against $100 million-earning group linked to 9/11 attacks - Business Insider Africa",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNnhtMFlKZWdfT25yZko5WEFTUU5DS2VzNmoyUThTQ2lWd3VhSmJKdGlIUHdUUXhERi0zT2JjcmZxSktGRzlNaFRXVmlYTHNMcG56U216TXJmM3VhaVNjUzZKdWdDS3Jtd1dPTEVJSFJuWWpDeDRWOGZ0VW5OZ29TLV9NbUVWMUtpUTJLZi02V2pkbm1POVpHQnZCelY0bDY5WnJTUlJhRHZFT1lxUVE0alpKdEpVSFMya0JvRG8tdjdaVFpicXpyN1Axb0tCOEZ6QnVWYm1R?oc=5",
+        "source": "Business Insider Africa",
+        "kind": "Mainstream",
+        "published_display": "Nov 2, 2026",
+        "published_iso": "2026-11-02T06:47:53+00:00"
+      },
+      {
         "title": "One Nation candidate’s Port Arthur, 9/11 ‘false flag’ links uncovered - The Australian",
         "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOSFh4QUJlR2JOWTVoT0tsNjhNVlVybnpWZndQODl6c201aEd3RXV6N0dwNFdiN3kwUFpvODZXSVR1SXFQQlljVTlxRlNEZWpJWU1JeEdXMW13NjVUX2FsUnRxMEtnSWJiWkFqMVJJbXZRVDlaYUdfTmFwRE81UV8xemhDSVhxd0dUS041dGZONUFUd2xyb2dDemhBMEhSSVI0bklaelJodEZyaVhUMzR2VFNiQ3BfZVhOU3ZMYi1ZN1ZCTkIxNlhhTU1MMEpLdUlUYW1DWEtfWkJmRGJLZmtDSmtMLXByRGJzV0Z6WDhSQTN4Sl9ONGRKaEl4dkJFWlJk?oc=5",
         "source": "The Australian",
         "kind": "Mainstream",
         "published_display": "Nov 1, 2026",
-        "published_iso": "2026-11-01T11:45:54+00:00"
+        "published_iso": "2026-11-01T11:16:04+00:00"
       },
       {
-        "title": "U.S. Sen. Elissa Slotkin shares her 9/11 story with Oakland University class - The Oakland Post",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQME5WSlE3d3JJT0sydXBvTzJMZ1dqcXZQVzVkNktpb05MV29mTm51LXdlUmpWaUw3MTNwaG5pOTdjemkydUM1RTEyVDlwWTBhRVZVVC11WkJTbE15RU9jSkZkNXNLODhsZTdRcGZmeHhSZUhnX20xNlpWQXZHSEhrV1JvaUJoWDg3cFhGTGxWMndjSHlRU0FaalBjTVBVdkQyRS1xOEZMMVRGVml4ejBpX0VtQVJHT1dGeFE?oc=5",
-        "source": "The Oakland Post",
+        "title": "September 11 attacks | 9/11, History, Map, Location, Timeline, Casualties, & Facts - Britannica",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1kcWY5b2lTNTI5VmVFcG1zTW9BclRucmFleHZXelpKUG8wcEktbWsxdFk2aWxxVGYwMUw3SXVLZ3gtMmhBcVZ5NnkySnZVQjhYNFhwOUtmel9qYUF2NElQT2FTaw?oc=5",
+        "source": "Britannica",
         "kind": "Mainstream",
         "published_display": "Oct 31, 2026",
-        "published_iso": "2026-10-31T00:38:46+00:00"
-      },
-      {
-        "title": "Ron Paul’s 2001 Alternative: What Could Have Been - Mises Institute",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZVM1ZjFVdVlPUG1NdEY1RThMZjJxSkFsZTkwRno0bXBxR0t6VVM4bWNvMUxzMkFvWDdzOU5QM2JhSVZkTXFiUFU3em9nLUJBLVhSRG54ZkZJZGNqbTFRMU1lX3R4NXhPSmtuRnIwS1hnQnlDdXZLeFA5dzhsRV96LWpB?oc=5",
-        "source": "Mises Institute",
-        "kind": "Mainstream",
-        "published_display": "Oct 30, 2026",
-        "published_iso": "2026-10-30T10:00:00+00:00"
+        "published_iso": "2026-10-31T05:00:00+00:00"
       }
     ],
     "uap": [
@@ -160,6 +160,14 @@
         "title": "Israeli Military Continues the Search for an Unidentified Aerial Object Detected Near Lebanese Border - The Debrief",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbGI2NnpwVDhOOFRrc19sWXlGMjk3eUpIbnRvSTE1bmRNM2hfUlNidkZPeG0yOW1WUUFWUVljeWhHS0psZVQ3TDhZN2VsNzFWSUpVR1NBYy1XaFAwR1hzQUdNT3dsNTFCLTl2RWxkT3pNM1dXZzBXNTFpYnp2MlF1V0ZVMnpMaDJrS0pac2Y0anFHbUtPWThnWDlxMXlLNklwM0JwQVViMGlyNGt6a3hkNWlKclgyYXJkc2Q3TDROSF92NW8?oc=5",
         "source": "The Debrief",
+        "kind": "Independent",
+        "published_display": "Oct 15, 2026",
+        "published_iso": "2026-10-15T07:00:00+00:00"
+      },
+      {
+        "title": "Confessions Of Government’s Top UAP Man - Rod Dreher's Diary",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kb1M2SWFDYnhkbHR1RjRhejVEX3Y4ejhMNUdNQ3VreHJBRjZDZHZnRGk2N1VuZ3NLdVg3MlRDWnhVc1pSd2pmTEw1cV83QzVKcXNjVXVwU01VaXdkd19wZmdXS25JY3VCSG91aExYMnplTGhnb0E?oc=5",
+        "source": "Rod Dreher's Diary",
         "kind": "Independent",
         "published_display": "Oct 15, 2026",
         "published_iso": "2026-10-15T07:00:00+00:00"
@@ -173,12 +181,12 @@
         "published_iso": "2026-10-14T12:20:59+00:00"
       },
       {
-        "title": "Video - DOW-UAP-PR116, Unresolved UAP Report, Atlantic Ocean, 2020 - DVIDS",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOemdzVnIwVExCRHlzZHdQVjVBemV0ZTVSVWRwU2o1dzR6TWoybVFPRy10QjdPRE9RRFFPeFREMkhsaGVPSjdPT29Lc0FCM3JVT0hBS2xtRmFLdmNWODV1TUVQWkVCbEg4Ui1HUDV5OGtxb3RMY0ZFeUJ0d0VyLWFxYk9uMWtyaldZYjRlMUtyVFlfVF9tbEZEdkRB?oc=5",
-        "source": "DVIDS",
-        "kind": "Independent",
-        "published_display": "Oct 7, 2026",
-        "published_iso": "2026-10-07T07:00:00+00:00"
+        "title": "Democrats prepare to launch a select committee to seize the UFO disclosure issue. 'I just don’t trust another president' - The Mary Sue",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQ3dfbGtrWS1uYjhyMWtVNkZPUW1oVUt6M1pyai1MMUJxX2k1NktmeElCblpUYU15M2JVNk5Jc1djUFJzNVBrZGpjX0ttWExPM0VaMzBlN3NNckVOX0pkZGp6WjJaNFdPQkdNbldpXzRZVzBWYnpDVWtHZGFkb013WkJzd2JZNTQyejA4SEV1OGJoWFlfdUR6bDdJY1hCTXEzR3dTSWU5T2JOYkZ3dEpzMFN3eHhuNmcteDRGc2ltR0k2OThEMVAzaS1BbnlEdDdUQnRvUVl3aGIzRXVD?oc=5",
+        "source": "The Mary Sue",
+        "kind": "Mainstream",
+        "published_display": "Nov 2, 2026",
+        "published_iso": "2026-11-02T06:30:00+00:00"
       },
       {
         "title": "Is the truth really out there? Studying UAP sightings - CBS News",
@@ -187,14 +195,6 @@
         "kind": "Mainstream",
         "published_display": "Nov 1, 2026",
         "published_iso": "2026-11-01T14:28:02+00:00"
-      },
-      {
-        "title": "Is the truth really out there? Studying UAP sightings - Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUXJUcGhma1d0NTYzYlk0Vmk3QlBsTW9SZGlLeVZ3ei1WanRZWlkxbjBHYXBwZ1Vzby1RNl9JUXo3bDkzYWEydVNqVVpJbF9FVWUtNVhGVlQyWkk4Z2U1RlVpc25ocW5uZEs5VVVmMVJVQVVEMzRYQ0hndkoyc1pBNDN4Z0xjWEdBYVA2YQ?oc=5",
-        "source": "Yahoo",
-        "kind": "Mainstream",
-        "published_display": "Nov 1, 2026",
-        "published_iso": "2026-11-01T14:27:16+00:00"
       },
       {
         "title": "Former Pentagon UFO chief disputes FBI black triangle sighting, says reports lack evidence - Fox News",
@@ -215,44 +215,44 @@
         "published_iso": "2026-10-30T18:14:00+00:00"
       },
       {
-        "title": "Trump and Epstein’s intrasexual competition - The Epstein Files by Julie K. Brown",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxON0tnMkVXUTgteGNjbWdjQjhRQm5PTDlrVlhnaC05Q0VZRWFTRmFIYWhzOXlMY3U4WEdWLWVuVzJ0UTBxcXJGQjI0YzdDdS12NHVqaF9VRktFZXNZaTByMkRwMUZMd21PSXRJVGxIOHN5Q2JyVWcwUzBjUGltV25vcUM4WG1HQQ?oc=5",
-        "source": "The Epstein Files by Julie K. Brown",
+        "title": "Inside Jeffrey Epstein’s CIA Privacy Act Requests for Records About Himself",
+        "url": "https://www.theblackvault.com/documentarchive/inside-jeffrey-epsteins-cia-privacy-act-requests-for-records-about-himself/?utm_source=rss&utm_medium=rss&utm_campaign=inside-jeffrey-epsteins-cia-privacy-act-requests-for-records-about-himself",
+        "source": "theblackvault.com",
         "kind": "Independent",
-        "published_display": "Oct 27, 2026",
-        "published_iso": "2026-10-27T17:17:20+00:00"
+        "published_display": "Sep 24, 2026",
+        "published_iso": "2026-09-24T15:19:40+00:00"
       },
       {
-        "title": "Carole Radziwill Has More to Say About the Epstein Files - Vulture",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5fZzNuRS1naWpFamtiS0FRMFVtcEs0eFpvSFlGVHdSVGU1a3dZU082clpSeW5jLWYtOFRLb19MTEhsZGlRMDNkenRwVmdnQzhzWC1vaDNjTm94TVg4X1BLNUZEeXkwb3Y1ZlNkYmpyWWpmZWpKMUhUWG9QZw?oc=5",
-        "source": "Vulture",
+        "title": "Remember the Epstein files! - Robert Reich | Substack",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBZNEhzUllSU0Q2ckJvRmVreVEwbEhNWk5LbVVLS2JXTnQ3dmZURkNwdGpLWUlpZU5WWHE5VjluVm9HZkJIVldVNnJxb3hsLTQ5TXVraW1pMEtrM3BIMVlELVRR?oc=5",
+        "source": "Robert Reich | Substack",
         "kind": "Independent",
-        "published_display": "Oct 14, 2026",
-        "published_iso": "2026-10-14T07:00:00+00:00"
+        "published_display": "Sep 4, 2026",
+        "published_iso": "2026-09-04T07:00:00+00:00"
       },
       {
-        "title": "Trump & Epstein Memorial Reading Room & Bookmobile coming to South Florida today - WGCU",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT2Joc0QtOUpxa2ZnRVpBTmM5TXZtN09tZlJsQlNIZTlvd2pnaHBULXQxaHRHQi1yREpqT1NsbDlYa0dZX1owcHFjTWtHR2paT2gxd2ktaHNieldQc0JHSlQ2cHdXTkUzSWFGTm1sY2ZkN0thOGszYVQzM2hCOUxDUi1MQ1dMLWRkeGRSSVRSeWczakZadHNfbFFUZzFlc0w3WFhVaG1TUG9DVkVrb0llUk1DZERoSTA5R2c?oc=5",
-        "source": "WGCU",
+        "title": "Judge Dismisses Trump’s Lawsuit Against Wall Street Journal Publisher Again - WSJ",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdDVoalRRMUFiekR3Q0hia3NEVkJjb29JY2xhZEF1RE85ZWZia25IblNMdVE3WnY5c1A4ZDh3aTVlSXhTTDl6cWxxVk5uNmNaNUJSUlRUTUdTU0d3ZFo3WW4wdmpRQXZ4Sk9zTHpXdVBRV2VIQnpNMnBDR2JyTDNjd2w1V20xRXJEenJtRUZ4VXYyYTNwQ2ZWWEJMYWFoaThSeTM2MmktQ0JhMlBvOWh3dVFUZ0ZPdw?oc=5",
+        "source": "WSJ",
         "kind": "Mainstream",
-        "published_display": "Nov 1, 2026",
-        "published_iso": "2026-11-01T14:13:00+00:00"
+        "published_display": "Nov 2, 2026",
+        "published_iso": "2026-11-02T14:41:22+00:00"
       },
       {
-        "title": "I survived Epstein's abuse. The government is failing us | Opinion - USA Today",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPV2p6dng0Wkp4OWVqa2N5Z2pSXy15a05URzlZb1VGamhnMWYyTzMxN00zNTR3MWpIUGt4WnNLdzlGRF9oUFhnTC10ei1GRlRIZVJkYnlVeWJteTBncGtKb3RqdHdaclR0b2tQLUlRaWlYQXlDVzZZUHkzMnAwQmRaeVRJelBqNEhwdnNZSkZ1NG1kdFM0RFM1dFpXcHpaY0hTZ0w4R1RnRGlKN2VxQ3BHaWVuNlg?oc=5",
-        "source": "USA Today",
+        "title": "DOJ says it won’t appoint special counsel to investigate Epstein’s network - KXAN Austin",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQai1SUEhBdEgtVWptQ2FzQllYNEUzdThGTHh5eUNuTWxTU3l1WUpMaUliZkQ1WThLVi02OUY4bEUwSGdCVXY1bkRVRFdpX1dxTnFuR2FlZzAtS1NCWXFSWFYwX3J5UmNUckVVQWV0YmREMzZVc2hpX2R3ZlZNQWlVeWRLN3d5NzI2blNkM0tQQ0ptYzBGNjhacG5xZVBnNXlnNG5qMzBLSC3SAa4BQVVfeXFMTVp6YVZxTU9LOGozaGhjR0xtOEFtUXhzM2VZRW9IU3lKejdBOVR3MkVjRzNCbHQ0d2hxY1RxS21CdnhreUNiaWhwT1FNLWpJY3RwRG1RZFJpdGpTQ3FUaEdCNWV0akh0T01ZY2xxcXB3MkY4clotVHl6WVZ5ZEtQSTVBLUZ0WENEYm1MaEdSWllxRFhUYnotcjlRcDNrMGhQNHlNWjdIRDdUcmh0Y2FR?oc=5",
+        "source": "KXAN Austin",
         "kind": "Mainstream",
-        "published_display": "Nov 1, 2026",
-        "published_iso": "2026-11-01T14:01:00+00:00"
+        "published_display": "Nov 2, 2026",
+        "published_iso": "2026-11-02T12:08:49+00:00"
       },
       {
-        "title": "Column: Will we ever learn the truth about Trump's ties to Jeffrey Epstein? - Los Angeles Times",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN2QwWkFwVlUtamEtMWItZHhZMmhDa096UVpIRzRvYURua3NYNUE2YUd1UC1EdjFxeTdqSl9BeVFIRUNzQVZ1S1BzR1lkbkMtWGFUa0ZJdXhlejZoM21HaERzMGhjbjdISDBiSE1vWlJ1TXZxRllPTWFZVUJyQUJDeXEtZlFpTjVlSktsaDdwSkRWRU1fWnhZd2NDS1ltOHE4eGp3ZElKdGJHLUZpMWVDbzNmTnN2OC0yeE1QMnpCRG4tOUE?oc=5",
-        "source": "Los Angeles Times",
+        "title": "She’s an Epstein survivor who trusted Trump. Now she’s urging voters to reject the ‘BS.’ - The 19th News",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1OMTVwQnRXWkVpcVFDdEpESWNhZm5nTFRjRW9NSGRmMFluNmZRaTI1OWJ6d3A3WU1lUFZkTlgteEs1R1hxZlhYUFJxczBBVVFDV2FDdF91cWdRZUEweUVsb2s1YlVUczhEdnRZOXJneU10Q2QtWVgyX2JB?oc=5",
+        "source": "The 19th News",
         "kind": "Mainstream",
-        "published_display": "Nov 1, 2026",
-        "published_iso": "2026-11-01T11:00:00+00:00"
+        "published_display": "Nov 2, 2026",
+        "published_iso": "2026-11-02T12:02:31+00:00"
       }
     ],
     "jfk": [
@@ -281,20 +281,20 @@
         "published_iso": "2025-10-16T07:00:00+00:00"
       },
       {
+        "title": "Were JFK And The Governor Of Texas Really Struck By The Same 'Magic Bullet'? - All That's Interesting",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtbWxLeGJENE9FZlJ3SUJSWFl5dTAyLTNIVXRxRTktczlQeWYxZWpsemZxM1RXQ05KNzdJck1nRHV0bV83dWpsb21rTWhUbGc5VzZVaTRuUTBHeVhHdUVCeA?oc=5",
+        "source": "All That's Interesting",
+        "kind": "Mainstream",
+        "published_display": "Oct 1, 2026",
+        "published_iso": "2026-10-01T07:00:00+00:00"
+      },
+      {
         "title": "Assassination of John F. Kennedy: At a Glance - Britannica",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOElBUjI1SXgwam54Z2kxYW04amx6RjNlYVAxWlhldVFuVWlfN2RrUmR3N0h3UlN1NjV2ODhNLUcxMVpVeUlydlp6a095TXZQSGNkdGExc0I2WWljMTg2bkdsRndMTEhwUDR1NWJwQUNXSmttU1FQZzUwWjBEcV9xcDlsaW1VbWxxRkhEUA?oc=5",
         "source": "Britannica",
         "kind": "Mainstream",
         "published_display": "Sep 21, 2026",
         "published_iso": "2026-09-21T07:00:00+00:00"
-      },
-      {
-        "title": "Meet the housewives who dug into JFK’s assassination and took on the FBI - New York Post",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd3Z3VWlkVkdTbjJQQzFwdWdDb09RVUNhVk9UbG8yeV84ejZLN3FGZFdLZ0N1NDgxbzNBRThDZ2FJODJWbjNBb3dmaklOMmJwam1xUkl2VkJtODJYTkc3dF9GTTdieHJPazgwcC16X2dkQjVTMF9fVGM1NjV6VGZ1dlJhQjRocFZ2Sk5SU1N4M0hqNkF6TldNR1VpZENpZw?oc=5",
-        "source": "New York Post",
-        "kind": "Mainstream",
-        "published_display": "Jun 28, 2026",
-        "published_iso": "2026-06-28T07:00:00+00:00"
       },
       {
         "title": "The Women Who Saw Something Fishy in the J.F.K. Assassination - The New York Times",
@@ -307,28 +307,36 @@
     ],
     "moon": [
       {
-        "title": "The Problem With Rooms Full of Men - The Noösphere",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBSRmtVajJvRm5UYnktOVRiMU5TM1lsQUI5MVpJNFBBbVAxdk51bi1XN0VlLWowbjV0bV9LWHRDS253VVE4OFU5VjhpSm03dVh2Z1NOR1EybjFBbWh4VjNUUGRHQ2hjVWFES0hWMXFFTFpNTjFqN0xfOHJB?oc=5",
-        "source": "The Noösphere",
-        "kind": "Independent",
-        "published_display": "Oct 22, 2026",
-        "published_iso": "2026-10-22T14:52:38+00:00"
-      },
-      {
-        "title": "Woman Whose Code Saved the Moon Landing Dies at 90 - The Daily Beast",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMFRwdE1ZNTB5LTFHTzgzbkRIWUg1U1kzdkRiWUpnT1JkSFF0M3BtSmVZQ3RPa1piUmNtQTZVQ0xnQ0JLYVU1U2EyLWNaZmxaN2tGVnZ5bHg5eE12T1hYYTZRRzl6NUkyRWM5UDdhOEVLZ3MxeU93bzZ1U1FjS2JheVJrSVdHVGVxWUpvYlAtcENPUlhVaElV?oc=5",
+        "title": "Pen That Saved Moon Landing Astronauts’ Lives Up for Auction - The Daily Beast",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObTJHTERwOEtZYUJtMFlkcU5FbDFDMWdGWkdXa210czYtSlc4NnNZVHZzWWx1U3hxeVRUdGhFcWxDUkticC1iYVhNcGhuX3hkSS1XUjJDSGVaZ2Z3VXZWcWQwaEoyMEF6dm0waV9YdndoQ0FCTmdzUG5hMXphemlJMFNuaWljZE9OSjhBVkh2YkF5S2s?oc=5",
         "source": "The Daily Beast",
         "kind": "Independent",
-        "published_display": "Oct 8, 2026",
-        "published_iso": "2026-10-08T07:00:00+00:00"
+        "published_display": "Jul 15, 2026",
+        "published_iso": "2026-07-15T07:00:00+00:00"
       },
       {
-        "title": "“Fly Me To The Moon” - Steady | Dan Rather",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB3OExSTDlWZVpzamlpMDlsdGNib0pKdVRWRHAxRl84dndrcjdZSEFGM2FEVHhaVkU3ZEw0c09PT25qby1CSS1oSzJpakUtcXJKQjNHX1NYd3UwSHVo?oc=5",
-        "source": "Steady | Dan Rather",
+        "title": "Buzz Aldrin reported mysterious cabin flashes during Apollo 11 mission - NewsNation",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQnI5dHE3Z2k2TExvckxWUXM0NWR3SHpzeHFSWXBrSmMtNkxlT25Bd2lXbm55X2Y3ejB1eGp3M20tcEJkalBPTzNKbFpUY1NySjNyWWVoT2hVc0JkZy1SRGpfT2xsdjZOc0dFZWN4ckRiZ3h2a2JHT0NSSjdjM3FJNG1B0gGHAUFVX3lxTE5jMXlsLXpvQ2loR0hIeGtfczAwSUVOTDhiTHA2RjVyQUZoZTM4ZlowWWZSNmQwd0VsTU9SdU1na1JVODdMME1jODdqcVlDWDJXQTNpOHEzaVI2eThZa29hanRlbi1zWDJnVVZXeUNWbWlPZFpIeENwUlltMUQtdUNhVG9OeFAwNA?oc=5",
+        "source": "NewsNation",
         "kind": "Independent",
-        "published_display": "Jul 26, 2026",
-        "published_iso": "2026-07-26T07:00:00+00:00"
+        "published_display": "May 8, 2026",
+        "published_iso": "2026-05-08T07:00:00+00:00"
+      },
+      {
+        "title": "Buzz Aldrin described ‘unusual’ phenomena during Apollo 11 mission, UFO docs reveal - New York Post",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOUhPaTFFMHZ2YkJSU0FQTW1naVY1UGhTNl91cHBPZm1YcWI1ZWVFNkxfTERXVW9GbnZkWENyTzdqNkVpUEJOSzVUdFBpYUEtaVRfYjRhWUlKQldHQnRxLTE2ODRzekZGQm5vTGxfX3F0bEYxMWV1WFVXd2Q0cERSd005S1BmU0g3R1pqaTJXWlJ3VE85RkhpZmR1OXMxakItcUxSbGVZaWpJUG5zb01kcUFtM2ZXeHVZRmRN?oc=5",
+        "source": "New York Post",
+        "kind": "Independent",
+        "published_display": "May 8, 2026",
+        "published_iso": "2026-05-08T07:00:00+00:00"
+      },
+      {
+        "title": "China unveils two-launch Moon landing plan — The Express Tribune - UA.NEWS",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbkpXeWU2YUxKMnlMRm1YVVE1NFViQkRCY0xQdXpvclBRSkY4Ri1lcF9Wd09MVUpLSFliQURlSDZaMGJtaTlKcTlFbWdDNnVGRDBPdkN3MzRCU3JQWFNoakY5QkVaa1gteERVcERrUGdPQ0VCb2lMZVoyZFpSRkhCUFA3N05Gb245VTNvbm5DbkJubUJnMnJmaWc3Tjg5WFZySnVVMHZaT0lQamI4Nnc?oc=5",
+        "source": "UA.NEWS",
+        "kind": "Mainstream",
+        "published_display": "Nov 1, 2026",
+        "published_iso": "2026-11-01T21:04:43+00:00"
       },
       {
         "title": "China Manned Moon Landing: 2 Launches, 3 Crew [2026] - shattered.io",
@@ -336,7 +344,7 @@
         "source": "shattered.io",
         "kind": "Mainstream",
         "published_display": "Nov 1, 2026",
-        "published_iso": "2026-11-01T14:45:10+00:00"
+        "published_iso": "2026-11-01T14:46:57+00:00"
       },
       {
         "title": "China details mission plan for crewed lunar landing - China Daily",
@@ -345,24 +353,16 @@
         "kind": "Mainstream",
         "published_display": "Nov 1, 2026",
         "published_iso": "2026-11-01T13:46:28+00:00"
-      },
-      {
-        "title": "China Manned Moon Landing: 2 Launches by 2030 [2026] - https://tech-insider.org/",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2RjNXZwU2htV0dfNkhGWEh6N1ZTd0RxSzFfYzh1NXBJelhuYVVuVm41S2kzaXFCYnBzUzVtWTZkd1EzaTltSTlTYlN6c0JtOXJ6WmZpWlhHYXllaUQtSVE3MWNUOEtXZGVZa2ZKRlVya0JnSTdMMHpJY1pFeHF2M2tRTnJKZ3hqc1MxQVJUWEQ4dVNVTWs0?oc=5",
-        "source": "https://tech-insider.org/",
-        "kind": "Mainstream",
-        "published_display": "Nov 1, 2026",
-        "published_iso": "2026-11-01T13:35:26+00:00"
       }
     ],
     "deepstate": [
       {
-        "title": "The civil service may save us all - Klement on Investing",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUjVfVnlMeU00aFZmVi1KcE9TZmVRbWYwSjBHMS1naE5Jbl9XcW9NRHRsVU5zSzRwdk5GRlplSW5Jb3hHX0ZkblB5a25rcng0djZYUzZmR0lxYTU1alctUkQ0VW9JSHFweDY4N0hXSjRJc09kcy1HTTAyUVJXSzRPMw?oc=5",
-        "source": "Klement on Investing",
+        "title": "‘The deep state stole my mini-budget’: An exclusive extract from Liz Truss’s new book - The New World | Substack",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE54Q1dqQXIxXzU5akxWdW11RERRMlJOVXRyb1FreXJBZEd4NE5vRUs4YTgtVDFwb0x5d1FuYXpLbGJYUnc5S2VFV3ZsQktFcWFJVV85YWdkclp0RHRVRVU4cmlndlY3Y3ZMa2dJal93NVhuUWFCcFNzd0l3?oc=5",
+        "source": "The New World | Substack",
         "kind": "Independent",
         "published_display": "Oct 23, 2026",
-        "published_iso": "2026-10-23T06:00:48+00:00"
+        "published_iso": "2026-10-23T09:51:04+00:00"
       },
       {
         "title": "The Common Good and the Rule Of Law - The New Digest",
@@ -373,12 +373,12 @@
         "published_iso": "2026-10-21T11:53:45+00:00"
       },
       {
-        "title": "Rappers For Regime Change: How the CIA Recruits Hip Hop Artists Around the World",
-        "url": "https://www.mintpressnews.com/rappers-for-regime-change-how-the-cia-recruits-hip-hop-artists-around-the-world/291246/",
-        "source": "mintpressnews.com",
+        "title": "The Mike Graham Show (@themikegrahamshow) - Substack",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0wcTVHSVNVa1FfYXZnclUzb0dLRFJwYmZwSWpnQVlXeHJTUnp2cjRnUzJKWXFtamRSVmJyT2E2dzYyNF82LW9kVFpJR1Y5dGdUNk9mOVo1NERFSEQxMGF1RnBQd0JmVVE?oc=5",
+        "source": "Substack",
         "kind": "Independent",
-        "published_display": "Oct 16, 2026",
-        "published_iso": "2026-10-16T17:18:47+00:00"
+        "published_display": "Oct 21, 2026",
+        "published_iso": "2026-10-21T07:21:49+00:00"
       },
       {
         "title": "Analysis • Netanyahu's real deep state is his doomsday weapon - Haaretz",
@@ -389,20 +389,20 @@
         "published_iso": "2026-11-01T02:53:00+00:00"
       },
       {
-        "title": "OP-ED: Why we need the ‘deep state’ - Observer-Reporter",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeENNRnhjTF9KLXROMlN1Tk15TVF6Rm5kWWxNck5Jb2VZd3NOcjBjUUhja25pMDVxWE9PWkFXMHUtRXRjWWRtY29BUXlxNzZIajhXaDZkMlMwMXU3TWpLRkxpMDJ0RDhMRTlqbUNRWHNmeGRCWXNxSWFHUDRYWGhoZmZ6QzBua2VuT0VCNE9pR2taMVV0TEZMRA?oc=5",
-        "source": "Observer-Reporter",
+        "title": "Former UK Prime Minister CONFIRMS The Deep State Is In Control! - Rumble",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPN3pFN21ucUVURVNaa2M5TXk3cDNwZ0g0ZU1fYkduWWozbXVUMlJwalZMSzR4bEJJWmVURzdzT0kwSExpSXZodDVQbEVhWHZrOEs0MkF4SEdzSEtyQnltcEFHRkpyb3lBT0RtUTh3NW4tS2ZQSzNjVTJhbkQxRkJsOHhQRm4wX3hKRGU0NW92LUljUTR6X3RrTllQSDczWEQxZmFubm52aUNMZXFvcmxqZ2JBY2VvMDAwMGVIWW1qb3VBUQ?oc=5",
+        "source": "Rumble",
         "kind": "Mainstream",
         "published_display": "Oct 31, 2026",
-        "published_iso": "2026-10-31T15:22:26+00:00"
+        "published_iso": "2026-10-31T22:15:17+00:00"
       },
       {
-        "title": "Vote Chori or a bigger geopolitical game? Unravelling the China-deep state nexus behind attempts to destabilise Bharat - Organiser",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQTVExd21HSHJTaU5PZGdyeXBWMVJqS0N4NklQUU9TSS1iVk55bFJhV3R0bVBfcDJObkp1X0U2ektGLTVkeDJEZnZ4aG1qSmV0THZ0bHNrWndkRzJwZlR0TmFkUEZmY0RMc04wZG5HdlBnc21xc1R5OFZyWGF2OW01S1dqSDd2RzBXS2Z3WHpJTmp4eElyMHBMQmloWlRlTElubl95SmoyeDhpTGRLb3hmSTA2el9rMmpGSnVjdk5FTEFncERRRXRwdUdIWnRBUHdncno0VWE2QXNqRnhDaEZRcEVVSW1hMVVlekRWc0dMZTRPVWxRcUpUeNIB_gFBVV95cUxOSWNHVUV0VjRjV0FQbWVvZG11N1hrYTM0SUNMWHdveFZuZnhEeHBIajhWYW01Qldta2M2XzVSbDB5Q2tOYmhYd2dyaHZfWEp3VTRjRkFmZHRhbXh3cnJaeDBXUlZGbEoyaERhN3pHYzN4djN4NXhYbFlLMnFrM2dFT0FmOG9mZ0RaaWFDNzFRUHZPNEdJNjVhNENFbGh0MVMzV1YtSEhtUk00Q01WdjFZVlk2ZkNnb2FYZFNraFFQTnBQcXRyTUQ0dGl4ZXJDTTRQRlZUenpvQWp2clI0VlNQR1d5OXktemM0Tll6MmhBdlAweFlMNHA5VlZsOFh3QQ?oc=5",
-        "source": "Organiser",
+        "title": "Trump Clues - Major Deep State Op SHOCKER! Sat 10:30 AM CST 10-31-26 - Rumble",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbEdENi1uUkpkeEpLaTY1bTBUQVJuaGk3VTVjT2dKTjl4SVNDYmdYeF90RXRaUGs4VWU4ZVlXUzhJVkItZXVhMmZBWUhkRDc3ZEdzbU9yU1UxSzR5Zk1RSWg2QzlvYlprSkNXMmtLMEdkU1dRZEdmM05hWk9uTGxtMnpjTGVtWi1xd3hrNmZPSVFNXzJLcGo0TURqSmQ?oc=5",
+        "source": "Rumble",
         "kind": "Mainstream",
         "published_display": "Oct 31, 2026",
-        "published_iso": "2026-10-31T13:38:27+00:00"
+        "published_iso": "2026-10-31T02:04:35+00:00"
       }
     ],
     "election2016": [
@@ -415,12 +415,12 @@
         "published_iso": "2026-10-26T23:08:00+00:00"
       },
       {
-        "title": "Rahm Emanuel’s Plan To Make Sure Democrats Lose In 2028 - Sirota | Substack",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9HMFVuUmpSZmkxeXdrbzV1WXJlTEpydndDVG1uZUtWM0otQVZ3cE8zR2hOc0ZBUE14enhMeVNiYzlpLXdjTnIxMElJLW1IaDNxaG4tQ09mTXBBTFQtQ1oweWdJRXFUaUtLNWdpdlVvb0JabU5qN19sTXR5QQ?oc=5",
-        "source": "Sirota | Substack",
+        "title": "Trump’s P***y-Gate Tape Sidekick Gets New Fox News Job - The Daily Beast",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOemlORHZSeHpJbWNzYlZCR2gtOUt1VXlMZU5sQVhMZFE4ajJsdXVwRDFNV2ZmVUFxWWJOU1dpYzNZb2cta1BTZ09yMWxGOG9yMW10M2gydlZSSkFhRDZfb3hlVVJleDRzS2pYVWNfaUItV2J3Zkw2SDVwaUluNHBncHdlWEVKcWNDTVZlZEhjV0l1SUJl?oc=5",
+        "source": "The Daily Beast",
         "kind": "Independent",
-        "published_display": "Oct 22, 2026",
-        "published_iso": "2026-10-22T22:07:23+00:00"
+        "published_display": "Sep 22, 2026",
+        "published_iso": "2026-09-22T07:00:00+00:00"
       },
       {
         "title": "Trumps’ Homes Reveal Secret Reality of Their Marriage: Author - The Daily Beast",
@@ -431,39 +431,31 @@
         "published_iso": "2026-08-03T07:00:00+00:00"
       },
       {
-        "title": "Scott Galloway Says Selling All His Stocks After Trump’s 2016 Election Was His ‘Biggest Investment Mistak - Benzinga",
-        "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNSnd1bjhGcEo2LTNsbzNEWjBBZFhDU3FxcldqbnFsTGd5UkVURkpRQWtiSGNZZGgtTjZreWxzbWQ4MzRSSFRNVERHZ3dZYTlxYXplX2Q4VnZ1ODZZZm1PYzZmZFVfM1N4SjJ5UUhGT3piaDhEU0dKM3ZzU0w2b0N4UkNrZXJocjcxNUVkYW5sY1ExZGdrNkNpemZiZmZTT05uRkRnZjQ0MThFMWpoS0hjdm81VEl4Nnk1YnhZY1dJMlZrTmtENUxFRExPRzk4SjVpaC1OU1pTeHpHSzVEYW1kZnUzLUI5dGpGeFFibjhLS3BjMVdXcnh6R21rd0lwUXlvNk9XeVhkVTVsNEFhN1IwQjdJY2tiNk40cVFlUDRYU0FFamtDaG8xeTQwSHFrMVBaVzB6UQ?oc=5",
-        "source": "Benzinga",
-        "kind": "Mainstream",
-        "published_display": "Oct 31, 2026",
-        "published_iso": "2026-10-31T18:00:05+00:00"
-      },
-      {
-        "title": "California 2016 Election Results - MultiState",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMVTl0V29UaVFNUXBYT1JWQW82UXlLeFZEdDdxMVQxRVZpWGI1UllucVJRVk9oNTNCU093YUstU1ZrU1BjaWszSUFhNzJtTmpZSmh5T0hPT0FCakRNdmZua1dTQmJYM2pNb3FF?oc=5",
+        "title": "Pennsylvania 2016 Election Results - MultiState",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE56OHFLd0JBRW9GM1drcmFtOTJRZF8zd0JYcDVxWkpVSXhhQU1uTHJOZjZEOWlMckM0NGZnYVpYT2hhMF8yMl9SdzlDMVRna2RYNkplQ1hBNGJtZ2s1a1pmU1RIektIcUkwUGlscHd3?oc=5",
         "source": "MultiState",
         "kind": "Mainstream",
-        "published_display": "Oct 29, 2026",
-        "published_iso": "2026-10-29T19:16:10+00:00"
+        "published_display": "Nov 1, 2026",
+        "published_iso": "2026-11-01T23:02:51+00:00"
       },
       {
         "title": "Arizona 2016 Election Results - MultiState",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKQ3doUE5taDBHcEVEeHNoU2h3ZnhUOWRzMHBJQWp0d2lweGxLcTlzZzhMSlhGbFpmeFVXb0ZUUHA3OHFId3plZ0VpT0VyM0h0ZjdZdXN4dnVRWWpHUUFaOUJsQl8wYjg?oc=5",
         "source": "MultiState",
         "kind": "Mainstream",
-        "published_display": "Oct 29, 2026",
-        "published_iso": "2026-10-29T03:29:53+00:00"
+        "published_display": "Nov 1, 2026",
+        "published_iso": "2026-11-01T18:56:49+00:00"
+      },
+      {
+        "title": "California 2016 Election Results - MultiState",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMVTl0V29UaVFNUXBYT1JWQW82UXlLeFZEdDdxMVQxRVZpWGI1UllucVJRVk9oNTNCU093YUstU1ZrU1BjaWszSUFhNzJtTmpZSmh5T0hPT0FCakRNdmZua1dTQmJYM2pNb3FF?oc=5",
+        "source": "MultiState",
+        "kind": "Mainstream",
+        "published_display": "Nov 1, 2026",
+        "published_iso": "2026-11-01T18:54:51+00:00"
       }
     ],
     "election2020": [
-      {
-        "title": "Pilot for Tom Tiffany deeply involved in election conspiracy politics - Wisconsin Examiner",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWDJOeWU3MzhobWU3NEVWWkhDdTVXMGVFdVV2X0duMGxaWUJfX2M1Vi00VkxBYmRXVmVKMUVPUTZpLXZJSzJydVBnQVk5Vk1KamJ6WGhGb29JZVZjNWhYdHhObkZlTFd4VEVzNjhuT0JQaFFkUnI2eE9RODd5REdaLXRNSUM1ci10QWdKV3pRUl9xSGUwOEFuTTdXU3RmaFYzUnA4djdlS3lHcHVBOVYyVQ?oc=5",
-        "source": "Wisconsin Examiner",
-        "kind": "Independent",
-        "published_display": "Sep 24, 2026",
-        "published_iso": "2026-09-24T07:00:00+00:00"
-      },
       {
         "title": "They’re Building The Excuse Now - Civil Discourse with Joyce Vance",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5JRGRTTkxZZXVmMENhcHdCMDJEZU5ZYmlFcC1GRU53WkFweGFaQ1NLZGRUSDhvelVhSGJ2NWVVaGYwRUw2bG1ZLUktR3VWb1Q0b1BuY3ZPNy13LW5JelU4NUxQN3BDRkFweUFCTFlZOGdJdw?oc=5",
@@ -479,6 +471,14 @@
         "kind": "Independent",
         "published_display": "Jul 17, 2026",
         "published_iso": "2026-07-17T07:00:00+00:00"
+      },
+      {
+        "title": "Misinformer John Solomon, who reportedly pushed for Trump’s prime-time speech, has spent months claiming China interfered in the 2020 election to help Joe Biden - Media Matters for America",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSHYtRno1N2xGNWNYemx4dGhyRDNqVTVGRWZyaWhLcFVCdzAyYXY0RU92SllQNXFTU285dlFadVEyek1iS2p3M0JvRnltY1hRMHNXbmpqR2dnX1plaHlFalhXWFZGcm5ldnMtbG51eHFRQU55bVhGVG0xUDREdW1hRzZpUm9PbjA2b3JSX0FybXhsU0Iza3ZRa01PWHFVYzRMa0R0UXktUmk3bEpHc1NEcE1PY25TMUFnTEpkRlp3Vmg?oc=5",
+        "source": "Media Matters for America",
+        "kind": "Independent",
+        "published_display": "Jul 16, 2026",
+        "published_iso": "2026-07-16T07:00:00+00:00"
       },
       {
         "title": "Lesko wouldn't certify 2020 election. Now she defends system | Exclusive - azcentral.com and The Arizona Republic",
@@ -515,20 +515,20 @@
         "published_iso": "2026-08-17T07:00:00+00:00"
       },
       {
+        "title": "Did COVID-19 Actually Come From a Lab? Two Top Scientists Debate Its Origins - Zeteo",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5BSkVoNnVKRW8yaDJTX0pSWHVZS3ZNRlMzZjFMbm1kUHpoaVZXbjFESzZfOE81RU5sMldIODdnSFlPSUw1YkdYZldXVWJVNl85ZFdBRTZDR1RNLXpD?oc=5",
+        "source": "Zeteo",
+        "kind": "Independent",
+        "published_display": "Aug 13, 2026",
+        "published_iso": "2026-08-13T07:00:00+00:00"
+      },
+      {
         "title": "The COVID Pandemic Probably Started In Wuhan Market Animals After All - American Council on Science and Health",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVkF0TW0wWkE0b1RreGZoejc1OXBrZ0lBRnlSTWlZMlVKWEwxanRQRlB6dlBYdEFLRGV0alZIZHZZbVlrM3pKd1gwUGp4dzY4SFNGUjJhS3g2UW10WXpmYzJBSGxRazZmajFZeUgzVHNOY1B6YXhrOVc2WmV2Q2c3c3VMaXpobE9QNVUxX0hsTmZBWnRvdVY0cWNhb3oxMnFTMnpjSWlUT0w?oc=5",
         "source": "American Council on Science and Health",
         "kind": "Independent",
         "published_display": "Feb 4, 2025",
         "published_iso": "2025-02-04T08:00:00+00:00"
-      },
-      {
-        "title": "New Trump CIA Chief Declassifies COVID ‘Lab Leak’ Assessment - The Daily Beast",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRmlwR2taRFFEbEVHd2NLOTFNRUhabUcyTnZZZDJZRy1GcGZGSHVlNDVVUERVVTBpa3NwMU4td0JwTXJxY05icmlOYXZ2cnl5ZWRSRXFWc3lYazdQMW5tWUZOT05jRHBkZXotM01ILVYzRkRVdTFMdThYUEh5WXpKbzVmeDhfaENJSDFjZ1daY3B2Zw?oc=5",
-        "source": "The Daily Beast",
-        "kind": "Independent",
-        "published_display": "Jan 26, 2025",
-        "published_iso": "2025-01-26T08:00:00+00:00"
       },
       {
         "title": "Possible plague lab leak shows global biosecurity gaps - Nature",
@@ -581,28 +581,28 @@
         "published_iso": "2025-07-11T07:00:00+00:00"
       },
       {
-        "title": "Planters group welcome SRA’s cloud seeding fund in Negros, Panay - Inquirer.net",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTnBtbWJOVGJ6YXc2dUUzMHhqMnl3bG13MjU2Zy14MS13d0lQYlBUWjlpZ2hQWExjU1VoSXJFNmQ4azNGU2hKY0Q4X2R4X2F6RThtNmZ1M3NzZmE3ZDRxLXlIT2dhdUd3LUVRRWx6TXAtUzZaNExwWUt6cXJ1MW5zaDRtSV9udjZ4dTZuNlE5cHhWbmxaSUVVMm9IWXgyZGZkeGfSAacBQVVfeXFMUE9sS0htZG5aZm02aTd4T2VUQ1ZERUdwLWhITjA0NmNQTzQ0MHhsT2RzeUs1cHNRVmprZDVUcWtveVR0eXNQaWE1dzB1b0I4RHg3Q0NQZVVDQ1VpNEZST0RjY19kbkZHVERXNm1nTm1mbFFFN1dORGJlRHFGVnBEQnBNS1djZGxNZm53VnU4Y3JodTl3Sm16dVpqQnczbXh6QWpYREZZdzA?oc=5",
-        "source": "Inquirer.net",
+        "title": "Geoengineering Climate Intervention: Global Roadmap Needed - World Economic Forum",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZVFsWHItd0xING51ZXlVNGFXZEZ2UkdrX1RLWmstWmNZMGdaMGhiVEFRc2FwLUowNlB0d043clRWVGFicWhyT3FGb0JOWFlCQTBGZVhMTk4zX0lXMlMxTmE4Y2Zrc3lKX2hJZmZ2UVlLSmdyU2Fzd2ZWbGlGMmZjSUd5d3NBMEFmcDlMcFhnbUNxSVRPRkpoQVU3SHl5ZVAxcXpuY3BsbWFqakhSTFZUTmhYRGlaeWpa?oc=5",
+        "source": "World Economic Forum",
         "kind": "Mainstream",
-        "published_display": "Oct 31, 2026",
-        "published_iso": "2026-10-31T15:39:00+00:00"
+        "published_display": "Nov 2, 2026",
+        "published_iso": "2026-11-02T12:27:23+00:00"
       },
       {
-        "title": "Florida enacts comprehensive weather modification ban - Fernandina Observer",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUlZZWTlLVXdiSzFUNm8yNUxsY054Ukl6Q2ZWbjRVdEE3UTQtZ0RLci0xekM4eloxb0QtTmxlaTBJc1UzUURhcEoyUFZHT240V2wyd2Y5c0ljWG1KZVFnWmcxUW1jRmY0ZVR2a3VicVo5YXlSUFk1VU9zeW1Zc3d1QW42aERKZURpanRlbjQyWnptSDhSNl9VbWFaVlBVUm9XMElqRzNR?oc=5",
-        "source": "Fernandina Observer",
+        "title": "Planetary Power: Geoengineering and the New Geopolitics of Climate Intervention - Carnegie Endowment for International Peace",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVC12a2NRQmFiWHlPVUVzX0ppNzFkdDJPbkdWdnk5RUpLRVRSZjAteHV4VlA2ZGJyY0djVnpZUjFYYVhDdnMtY3dsYjNXcEZxdVk2LVBkZEhYZzhVdTV1QUNXaldRQS1KWVVtZ0ozMUIzYU5aV2xIakw4cHpYZWVlSmNjNnNVQi1RckFJcEp6ZE85NC1vRGNQYWFSN25lT29UbUlINlY4Q1lreE5GVjdyMGNJOXZuWTh6WlNmckliOXRBWGY5VUo0WWZIMVM?oc=5",
+        "source": "Carnegie Endowment for International Peace",
         "kind": "Mainstream",
-        "published_display": "Oct 31, 2026",
-        "published_iso": "2026-10-31T07:30:00+00:00"
+        "published_display": "Nov 2, 2026",
+        "published_iso": "2026-11-02T11:17:55+00:00"
       },
       {
-        "title": "P30 million cloud-seeding brings hope to Visayas sugar farms - Philstar.com",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU2JMdGJudmFXanNmWDlOYzUyRlRNUS1fMnpSRHRRN192U0o3azNzRkxJZDFDd0ZEc0JiSGdjdUdWRnU5aDNVdXNWTUl0WFJTd2p1X3NKeF9kV1ZpWlhNT0ViXzNQWGt5TnRWWmlqUTExbTRfRXdidEVmN2hwbnhUcmF0Q0xwaXNUNGhDWVM4YkdpZ2x3OThGdTZfTFFuVXltVEhveFprV0tLZjZ1MmfSAbQBQVVfeXFMTU1QRlplWHR5d2FEeWpWRzItald6V0x4cE5xMHhzYW5OZUZnVFQ0R21tTmN0MVRBYmNva0pTX25fVkFJNFRiSk5PRXhneUszNy1Bak0waUl6eTZGbDlha1IzdWRrbmdNSHIyem9tcmxjOW1rb3FLQ3BvSFRuNGpfNGtCZlNQcGFWcW9Zc09hVXJpNWJOSm9oNGFmZHF0eGszOTd0THVpNUl1bDhjdDlFLVNPRm1J?oc=5",
-        "source": "Philstar.com",
+        "title": "Gaming out geoengineering - Bryan Alexander",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51UUg3MVJWYTNTR1hEbzFTdzlLeWlnSG1HYUk5NWVzajJSVFFwcmZPMkVkOFVZb09NNW1fNEJPZmpfUkoxY0VadnFiNkRzOGM2U2pUQmRLNFd2a1dva0RoTzJydDF3LWNENmhHcA?oc=5",
+        "source": "Bryan Alexander",
         "kind": "Mainstream",
-        "published_display": "Oct 30, 2026",
-        "published_iso": "2026-10-30T16:00:00+00:00"
+        "published_display": "Nov 1, 2026",
+        "published_iso": "2026-11-01T21:06:45+00:00"
       }
     ],
     "mkultra": [
@@ -681,12 +681,20 @@
         "published_iso": "2026-07-16T07:00:00+00:00"
       },
       {
-        "title": "How Area 51 Likely Got Its Name From the Nevada Test Site’s Numbering System - Laughing Squid",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA0NFNhY1FGa0VCdGVjN01SQ2JBR0FZbjBHNnIzLW9hb0VzUS1Md0c2TkFzbzNCTzJHUklmY2pfQlhOZU5aQmhEYjZHcTRGTkJYbjJaX04wVGNZSkdLU0E?oc=5",
-        "source": "Laughing Squid",
+        "title": "Apple Maps blurs NASA launch sites and area 51, but Google maps still shows them: What's happening? - Moneycontrol.com",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNMmtfMWUyR3puY2hEa2wxR2dPZXMyTHNMempxV0VFVUJ1Rm90SS1lYTJDby04NU5mMDBSeHJxSGJMdjdaNkwwT0oweDdnY0xLQkFtOWcxR2JhNUdWWks0TTFSX1FQZVdUWkpWTGNEZFlUUVZUTHlvRXpTZEN5ZzlIXzFOelgxSlYtZGNHX19QR1lQS3hoV2VSQ0dyWUJ5dFJXVXFoTjZSQklLcHJrTVlQb2xZMEtVMVdwSllNUUpkOVp1anJXMy13aXRuU0JzclJuMFRpNEZyLXpUSVB0SG9way05d1E5c3BxbEFB0gHwAUFVX3lxTE5tNk0xcnVzSVlLRXgtTExaX084QkRXWms1Y0xQZXhVSzVta1dUVmJaYmMydWJPdmtyRU1fWERZZTA5UDdPU3V4ZVVQeGI2TnhVWTd5RlVPZlQwV3JyRE1Td3M3bHEwUU05RGtKOUNQb0xJY29BX1ZNQWpYM0tLc3R6MlNGQlJWSW9ZN29majFRa3JMOGdUUmJvOW5KSW1uUGJzemF5eWlmemc1VTVQVEZSU3ozY1FXQlo4NWJha3c5aEtMNEU5VU5HWXRGeWFaMXBTZzBoand2R1V1Q3N6c1FQUEhqZ2ZLQmxPSEpwUURkWQ?oc=5",
+        "source": "Moneycontrol.com",
         "kind": "Mainstream",
-        "published_display": "Oct 31, 2026",
-        "published_iso": "2026-10-31T15:30:16+00:00"
+        "published_display": "Nov 2, 2026",
+        "published_iso": "2026-11-02T06:52:02+00:00"
+      },
+      {
+        "title": "Apple Maps unexpectedly censor satellite images. Area 51 and space bases disappear from maps - Letem světem Applem",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSDl1cE9tWTJoV3VjTGVtdUlwTTBLVHhXOHdOYy13aUNjemZKS0o3QVBuVVNjNEhLM3lnOXRsc1NXUmY4MHp6NEwtMm9PS1RsTjlLRm9tSTMzUi1FbTQ4am92WFdZVFFmT2tqTndteENhT2xXZUJPN3ZWdG83RnpvVHF5cS1qMFl5bkdwSmhOakw1MDRLZGhRcnRZYzdrNjEwSWJpRVc4UDkyYWxJWk5QMkpfNGNWSjk3V29zSUx6NXhkamJtXzZVaGNuOThDQQ?oc=5",
+        "source": "Letem světem Applem",
+        "kind": "Mainstream",
+        "published_display": "Nov 1, 2026",
+        "published_iso": "2026-11-01T23:03:25+00:00"
       },
       {
         "title": "Alienware’s RTX 5070 gaming laptop with an 18-inch 300Hz screen gets over $460 off at Amazon - MIXED News",
@@ -695,24 +703,16 @@
         "kind": "Mainstream",
         "published_display": "Oct 26, 2026",
         "published_iso": "2026-10-26T23:11:20+00:00"
-      },
-      {
-        "title": "Alienware Area 51 Pre-Built Owner Finds That Dell Locked The Ryzen 9 9950X3D To Work With The Motherboard Only, Preventing Him From Swapping Out Parts To Custom PC - Wccftech",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeTZJeHlKWmdLMHR0dHBjYlFLQUU2RFd3Z3ZRMTVNcHhtY29sM0gwSUk4T2EwOF9OS3djVHp1eGtJNDFsRFJJQzdwQW4wSWpXZVA1Z2t3NmFqbkpvYnRUeDFsQ215Szd2bms1YU9zQWlLcmhaZzVZOHBIa280Vnk2OFVtdVJxUdIBiwFBVV95cUxPYnhRYkRaalZtZkh4QVhodmtlMlVPQzBTNDhuM0k1V2dodUlpRlV2eUhESmUtRzY3YzdLVXdBM1U3RUNGOXFVMkFoNmV4UGRIN2FmX3hYaUhQUnJxYXBrWkZickJMZW5FU3VvSVdrVGF3ekJ2WjE1cVBqejg2LVl3b0xQNUFGS0EtNE1F?oc=5",
-        "source": "Wccftech",
-        "kind": "Mainstream",
-        "published_display": "Oct 22, 2026",
-        "published_iso": "2026-10-22T07:00:00+00:00"
       }
     ],
     "bigfoot": [
       {
-        "title": "John W. Warner IV (@johnwwarneriv): \"Some animals can shift dimensions slightly.\" - Substack",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5rZHlnaVM0WHFuUzl6UjVDOUxHM0Nwc3A2VU5QMXpndXVSRHRpZWpsT2NFdXlKZmRtVWctMnVOT0RVZzVsVURReGp0SzJHZEpuMUs4Y0xXa0VhUWJWRzM1SDF3?oc=5",
+        "title": "Make money doing the work you believe in - Substack",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DMDE1WDllbFl1TlhHaFBuQmktMXFOejBWQjkxTUctZXphRHE3SU5jUHhvUnZpZzFzbnJhSFg0MzBsM1pldF9JazRVMUVjQVRsRFJPR0R6ZzBHcmYyTWpN?oc=5",
         "source": "Substack",
         "kind": "Independent",
-        "published_display": "Oct 19, 2026",
-        "published_iso": "2026-10-19T17:45:28+00:00"
+        "published_display": "Oct 31, 2026",
+        "published_iso": "2026-10-31T21:17:40+00:00"
       },
       {
         "title": "The World of Sasquatch, Ep. #64: Daydreams, Time Slips, and Fantastical Thoughts - YouTube",
@@ -731,28 +731,28 @@
         "published_iso": "2025-10-10T07:00:00+00:00"
       },
       {
-        "title": "Paige Spiranac unloads her Halloween content on America, Jenn Sterger as Wednesday Addams & Capturing Bigfoot - Fox News",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVDFiOGxldVRkOWF4MWlXUDJjQmVmRUsxNldfQXRpSlZCNTM1Z3ZUNUJKSHowLVA0bnRvMmhyMnNlcmQxbGstUW54Vk1YZlkxczRUUFFJc2JkYU5GLUlGb1h5TnNsOFFTZFB0b0RieHg1STItU0ZMMXVmTTdzXzRlNE5IcHV6R1EwLU9xaUFDUWwzamFocDlNM3RWV0RhREZKeHcwU01SY1hrWldZeW1qdmNZYUZOQ0NwX0FQQXFFa0RxVzA3aG5uVERjTDJBeXpt?oc=5",
-        "source": "Fox News",
+        "title": "Bigfoot terrorizes a Louisiana city in this movie. Has the creature really been sighted there? - The Advocate",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWVhtQlhiYVd2eS1lbTZrbGJvcEFRcmZlaFllMXBCb2pOTUxlcEtBLXQ0aWFkUWZQM0twRTVQWG5sVFBZSFR1RERiUkVvS2ZPTVRuVDR5SENfTlh5VE1GbFhPQXF1alNXR1FBZGF4S0l5MVlXQmNpTjc5eEhMblB0c1NNeVVwQk5uYmhyalJzN1pNOFlOZ1p5T1lpMHotNWVpUWdXT0RPYmJRaTJZcVdIN1c0ZXR6UnllOURoUUNHXy1wYjVsODZtejFpS2pDRHR3WDhicHpXNi12cjVxODloWHNQRG9HOUFTQjNJ?oc=5",
+        "source": "The Advocate",
         "kind": "Mainstream",
-        "published_display": "Nov 1, 2026",
-        "published_iso": "2026-11-01T15:12:12+00:00"
+        "published_display": "Nov 2, 2026",
+        "published_iso": "2026-11-02T15:15:00+00:00"
       },
       {
-        "title": "Bigfoot Trail Alliance celebrates year of trail restoration - Times-Standard",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeGFhdWlGSVlHai1nVktuRE4zclBvRVlvZlBELUJxQkJHYlB6Zms1YXlad190T3FYNWd3OWh4d0FxOWh0eHFZVlJrRndVbVAyd3NGZUVsXzVTQWxmMEFtdTJlcFptU3Z4TFBZV01BdmVGV3ZyUjNVZWZDendFNWR1QnVETUxqOWFUdjVjaTlYY1FSZ3dXQzd5XzE4ZWY3c0tENlN4VA?oc=5",
-        "source": "Times-Standard",
+        "title": "Bigfoot hunters name this US state as a hotbed of sightings - Female First",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWmVBUkFKQ2lEdUlDanAzNWtDS1dKVWs2TmlVc2ZVODJhUXprcmo1MTJjSlh2Ukk2c0Z2NTVTU1VNRDI0VEM3UjZXRkdKNXJDS1VhS0JFMWxBdlZ2X2tyLVJzOXdFTG9XbEZPUWhpVkJiNktTSkdoNGJXaHI0dnBTSVFoZHcxQnc2X0xOVTZ6cndRMG1iOXFrdWpR?oc=5",
+        "source": "Female First",
         "kind": "Mainstream",
-        "published_display": "Nov 1, 2026",
-        "published_iso": "2026-11-01T11:22:53+00:00"
+        "published_display": "Nov 2, 2026",
+        "published_iso": "2026-11-02T15:01:40+00:00"
       },
       {
-        "title": "Attendees get curious at 2nd annual Albuquerque ‘Bigfoot Bash,’ supporting local YMCA - KRQE",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUlFCZ3pjX0dIZnhUaVZLLW1XVC1kblRZc0FGSEYweXV2TDNzTlRFcVB1Y2JxVm4tVW5NWVRWTEZURmcxMDY2Wm42TW1ZcGlqV1lzY205RU81Z0ZLaEQ2UWN6T3VPdHJVM05uYlg1c1VrYUwwRGhjMUdtWUNyeWhvdkNJaHFUdEpTeWlEU3c3bC1RbVdNVER2dHp5emV4amhlbV9Eam9WQ09KOHBJYUpMLWdHcUgzXy1qVzJ5MGU5RlllUER2a19KRzlweWNyMDJnMjdJ?oc=5",
-        "source": "KRQE",
+        "title": "Bigfoot stomps back into the news - Main Street Media of Tennessee",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMDAtM1NBNmM3dV9hSmwtaldZTnp0WFd1NHJndkNWX2tDZG1MeFR5UU9jUFFXQXk1bjlsc2R2ZUhNVVc0YnR6Q25UaUpVNmU4cFlGaENBRU94VzlOWXR1dnVCUmpZRzd2dVVfaDB5dS04X1hpdHE1dWJuRVRlVnJQZDdueXBfYlhnOHVWdDRWUzZyWUl1Q0VBY0ZQTGo?oc=5",
+        "source": "Main Street Media of Tennessee",
         "kind": "Mainstream",
-        "published_display": "Nov 1, 2026",
-        "published_iso": "2026-11-01T03:28:04+00:00"
+        "published_display": "Nov 2, 2026",
+        "published_iso": "2026-11-02T14:11:59+00:00"
       }
     ],
     "flatearth": [
@@ -773,12 +773,12 @@
         "published_iso": "2026-10-18T07:00:00+00:00"
       },
       {
-        "title": "FLAT EARTH Is the Irrefutable Truth - YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8xaXFkX0dLS2pGUHJ5dTN3T0dldU5VZFdkT1hxSmJ0Q0dyUUpvcjVjejBXOUg0c0FxUmtKb2JIUEZBalBHT0VHYnJudGo5T19kQkhGQzg4YnY1LWxt?oc=5",
+        "title": "Cessna Pilot Confirms: The Earth is Flat! - YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHM2ppMF91anZvWXRNeGlTWmxHSVpWN0FJM1FrQUVvLVNWd3QtbWg1cnliN2hBTnl1RkJjNngxcGRSbnlmWUVJaV9hVkJTSGpPSVpfQmxiaVhWclJo?oc=5",
         "source": "YouTube",
         "kind": "Independent",
-        "published_display": "Sep 23, 2026",
-        "published_iso": "2026-09-23T07:00:00+00:00"
+        "published_display": "Jun 24, 2026",
+        "published_iso": "2026-06-24T07:00:00+00:00"
       },
       {
         "title": "Forget Flat Earth, the globe has never been rounder - The Times",
@@ -789,20 +789,20 @@
         "published_iso": "2026-10-29T00:01:00+00:00"
       },
       {
-        "title": "“Fine, we’ll do it ourselves!” New flat-earth sect pledges to level the Earth - The Stanford Daily",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1oRGRsbmg3VjZQZ1pOSjRWeUtZalluMGdvYW5uQVh3M0JJUEZnWkMtNXdZdGtZekxBRHU4NFVRVm1DVk1FeFZVanFUTHJwWExzemM0X0RDYzFUMmlOTlE?oc=5",
-        "source": "The Stanford Daily",
-        "kind": "Mainstream",
-        "published_display": "Oct 8, 2026",
-        "published_iso": "2026-10-08T07:00:00+00:00"
-      },
-      {
         "title": "Flat Earth, spirits and conspiracy theories – experience can shape even extraordinary beliefs - The Conversation",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR2FnMDQ3b3lBQ2VpTTJsRGxYQUpDelVyTkVRT0lxUEdTVGFESFpHVmpDc2lSckZ4b250bFZvTTlnRndVZG5Da1IxNGFrMEhqbXNiZ2FnNGpRaG5VYUtVd1dUMnRTWm11STlwUDh1ZkpaUG4tSHp1RWtUUnRSTVdGU0EycHA5RG52b0V0b0RQY2tZN2FtQ0s4Uk13TXc4Q2RydVRxa3hmeUpLSktNMUVfRXU1UUV3ZlR0WURzREx4d1V5aGs?oc=5",
         "source": "The Conversation",
         "kind": "Mainstream",
         "published_display": "Dec 2, 2025",
         "published_iso": "2025-12-02T08:00:00+00:00"
+      },
+      {
+        "title": "Flat Earth Catalog | Ann Manov - The Baffler",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1WSDVzQWwwQzBTcks1alUyMTFpSDBKSXhydHloMExBWXlqNE1pLS0yWVQ5d3VYV1I4NEt5bU5XdDNtRVF0OWFoWHJPb2MtLTZnWVRLXzJBQVdFVlZpb05GaFZZVlQ?oc=5",
+        "source": "The Baffler",
+        "kind": "Mainstream",
+        "published_display": "Nov 11, 2025",
+        "published_iso": "2025-11-11T08:00:00+00:00"
       }
     ],
     "birds": [
@@ -831,6 +831,14 @@
         "published_iso": "2018-11-28T08:00:00+00:00"
       },
       {
+        "title": "The truth behind the ‘Birds Aren’t Real’ conspiracy theory - The Telegraph",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSmNld2t6b25KV3J2Qmw3cldvOEVVRzVLY3c2YVU1M0NXc2NEc2pnVlZ3NWYtMGxwWktRSzFhc0JodWU0U1RZbDBCWjNtcjVib18zWWJvM2ttMW1rUGFHYUU3RkU0bzRYWk1weVZzSllTZGxNYVBuRVpXNzl1dDZycTBZT19DaF92TlFDR0VCUk1DVVRLN1lNM3RKNUZGR1poT1E?oc=5",
+        "source": "The Telegraph",
+        "kind": "Mainstream",
+        "published_display": "Jul 9, 2026",
+        "published_iso": "2026-07-09T07:00:00+00:00"
+      },
+      {
         "title": "The Birds Aren't Real - IMDb",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40ZWxCemtmb2RZWmlkQVB4SkJoTEN3TVc0aHZLaHVxVDFLRGNFLVVhR0JVZVY5SnF5am9Dbm9wRFl2N0l3Sm5mUWJpTlJucjNienJmLVJ1dlRMdDVLbGdpU19jLTYtYlhPNlpjUU9Paw?oc=5",
         "source": "IMDb",
@@ -839,30 +847,22 @@
         "published_iso": "2026-04-11T02:00:37+00:00"
       },
       {
-        "title": "“Birds Aren’t Real” documentary to be produced by Gennie, Phoenix Television - IMDb",
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Kc1Awa1ZwRTZsMXhRM21seUg0SkhCckp2T3JobDhQYlpmalNrb29OQ0hOYzZhVUxPaWJsV2dHUHZrMDdibG16NGx1Q0w2dw?oc=5",
-        "source": "IMDb",
+        "title": "Birds Aren’t Real : inside the new documentary taking on conspiracy culture - Prensario Internacional",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcVhKWlJSMHhSMzEwQU5TaFN5Z0ZHV1Z4bkZDaHVGUlVzZDFCd0xiUTEyRXIzNlVKNXhsOXlMdnRfZFRNbHpmcDBNTFpGaVpaZHVuX3lvLU94NFlVRmhpTWVmeHJwZ2c0cmtSQU1teXNRWTdiLWppQmN2M1hTUDlHeTdKYUo3OEpVa2EwcGVkeUxFVFlKdXpHR3hnTVAySnZwV1o4UUlfQUc0QUN5SkpqTFVCVVNUQjVoZ21hag?oc=5",
+        "source": "Prensario Internacional",
         "kind": "Mainstream",
         "published_display": "Feb 2, 2026",
         "published_iso": "2026-02-02T08:00:00+00:00"
-      },
-      {
-        "title": "Everything You’ve Been Told About Birds Is a Lie (Published 2024) - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWx6S0dxY1lRN3RXSkNsVXBrakNyYVBHQlJFVmRVemh0dFNXU1FOVVhmZHVLWUV3S0Q4aXRzNVZMb2pzRGxFVnVtUzdRaDVqQXFfdmFBeEx0MUdBeVBMR0VSVjFwUHAzeXpFaWhVcUtNS0FraUM3MXN4WXhCWXEyQWxRTHpZVFZnWEJSRTctX204dEgxOE9YWFl3UG5JUQ?oc=5",
-        "source": "The New York Times",
-        "kind": "Mainstream",
-        "published_display": "Jun 5, 2024",
-        "published_iso": "2024-06-05T07:00:00+00:00"
       }
     ],
     "rothschilds": [
       {
-        "title": "Make money doing the work you believe in - Substack",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WczFuMi12MktDdzJ6RndhSGVkTENpVkV0WUZsYkszWllZeE5JdzA3TDNIMC00YjY2OGxpOG9BaDUyTG1vRDJFQnB5Y19VZnRQWHRmc0tzazZydDZ3djNF?oc=5",
+        "title": "Paree Bankwalla (@pareebankwalla) - Substack",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9SUTNWVUpKa1R4ajZHMmM0YXRrbE1jeHMtazhkNHJHWE91MDN5OUhleEpZdjBFX3AzRmhBOVlrc1dvcUppUWhvYTc4aXpBaHROSFUyOVdEVGhvVy1QVXNSem9VYw?oc=5",
         "source": "Substack",
         "kind": "Independent",
-        "published_display": "Oct 20, 2026",
-        "published_iso": "2026-10-20T10:20:41+00:00"
+        "published_display": "Oct 26, 2026",
+        "published_iso": "2026-10-26T20:32:28+00:00"
       },
       {
         "title": "Prof Robert Pape (@professorrobertpape) - Substack",
@@ -907,6 +907,14 @@
     ],
     "fed": [
       {
+        "title": "NSAs_cancer (@nsascancer) - Substack",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Dc2xKQlNhaFp4OWVudUszYV9ZQUZYZnpMNEtBOGI5YXMzMHUxT1EzMU9QX2YwZy04OVZtQk1RdFVfU3l5dWhpOTdDNjN3M1F3ckR5aXVJU09jOFR4NXc?oc=5",
+        "source": "Substack",
+        "kind": "Independent",
+        "published_display": "Oct 26, 2026",
+        "published_iso": "2026-10-26T02:39:23+00:00"
+      },
+      {
         "title": "Hand the pen to the Committee - Stay-At-Home Macro",
         "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE96RE9yNl9lOWxDSzRLTUdrLUU3TkI0bUxHdkwzcXpyOGxTZ1ZST1I4SExDcFl5am43aVJSRG5JcE5fY2FhcmNzYndqNUhySGpsUlZhSUxBazY3LVJNZXJ1d1I2UTE0cTY0Ql9zLWVJdmFHQ1NDeTZZ?oc=5",
         "source": "Stay-At-Home Macro",
@@ -923,36 +931,28 @@
         "published_iso": "2026-09-14T07:00:00+00:00"
       },
       {
-        "title": "Read the Minutes, Fade the Presser - Stay-At-Home Macro",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBsVGd1bHQyS2NsSXNHc1dhNGsyM2F2dEJqT3J4alpmaU1VbkJWSnlmSnJqVURuVkZnYVJ2bm9BOUZ0dU9haU5pUHozSXdfdGZMUVF4M1JUb2Z0X2tBcVdObUx1bHNmYjhsUWwxU3ZkRjZrdkpXaDFrZWlENE0?oc=5",
-        "source": "Stay-At-Home Macro",
-        "kind": "Independent",
-        "published_display": "Aug 20, 2026",
-        "published_iso": "2026-08-20T07:00:00+00:00"
+        "title": "Fed Holds Rates Steady - Advancing American Freedom",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBxcS1ub0RBNFJhbHNhREUzcVhRSkRJb2xCQWdTY2c4QXkyMGprR21SeW9LYXlLZGlHZ3NyT1BBY0Q1SEhncS1JQ09LZDIwWEc3dk1xT0hBdVpGV3NjVklXTVN6dkJTQXhKUXdMNXhrSDdkcFU?oc=5",
+        "source": "Advancing American Freedom",
+        "kind": "Mainstream",
+        "published_display": "Nov 2, 2026",
+        "published_iso": "2026-11-02T15:10:48+00:00"
       },
       {
-        "title": "US Federal Reserve Officials Justify Interest Rate Hikes Amid Persistent Inflation Concerns - صحيفة مال",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1GbU1Udkd3eUd4Rzd4UTcwcDhmV1dkSnYyTUx2UkJDM25BczdOSVBVU25YXy1jM1d6Y0gxVkgtMlF0VWcxZnkxNHFEcXN3MHE1QUxMQnVtNWN2Y1JxdE5RU09IWXA5MURWMnZhWA?oc=5",
-        "source": "صحيفة مال",
+        "title": "Morning Call Sheet: Tech selloff, AI spending risks and Fed rate outlook - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUFJISnY1ajE1Tk1XNXVkOVVteUdqSmZCR25Fcm5jNHZ4SG80T2MtclZ6blJXZ0I2bk9QOW1vclJvUnpnMkotWnRZNm1za0UzeHFpOWp6VFVucEx5dTViZzEzQ2VfYzlKY3pld0xxUm02Vk1ZMWNXVl9yQnV1dHIxblFaTEpOLUJMVTFCOFlRSHQzWlE2WmNQOEJLUERhYkJPd2xOb2RNZ3RIZ2w3dER2czZoNA?oc=5",
+        "source": "CNBC",
         "kind": "Mainstream",
-        "published_display": "Nov 1, 2026",
-        "published_iso": "2026-11-01T14:49:15+00:00"
+        "published_display": "Nov 2, 2026",
+        "published_iso": "2026-11-02T14:47:05+00:00"
       },
       {
-        "title": "Traders work, as screens broadcast a news conference by US Federal Reserve Chair Kevin Warsh following the Fed rate announcement, on the floor of the New York Stock Exchange (NYSE) in New York City - The Daily News | Tex",
-        "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQUFY1a1dNZ0hDbXRzcnZDeXkxRmpuU1FvU3ZKUmxzZEdzTWZ3TkgxbVJJaU82SzdzLU1xS2NlNlFJS2xRQnZFaGpPbVdldHg1RF9Jb1pLSjQtakFTV1NneFdNbnBXNFRRVzBQWmZNQ1hnSklDSjh1UEFRb3VYNGVIanhhN2RTN0Qwc0Q1WkozeXJjZWdJREJtUkNpNHhpUVAwRUU3ejROOUltQnE4bHdoQUxEU3ItZHZIcWtfVjFiQldrQ0dRMzRNeHYtSnNMWnFUTnd4ZDd1Rk5yREVOMjhXT3pKdE1UeEJyM19sQzN0VTZxcjExQ3dZVlA3Qjg2TzhOdlhEUmtPYjM2ajhyR252WjZ5dTc?oc=5",
-        "source": "The Daily News | Texas' Oldest Newspaper",
+        "title": "An Updated Outlook for Interest Rates in 2026 and 2027 - Oklahoma Farm Report",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZEs0emNhT2g1eEF4cFhsd3R0Z2lTUXFRQWJ5MG5wVXlXeEdweTJJSm1OVDJEd3Rvak1xZ0tndDRvbzgtVDFXWEQzZWRlN0EzbXhIa2R2ZURYMFY3M01aTnBRLVdvWWlTVjdsVWZXQ1VrRFQxQnlTdTJGMWJpSXNGN0x6cDhJUkhPVi1uZUFLcW9lWi15R3BWSEJQQ2haM2szZzJj?oc=5",
+        "source": "Oklahoma Farm Report",
         "kind": "Mainstream",
-        "published_display": "Nov 1, 2026",
-        "published_iso": "2026-11-01T09:30:33+00:00"
-      },
-      {
-        "title": "Fed officials make case for rate hikes amid ongoing inflation concerns - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObTlSSnpPaC0yUGM0aTNCb3h0cUVRejBTRjg0SXVnT0MwSXNMSzBVS1NFSEpUaGxtOUpzSkZmQlRKWjFWQ2UtNEp2RUgzcWwyMEN3clpKaU1acDlRUGFhS21BTEpWQjdSVURWZjRJd19Tc19pbVVHeWYwUEZLdUlka0x6M1p5WDRMVkVjRmlLTWU?oc=5",
-        "source": "Reuters",
-        "kind": "Mainstream",
-        "published_display": "Oct 30, 2026",
-        "published_iso": "2026-10-30T20:03:43+00:00"
+        "published_display": "Nov 2, 2026",
+        "published_iso": "2026-11-02T14:41:44+00:00"
       }
     ],
     "bilderberg": [
@@ -965,6 +965,14 @@
         "published_iso": "2026-10-16T07:00:00+00:00"
       },
       {
+        "title": "There Is No Job Apocalypse - Metatrends",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fMjdhbkk5OGo3MXRwU01GS2FUUk8yaDVETjJNMDd0TFVlblNCdHZvSVhLV3hyQzNSOXhfWXRuVldraWFLTFNGSW1iRHlldGN3aDRqWV9RYUZFbU1PMEFaNHJaaEhoMGZTNDFwMg?oc=5",
+        "source": "Metatrends",
+        "kind": "Independent",
+        "published_display": "Sep 2, 2026",
+        "published_iso": "2026-09-02T07:00:00+00:00"
+      },
+      {
         "title": "Bilderberg, Entropy, and the Cognitive Corset: What AI Cannot See and Why - Substack",
         "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBFWl9hRFhfMGJwZWgtRlJtLWVKVmhPYy0zOUQyc2pDbTVNZWk3aDlyNlBTcUl0Wm5qWGFqUXFjU2lPdlAyN2xKNklyS0tRX3lqYmtKNw?oc=5",
         "source": "Substack",
@@ -973,36 +981,28 @@
         "published_iso": "2026-05-20T07:00:00+00:00"
       },
       {
-        "title": "Chartbook 428 To matter or not to matter: Two theories of Davos 2026. - Adam Tooze | Substack",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBJd245eU5Ic2UyREFGR2VnVFNSMTdsdUVkZE5OYmUyb0RyZGd5Q0VrN1djby1uUWVVSktiSFFMRnh5clcybGlQU3FReFN4eXR4ZjQxcjBNOXBUclE1SFctY1lqdExoUWFHUEcyUl9mcDRNSFU?oc=5",
-        "source": "Adam Tooze | Substack",
-        "kind": "Independent",
-        "published_display": "Jan 20, 2026",
-        "published_iso": "2026-01-20T08:00:00+00:00"
-      },
-      {
-        "title": "AI teacher training: Mongolia's strategy for AI education - World Economic Forum",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbC0xUkxTa2xZRlJZSHdLdmZnd1RtaV9VNGp0MTgtWEtYS0tyeWFFbGRxb0tIdm1aeEl3MHVDVi1Qdll1RXFEUVk1UUNNaXRiY3NuaXpzN1JnYVB1aER6X3pRc2VPUGlaOVlvX1htUnNjLTRHckU1Y21lbFJ2YzhXeF9XRU00Q0g5T2hmWlljcWZFa2tnOVg0YS04ZVpia0NLWlE?oc=5",
+        "title": "Corporate Sustainability: Telecom's Journey to AA ESG Rating - World Economic Forum",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNDltM1ZtY05OWXNrSmFCQlJqZDRXWXphUkhfZW1Ka3ZUdXJQdlVTaWJjWk5ObXByM2dJNThGblFpemNHUGxkekRVbWpnN2ZrVk8wTS1zWEJyUDFPWk1wRlZ5RzN6ek5KZ2VmQjBWUEo2UzR4NG1Cb0FYS21rMHJoQWViNDdlMmZZSmd0dkxFU0kwT2pYVnYweklOUEVOakFDdElyX2JtTWNoNFVBd2tJ?oc=5",
         "source": "World Economic Forum",
         "kind": "Mainstream",
-        "published_display": "Oct 30, 2026",
-        "published_iso": "2026-10-30T13:59:05+00:00"
+        "published_display": "Nov 2, 2026",
+        "published_iso": "2026-11-02T14:05:53+00:00"
       },
       {
-        "title": "How catalytic blue finance can help unlock ocean economy - World Economic Forum",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU0tjWTg2OExCbEljR19FT2hST3J6OVl4SGVUOEFYSHNzVkdvU2xkY2tjanNhUUdIZlU5Z0plTEpNb3hqSG1pNU9Yc1gzV1BneVVvdXh1cjFWbEVKVjNlRlM5bkEwVjNkeTZYVHJZN09SbVJGZnVRVG0xZ191bnF2cldZNWQtbGc3UUxBUlNQQ1dpeXlYcnZPNUxuN0ZZaEplVGVYdC1Tb1VpbkdOY0pRN0J3dFZJbmw5OGVXOFRB?oc=5",
+        "title": "Geoengineering Climate Intervention: Global Roadmap Needed - World Economic Forum",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZVFsWHItd0xING51ZXlVNGFXZEZ2UkdrX1RLWmstWmNZMGdaMGhiVEFRc2FwLUowNlB0d043clRWVGFicWhyT3FGb0JOWFlCQTBGZVhMTk4zX0lXMlMxTmE4Y2Zrc3lKX2hJZmZ2UVlLSmdyU2Fzd2ZWbGlGMmZjSUd5d3NBMEFmcDlMcFhnbUNxSVRPRkpoQVU3SHl5ZVAxcXpuY3BsbWFqakhSTFZUTmhYRGlaeWpa?oc=5",
         "source": "World Economic Forum",
         "kind": "Mainstream",
-        "published_display": "Oct 30, 2026",
-        "published_iso": "2026-10-30T13:27:17+00:00"
+        "published_display": "Nov 2, 2026",
+        "published_iso": "2026-11-02T12:27:23+00:00"
       },
       {
-        "title": "Discover this month's must-read jobs and skills stories - World Economic Forum",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOEw0aUNRcFRBbjV3dTJIejhwMzB4Zk12S2pDRGpOQUo3Qjc5SXVmSTdkM1h0dlVjNmVhUXRVZDljSzExTFRBdU9GUlZPOVBEWmN0anJiTnpscTVCUVE1YXl1bGdFRDA0S1pBOEd1cWRUczFVbmZ6T0NDRHRmdVhhdnFVQm5STEpRLXJDMjh6d3JkMDVmQUJqVHhOQml5TmhjRVRPNTZGNGZsRFh5MDJiNGNwalo3Q2JwZ0FfU3pCNDBuX1hNTHlzbm5aWnFFT1F1MHpF?oc=5",
-        "source": "World Economic Forum",
+        "title": "Shamma bint Sultan bin Khalifa hosts private majlis for World Economic Forum Young Global Leaders - مكتب أبوظبي الإعلامي",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQLWZKQWpXeGVpdmpnVWhCY2JWR1dVSTVxdFhzQXFmbDZILVNPY1B4NGQtdVgwRm5GbzhSWlFRX0NqekMtUGpxbVFhWFNmTFl4ekxYNFNOeVZ5TEx4SG1fUWtrNEY3bUdtOWhya3lGSUFLOFBHeHJNSW9VVUszTC1ZS1JYTmVVQ09UMjZwWUQzY2FtUVNHNUt1Y0tNV3FDNFJ6UGkyOGlOVmJNT3RINU9wVERENW5ZMG9SSmdhcW9jUWg1ekI5NUpMZkF6SXFtVG54MjVQdmdJYW9wZw?oc=5",
+        "source": "مكتب أبوظبي الإعلامي",
         "kind": "Mainstream",
-        "published_display": "Oct 28, 2026",
-        "published_iso": "2026-10-28T15:49:29+00:00"
+        "published_display": "Nov 2, 2026",
+        "published_iso": "2026-11-02T12:01:37+00:00"
       }
     ]
   },
