@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Agent ID Card Maker | Conspiraparty</title>
+<meta content="Make a Top Secret Agent ID badge in your browser. Name, rank, optional local photo. Download a PNG." name="description"/>
+<link href="https://conspiraparty.com/agent-id-maker.html" rel="canonical"/>
+<meta content="Conspiraparty" property="og:site_name"/><meta content="Agent ID Card Maker" property="og:title"/>
+<meta content="https://conspiraparty.com/assets/og/free-agent-id-maker.jpg" property="og:image"/>
+<meta content="#000000" name="theme-color"/><link href="assets/img/favicon-64.png" rel="icon" type="image/png"/>
+<link href="assets/style.css?v=xshow1" rel="stylesheet"/><link href="assets/share.css" rel="stylesheet"/>
+<style>
+.badge-studio{display:grid;gap:20px;grid-template-columns:1fr}
+@media(min-width:800px){.badge-studio{grid-template-columns:1fr 1fr}}
+.badge-form label{display:block;margin:10px 0 4px;font-family:SpecialElite,monospace}
+.badge-form input,.badge-form select{width:100%;max-width:360px;padding:10px;border:2px solid #0b0b0b;background:#fff;font-size:1rem}
+.badge-canvas-wrap{background:#ebe4d4;padding:16px;border:2px dashed #6e6a63;text-align:center}
+#badgeCanvas{max-width:100%;height:auto;background:#f4f0e8;box-shadow:0 8px 24px rgba(0,0,0,.2)}
+.hint{font-size:.9rem;color:#6e6a63;margin-top:8px}
+</style>
+</head>
+<body><a class="skip" href="#main">Skip to content</a>
+<div class="promo">20% off the full printable kit with code <a href="https://happyplaceinkandart.etsy.com/listing/4502272966" rel="noopener sponsored" target="_blank">LEAKED20</a></div>
+<header class="top"><div class="bar"><a class="logo" href="index.html"><img alt="Conspiraparty.com" height="70" src="assets/img/logo.png" width="220"/></a>
+<button aria-controls="nav" aria-expanded="false" class="menu-btn">Menu</button></div>
+<nav aria-label="Main" class="main" id="nav"><ul><li><a href="free-printables.html">Free</a></li><li><a href="books.html">Books</a></li><li><a href="memes.html">Memes</a></li><li><a href="weird-news.html">Weird News</a></li></ul></nav></header>
+<main id="main"><section class="hero"><div class="wrap"><h1>AGENT ID <span class="r">CARD MAKER</span></h1>
+<p class="lead" style="max-width:36rem;margin:12px auto 0">Make a Top Secret badge. Your photo stays on this device — nothing is uploaded.</p></div></section>
+<section class="cork"><div class="wrap"><div class="folder">
+<div class="badge-studio">
+<form class="badge-form" id="badgeForm" onsubmit="return false">
+<label for="agentName">Cover name</label>
+<input id="agentName" maxlength="28" placeholder="Agent Cool" value="Agent Cool"/>
+<label for="agentRank">Rank</label>
+<select id="agentRank">
+<option>Field Agent</option><option>Junior Agent</option><option>Senior Analyst</option>
+<option>Conspiracy Intern</option><option>Director of Vibes</option><option>Weird Uncle</option>
+</select>
+<label for="agentClearance">Clearance</label>
+<select id="agentClearance"><option>TOP SECRET</option><option>CLASSIFIED</option><option>EYES ONLY</option><option>COFFEE LEVEL</option></select>
+<label for="agentPhoto">Photo (optional, stays local)</label>
+<input accept="image/*" id="agentPhoto" type="file"/>
+<p class="hint">Photos never leave your browser. Clear the page to wipe them.</p>
+<p style="margin-top:16px;display:flex;flex-wrap:wrap;gap:10px">
+<button class="btn" id="downloadBtn" type="button">Download PNG</button>
+<button class="btn sm" id="printBtn" type="button">Print</button>
+<a class="btn sm kofi-btn" href="https://ko-fi.com/conspiraparty" rel="noopener" target="_blank">Buy the Agency a coffee</a>
+</p>
+</form>
+<div class="badge-canvas-wrap"><canvas height="640" id="badgeCanvas" width="400"></canvas></div>
+</div>
+<p style="margin-top:18px"><a href="free-agent-id-maker.html">← Back to the freebie page</a> · <a href="free-printables.html">All free printables</a></p>
+</div></div></section>
+<section class="redbg"><div class="wrap signup"><span class="stamp" style="color:#fff;border-color:#fff">Classified</span><h2>Join the Shadow Party Committee</h2>
+<p>Get a free Top Secret Party Invitation printable, plus new freebies. No spam.</p>
+<form action="https://formsubmit.co/traciandersonart@gmail.com" class="signup-form" data-signup="" method="post"><input name="_subject" type="hidden" value="New Shadow Party Committee recruit"/><input name="_captcha" type="hidden" value="false"/><input name="_next" type="hidden" value="https://conspiraparty.com/thanks.html"/><input aria-hidden="true" autocomplete="off" class="skip" name="_honey" tabindex="-1" type="text"/><input name="source_page" type="hidden" value=""/><label class="skip" for="em">Email</label><input id="em" name="email" placeholder="your.cover@email.com" required="" type="email"/><button class="btn alt" type="submit">Send My Free Invite</button></form>
+</div></section></main>
+<footer><div class="wrap"><p class="x-follow site-support"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a><a class="btn sm kofi-btn" href="https://ko-fi.com/conspiraparty" target="_blank" rel="noopener">Buy the Agency a coffee</a></p>
+<p>All conspiracies on this site are for entertainment. © 2026 Conspiraparty.com</p></div></footer>
+<script defer src="assets/site.js"></script>
+<script>
+(function(){
+  const canvas=document.getElementById('badgeCanvas');
+  const ctx=canvas.getContext('2d');
+  let photo=null;
+  const logo=new Image(); logo.src='assets/img/logo-concept-c.png'; logo.onload=draw;
+  function draw(){
+    const w=canvas.width,h=canvas.height;
+    ctx.fillStyle='#f4f0e8'; ctx.fillRect(0,0,w,h);
+    ctx.strokeStyle='#0b0b0b'; ctx.lineWidth=6; ctx.strokeRect(16,16,w-32,h-32);
+    ctx.fillStyle='#e11d26'; ctx.fillRect(16,16,w-32,70);
+    ctx.fillStyle='#fff'; ctx.font='bold 36px Anton, Impact, sans-serif'; ctx.textAlign='center';
+    ctx.fillText('AGENT ID', w/2, 62);
+    // photo box
+    const px=40,py=110,pw=140,ph=160;
+    ctx.strokeStyle='#0b0b0b'; ctx.lineWidth=3; ctx.strokeRect(px,py,pw,ph);
+    if(photo){
+      const r=Math.max(pw/photo.width, ph/photo.height);
+      const sw=pw/r, sh=ph/r, sx=(photo.width-sw)/2, sy=(photo.height-sh)/2;
+      ctx.save(); ctx.beginPath(); ctx.rect(px,py,pw,ph); ctx.clip();
+      ctx.drawImage(photo,sx,sy,sw,sh,px,py,pw,ph); ctx.restore();
+    } else {
+      ctx.fillStyle='#6e6a63'; ctx.font='16px SpecialElite, monospace'; ctx.fillText('PHOTO', px+pw/2, py+ph/2);
+    }
+    const name=document.getElementById('agentName').value.trim()||'AGENT';
+    const rank=document.getElementById('agentRank').value;
+    const clear=document.getElementById('agentClearance').value;
+    ctx.fillStyle='#6e6a63'; ctx.font='14px SpecialElite, monospace'; ctx.textAlign='left';
+    ctx.fillText('NAME', 200, 140);
+    ctx.fillStyle='#0b0b0b'; ctx.font='bold 22px Anton, Impact, sans-serif';
+    wrapText(name, 200, 170, 160, 24);
+    ctx.fillStyle='#6e6a63'; ctx.font='14px SpecialElite, monospace'; ctx.fillText('RANK', 200, 240);
+    ctx.fillStyle='#e11d26'; ctx.font='bold 18px Anton, Impact, sans-serif'; ctx.fillText(rank.toUpperCase(), 200, 268);
+    // clearance stamp
+    ctx.strokeStyle='#e11d26'; ctx.lineWidth=4; ctx.strokeRect(70, 320, w-140, 70);
+    ctx.fillStyle='#e11d26'; ctx.font='bold 28px Anton, Impact, sans-serif'; ctx.textAlign='center';
+    ctx.fillText(clear, w/2, 365);
+    ctx.fillStyle='#6e6a63'; ctx.font='14px SpecialElite, monospace';
+    ctx.fillText('conspiraparty.com', w/2, 470);
+    ctx.fillText('Entertainment use only', w/2, 495);
+    if(logo.complete && logo.naturalWidth){
+      const lw=90, lh=lw*(logo.naturalHeight/logo.naturalWidth);
+      ctx.drawImage(logo, (w-lw)/2, 520, lw, lh);
+    }
+  }
+  function wrapText(text,x,y,maxW,lineH){
+    const words=text.split(/\s+/); let line=''; let yy=y; ctx.textAlign='left';
+    for(const word of words){
+      const test=line?line+' '+word:word;
+      if(ctx.measureText(test).width>maxW && line){ ctx.fillText(line,x,yy); line=word; yy+=lineH; }
+      else line=test;
+    }
+    if(line) ctx.fillText(line,x,yy);
+  }
+  ['agentName','agentRank','agentClearance'].forEach(id=>document.getElementById(id).addEventListener('input',draw));
+  document.getElementById('agentPhoto').addEventListener('change',e=>{
+    const f=e.target.files&&e.target.files[0]; if(!f){photo=null;draw();return;}
+    const url=URL.createObjectURL(f); const img=new Image();
+    img.onload=()=>{photo=img; URL.revokeObjectURL(url); draw();}; img.src=url;
+  });
+  document.getElementById('downloadBtn').onclick=()=>{
+    draw(); const a=document.createElement('a'); a.download='conspiraparty-agent-id.png';
+    a.href=canvas.toDataURL('image/png'); a.click();
+  };
+  document.getElementById('printBtn').onclick=()=>{
+    draw(); const w=window.open(''); w.document.write('<img src="'+canvas.toDataURL('image/png')+'" style="width:100%"/>'); w.document.close(); w.focus(); w.print();
+  };
+  draw();
+})();
+</script>
+</body></html>
