@@ -854,6 +854,27 @@ figure.card figcaption{
 .btn.x-follow-btn:hover{background:var(--red);border-color:var(--red);color:#fff!important}
 .redbg .btn.x-follow-btn{border-color:rgba(255,255,255,.7);color:#fff!important}
 .x-follow-btn-lg{font-size:1rem!important;padding:14px 22px!important;letter-spacing:.1em!important}
+.site-support{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.btn.kofi-btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  background:#111;color:#fff!important;border:1px solid rgba(255,255,255,.35);
+  width:auto;box-shadow:none;text-decoration:none!important;
+}
+.btn.kofi-btn:hover{background:var(--kraft);border-color:var(--kraft);color:#fff!important}
+.x-follow .kofi-btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  background:#111;color:#fff!important;border:1px solid rgba(255,255,255,.4);
+  text-decoration:none!important;width:auto;box-shadow:none;
+  font-size:.78rem;padding:10px 14px;letter-spacing:.08em;
+}
+.x-follow .kofi-btn:hover{background:var(--kraft);border-color:var(--kraft);color:#fff!important}
+.redbg .btn.kofi-btn{border-color:rgba(255,255,255,.7);color:#fff!important}
+.kofi-hint{
+  margin:18px 0 0;text-align:center;font-size:.86rem;color:var(--text-dim);
+}
+.kofi-hint a{color:var(--text-dim);text-decoration:underline;text-underline-offset:3px;border:0}
+.kofi-hint a:hover{color:#fff}
+
 .x-agency-callout{
   margin:22px auto 0;max-width:28rem;padding:18px 18px 20px;
   background:#141414;border:1px solid rgba(255,255,255,.18);
