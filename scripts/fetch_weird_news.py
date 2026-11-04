@@ -158,7 +158,7 @@ TRAGEDY = re.compile(
     r"funeral|obituary|massacre|october 7|oct\.? 7|hostages?|shooting|shot dead|shot at|was shot|shot by|gunman|gunfire|stabbed|"
     r"body found|bodies found|corpse|homicide|executed|beheaded|"
     r"terrorist|terror attack|bombing|explosion kills|"
-    r"crash kills|plane crash|died of|mourns|victims? of|"
+    r"crash kills|plane crash|crashed|knife attack|stabbing|attacked with|died of|mourns|victims? of|"
     r"pointing gun|held at gunpoint|brandished"
     r")\b",
     re.I,
