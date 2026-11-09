@@ -8,11 +8,11 @@
 <meta property="og:description" content="Take the free Which Conspiracy Theorist Are You quiz. 8 questions, 6 funny results, plus kits and tees to match your file.">
 <meta property="og:url" content="https://conspiraparty.com/quiz-theorist.html">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://conspiraparty.com/assets/og/index.jpg">
+<meta property="og:image" content="https://conspiraparty.com/assets/og/quiz-theorist.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Which Conspiracy Theorist Are You? Free Funny Quiz | Conspiraparty">
 <meta name="twitter:description" content="Take the free Which Conspiracy Theorist Are You quiz. 8 questions, 6 funny results, plus kits and tees to match your file.">
-<meta name="twitter:image" content="https://conspiraparty.com/assets/og/index.jpg">
+<meta name="twitter:image" content="https://conspiraparty.com/assets/og/quiz-theorist.jpg">
 <meta name="theme-color" content="#000000">
 <link rel="icon" type="image/png" href="assets/img/favicon-64.png">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
@@ -31,7 +31,7 @@
 <section class="hero"><div class="wrap center">
 <h1>WHICH CONSPIRACY <span class="r">THEORIST</span> ARE YOU?</h1>
 <p class="sub">10 questions. Political results included. Still zero government approval. Zero government approval.</p>
-<div class="share-box page-share" data-share-url="https://conspiraparty.com/quiz-theorist.html" data-share-text="Which Conspiracy Theorist Are You? Free funny quiz — via conspiraparty.com" data-share-image="https://conspiraparty.com/assets/og/index.jpg"><button class="btn sm share-native" data-share type="button">Share this</button><div class="share-links" hidden><a class="btn sm" href="https://x.com/intent/post?text=Which%20Conspiracy%20Theorist%20Are%20You%3F%20Free%20funny%20quiz%20%E2%80%94%20via%20conspiraparty.com&amp;url=https%3A//conspiraparty.com/quiz-theorist.html" rel="noopener noreferrer" target="_blank">X</a><a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//conspiraparty.com/quiz-theorist.html" rel="noopener noreferrer" target="_blank">Facebook</a><a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A//conspiraparty.com/quiz-theorist.html&amp;description=Which%20Conspiracy%20Theorist%20Are%20You%3F%20Free%20funny%20quiz%20%E2%80%94%20via%20conspiraparty.com&amp;media=https%3A//conspiraparty.com/assets/og/index.jpg" rel="noopener noreferrer" target="_blank">Pinterest</a><button class="btn sm share-copy" data-copy type="button">Copy link</button></div></div>
+<div class="share-box page-share" data-share-url="https://conspiraparty.com/quiz-theorist.html" data-share-text="Which Conspiracy Theorist Are You? Free funny quiz — via conspiraparty.com" data-share-image="https://conspiraparty.com/assets/og/quiz-theorist.jpg"><button class="btn sm share-native" data-share type="button">Share this</button><div class="share-links" hidden><a class="btn sm" href="https://x.com/intent/post?text=Which%20Conspiracy%20Theorist%20Are%20You%3F%20Free%20funny%20quiz%20%E2%80%94%20via%20conspiraparty.com&amp;url=https%3A//conspiraparty.com/quiz-theorist.html" rel="noopener noreferrer" target="_blank">X</a><a class="btn sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//conspiraparty.com/quiz-theorist.html" rel="noopener noreferrer" target="_blank">Facebook</a><a class="btn sm" href="https://www.pinterest.com/pin/create/button/?url=https%3A//conspiraparty.com/quiz-theorist.html&amp;description=Which%20Conspiracy%20Theorist%20Are%20You%3F%20Free%20funny%20quiz%20%E2%80%94%20via%20conspiraparty.com&amp;media=https%3A//conspiraparty.com/assets/og/quiz-theorist.jpg" rel="noopener noreferrer" target="_blank">Pinterest</a><button class="btn sm share-copy" data-copy type="button">Copy link</button></div></div>
 <p class="beginner-hub-strip">
 <a href="start-here.html">Start Here</a> ·
 <a href="quiz-theorist.html">Quiz</a> ·
@@ -72,6 +72,8 @@
 <img id="ri" alt="Your conspiracy theorist quiz result" width="300" height="300" style="max-width:300px;height:auto">
 <p id="rd" class="lead"></p>
 <p><a id="ru" class="btn big">Get It</a></p>
+<img id="rcard" alt="" hidden width="1200" height="630" style="max-width:100%;height:auto;margin:12px auto;display:block">
+<p><button id="rdl" class="btn sm" type="button">Download result card</button></p>
 <p><strong>Share your result:</strong><br>
 <a id="sx" class="btn sm" target="_blank" rel="noopener">Share on X</a>
 <a id="sf" class="btn sm" target="_blank" rel="noopener">Share on Facebook</a>
@@ -125,6 +127,51 @@
   };
   var f=document.getElementById('quiz'), box=document.getElementById('result');
   var U='https://conspiraparty.com/quiz-theorist.html';
+  function wrapLines(ctx, text, max){
+    var words = String(text).split(/\s+/), lines=[], cur='';
+    words.forEach(function(w){
+      var next = cur ? cur+' '+w : w;
+      if(ctx.measureText(next).width > max && cur){ lines.push(cur); cur=w; }
+      else cur = next;
+    });
+    if(cur) lines.push(cur);
+    return lines.slice(0, 5);
+  }
+  function drawCard(r){
+    var canvas = document.createElement('canvas');
+    canvas.width = 1200; canvas.height = 630;
+    var g = canvas.getContext('2d');
+    g.fillStyle = '#0b0b0b';
+    g.fillRect(0,0,1200,630);
+    g.fillStyle = '#e11d26';
+    g.fillRect(0,0,18,630);
+    g.fillRect(48,46,280,52);
+    g.fillStyle = '#fff';
+    g.font = '26px Georgia, serif';
+    g.fillText('PERSONNEL FILE', 64, 80);
+    g.fillStyle = '#f2efe8';
+    g.font = '64px Anton, Impact, sans-serif';
+    var title = wrapLines(g, r.t, 1080);
+    var y = 180;
+    title.forEach(function(line){ g.fillText(line, 48, y); y += 72; });
+    g.fillStyle = '#e11d26';
+    g.font = '28px Georgia, serif';
+    wrapLines(g, r.d, 1080).forEach(function(line){ g.fillText(line, 48, y+10); y += 36; });
+    g.fillStyle = '#b8b2a6';
+    g.font = '24px Georgia, serif';
+    g.fillText('conspiraparty.com/quiz-theorist.html', 48, 580);
+    var url = canvas.toDataURL('image/png');
+    var img = document.getElementById('rcard');
+    img.src = url;
+    img.alt = 'Result card: ' + r.t;
+    img.hidden = false;
+    document.getElementById('rdl').onclick = function(){
+      var a = document.createElement('a');
+      a.href = url;
+      a.download = 'conspiraparty-quiz-result.png';
+      a.click();
+    };
+  }
   function show(k){
     var r=R[k]; if(!r) return;
     document.getElementById('rt').textContent='You are: '+r.t;
@@ -132,6 +179,7 @@
     var a=document.getElementById('ru'); a.href=r.u; a.textContent='Get the '+r.p;
     if(r.u.indexOf('http')!==0) a.removeAttribute('target'); else { a.target='_blank'; a.rel='noopener sponsored'; }
     var im=document.getElementById('ri'); im.src=r.i; im.alt=r.p;
+    drawCard(r);
     var txt='I took "Which Conspiracy Theorist Are You?" and I\'m '+r.t+'! What are you?';
     var u=U+'?r='+k;
     document.getElementById('sx').href='https://x.com/intent/post?text='+encodeURIComponent(txt)+'&url='+encodeURIComponent(u);
