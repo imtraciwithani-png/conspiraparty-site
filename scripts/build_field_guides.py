@@ -498,7 +498,7 @@ GUIDE_PAID = '''<section class="black" id="paid-kits"><div class="wrap">
 <a class="btn alt" href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">Full party kit · code LEAKED20</a>
 <a class="btn alt" href="../conspiraparty-ppt-night.html">PowerPoint Night</a>
 </div>
-<p class="buy-note">The PowerPoint Night kit includes the invitation, slides, topic cards and awards. An invite-only download is there if you only need the card. Who Leaked the Files? is the mystery game, with invitations included.</p>
+<p class="buy-note">PowerPoint Night is $9.99 and includes the invitation. Invite only is $3.99. Who Leaked the Files? is $7.99 and includes invitations.</p>
 </div></section>
 '''
 
@@ -665,7 +665,7 @@ def render_index() -> str:
 <a class="btn alt" href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">Full party kit · code LEAKED20</a>
 <a class="btn alt" href="conspiraparty-ppt-night.html">PowerPoint Night</a>
 </div>
-<p class="buy-note">The PowerPoint Night kit includes the invitation, slides, topic cards and awards. An invite-only download is there if you only need the card. Who Leaked the Files? is the mystery game, with invitations included.</p>
+<p class="buy-note">PowerPoint Night is $9.99 and includes the invitation. Invite only is $3.99. Who Leaked the Files? is $7.99 and includes invitations.</p>
 </div></section>
 <section class="redbg"><div class="wrap signup"><span class="stamp" style="color:#fff;border-color:#fff">Classified</span>
 <h2>Join the Shadow Party Committee</h2>

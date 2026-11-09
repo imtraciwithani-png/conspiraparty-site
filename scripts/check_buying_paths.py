@@ -39,10 +39,8 @@ banned = (
     "homepage shop card",
     "product data",
     "not an add-on",
-    "$3.99",
-    "$20",
+    "$20 customization",
     "$49",
-    "customization",
     "event-use",
     "event license",
 )
@@ -51,8 +49,9 @@ bonus = must_contain(
     "bonus-mission.html",
     "https://happyplaceinkandart.etsy.com/listing/4600479706",
     "The download includes invitations",
-    "See Who Leaked on Etsy",
-    "Pick your file",
+    "Get it on Etsy · $7.99",
+    "Who Leaked · $7.99",
+    "Decor kit · $12.99",
 )
 must_not("bonus-mission.html", *banned, text=bonus)
 
@@ -60,8 +59,10 @@ ppt = must_contain(
     "conspiraparty-ppt-night.html",
     "https://www.etsy.com/listing/4612273604/conspiracy-powerpoint-night-invitation",
     "https://www.etsy.com/listing/4604436132/conspiracy-powerpoint-night-party-kit",
-    "includes the 5×7 invitation",
-    ">Invite only</a>",
+    "The full kit is $9.99 and includes the 5×7 invitation",
+    "Invite only is $3.99",
+    ">Invite only · $3.99</a>",
+    ">Full kit · $9.99</a>",
 )
 must_not("conspiraparty-ppt-night.html", *banned, text=ppt)
 
@@ -70,30 +71,35 @@ index = must_contain(
     'id="shop"',
     'id="conspiraparty-party-kit"',
     "The download includes invitations.",
-    '<p class="price">20% off with LEAKED20</p>',
+    '<p class="price">$12.99</p><p class="card-cross">20% off with code LEAKED20</p>',
 )
-if '<p class="price">$12.99</p><p class="card-cross">20% off with code LEAKED20</p>' in index:
-    errors.append("index.html flagship card states an unverified $12.99")
 
 must_contain(
     "free-printables.html",
     'id="paid-kits"',
     "4612273604",
     "index.html#shop",
-    "just the designed invitation",
+    "Invite only, $3.99",
+    "PowerPoint Night full kit, $9.99",
+    "Who Leaked the Files?, $7.99",
+    "Decor kit, $12.99",
 )
 must_not("free-printables.html", *banned)
 must_contain(
     "free-top-secret-party-invitation.html",
     "4612273604",
     "index.html#shop",
-    ">Invite only</a>",
+    ">Invite only · $3.99</a>",
+    "The full kit is $9.99",
 )
 must_not("free-top-secret-party-invitation.html", *banned)
-must_contain("join-the-agency.html", 'id="paid-kits"', "4612273604", "index.html#shop", ">Invite only</a>")
+must_contain("join-the-agency.html", 'id="paid-kits"', "4612273604", "index.html#shop", "Invite only is $3.99", "$9.99", "$7.99")
 must_not("join-the-agency.html", *banned)
+must_contain("shop.html", "$9.99", "$3.99", "$7.99", "$12.99", "ko-fi.com/conspiraparty")
 must_not("shop.html", *banned)
+must_contain("field-guides.html", "$9.99", "$3.99", "$7.99")
 must_not("field-guides.html", *banned)
+must_contain("field-guides/roswell.html", "$9.99", "$3.99", "$7.99")
 must_not("field-guides/roswell.html", *banned)
 must_contain("shop.html", 'href="index.html#shop"', "noindex", "ko-fi.com/conspiraparty")
 must_contain("404.html", 'href="index.html#shop"')

@@ -589,7 +589,7 @@ join_body = f'''
 <a class="btn alt" href="conspiraparty-ppt-night.html">PowerPoint Night</a>
 <a class="btn alt" href="bonus-mission.html">Who Leaked the Files?</a>
 </div>
-<p class="buy-note">The PowerPoint Night kit includes the invitation, slides, topic cards and awards. <a href="https://www.etsy.com/listing/4612273604/conspiracy-powerpoint-night-invitation" target="_blank" rel="noopener sponsored">Invite only</a> is just the card.</p>
+<p class="buy-note">PowerPoint Night is $9.99 and includes the invitation. <a href="https://www.etsy.com/listing/4612273604/conspiracy-powerpoint-night-invitation" target="_blank" rel="noopener sponsored">Invite only is $3.99</a>. Who Leaked the Files? is $7.99.</p>
 </div></section>
 '''
 # join page already has signup in template; skip duplicate by using empty signup override — simplest: custom page write
