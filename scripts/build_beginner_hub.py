@@ -583,13 +583,13 @@ join_body = f'''
 </div></section>
 <section class="black" id="paid-kits"><div class="wrap center">
 <h2>When you actually <span class="r">host</span></h2>
-<p class="lead">The badge is free. The party files are the existing Etsy kits. Kits that already include an invite do not need a second one, and there is no bundle discount.</p>
+<p class="lead">The badge is free. When you host, the finished files are the Etsy kits.</p>
 <div class="buy-paths center">
 <a class="btn" href="index.html#shop">Shop the kits</a>
 <a class="btn alt" href="conspiraparty-ppt-night.html">PowerPoint Night</a>
 <a class="btn alt" href="bonus-mission.html">Who Leaked the Files?</a>
 </div>
-<p class="buy-note">Standard PowerPoint Night invite only, if that is all you need: <a href="https://www.etsy.com/listing/4612273604/conspiracy-powerpoint-night-invitation" target="_blank" rel="noopener sponsored">$3.99</a>. The full PowerPoint Night kit already includes it.</p>
+<p class="buy-note">The PowerPoint Night kit includes the invitation, slides, topic cards and awards. <a href="https://www.etsy.com/listing/4612273604/conspiracy-powerpoint-night-invitation" target="_blank" rel="noopener sponsored">Invite only</a> is just the card.</p>
 </div></section>
 '''
 # join page already has signup in template; skip duplicate by using empty signup override — simplest: custom page write

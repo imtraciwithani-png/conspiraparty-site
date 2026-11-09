@@ -101,10 +101,20 @@
   ],
   "buying_path_evidence": {
     "checked": "2026-11-09",
-    "flagship_party_kit": "Homepage Product schema lists 12.99 USD for listing 4502272966. A public HappyPlaceInkandArt shop snippet also showed the conspiracy party kit at $12.99. The shop card previously showed only LEAKED20. Invitations are already in the kit.",
-    "who_leaked": "Homepage shop card and Product schema list $7.99 at https://happyplaceinkandart.etsy.com/listing/4600479706 and treat it as a homepage kit. bonus-mission.html previously said Coming soon to Etsy. An automated fetch of the Etsy URL on 2026-11-09 returned HTTP 403, which is not a 404. Do not describe a bundle discount. Invitations are already in the kit.",
-    "ppt_night_kit": "Homepage shop card and conspiraparty-ppt-night.html Product schema list $9.99 at listing 4604436132. The kit includes the 5x7 invite. Listing fetch returned HTTP 403, not 404.",
-    "ppt_invite_only": "Standard invite verified at $3.99: https://www.etsy.com/listing/4612273604/conspiracy-powerpoint-night-invitation. Not an add-on to a full kit.",
+    "live_checkout": "NOT VERIFIED. A normal desktop browser hit Etsy Verification Required (slider captcha) on every listing below before any price or Add to cart control rendered. HTTP 403 and repo prices are not checkout proof. Do not state those prices in new shopper copy until a signed-in browser reads the listing.",
+    "blocked_urls": [
+      "https://www.etsy.com/listing/4600479706",
+      "https://www.etsy.com/listing/4604436132/conspiracy-powerpoint-night-party-kit",
+      "https://www.etsy.com/listing/4612273604/conspiracy-powerpoint-night-invitation",
+      "https://www.etsy.com/listing/4502272966",
+      "https://happyplaceinkandart.etsy.com/listing/4600479706"
+    ],
+    "missing": [
+      "Who Leaked availability (Add to cart or unavailable) and current price",
+      "PowerPoint Night kit current checkout price (repo/homepage card says $9.99)",
+      "Invite-only current checkout price (previously cited as $3.99)",
+      "Decor kit current checkout price (repo schema says $12.99; visible card no longer states a dollar amount)"
+    ],
     "shop_route": "Public https://conspiraparty.com/shop.html returned HTTP 404. No internal href pointed at shop.html. The shop is index.html#shop. shop.html is a pointer only.",
     "do_not_publish": [
       "$20 customization draft, awaiting terms",

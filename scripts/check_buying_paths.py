@@ -31,62 +31,70 @@ def must_not(rel, *needles, text=None):
             errors.append(f"{rel} still contains {needle!r}")
 
 
-bonus = must_contain(
-    "bonus-mission.html",
-    "https://happyplaceinkandart.etsy.com/listing/4600479706",
-    "$7.99",
-    "no bundle discount",
-    "See Who Leaked on Etsy",
-)
-must_not(
-    "bonus-mission.html",
+banned = (
     "Coming soon to Etsy",
     "Full Cover-Up Bundle",
-    "bundle discount. Decor",
-    text=bonus,
-)
-
-ppt = must_contain(
-    "conspiraparty-ppt-night.html",
-    "https://www.etsy.com/listing/4612273604/conspiracy-powerpoint-night-invitation",
-    "$3.99",
-    "https://www.etsy.com/listing/4604436132/conspiracy-powerpoint-night-party-kit",
-    "already includes the 5×7 invite",
     "no bundle discount",
-)
-must_not(
-    "conspiraparty-ppt-night.html",
+    "same invite twice",
+    "homepage shop card",
+    "product data",
+    "not an add-on",
+    "$3.99",
     "$20",
     "$49",
     "customization",
     "event-use",
     "event license",
-    text=ppt,
 )
+
+bonus = must_contain(
+    "bonus-mission.html",
+    "https://happyplaceinkandart.etsy.com/listing/4600479706",
+    "The download includes invitations",
+    "See Who Leaked on Etsy",
+    "Pick your file",
+)
+must_not("bonus-mission.html", *banned, text=bonus)
+
+ppt = must_contain(
+    "conspiraparty-ppt-night.html",
+    "https://www.etsy.com/listing/4612273604/conspiracy-powerpoint-night-invitation",
+    "https://www.etsy.com/listing/4604436132/conspiracy-powerpoint-night-party-kit",
+    "includes the 5×7 invitation",
+    ">Invite only</a>",
+)
+must_not("conspiraparty-ppt-night.html", *banned, text=ppt)
 
 index = must_contain(
     "index.html",
     'id="shop"',
     'id="conspiraparty-party-kit"',
-    "<p class=\"price\">$12.99</p><p class=\"card-cross\">20% off with code LEAKED20</p>",
+    "The download includes invitations.",
+    '<p class="price">20% off with LEAKED20</p>',
 )
-# The flagship card should not go back to a discount-only price line.
-if "<p class=\"price\">20% off with LEAKED20</p>" in index:
-    errors.append("index.html flagship card dropped the $12.99 price")
+if '<p class="price">$12.99</p><p class="card-cross">20% off with code LEAKED20</p>' in index:
+    errors.append("index.html flagship card states an unverified $12.99")
 
 must_contain(
     "free-printables.html",
     'id="paid-kits"',
     "4612273604",
     "index.html#shop",
+    "just the designed invitation",
 )
+must_not("free-printables.html", *banned)
 must_contain(
     "free-top-secret-party-invitation.html",
     "4612273604",
-    "$3.99",
     "index.html#shop",
+    ">Invite only</a>",
 )
-must_contain("join-the-agency.html", 'id="paid-kits"', "4612273604", "index.html#shop")
+must_not("free-top-secret-party-invitation.html", *banned)
+must_contain("join-the-agency.html", 'id="paid-kits"', "4612273604", "index.html#shop", ">Invite only</a>")
+must_not("join-the-agency.html", *banned)
+must_not("shop.html", *banned)
+must_not("field-guides.html", *banned)
+must_not("field-guides/roswell.html", *banned)
 must_contain("shop.html", 'href="index.html#shop"', "noindex", "ko-fi.com/conspiraparty")
 must_contain("404.html", 'href="index.html#shop"')
 must_contain("field-guides.html", 'id="paid-kits"', "index.html#shop")

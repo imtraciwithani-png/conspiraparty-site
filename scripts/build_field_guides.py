@@ -492,13 +492,13 @@ HEADER = '''<body>
 
 GUIDE_PAID = '''<section class="black" id="paid-kits"><div class="wrap">
 <h2>Take the party <span class="r">home</span></h2>
-<p class="lead">This guide stays free. Printable party kits are a different file, and they already live on the homepage shop.</p>
+<p class="lead">This guide stays free. The finished party files are on the homepage shop.</p>
 <div class="buy-paths">
 <a class="btn" href="../index.html#shop">Shop the kits</a>
 <a class="btn alt" href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">Full party kit · code LEAKED20</a>
 <a class="btn alt" href="../conspiraparty-ppt-night.html">PowerPoint Night</a>
 </div>
-<p class="buy-note">PowerPoint Night’s full kit already includes its invite. The invite-only file is $3.99, not an add-on. Who Leaked the Files? includes its own invitations. There is no kit-plus-invite bundle.</p>
+<p class="buy-note">The PowerPoint Night kit includes the invitation, slides, topic cards and awards. An invite-only download is there if you only need the card. Who Leaked the Files? is the mystery game, with invitations included.</p>
 </div></section>
 '''
 
@@ -659,13 +659,13 @@ def render_index() -> str:
 </div></section>
 <section class="black" id="paid-kits"><div class="wrap">
 <h2>Take the party <span class="r">home</span></h2>
-<p class="lead">These guides stay free. Printable party kits are a different file, and they already live on the homepage shop.</p>
+<p class="lead">These guides stay free. The finished party files are on the homepage shop.</p>
 <div class="buy-paths">
 <a class="btn" href="index.html#shop">Shop the kits</a>
 <a class="btn alt" href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">Full party kit · code LEAKED20</a>
 <a class="btn alt" href="conspiraparty-ppt-night.html">PowerPoint Night</a>
 </div>
-<p class="buy-note">PowerPoint Night’s full kit already includes its invite. The invite-only file is $3.99, not an add-on. Who Leaked the Files? includes its own invitations. There is no kit-plus-invite bundle.</p>
+<p class="buy-note">The PowerPoint Night kit includes the invitation, slides, topic cards and awards. An invite-only download is there if you only need the card. Who Leaked the Files? is the mystery game, with invitations included.</p>
 </div></section>
 <section class="redbg"><div class="wrap signup"><span class="stamp" style="color:#fff;border-color:#fff">Classified</span>
 <h2>Join the Shadow Party Committee</h2>
