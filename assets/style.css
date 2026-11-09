@@ -120,6 +120,32 @@ h3{
 }
 .promo a:hover{background:var(--red);color:#fff}
 
+/* HOLIDAY BANNER — delete this block and #holiday-banner in index.html after the holidays */
+.holiday-banner{
+  background:#14110c;
+  color:var(--text);
+  border-bottom:4px solid var(--red);
+  scroll-margin-top:96px;
+}
+.holiday-banner .wrap{
+  display:flex;
+  flex-wrap:wrap;
+  gap:16px 28px;
+  align-items:center;
+  justify-content:space-between;
+  padding-top:16px;
+  padding-bottom:18px;
+}
+.holiday-banner p{
+  margin:8px 0 0;
+  max-width:68ch;
+  line-height:1.45;
+  font-size:1.02rem;
+}
+.holiday-banner .buy-paths{margin:0}
+.holiday-banner .btn{min-height:44px}
+.holiday-banner .stamp{display:inline-block}
+
 /* ===== Header — tall, clean, large Concept C ===== */
 header.top{
   position:sticky;top:0;z-index:20;
