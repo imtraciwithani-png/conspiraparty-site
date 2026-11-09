@@ -99,6 +99,24 @@
       "why": "alien_gender_reveal"
     }
   ],
+  "buying_path_evidence": {
+    "checked": "2026-11-09",
+    "live_checkout": "Verified read-only in the shop owner's signed-in Etsy Shop Manager on Nov 8 2026 about 8:27 PM MT. All four listings Active with quantity above 0.",
+    "verified_listings": [
+      {"id": "4600479706", "title": "Who Leaked the Files mystery party game", "price": "$7.99", "qty": 999, "url": "https://www.etsy.com/listing/4600479706"},
+      {"id": "4604436132", "title": "Conspiracy PowerPoint Night Party Kit", "price": "$9.99", "qty": 999, "url": "https://www.etsy.com/listing/4604436132/conspiracy-powerpoint-night-party-kit"},
+      {"id": "4612273604", "title": "Conspiracy PowerPoint Night Invitation", "price": "$3.99", "qty": 999, "url": "https://www.etsy.com/listing/4612273604/conspiracy-powerpoint-night-invitation"},
+      {"id": "4502272966", "title": "Conspiracy Theory Party Kit", "price": "$12.99", "qty": 285, "url": "https://www.etsy.com/listing/4502272966"}
+    ],
+    "missing": [],
+    "shop_route": "Public https://conspiraparty.com/shop.html returned HTTP 404. No internal href pointed at shop.html. The shop is index.html#shop. shop.html is a pointer only.",
+    "do_not_publish": [
+      "$20 customization draft, awaiting terms",
+      "$49 event-use license draft, awaiting terms and Who Leaked kit QA",
+      "Christmas PowerPoint products with export defects",
+      "Amazon Merch while paused"
+    ]
+  },
   "merch_amazon_live_confirmed": {
     "note": "Only these Conspiraparty Merch tees have confirmed real Amazon product URLs in-repo / by resolving amzn.to. Do not invent ASINs. 'I Did My Own Research' and daily Gravy/Gnomes were published in Merch dashboard but have no public product URL recorded yet — use brand browse link until confirmed.",
     "tees": [

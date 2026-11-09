@@ -581,6 +581,16 @@ join_body = f'''
 </form>
 <p class="center" style="margin-top:18px">After you join: <a href="thanks.html">thanks page + badge</a> · <a href="free-printables.html">more freebies</a> · <a href="start-here.html">Start Here hub</a></p>
 </div></section>
+<section class="black" id="paid-kits"><div class="wrap center">
+<h2>When you actually <span class="r">host</span></h2>
+<p class="lead">The badge is free. When you host, the finished files are the Etsy kits.</p>
+<div class="buy-paths center">
+<a class="btn" href="index.html#shop">Shop the kits</a>
+<a class="btn alt" href="conspiraparty-ppt-night.html">PowerPoint Night</a>
+<a class="btn alt" href="bonus-mission.html">Who Leaked the Files?</a>
+</div>
+<p class="buy-note">PowerPoint Night is $9.99 and includes the invitation. <a href="https://www.etsy.com/listing/4612273604/conspiracy-powerpoint-night-invitation" target="_blank" rel="noopener sponsored">Invite only is $3.99</a>. Who Leaked the Files? is $7.99.</p>
+</div></section>
 '''
 # join page already has signup in template; skip duplicate by using empty signup override — simplest: custom page write
 join_html = f'''<!doctype html>
@@ -611,6 +621,11 @@ join_html = f'''<!doctype html>
 <main id="main">{join_body}</main>
 {footer()}
 </body></html>'''
+join_html = join_html.replace(
+    '<a class="sticky-cta" href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>',
+    '<a class="sticky-cta" href="index.html#shop">Shop the printable kits</a>',
+    1,
+)
 (ROOT/'join-the-agency.html').write_text(join_html)
 
 # ========== refresh start-here with same helpers (already exists) ==========

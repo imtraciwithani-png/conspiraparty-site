@@ -490,6 +490,18 @@ HEADER = '''<body>
 </ul></nav></header>
 '''
 
+GUIDE_PAID = '''<section class="black" id="paid-kits"><div class="wrap">
+<h2>Take the party <span class="r">home</span></h2>
+<p class="lead">This guide stays free. The finished party files are on the homepage shop.</p>
+<div class="buy-paths">
+<a class="btn" href="../index.html#shop">Shop the kits</a>
+<a class="btn alt" href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">Full party kit · code LEAKED20</a>
+<a class="btn alt" href="../conspiraparty-ppt-night.html">PowerPoint Night</a>
+</div>
+<p class="buy-note">PowerPoint Night is $9.99 and includes the invitation. Invite only is $3.99. Who Leaked the Files? is $7.99 and includes invitations.</p>
+</div></section>
+'''
+
 FOOTER = '''<section class="redbg"><div class="wrap signup"><span class="stamp" style="color:#fff;border-color:#fff">Classified</span>
 <h2>Join the Shadow Party Committee</h2>
 <p>Free printables and party ideas. No spam, ever.</p>
@@ -516,10 +528,10 @@ FOOTER = '''<section class="redbg"><div class="wrap signup"><span class="stamp" 
 <li><a href="../privacy.html">Privacy</a></li>
 </ul></nav>
 <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases.</p>
-<p class="x-follow"><a href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow @conspiraparty on X</a></p>
+<p class="x-follow site-support"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a><a class="btn sm kofi-btn" href="https://ko-fi.com/conspiraparty" target="_blank" rel="noopener">Buy the Agency a coffee</a></p>
 <p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p>
 </div></footer>
-<a class="sticky-cta" href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>
+<a class="sticky-cta" href="../index.html#shop">Shop the printable kits</a>
 <script src="../assets/site.js" defer></script>
 <script src="../assets/field-guides.js" defer></script>
 </body></html>
@@ -579,6 +591,7 @@ def render_guide_html(g: dict) -> str:
 <ul class="fg-notes">{notes}</ul>
 <p style="margin-top:22px"><a href="../field-guides.html">← All Field Guides</a> · <a href="../printables/field-guides/{esc(slug)}.pdf" download>Printable PDF</a></p>
 </div></section>
+{GUIDE_PAID}
 {FOOTER}
 '''
 
@@ -644,6 +657,16 @@ def render_index() -> str:
 <div class="grid fg-grid">{"".join(cards)}</div>
 <p class="center" style="margin-top:28px;color:var(--text-dim)">Entertainment only. Stay on public land. Question everything, especially us.</p>
 </div></section>
+<section class="black" id="paid-kits"><div class="wrap">
+<h2>Take the party <span class="r">home</span></h2>
+<p class="lead">These guides stay free. The finished party files are on the homepage shop.</p>
+<div class="buy-paths">
+<a class="btn" href="index.html#shop">Shop the kits</a>
+<a class="btn alt" href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">Full party kit · code LEAKED20</a>
+<a class="btn alt" href="conspiraparty-ppt-night.html">PowerPoint Night</a>
+</div>
+<p class="buy-note">PowerPoint Night is $9.99 and includes the invitation. Invite only is $3.99. Who Leaked the Files? is $7.99 and includes invitations.</p>
+</div></section>
 <section class="redbg"><div class="wrap signup"><span class="stamp" style="color:#fff;border-color:#fff">Classified</span>
 <h2>Join the Shadow Party Committee</h2>
 <p>Free printables and party ideas. No spam, ever.</p>
@@ -669,10 +692,10 @@ def render_index() -> str:
 <li><a href="weird-news.html">Weird News</a></li>
 <li><a href="privacy.html">Privacy</a></li>
 </ul></nav>
-<p class="x-follow"><a href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow @conspiraparty on X</a></p>
+<p class="x-follow site-support"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a><a class="btn sm kofi-btn" href="https://ko-fi.com/conspiraparty" target="_blank" rel="noopener">Buy the Agency a coffee</a></p>
 <p>All conspiracies on this site are for entertainment. © 2026 Conspiraparty.com</p>
 </div></footer>
-<a class="sticky-cta" href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>
+<a class="sticky-cta" href="index.html#shop">Shop the printable kits</a>
 <script src="assets/site.js" defer></script>
 </body></html>
 '''
