@@ -99,6 +99,20 @@
       "why": "alien_gender_reveal"
     }
   ],
+  "buying_path_evidence": {
+    "checked": "2026-11-09",
+    "flagship_party_kit": "Homepage Product schema lists 12.99 USD for listing 4502272966. A public HappyPlaceInkandArt shop snippet also showed the conspiracy party kit at $12.99. The shop card previously showed only LEAKED20. Invitations are already in the kit.",
+    "who_leaked": "Homepage shop card and Product schema list $7.99 at https://happyplaceinkandart.etsy.com/listing/4600479706 and treat it as a homepage kit. bonus-mission.html previously said Coming soon to Etsy. An automated fetch of the Etsy URL on 2026-11-09 returned HTTP 403, which is not a 404. Do not describe a bundle discount. Invitations are already in the kit.",
+    "ppt_night_kit": "Homepage shop card and conspiraparty-ppt-night.html Product schema list $9.99 at listing 4604436132. The kit includes the 5x7 invite. Listing fetch returned HTTP 403, not 404.",
+    "ppt_invite_only": "Standard invite verified at $3.99: https://www.etsy.com/listing/4612273604/conspiracy-powerpoint-night-invitation. Not an add-on to a full kit.",
+    "shop_route": "Public https://conspiraparty.com/shop.html returned HTTP 404. No internal href pointed at shop.html. The shop is index.html#shop. shop.html is a pointer only.",
+    "do_not_publish": [
+      "$20 customization draft, awaiting terms",
+      "$49 event-use license draft, awaiting terms and Who Leaked kit QA",
+      "Christmas PowerPoint products with export defects",
+      "Amazon Merch while paused"
+    ]
+  },
   "merch_amazon_live_confirmed": {
     "note": "Only these Conspiraparty Merch tees have confirmed real Amazon product URLs in-repo / by resolving amzn.to. Do not invent ASINs. 'I Did My Own Research' and daily Gravy/Gnomes were published in Merch dashboard but have no public product URL recorded yet — use brand browse link until confirmed.",
     "tees": [
