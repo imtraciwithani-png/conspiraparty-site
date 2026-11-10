@@ -9,7 +9,7 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Quiz","name":"Which Cryptid Are You? Free Funny Quiz","description":"Free funny personality quiz with 6 questions and 5 cryptid-themed results.","url":"https://conspiraparty.com/quiz-cryptid.html","educationalLevel":"entertainment","about":"cryptid party quiz"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://conspiraparty.com/"},{"@type":"ListItem","position":2,"name":"Which Cryptid Are You?","item":"https://conspiraparty.com/quiz-cryptid.html"}]}</script>
 <meta content="#000000" name="theme-color"/><link href="assets/img/favicon-64.png" rel="icon" type="image/png"/><link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"/>
-<link as="font" crossorigin="" href="assets/fonts/Anton-Regular.ttf" rel="preload" type="font/ttf"/><link href="assets/style.css?v=xshow1" rel="stylesheet"/><link href="assets/share.css" rel="stylesheet"/>
+<link as="font" crossorigin="" href="assets/fonts/Anton-Regular.ttf" rel="preload" type="font/ttf"/><link href="assets/style.css?v=kofi1" rel="stylesheet"/><link href="assets/share.css" rel="stylesheet"/>
 <style></style>
 </head>
 <body><a class="skip" href="#main">Skip to content</a>
@@ -73,7 +73,7 @@
 <h2 id="rt"></h2>
 <img alt="Your cryptid quiz result" height="300" id="ri" style="max-width:300px;height:auto;margin:12px auto" width="300"/>
 <p class="lead" id="rd"></p>
-<p><a class="btn big" id="ru" rel="noopener sponsored" target="_blank">Get It</a></p>
+<p><a class="btn big" id="ru" rel="noopener sponsored" target="_blank">Get It</a> <a class="kofi-etsy" id="re" hidden rel="noopener sponsored" target="_blank">Also on Etsy</a></p>
 <p><strong>Share your result:</strong><br/>
 <a class="btn sm" id="sx" rel="noopener" target="_blank">Share on X</a>
 <a class="btn sm" id="sf" rel="noopener" target="_blank">Share on Facebook</a>
@@ -89,9 +89,9 @@
 (function(){
 var R={
   sasquatch:{t:"Sasquatch",d:"You are the shy celebrity of the woods. Every blurry photo is a soft launch. You own more trail cameras than socks.",u:"https://amzn.to/4vkw57N",p:"Bigfoot Doesn't Believe in You Either tee",i:"assets/img/quiz-cryptid/sasquatch.png"},
-  mothman:{t:"Mothman",d:"Prophetic vibes. Great wingspan. You notice the plot twist three scenes early and still act surprised for the group.",u:"https://happyplaceinkandart.etsy.com/listing/4502272966",p:"Conspiraparty printable kit",i:"assets/img/quiz-cryptid/mothman.png"},
-  lake:{t:"Lake Monster",d:"Deep thoughts. Occasional sightings. You prefer to stay under the surface until the theory is airtight.",u:"https://www.etsy.com/listing/4604436132/conspiracy-powerpoint-night-party-kit",p:"Conspiracy PowerPoint Night kit",i:"assets/img/quiz-cryptid/lake-monster.png"},
-  jackalope:{t:"Jackalope",d:"Rare. Possibly a prank. Definitely iconic. You are the rumor people retell at every party.",u:"https://happyplaceinkandart.etsy.com/listing/4502272966",p:"Conspiraparty printable kit",i:"assets/img/quiz-cryptid/jackalope.png"},
+  mothman:{t:"Mothman",d:"Prophetic vibes. Great wingspan. You notice the plot twist three scenes early and still act surprised for the group.",u:"https://ko-fi.com/s/e35cf6ce46",e:"https://happyplaceinkandart.etsy.com/listing/4502272966",p:"Conspiraparty printable kit",i:"assets/img/quiz-cryptid/mothman.png"},
+  lake:{t:"Lake Monster",d:"Deep thoughts. Occasional sightings. You prefer to stay under the surface until the theory is airtight.",u:"https://ko-fi.com/s/0c00270052",e:"https://www.etsy.com/listing/4604436132/conspiracy-powerpoint-night-party-kit",p:"Conspiracy PowerPoint Night kit",i:"assets/img/quiz-cryptid/lake-monster.png"},
+  jackalope:{t:"Jackalope",d:"Rare. Possibly a prank. Definitely iconic. You are the rumor people retell at every party.",u:"https://ko-fi.com/s/e35cf6ce46",e:"https://happyplaceinkandart.etsy.com/listing/4502272966",p:"Conspiraparty printable kit",i:"assets/img/quiz-cryptid/jackalope.png"},
   thunderbird:{t:"Thunderbird",d:"Dramatic entrances. Weather optional. When you arrive, the room changes pressure.",u:"https://amzn.to/4vle218",p:"One Giant Lie moon landing tee",i:"assets/img/quiz-cryptid/thunderbird.png"}
 };
 var map={sasquatch:"sasquatch",mothman:"mothman",lake:"lake",jackalope:"jackalope",thunderbird:"thunderbird"};
@@ -99,7 +99,7 @@ var f=document.getElementById('quiz'),box=document.getElementById('result'),U='h
 function show(k){var r=R[k];if(!r)return;
 document.getElementById('rt').textContent='You are: '+r.t;
 document.getElementById('rd').textContent=r.d;
-var a=document.getElementById('ru');a.href=r.u;a.textContent='Get the '+r.p;
+var a=document.getElementById('ru');a.href=r.u;var e=document.getElementById('re');if(r.e){a.textContent='Buy now – instant download';e.hidden=false;e.href=r.e;}else{a.textContent='Get the '+r.p;e.hidden=true;}
 var im=document.getElementById('ri');im.src=r.i;im.alt='You are '+r.t+' – Conspiraparty cryptid quiz';
 var dl=document.getElementById('sd');dl.href=r.i;dl.download=k+'-cryptid-result.png';
 var txt='I took the "Which Cryptid Are You?" quiz and I\'m '+r.t+'! 👣 What are you?';

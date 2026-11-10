@@ -142,11 +142,11 @@ quiz_js = r'''
 <script>
 (function(){
   var R = {
-    foil: {t:'The Tin Foil Couture Agent', d:'You dress for the job you want: antenna included. Every party needs a lookout.', u:'https://happyplaceinkandart.etsy.com/listing/4502272966', p:'Conspiraparty Party Kit (LEAKED20)', i:'assets/img/kit-0.webp'},
-    alien: {t:'The Friendly Abductee', d:'You waved at the lights. They waved back. Probably. You keep snacks for the mothership.', u:'https://happyplaceinkandart.etsy.com/listing/4601156509', p:'The Truth Is Out There alien kit', i:'assets/img/alien-kit.jpg'},
-    leak: {t:'The Cheerful Leaker', d:'Secrets last about 12 seconds around you. Group chats fear your screenshots.', u:'https://happyplaceinkandart.etsy.com/listing/4600479706', p:'Who Leaked the Files? party game', i:'assets/img/wltf-01-kit-cover.webp'},
+    foil: {t:'The Tin Foil Couture Agent', d:'You dress for the job you want: antenna included. Every party needs a lookout.', u:'https://ko-fi.com/s/e35cf6ce46', e:'https://happyplaceinkandart.etsy.com/listing/4502272966', p:'Conspiraparty Party Kit', i:'assets/img/kit-0.webp'},
+    alien: {t:'The Friendly Abductee', d:'You waved at the lights. They waved back. Probably. You keep snacks for the mothership.', u:'https://ko-fi.com/s/af602f09e4', e:'https://happyplaceinkandart.etsy.com/listing/4601156509', p:'The Truth Is Out There alien kit', i:'assets/img/alien-kit.jpg'},
+    leak: {t:'The Cheerful Leaker', d:'Secrets last about 12 seconds around you. Group chats fear your screenshots.', u:'https://ko-fi.com/s/48c4007b56', e:'https://happyplaceinkandart.etsy.com/listing/4600479706', p:'Who Leaked the Files? party game', i:'assets/img/wltf-01-kit-cover.webp'},
     bigfoot: {t:'The Trail-Cam Romantic', d:'You believe in blurry things and clean hiking boots. Forests whisper; you take notes.', u:'https://www.etsy.com/listing/4605278398', p:'Junior Cryptid Scout Birthday kit', i:'assets/img/cryptid-scout-kit.webp'},
-    slide: {t:'The PowerPoint Prophet', d:'Your theories come with transitions. Red string optional. Laser pointer mandatory.', u:'https://www.etsy.com/listing/4604436132/conspiracy-powerpoint-night-party-kit', p:'Conspiracy PowerPoint Night kit', i:'assets/img/ppt-night-hero.jpg'},
+    slide: {t:'The PowerPoint Prophet', d:'Your theories come with transitions. Red string optional. Laser pointer mandatory.', u:'https://ko-fi.com/s/0c00270052', e:'https://www.etsy.com/listing/4604436132/conspiracy-powerpoint-night-party-kit', p:'Conspiracy PowerPoint Night kit', i:'assets/img/ppt-night-hero.jpg'},
     tour: {t:'The Fake-Band Merch Dealer', d:'You collect tees from bands that never existed. The tour was totally real.', u:'shirts.html', p:'Totally Real Tour shirts', i:'assets/img/tour-merch/chemtrail-cowboys.webp'}
   };
   var f=document.getElementById('quiz'), box=document.getElementById('result');
@@ -155,7 +155,7 @@ quiz_js = r'''
     var r=R[k]; if(!r) return;
     document.getElementById('rt').textContent='You are: '+r.t;
     document.getElementById('rd').textContent=r.d;
-    var a=document.getElementById('ru'); a.href=r.u; a.textContent='Get the '+r.p;
+    var a=document.getElementById('ru'); a.href=r.u; var e=document.getElementById('re'); if(r.e){a.textContent='Buy now – instant download'; e.hidden=false; e.href=r.e;}else{a.textContent='Get the '+r.p; e.hidden=true;}
     if(r.u.indexOf('http')!==0) a.removeAttribute('target'); else { a.target='_blank'; a.rel='noopener sponsored'; }
     var im=document.getElementById('ri'); im.src=r.i; im.alt=r.p;
     var txt='I took "Which Conspiracy Theorist Are You?" and I\'m '+r.t+'! What are you?';
@@ -212,7 +212,7 @@ quiz_body = f'''
 <h2 id="rt"></h2>
 <img id="ri" alt="Your conspiracy theorist quiz result" width="300" height="300" style="max-width:300px;height:auto">
 <p id="rd" class="lead"></p>
-<p><a id="ru" class="btn big">Get It</a></p>
+<p><a id="ru" class="btn big">Get It</a> <a class="kofi-etsy" id="re" hidden rel="noopener sponsored" target="_blank">Also on Etsy</a></p>
 <p><strong>Share your result:</strong><br>
 <a id="sx" class="btn sm" target="_blank" rel="noopener">Share on X</a>
 <a id="sf" class="btn sm" target="_blank" rel="noopener">Share on Facebook</a>

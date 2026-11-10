@@ -141,7 +141,7 @@ __STRIP__
 <a class="sk-hub-card" href="follow-the-money.html"><h3>Follow the Money</h3><p>Who funded, who profited, who testified — with record links.</p></a>
 </div>
 <p class="sk-hint">Related: <a href="start-here.html" style="color:#fff;text-decoration:underline">Rabbit Hole Map</a> · <a href="true-stories.html" style="color:#fff;text-decoration:underline">Sounds Fake, Actually Happened</a> · <a href="weird-news.html" style="color:#fff;text-decoration:underline">Weird News</a></p>
-<p class="sk-hint" style="margin-top:8px">Hosting a dig night? The <a href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored" style="color:#fff;text-decoration:underline">printable party kit</a> makes a solid prop table — optional, not required.</p>
+<p class="sk-hint" style="margin-top:8px">Hosting a dig night? The <a href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored" style="color:#fff;text-decoration:underline">printable party kit</a> (<a class="kofi-etsy" href="https://happyplaceinkandart.etsy.com/listing/4502272966" rel="noopener sponsored" target="_blank">Also on Etsy</a>) makes a solid prop table — optional, not required.</p>
 </div></section>
 ''', 0)
 
@@ -360,7 +360,7 @@ issue_body = f'''
 <li>How should citizens treat "urgent" war claims the next time timelines move faster than FOIA?</li>
 <li>What other modern flashpoints deserve the same claim-vs-release timeline treatment?</li>
 </ol>
-<p><em>Optional prop:</em> print a "CLASSIFIED" stamp for dig night — or grab something from the <a href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">party kit</a> if you like the aesthetic. The files matter more than the merch.</p>
+<p><em>Optional prop:</em> print a "CLASSIFIED" stamp for dig night — or grab something from the <a href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">party kit</a> (<a class="kofi-etsy" href="https://happyplaceinkandart.etsy.com/listing/4502272966" rel="noopener sponsored" target="_blank">Also on Etsy</a>) if you like the aesthetic. The files matter more than the merch.</p>
 <p><a href="../weekly-dig.html"><strong>← Back to Weekly Dig signup</strong></a> · <a href="../timeline.html">Open Timeline Mode</a> · <a href="../scoreboard.html">See it on the Scoreboard</a></p>
 </article>
 </div></section>

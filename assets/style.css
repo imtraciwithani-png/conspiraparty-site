@@ -783,6 +783,27 @@ p[style*="color: #111"] a:not(.btn){
   color:#cfcfd4;
 }
 .card-cross a{color:#fff;text-decoration:underline;text-underline-offset:2px}
+a.kofi-etsy{
+  display:inline-block;
+  margin:8px 0 0;
+  font-size:.85rem;
+  font-weight:600;
+  line-height:1.3;
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+.paper a.kofi-etsy,
+.cork a.kofi-etsy{color:#111 !important}
+.paper .card a.kofi-etsy,
+.cork .card a.kofi-etsy,
+.black a.kofi-etsy,
+.redbg a.kofi-etsy,
+.holiday-banner a.kofi-etsy{color:#fff !important}
+.kofi-label{flex-basis:100%;margin:4px 0 0;font-size:.85rem;font-weight:700}
+.buy-paths a.kofi-etsy{align-self:center;margin-left:4px}
+@media(max-width:700px){
+  .buy-paths a.kofi-etsy{align-self:flex-start;margin-left:0}
+}
 .card-cross a:hover{color:var(--red)}
 .paper .card .price,.cork .card .price{color:#fff!important}
 .fg-road-promo{

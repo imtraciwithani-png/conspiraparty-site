@@ -17,7 +17,7 @@
 <link rel="icon" type="image/png" href="assets/img/favicon-64.png">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="preload" href="assets/fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="stylesheet" href="assets/style.css?v=xshow1">
+<link rel="stylesheet" href="assets/style.css?v=kofi1">
 <link rel="stylesheet" href="assets/share.css">
 <link rel="stylesheet" href="assets/beginner-hub.css?v=contrast5">
 </head>
@@ -71,7 +71,7 @@
 <h2 id="rt"></h2>
 <img id="ri" alt="Your conspiracy theorist quiz result" width="300" height="300" style="max-width:300px;height:auto">
 <p id="rd" class="lead"></p>
-<p><a id="ru" class="btn big">Get It</a></p>
+<p><a id="ru" class="btn big">Get It</a> <a class="kofi-etsy" id="re" hidden rel="noopener sponsored" target="_blank">Also on Etsy</a></p>
 <img id="rcard" alt="" hidden width="1200" height="630" style="max-width:100%;height:auto;margin:12px auto;display:block">
 <p><button id="rdl" class="btn sm" type="button">Download result card</button></p>
 <p><strong>Share your result:</strong><br>
@@ -118,11 +118,11 @@
   var R = {
     qanon: {t:'The Q-Adjacent Corkboard Captain', d:'You collect drops like trading cards but (hopefully) still check primary sources. Believers on your feed are loud; archives are louder. Roast certainty theater.', u:'weird-news.html', p:'Weird News political rabbit holes', i:'assets/img/logo-stamp.png'},
     resist: {t:'The Both-Sides Resistance Archivist', d:'You distrust billionaires, bureaus, and anyone who says trust them. Dark money and deep state are both real hobbies — documented pieces, mythical hydra optional.', u:'true-stories.html#prism', p:'Snowden/PRISM true story', i:'assets/img/kit-0.webp'},
-    foil: {t:'The Tin Foil Couture Agent', d:'You dress for the job you want: antenna included. Every party needs a lookout.', u:'https://happyplaceinkandart.etsy.com/listing/4502272966', p:'Conspiraparty Party Kit (LEAKED20)', i:'assets/img/kit-0.webp'},
-    alien: {t:'The Friendly Abductee', d:'You waved at the lights. They waved back. Probably. You keep snacks for the mothership.', u:'https://happyplaceinkandart.etsy.com/listing/4601156509', p:'The Truth Is Out There alien kit', i:'assets/img/alien-kit.jpg'},
-    leak: {t:'The Cheerful Leaker', d:'Secrets last about 12 seconds around you. Group chats fear your screenshots.', u:'https://happyplaceinkandart.etsy.com/listing/4600479706', p:'Who Leaked the Files? party game', i:'assets/img/wltf-01-kit-cover.webp'},
+    foil: {t:'The Tin Foil Couture Agent', d:'You dress for the job you want: antenna included. Every party needs a lookout.', u:'https://ko-fi.com/s/e35cf6ce46', e:'https://happyplaceinkandart.etsy.com/listing/4502272966', p:'Conspiraparty Party Kit', i:'assets/img/kit-0.webp'},
+    alien: {t:'The Friendly Abductee', d:'You waved at the lights. They waved back. Probably. You keep snacks for the mothership.', u:'https://ko-fi.com/s/af602f09e4', e:'https://happyplaceinkandart.etsy.com/listing/4601156509', p:'The Truth Is Out There alien kit', i:'assets/img/alien-kit.jpg'},
+    leak: {t:'The Cheerful Leaker', d:'Secrets last about 12 seconds around you. Group chats fear your screenshots.', u:'https://ko-fi.com/s/48c4007b56', e:'https://happyplaceinkandart.etsy.com/listing/4600479706', p:'Who Leaked the Files? party game', i:'assets/img/wltf-01-kit-cover.webp'},
     bigfoot: {t:'The Trail-Cam Romantic', d:'You believe in blurry things and clean hiking boots. Forests whisper; you take notes.', u:'https://www.etsy.com/listing/4605278398', p:'Junior Cryptid Scout Birthday kit', i:'assets/img/cryptid-scout-kit.webp'},
-    slide: {t:'The PowerPoint Prophet', d:'Your theories come with transitions. Red string optional. Laser pointer mandatory.', u:'https://www.etsy.com/listing/4604436132/conspiracy-powerpoint-night-party-kit', p:'Conspiracy PowerPoint Night kit', i:'assets/img/ppt-night-hero.jpg'},
+    slide: {t:'The PowerPoint Prophet', d:'Your theories come with transitions. Red string optional. Laser pointer mandatory.', u:'https://ko-fi.com/s/0c00270052', e:'https://www.etsy.com/listing/4604436132/conspiracy-powerpoint-night-party-kit', p:'Conspiracy PowerPoint Night kit', i:'assets/img/ppt-night-hero.jpg'},
     tour: {t:'The Fake-Band Merch Dealer', d:'You collect tees from bands that never existed. The tour was totally real.', u:'shirts.html', p:'Totally Real Tour shirts', i:'assets/img/tour-merch/chemtrail-cowboys.webp'}
   };
   var f=document.getElementById('quiz'), box=document.getElementById('result');
@@ -176,7 +176,7 @@
     var r=R[k]; if(!r) return;
     document.getElementById('rt').textContent='You are: '+r.t;
     document.getElementById('rd').textContent=r.d;
-    var a=document.getElementById('ru'); a.href=r.u; a.textContent='Get the '+r.p;
+    var a=document.getElementById('ru'); a.href=r.u; var e=document.getElementById('re'); if(r.e){a.textContent='Buy now – instant download'; e.hidden=false; e.href=r.e;}else{a.textContent='Get the '+r.p; e.hidden=true;}
     if(r.u.indexOf('http')!==0) a.removeAttribute('target'); else { a.target='_blank'; a.rel='noopener sponsored'; }
     var im=document.getElementById('ri'); im.src=r.i; im.alt=r.p;
     drawCard(r);
