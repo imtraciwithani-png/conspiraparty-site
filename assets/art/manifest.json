@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T18:42:01-07:00",
+  "generated_at": "2026-11-10T19:04:42.791229-07:00",
   "brand": {
     "colors": {
       "near_black": "#111111",
@@ -35,11 +35,12 @@
     "stamp-ufo-b": "postage-ufo-b"
   },
   "counts": {
-    "source_svgs": 239,
-    "converted_ok": 239,
+    "source_svgs": 258,
+    "converted_ok": 258,
     "converted_failed": 0,
-    "files": 484,
-    "added_from_export": 83
+    "files": 522,
+    "added_from_export": 83,
+    "added_sticker_batch": 19
   },
   "failed": [],
   "artworks": [
@@ -3012,6 +3013,52 @@
       ]
     },
     {
+      "id": "icon-ui-set-a",
+      "category": "spot",
+      "group": "icon",
+      "role": "icon",
+      "description": "Set of four simple icons: shopping cart, magnifying glass, download arrow, and share arrows.",
+      "files": [
+        {
+          "filename": "spot/icon-ui-set-a-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 44552,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/icon-ui-set-a-400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 15302,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "id": "icon-ui-set-b",
+      "category": "spot",
+      "group": "icon",
+      "role": "icon",
+      "description": "Alternate set of four simple icons: shopping cart, magnifying glass, download arrow, and share arrows.",
+      "files": [
+        {
+          "filename": "spot/icon-ui-set-b-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 48486,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/icon-ui-set-b-400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 16484,
+          "format": "webp"
+        }
+      ]
+    },
+    {
       "id": "jackalope-a",
       "category": "spot",
       "group": "junior-cryptid-scout",
@@ -3725,6 +3772,29 @@
       ]
     },
     {
+      "id": "party-bunting-flags",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "description": "Strip of party bunting flags with alien, Bigfoot, and UFO on the pennants.",
+      "files": [
+        {
+          "filename": "spot/party-bunting-flags-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 43752,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/party-bunting-flags-400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 13812,
+          "format": "webp"
+        }
+      ]
+    },
+    {
       "id": "party-horn-a",
       "category": "spot",
       "group": "illustration",
@@ -3835,6 +3905,52 @@
           "width": 400,
           "height": 400,
           "bytes": 36642,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "id": "peek-alien",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "description": "Alien peeking around a dark corner, one big eye showing.",
+      "files": [
+        {
+          "filename": "spot/peek-alien-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 62178,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/peek-alien-400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 21056,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "id": "peek-nessie",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "description": "Nessie head peeking up from the water, mouth open, with a flat bottom edge.",
+      "files": [
+        {
+          "filename": "spot/peek-nessie-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 70496,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/peek-nessie-400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 23922,
           "format": "webp"
         }
       ]
@@ -3973,6 +4089,52 @@
           "width": 400,
           "height": 400,
           "bytes": 24170,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "id": "polaroid-frame-a",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "description": "Empty square photo frame with red tape on all four corners.",
+      "files": [
+        {
+          "filename": "spot/polaroid-frame-a-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 50878,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/polaroid-frame-a-400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 15366,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "id": "polaroid-frame-b",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "description": "Empty square photo frame, slightly turned, with red tape on the corners.",
+      "files": [
+        {
+          "filename": "spot/polaroid-frame-b-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 57052,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/polaroid-frame-b-400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 17416,
           "format": "webp"
         }
       ]
@@ -4770,6 +4932,282 @@
           "width": 400,
           "height": 400,
           "bytes": 19412,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "id": "sticker-alien-bigfoot-cheers",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "description": "Alien and Bigfoot clinking glasses in a toast.",
+      "files": [
+        {
+          "filename": "spot/sticker-alien-bigfoot-cheers-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 79180,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/sticker-alien-bigfoot-cheers-400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 27080,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "id": "sticker-bigfoot-snack-tray",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "description": "Bigfoot walking in profile, carrying a tray of party snacks.",
+      "files": [
+        {
+          "filename": "spot/sticker-bigfoot-snack-tray-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 68802,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/sticker-bigfoot-snack-tray-400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 21850,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "id": "sticker-birthday-cake-ufo",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "description": "Two-tier birthday cake with candles and a flying saucer hovering over the top.",
+      "files": [
+        {
+          "filename": "spot/sticker-birthday-cake-ufo-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 80172,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/sticker-birthday-cake-ufo-400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 23918,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "id": "sticker-cake-abduction",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "description": "Flying saucer lifting a slice of cake in a tractor beam.",
+      "files": [
+        {
+          "filename": "spot/sticker-cake-abduction-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 86710,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/sticker-cake-abduction-400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 28318,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "id": "sticker-confetti-saucers",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "description": "Pile of party confetti mixed with tiny flying saucers and stars.",
+      "files": [
+        {
+          "filename": "spot/sticker-confetti-saucers-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 59366,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/sticker-confetti-saucers-400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 19764,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "id": "sticker-disco-saucer",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "description": "Flying saucer with a mirrored disco-ball dome and a ring of lights (distinct from disco-saucer-a/b).",
+      "files": [
+        {
+          "filename": "spot/sticker-disco-saucer-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 55332,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/sticker-disco-saucer-400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 18270,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "id": "sticker-foil-hat-pompom",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "description": "Cone-shaped foil hat with a red party pompom on top.",
+      "files": [
+        {
+          "filename": "spot/sticker-foil-hat-pompom-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 70954,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/sticker-foil-hat-pompom-400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 22168,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "id": "sticker-magnifier-eye",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "description": "Magnifying glass with a large googly eye looking through the lens.",
+      "files": [
+        {
+          "filename": "spot/sticker-magnifier-eye-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 52514,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/sticker-magnifier-eye-400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 16824,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "id": "sticker-nessie-punch-bowl",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "description": "Nessie popping out of a punch bowl, holding a red cocktail umbrella.",
+      "files": [
+        {
+          "filename": "spot/sticker-nessie-punch-bowl-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 88824,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/sticker-nessie-punch-bowl-400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 28832,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "id": "sticker-push-pin",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "description": "Red push pin, seen from a three-quarter angle.",
+      "files": [
+        {
+          "filename": "spot/sticker-push-pin-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 48304,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/sticker-push-pin-400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 15256,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "id": "sticker-spy-pigeon",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "description": "Pigeon in a trench coat and headset, standing like a little spy.",
+      "files": [
+        {
+          "filename": "spot/sticker-spy-pigeon-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 76458,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/sticker-spy-pigeon-400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 24688,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "id": "sticker-van-balloons",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "description": "Black van with a bunch of red and cream balloons tied to the back.",
+      "files": [
+        {
+          "filename": "spot/sticker-van-balloons-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 59066,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/sticker-van-balloons-400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 19536,
           "format": "webp"
         }
       ]
@@ -8720,6 +9158,54 @@
       "format": "webp"
     },
     {
+      "filename": "spot/icon-ui-set-a-400.webp",
+      "category": "spot",
+      "group": "icon",
+      "role": "icon",
+      "id": "icon-ui-set-a",
+      "description": "Set of four simple icons: shopping cart, magnifying glass, download arrow, and share arrows.",
+      "width": 400,
+      "height": 400,
+      "bytes": 15302,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/icon-ui-set-a-800.webp",
+      "category": "spot",
+      "group": "icon",
+      "role": "icon",
+      "id": "icon-ui-set-a",
+      "description": "Set of four simple icons: shopping cart, magnifying glass, download arrow, and share arrows.",
+      "width": 800,
+      "height": 800,
+      "bytes": 44552,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/icon-ui-set-b-400.webp",
+      "category": "spot",
+      "group": "icon",
+      "role": "icon",
+      "id": "icon-ui-set-b",
+      "description": "Alternate set of four simple icons: shopping cart, magnifying glass, download arrow, and share arrows.",
+      "width": 400,
+      "height": 400,
+      "bytes": 16484,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/icon-ui-set-b-800.webp",
+      "category": "spot",
+      "group": "icon",
+      "role": "icon",
+      "id": "icon-ui-set-b",
+      "description": "Alternate set of four simple icons: shopping cart, magnifying glass, download arrow, and share arrows.",
+      "width": 800,
+      "height": 800,
+      "bytes": 48486,
+      "format": "webp"
+    },
+    {
       "filename": "spot/jackalope-a-400.webp",
       "category": "spot",
       "group": "junior-cryptid-scout",
@@ -9464,6 +9950,30 @@
       "format": "webp"
     },
     {
+      "filename": "spot/party-bunting-flags-400.webp",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "id": "party-bunting-flags",
+      "description": "Strip of party bunting flags with alien, Bigfoot, and UFO on the pennants.",
+      "width": 400,
+      "height": 400,
+      "bytes": 13812,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/party-bunting-flags-800.webp",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "id": "party-bunting-flags",
+      "description": "Strip of party bunting flags with alien, Bigfoot, and UFO on the pennants.",
+      "width": 800,
+      "height": 800,
+      "bytes": 43752,
+      "format": "webp"
+    },
+    {
       "filename": "spot/party-horn-a-400.webp",
       "category": "spot",
       "group": "illustration",
@@ -9581,6 +10091,54 @@
       "width": 800,
       "height": 800,
       "bytes": 100110,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/peek-alien-400.webp",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "id": "peek-alien",
+      "description": "Alien peeking around a dark corner, one big eye showing.",
+      "width": 400,
+      "height": 400,
+      "bytes": 21056,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/peek-alien-800.webp",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "id": "peek-alien",
+      "description": "Alien peeking around a dark corner, one big eye showing.",
+      "width": 800,
+      "height": 800,
+      "bytes": 62178,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/peek-nessie-400.webp",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "id": "peek-nessie",
+      "description": "Nessie head peeking up from the water, mouth open, with a flat bottom edge.",
+      "width": 400,
+      "height": 400,
+      "bytes": 23922,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/peek-nessie-800.webp",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "id": "peek-nessie",
+      "description": "Nessie head peeking up from the water, mouth open, with a flat bottom edge.",
+      "width": 800,
+      "height": 800,
+      "bytes": 70496,
       "format": "webp"
     },
     {
@@ -9725,6 +10283,54 @@
       "width": 800,
       "height": 800,
       "bytes": 76058,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/polaroid-frame-a-400.webp",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "id": "polaroid-frame-a",
+      "description": "Empty square photo frame with red tape on all four corners.",
+      "width": 400,
+      "height": 400,
+      "bytes": 15366,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/polaroid-frame-a-800.webp",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "id": "polaroid-frame-a",
+      "description": "Empty square photo frame with red tape on all four corners.",
+      "width": 800,
+      "height": 800,
+      "bytes": 50878,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/polaroid-frame-b-400.webp",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "id": "polaroid-frame-b",
+      "description": "Empty square photo frame, slightly turned, with red tape on the corners.",
+      "width": 400,
+      "height": 400,
+      "bytes": 17416,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/polaroid-frame-b-800.webp",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "id": "polaroid-frame-b",
+      "description": "Empty square photo frame, slightly turned, with red tape on the corners.",
+      "width": 800,
+      "height": 800,
+      "bytes": 57052,
       "format": "webp"
     },
     {
@@ -10541,6 +11147,294 @@
       "width": 800,
       "height": 800,
       "bytes": 59910,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-alien-bigfoot-cheers-400.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-alien-bigfoot-cheers",
+      "description": "Alien and Bigfoot clinking glasses in a toast.",
+      "width": 400,
+      "height": 400,
+      "bytes": 27080,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-alien-bigfoot-cheers-800.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-alien-bigfoot-cheers",
+      "description": "Alien and Bigfoot clinking glasses in a toast.",
+      "width": 800,
+      "height": 800,
+      "bytes": 79180,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-bigfoot-snack-tray-400.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-bigfoot-snack-tray",
+      "description": "Bigfoot walking in profile, carrying a tray of party snacks.",
+      "width": 400,
+      "height": 400,
+      "bytes": 21850,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-bigfoot-snack-tray-800.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-bigfoot-snack-tray",
+      "description": "Bigfoot walking in profile, carrying a tray of party snacks.",
+      "width": 800,
+      "height": 800,
+      "bytes": 68802,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-birthday-cake-ufo-400.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-birthday-cake-ufo",
+      "description": "Two-tier birthday cake with candles and a flying saucer hovering over the top.",
+      "width": 400,
+      "height": 400,
+      "bytes": 23918,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-birthday-cake-ufo-800.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-birthday-cake-ufo",
+      "description": "Two-tier birthday cake with candles and a flying saucer hovering over the top.",
+      "width": 800,
+      "height": 800,
+      "bytes": 80172,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-cake-abduction-400.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-cake-abduction",
+      "description": "Flying saucer lifting a slice of cake in a tractor beam.",
+      "width": 400,
+      "height": 400,
+      "bytes": 28318,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-cake-abduction-800.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-cake-abduction",
+      "description": "Flying saucer lifting a slice of cake in a tractor beam.",
+      "width": 800,
+      "height": 800,
+      "bytes": 86710,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-confetti-saucers-400.webp",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "id": "sticker-confetti-saucers",
+      "description": "Pile of party confetti mixed with tiny flying saucers and stars.",
+      "width": 400,
+      "height": 400,
+      "bytes": 19764,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-confetti-saucers-800.webp",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "id": "sticker-confetti-saucers",
+      "description": "Pile of party confetti mixed with tiny flying saucers and stars.",
+      "width": 800,
+      "height": 800,
+      "bytes": 59366,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-disco-saucer-400.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-disco-saucer",
+      "description": "Flying saucer with a mirrored disco-ball dome and a ring of lights (distinct from disco-saucer-a/b).",
+      "width": 400,
+      "height": 400,
+      "bytes": 18270,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-disco-saucer-800.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-disco-saucer",
+      "description": "Flying saucer with a mirrored disco-ball dome and a ring of lights (distinct from disco-saucer-a/b).",
+      "width": 800,
+      "height": 800,
+      "bytes": 55332,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-foil-hat-pompom-400.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-foil-hat-pompom",
+      "description": "Cone-shaped foil hat with a red party pompom on top.",
+      "width": 400,
+      "height": 400,
+      "bytes": 22168,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-foil-hat-pompom-800.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-foil-hat-pompom",
+      "description": "Cone-shaped foil hat with a red party pompom on top.",
+      "width": 800,
+      "height": 800,
+      "bytes": 70954,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-magnifier-eye-400.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-magnifier-eye",
+      "description": "Magnifying glass with a large googly eye looking through the lens.",
+      "width": 400,
+      "height": 400,
+      "bytes": 16824,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-magnifier-eye-800.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-magnifier-eye",
+      "description": "Magnifying glass with a large googly eye looking through the lens.",
+      "width": 800,
+      "height": 800,
+      "bytes": 52514,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-nessie-punch-bowl-400.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-nessie-punch-bowl",
+      "description": "Nessie popping out of a punch bowl, holding a red cocktail umbrella.",
+      "width": 400,
+      "height": 400,
+      "bytes": 28832,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-nessie-punch-bowl-800.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-nessie-punch-bowl",
+      "description": "Nessie popping out of a punch bowl, holding a red cocktail umbrella.",
+      "width": 800,
+      "height": 800,
+      "bytes": 88824,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-push-pin-400.webp",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "id": "sticker-push-pin",
+      "description": "Red push pin, seen from a three-quarter angle.",
+      "width": 400,
+      "height": 400,
+      "bytes": 15256,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-push-pin-800.webp",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "id": "sticker-push-pin",
+      "description": "Red push pin, seen from a three-quarter angle.",
+      "width": 800,
+      "height": 800,
+      "bytes": 48304,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-spy-pigeon-400.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-spy-pigeon",
+      "description": "Pigeon in a trench coat and headset, standing like a little spy.",
+      "width": 400,
+      "height": 400,
+      "bytes": 24688,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-spy-pigeon-800.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-spy-pigeon",
+      "description": "Pigeon in a trench coat and headset, standing like a little spy.",
+      "width": 800,
+      "height": 800,
+      "bytes": 76458,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-van-balloons-400.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-van-balloons",
+      "description": "Black van with a bunch of red and cream balloons tied to the back.",
+      "width": 400,
+      "height": 400,
+      "bytes": 19536,
+      "format": "webp"
+    },
+    {
+      "filename": "spot/sticker-van-balloons-800.webp",
+      "category": "spot",
+      "group": "illustration",
+      "role": "spot",
+      "id": "sticker-van-balloons",
+      "description": "Black van with a bunch of red and cream balloons tied to the back.",
+      "width": 800,
+      "height": 800,
+      "bytes": 59066,
       "format": "webp"
     },
     {
