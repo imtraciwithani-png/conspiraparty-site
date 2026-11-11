@@ -262,6 +262,14 @@ img.head-sticker.tilt{
   background:#C8102E;
   border:0;
 }
+.supply-actions{display:grid;gap:12px;margin:20px 0 8px}
+@media(min-width:700px){.supply-actions{grid-template-columns:1fr 1fr}}
+.supply-actions .btn{display:flex;align-items:center;justify-content:center;min-height:56px;text-align:center;background:#C8102E;border-color:#C8102E}
+.supply-list{list-style:none;margin:8px 0 28px;padding:0}
+.supply-list li{display:grid;grid-template-columns:1fr auto;gap:2px 16px;padding:12px 0;border-bottom:1px solid rgba(17,17,17,.16)}
+.supply-list .price{font-family:Anton,Impact,sans-serif;color:#C8102E;letter-spacing:.03em}
+.supply-list .note,.supply-actions + .note{margin:0;color:#111}
+#supplies .note{margin:6px 0}
 #occasions::before,#doors::before{display:none}
 @media(max-width:700px){
   .head-sticker{flex-basis:72px;width:72px;height:72px}
