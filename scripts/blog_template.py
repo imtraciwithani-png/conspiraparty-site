@@ -36,7 +36,7 @@ BLOG_SIGNUP = f'''<section class="redbg" id="signup"><div class="wrap signup"><s
 
 BLOG_FOOTER = f'''<footer><div class="wrap"><nav aria-label="Footer"><ul>
 <li><a href="../index.html">Home</a></li><li><a href="index.html">Blog</a></li><li><a href="../weird-news.html">Weird News</a></li><li><a href="../gift-guide.html">Holiday Gift Guide</a></li>
-<li><a href="../free-printables.html">Free Printables</a></li><li><a href="../party-essentials.html">Party Games</a></li>
+<li><a href="../free.html">Free Printables</a></li><li><a href="../party-essentials.html">Party Games</a></li>
 </ul></nav>
 <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases.</p>
 {FOLLOW_FOOTER}

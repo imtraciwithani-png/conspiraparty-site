@@ -40,7 +40,7 @@ def nav(current=None):
     for href, label in NAV_ITEMS:
         cur = ' aria-current="page"' if current and href == current else ''
         lis.append(f'<li><a href="{href}"{cur}>{label}</a></li>')
-    return '<nav class="main" id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="party-kits.html">Party Kits</a></li><li><a href="case-files.html">Case Files</a></li><li><a href="memes.html">Meme Lab</a></li><li><a href="gift-guide.html">Gift Guide</a></li><li><a href="leak-it.html">Share</a></li></ul><ul class="occasion-nav"><li><a href="thanksgiving-host.html">Thanksgiving</a></li><li><a href="office-christmas-party.html">Office Christmas</a></li><li><a href="white-elephant.html">White Elephant</a></li><li><a href="gift-guide.html">Gift Guide</a></li></ul></nav>'
+    return '<nav class="main" id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="party-kits.html">Party Kits</a></li><li><a href="case-files.html">Case Files</a></li><li><a href="memes.html">Meme Lab</a></li><li><a href="gift-guide.html">Gift Guide</a></li><li><a href="free.html">Free</a></li><li><a href="leak-it.html">Share</a></li></ul><ul class="occasion-nav"><li><a href="thanksgiving-host.html">Thanksgiving</a></li><li><a href="office-christmas-party.html">Office Christmas</a></li><li><a href="white-elephant.html">White Elephant</a></li><li><a href="gift-guide.html">Gift Guide</a></li></ul></nav>'
 
 FOOTER_LINKS = [
     ('index.html','Home'),('start-here.html','Start Here'),('glossary.html','Glossary'),
