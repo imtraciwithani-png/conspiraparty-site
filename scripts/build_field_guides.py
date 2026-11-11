@@ -513,10 +513,15 @@ FOOTER = '''<section class="redbg"><div class="wrap signup"><span class="stamp" 
 </main>
 <footer><div class="wrap"><nav aria-label="Footer"><ul>
 <li><a href="../index.html">Home</a></li>
-<li><a href="../field-guides.html">Field Guides</a></li>
-<li><a href="../free-printables.html">Free Printables</a></li>
+<li><a href="../party-kits.html">Party Kits</a></li>
+<li><a href="../case-files.html">Case Files</a></li>
+<li><a href="../memes.html">Meme Lab</a></li>
+<li><a href="../gift-guide.html">Gift Guide</a></li>
+<li><a href="../gift-shop.html">Gift Shop</a></li>
+<li><a href="../leak-it.html">Share</a></li>
 <li><a href="../weird-news.html">Weird News</a></li>
-<li><a href="../privacy.html">Privacy</a></li>
+<li><a href="../blog/index.html">Rabbit Holes</a></li>
+<li><a href="../free-printables.html">Free Printables</a></li>
 </ul></nav>
 <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases.</p>
 <p class="x-follow site-support"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a><a class="btn sm kofi-btn" href="https://ko-fi.com/conspiraparty" target="_blank" rel="noopener">Buy the Agency a coffee</a></p>
@@ -669,10 +674,15 @@ def render_index() -> str:
 </main>
 <footer><div class="wrap"><nav aria-label="Footer"><ul>
 <li><a href="index.html">Home</a></li>
-<li><a href="field-guides.html">Field Guides</a></li>
-<li><a href="free-printables.html">Free Printables</a></li>
+<li><a href="party-kits.html">Party Kits</a></li>
+<li><a href="case-files.html">Case Files</a></li>
+<li><a href="memes.html">Meme Lab</a></li>
+<li><a href="gift-guide.html">Gift Guide</a></li>
+<li><a href="gift-shop.html">Gift Shop</a></li>
+<li><a href="leak-it.html">Share</a></li>
 <li><a href="weird-news.html">Weird News</a></li>
-<li><a href="privacy.html">Privacy</a></li>
+<li><a href="blog/index.html">Rabbit Holes</a></li>
+<li><a href="free-printables.html">Free Printables</a></li>
 </ul></nav>
 <p class="x-follow site-support"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a><a class="btn sm kofi-btn" href="https://ko-fi.com/conspiraparty" target="_blank" rel="noopener">Buy the Agency a coffee</a></p>
 <p>All conspiracies on this site are for entertainment. © 2026 Conspiraparty.com</p>

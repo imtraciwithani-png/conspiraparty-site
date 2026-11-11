@@ -19,21 +19,15 @@ STRIP = """<p class="sk-strip">
 
 FOOT = """<footer><div class="wrap"><nav aria-label="Footer"><ul>
 <li><a href="index.html">Home</a></li>
-<li><a href="start-here.html">Start Here</a></li>
-<li><a href="skeptic-tools.html">Skeptic Tools</a></li>
-<li><a href="document-vault.html">Document Vault</a></li>
-<li><a href="timeline.html">Timeline</a></li>
-<li><a href="scoreboard.html">Prediction Scoreboard</a></li>
-<li><a href="submit.html">Community Corkboard</a></li>
-<li><a href="weekly-dig.html">Weekly Dig</a></li>
-<li><a href="follow-the-money.html">Follow the Money</a></li>
+<li><a href="party-kits.html">Party Kits</a></li>
+<li><a href="case-files.html">Case Files</a></li>
+<li><a href="memes.html">Meme Lab</a></li>
+<li><a href="gift-guide.html">Gift Guide</a></li>
+<li><a href="gift-shop.html">Gift Shop</a></li>
+<li><a href="leak-it.html">Share</a></li>
 <li><a href="weird-news.html">Weird News</a></li>
-<li><a href="true-stories.html">True Stories</a></li>
-<li><a href="glossary.html">Glossary</a></li>
-<li><a href="field-guides.html">Field Guides</a></li>
-<li><a href="shirts.html">Shirts</a></li>
+<li><a href="blog/index.html">Rabbit Holes</a></li>
 <li><a href="free-printables.html">Free Printables</a></li>
-<li><a href="blog/index.html">Blog</a></li>
 </ul></nav>
 <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases. Some links on this site are affiliate links, which means we may earn a small commission at no extra cost to you.</p>
 <p class="x-follow"><a href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow @conspiraparty on X</a></p>
@@ -42,6 +36,8 @@ FOOT = """<footer><div class="wrap"><nav aria-label="Footer"><ul>
 <script src="assets/site.js" defer></script>
 <script src="assets/share.js" defer></script>
 <script src="assets/skeptic-tools.js" defer></script>
+<script data-goatcounter="https://conspiraparty.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body></html>
 """
 
 DISCLAIMER = """<p class="sk-note"><strong>How to dig:</strong> Primary documents first. Label every voice. We do not hand you a belief. Political rabbit holes roast <em>all</em> sides. Judge for yourself.</p>"""
@@ -403,9 +399,15 @@ html = f"""<!doctype html>
 </main>
 <footer><div class="wrap"><nav aria-label="Footer"><ul>
 <li><a href="../index.html">Home</a></li>
-<li><a href="../skeptic-tools.html">Skeptic Tools</a></li>
-<li><a href="../weekly-dig.html">Weekly Dig</a></li>
-<li><a href="../document-vault.html">Document Vault</a></li>
+<li><a href="../party-kits.html">Party Kits</a></li>
+<li><a href="../case-files.html">Case Files</a></li>
+<li><a href="../memes.html">Meme Lab</a></li>
+<li><a href="../gift-guide.html">Gift Guide</a></li>
+<li><a href="../gift-shop.html">Gift Shop</a></li>
+<li><a href="../leak-it.html">Share</a></li>
+<li><a href="../weird-news.html">Weird News</a></li>
+<li><a href="../blog/index.html">Rabbit Holes</a></li>
+<li><a href="../free-printables.html">Free Printables</a></li>
 </ul></nav>
 <p>Question everything, especially us. © 2026 Conspiraparty.com</p></div></footer>
 <script src="../assets/site.js" defer></script>

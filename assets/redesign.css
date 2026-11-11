@@ -345,3 +345,8 @@ img.card-stamp{
 .upsell{font-size:.85rem;margin:.4rem 0 0}
 .free-card{display:flex;flex-direction:column;height:100%}
 .free-card > p:not(.upsell):not(:has(.btn)){flex:1 1 auto}
+.kitgal img{
+  width:100% !important;aspect-ratio:1 !important;object-fit:contain !important;
+  background:#F3ECDD !important;border:8px solid #fff !important;border-radius:0 !important;
+  box-shadow:0 0 0 2px #111 !important;
+}

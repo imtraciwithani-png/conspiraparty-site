@@ -142,6 +142,7 @@ def render_share_page(it: dict, slug: str) -> Path:
   <p style="margin-top:22px"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow @conspiraparty on X</a></p>
 </main>
 <script>setTimeout(function(){{ location.replace({anchor_js}); }}, 1800);</script>
+<script data-goatcounter="https://conspiraparty.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
 """
