@@ -254,34 +254,18 @@ img.head-sticker.tilt{
   flex-basis:120px;width:120px;height:120px;
   transform:rotate(7deg);
 }
-.bunting{
-  display:block;width:min(920px,100%);height:auto;max-height:84px;
-  margin:8px auto 0;object-fit:contain;background:transparent !important;
-  border:0 !important;box-shadow:none !important;padding:0 !important;aspect-ratio:auto !important;
-}
-img.tape-rule{
+.section-rule{
   display:block;
   width:100%;
-  height:56px;
-  margin:0 0 8px;
-  padding:0 !important;
-  border:0 !important;
-  box-shadow:none !important;
-  aspect-ratio:auto !important;
-  object-fit:none;
-  object-position:-9999px 0;
-  transform:none;
-  background:url(art/spot/tape-classified-straight-800.webp) left center / auto 56px repeat-x !important;
-  pointer-events:none;
-}
-@media(max-width:700px){
-  img.tape-rule{height:36px;background-size:auto 36px !important}
+  height:4px;
+  margin:0 0 18px;
+  background:#C8102E;
+  border:0;
 }
 #occasions::before,#doors::before{display:none}
 @media(max-width:700px){
   .head-sticker{flex-basis:72px;width:72px;height:72px}
   img.head-sticker.tilt{flex-basis:84px;width:84px;height:84px}
-  .bunting{max-height:56px}
 }
 
 /* Nav and doorway icons stay in the same square frame. */
