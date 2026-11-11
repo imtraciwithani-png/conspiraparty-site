@@ -155,7 +155,6 @@ def patch_glossary():
         ('Client list', 'Believers say: one PDF ends the elite. Documented: court files name associates; a name ≠ a conviction.'),
         ('Cabal', 'The ultimate they. If your theory needs every rival at the same brunch, check the catering budget.'),
         ('Normies', 'People who touch grass. Occasionally correct. Annoying to absolute certainty dealers.'),
-        ('Red-pilled', 'Believers say: awake. Skeptics say: you joined a new fandom. Hydrate either way.'),
         ('Sheeple (political edition)', 'Insult for voters who disagree. Works identically left and right. Try questions instead.'),
         ('Ballot harvesting lore', 'Believers debate legal absentee collection vs fraud. Documented: laws vary by state; vibes are louder than statutes.'),
         ('Shadowbanning', 'Believers say: platforms mute you. Documented: opaque algorithms exist; so does posting through it.'),
