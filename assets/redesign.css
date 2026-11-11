@@ -212,6 +212,7 @@ nav.main a{display:inline-block;padding:8px 10px}
   box-sizing:border-box !important;
 }
 .v2-banner{aspect-ratio:1920/1097 !important;border-width:0 !important;box-shadow:none !important;background:transparent !important;padding:0 !important}
+.meme-card img{aspect-ratio:800/1136 !important}
 .v2-hero-art{width:100%;height:auto;max-height:none;object-fit:contain}
 .season-row{display:flex;flex-wrap:wrap;justify-content:center;gap:16px;margin:8px 0 16px}
 .season-art{width:min(240px,42vw) !important;transform:rotate(-3deg)}
