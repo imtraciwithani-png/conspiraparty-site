@@ -161,6 +161,17 @@ nav.main a{display:inline-block;padding:8px 10px}
 }
 .maker{display:grid;grid-template-columns:280px 1fr;gap:18px;align-items:start}
 .maker label{display:block;font-weight:600;margin:8px 0 4px}
+.maker-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+#meme-share-note,
+.hero #meme-share-note,
+.black #meme-share-note{
+  color:#111 !important;
+  font-weight:700;
+  background:#F5EFE0;
+  border:2px solid #111;
+  padding:10px 12px;
+  margin:12px 0 0;
+}
 .maker input,.maker select{width:100%;padding:10px;border:2px solid #111;font:inherit;background:#fff}
 .finder-bar{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 18px}
 .finder-bar button{font:inherit;cursor:pointer;background:#fffdf8;border:2px solid #111;padding:8px 12px;min-height:44px}
