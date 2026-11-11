@@ -235,39 +235,30 @@ nav.main a{display:inline-block;padding:8px 10px}
   padding-top:18px;
 }
 
-/* Caution tape, torn edge, coffee ring, peeking characters. */
-main>section{position:relative;overflow:visible}
+/* Thin red rule until a real caution-tape strip arrives. Stickers stay in the flow. */
 .v2-cream.v2-section::before,section.paper::before{
   content:"";
-  display:block;height:34px;margin:0 0 8px;
-  background:url(art/spot/caution-tape-strip-800.webp) center/auto 100% repeat-x;
-  pointer-events:none;
+  display:block;height:0;margin:0 0 18px;
+  border-top:2px solid #C8102E;
+  background:none;
 }
-.v2-cream.v2-section::after{
-  content:"";
-  position:absolute;right:-8px;bottom:-28px;
-  width:150px;height:150px;
-  background:url(art/spot/bigfoot-party-guest-400.webp) center/contain no-repeat;
-  transform:rotate(8deg);
-  pointer-events:none;z-index:2;
+.section-head{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.section-head h1,.section-head h2,.section-head > div{margin:0;flex:1 1 auto;min-width:0}
+.head-sticker{
+  flex:0 0 96px;width:96px;height:96px;
+  object-fit:contain;background:transparent !important;
+  border:0 !important;box-shadow:none !important;padding:0 !important;
+  aspect-ratio:auto !important;
 }
-#occasions{padding-bottom:120px}
-#occasions h2,#occasions .v2-tiles{position:relative;z-index:3}
-#occasions::after{
-  background-image:url(art/spot/turkey-trenchcoat-a-400.webp);
-  left:auto;right:16px;top:auto;bottom:8px;
-  width:104px;height:104px;
+.bunting{
+  display:block;width:min(920px,100%);height:auto;max-height:84px;
+  margin:8px auto 0;object-fit:contain;background:transparent !important;
+  border:0 !important;box-shadow:none !important;padding:0 !important;aspect-ratio:auto !important;
 }
-#doors::after{background-image:url(art/spot/foil-hat-cone-a-400.webp);width:130px;height:160px}
-#shop::after{background-image:url(art/spot/nessie-party-hat-400.webp)}
-#proof::before{
-  content:"";
-  position:absolute;left:8%;top:18px;width:120px;height:120px;
-  background:
-    radial-gradient(circle, transparent 42%, rgba(90,58,32,.35) 46%, transparent 54%);
-  pointer-events:none;
+@media(max-width:700px){
+  .head-sticker{flex-basis:72px;width:72px;height:72px}
+  .bunting{max-height:56px}
 }
-main>section:nth-of-type(4){background-image:url(art/spot/torn-paper-edge-800.webp), url(art/bg/cipher3-tile-light.svg) !important;background-repeat:repeat-x, repeat !important;background-position:center bottom, 0 0 !important;background-size:auto 28px, 480px !important}
 
 /* Nav and doorway icons stay in the same square frame. */
 nav.main a[href*="party-kits.html"]::before,
