@@ -174,3 +174,136 @@ nav.main a{display:inline-block;padding:8px 10px}
 .black blockquote p,.black .quotes p,.black .quotes cite,.hero blockquote p{
   color:#111 !important;
 }
+
+/* Whimsy: one frame, full art, evidence-board cards. */
+.card img,
+.v2-tile img,
+.v2-door img,
+.meme-card img,
+.dossier img,
+.season-art,
+.v2-banner{
+  width:100% !important;
+  height:auto !important;
+  max-height:none !important;
+  aspect-ratio:1 !important;
+  object-fit:contain !important;
+  object-position:center !important;
+  background:#F3ECDD !important;
+  padding:8px !important;
+  border:14px solid #fff !important;
+  box-shadow:0 0 0 2px #111, 4px 6px 0 rgba(17,17,17,.18) !important;
+  box-sizing:border-box !important;
+}
+.v2-banner{aspect-ratio:1920/1097 !important;border-width:0 !important;box-shadow:none !important;background:transparent !important;padding:0 !important}
+.v2-hero-art{width:100%;height:auto;max-height:none;object-fit:contain}
+.season-row{display:flex;flex-wrap:wrap;justify-content:center;gap:16px;margin:8px 0 16px}
+.season-art{width:min(240px,42vw) !important;transform:rotate(-3deg)}
+.season-row .season-art:nth-child(2){transform:rotate(4deg)}
+
+.paper .card,.v2-tile,.v2-door,.meme-card{
+  position:relative;
+  --tilt:-1.4deg;
+  transform:rotate(var(--tilt));
+  overflow:visible;
+}
+.paper .card:nth-child(3n){--tilt:1.5deg}
+.paper .card:nth-child(3n+2),.v2-tile:nth-child(even),.v2-door:nth-child(even){--tilt:1.2deg}
+.paper .card::before,.v2-tile::before,.v2-door::before{
+  content:"";
+  position:absolute;top:-12px;left:50%;
+  width:64px;height:18px;
+  background:rgba(232,214,150,.92);
+  border:1px solid rgba(17,17,17,.25);
+  transform:translateX(-50%) rotate(-3deg);
+  z-index:3;pointer-events:none;
+}
+.paper .card::after,.v2-tile::after,.v2-door::after{
+  content:"";
+  position:absolute;top:10px;left:16px;
+  width:14px;height:14px;border-radius:50%;
+  background:#C8102E;
+  box-shadow:2px 3px 0 #111;
+  z-index:4;pointer-events:none;
+}
+.grid,.v2-tiles,.v2-doors{
+  position:relative;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 220' fill='none'><path d='M30 50C180 10 260 190 770 40' stroke='%23C8102E' stroke-width='3'/><path d='M40 180C220 40 420 200 760 90' stroke='%23C8102E' stroke-width='2.5'/></svg>");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:100% 70%;
+  padding-top:18px;
+}
+
+/* Caution tape, torn edge, coffee ring, peeking characters. */
+main>section{position:relative;overflow:visible}
+.v2-cream.v2-section::before,section.paper::before{
+  content:"";
+  display:block;height:34px;margin:0 0 8px;
+  background:url(art/spot/caution-tape-strip-800.webp) center/auto 100% repeat-x;
+  pointer-events:none;
+}
+.v2-cream.v2-section::after{
+  content:"";
+  position:absolute;right:-8px;bottom:-28px;
+  width:150px;height:150px;
+  background:url(art/spot/bigfoot-party-guest-400.webp) center/contain no-repeat;
+  transform:rotate(8deg);
+  pointer-events:none;z-index:2;
+}
+#occasions::after{background-image:url(art/spot/turkey-trenchcoat-a-400.webp);left:-10px;right:auto;top:-36px;bottom:auto}
+#doors::after{background-image:url(art/spot/foil-hat-cone-a-400.webp);width:130px;height:160px}
+#shop::after{background-image:url(art/spot/nessie-party-hat-400.webp)}
+#proof::before{
+  content:"";
+  position:absolute;left:8%;top:18px;width:120px;height:120px;
+  background:
+    radial-gradient(circle, transparent 42%, rgba(90,58,32,.35) 46%, transparent 54%);
+  pointer-events:none;
+}
+main>section:nth-of-type(4){background-image:url(art/spot/torn-paper-edge-800.webp), url(art/bg/cipher3-tile-light.svg) !important;background-repeat:repeat-x, repeat !important;background-position:center bottom, 0 0 !important;background-size:auto 28px, 480px !important}
+
+/* Nav and doorway icons stay in the same square frame. */
+nav.main a[href*="party-kits.html"]::before,
+nav.main a[href*="case-files.html"]::before,
+nav.main a[href*="memes.html"]::before,
+nav.main a[href*="gift-guide.html"]::before,
+nav.main a[href*="gift-shop.html"]::before,
+nav.main a[href*="leak-it.html"]::before,
+nav.main a[href*="thanksgiving-host.html"]::before,
+nav.main a[href*="office-christmas-party.html"]::before,
+nav.main a[href*="white-elephant.html"]::before{
+  content:"";
+  display:inline-block;width:26px;height:26px;margin-right:4px;
+  background:center/contain no-repeat;
+  vertical-align:-7px;
+}
+nav.main a[href*="party-kits.html"]::before{background-image:url(art/spot/icon-party-box-a-400.webp)}
+nav.main a[href*="case-files.html"]::before{background-image:url(art/spot/icon-clipboard-a-400.webp)}
+nav.main a[href*="memes.html"]::before{background-image:url(art/spot/icon-projector-a-400.webp)}
+nav.main a[href*="gift-guide.html"]::before,
+nav.main a[href*="gift-shop.html"]::before{background-image:url(art/spot/icon-shopping-bag-a-400.webp)}
+nav.main a[href*="leak-it.html"]::before{background-image:url(art/spot/icon-printer-a-400.webp)}
+nav.main a[href*="thanksgiving-host.html"]::before{background-image:url(art/spot/pilgrim-alien-a-400.webp)}
+nav.main a[href*="office-christmas-party.html"]::before{background-image:url(art/spot/xmas-gingerbread-spy-a-400.webp)}
+nav.main a[href*="white-elephant.html"]::before{background-image:url(art/spot/xmas-present-eye-a-400.webp)}
+
+@media (prefers-reduced-motion:no-preference){
+  .paper .card:hover,.v2-tile:hover,.v2-door:hover,.meme-card:hover,.season-art:hover{
+    animation:party-wiggle .45s ease;
+  }
+}
+@keyframes party-wiggle{
+  0%{transform:rotate(var(--tilt,-2deg))}
+  35%{transform:rotate(calc(var(--tilt,-2deg) + 3deg)) translateY(-6px)}
+  70%{transform:rotate(calc(var(--tilt,-2deg) - 2deg))}
+  100%{transform:rotate(var(--tilt,-2deg))}
+}
+@media (prefers-reduced-motion:reduce){
+  .paper .card,.v2-tile,.v2-door,.meme-card,.season-art{transform:none !important;animation:none !important}
+}
+@media(max-width:800px){
+  .v2-hero-art{max-height:none;object-fit:contain}
+  main>section::after,.v2-cream.v2-section::after{width:84px;height:84px}
+  nav.main a::before{width:22px;height:22px}
+}
