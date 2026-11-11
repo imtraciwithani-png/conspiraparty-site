@@ -276,7 +276,7 @@ img.head-sticker.tilt{
   img.head-sticker.tilt{flex-basis:84px;width:84px;height:84px}
 }
 
-/* Nav and doorway icons stay in the same square frame. */
+/* Nav pins match the red push pin on the cards. */
 nav.main a[href*="party-kits.html"]::before,
 nav.main a[href*="case-files.html"]::before,
 nav.main a[href*="memes.html"]::before,
@@ -287,19 +287,14 @@ nav.main a[href*="thanksgiving-host.html"]::before,
 nav.main a[href*="office-christmas-party.html"]::before,
 nav.main a[href*="white-elephant.html"]::before{
   content:"";
-  display:inline-block;width:26px;height:26px;margin-right:4px;
-  background:center/contain no-repeat;
-  vertical-align:-7px;
+  display:inline-block;
+  width:10px;height:10px;
+  margin-right:6px;
+  border-radius:50%;
+  background:#C8102E;
+  box-shadow:1px 2px 0 #111;
+  vertical-align:0;
 }
-nav.main a[href*="party-kits.html"]::before{background-image:url(art/spot/icon-party-box-a-400.webp)}
-nav.main a[href*="case-files.html"]::before{background-image:url(art/spot/icon-clipboard-a-400.webp)}
-nav.main a[href*="memes.html"]::before{background-image:url(art/spot/icon-projector-a-400.webp)}
-nav.main a[href*="gift-guide.html"]::before,
-nav.main a[href*="gift-shop.html"]::before{background-image:url(art/spot/icon-shopping-bag-a-400.webp)}
-nav.main a[href*="leak-it.html"]::before{background-image:url(art/spot/icon-printer-a-400.webp)}
-nav.main a[href*="thanksgiving-host.html"]::before{background-image:url(art/spot/pilgrim-alien-a-400.webp)}
-nav.main a[href*="office-christmas-party.html"]::before{background-image:url(art/spot/xmas-gingerbread-spy-a-400.webp)}
-nav.main a[href*="white-elephant.html"]::before{background-image:url(art/spot/xmas-present-eye-a-400.webp)}
 
 @media (prefers-reduced-motion:no-preference){
   .paper .card:hover,.v2-tile:hover,.v2-door:hover,.meme-card:hover,.season-art:hover{
@@ -318,7 +313,7 @@ nav.main a[href*="white-elephant.html"]::before{background-image:url(art/spot/xm
 @media(max-width:800px){
   .v2-hero-art{max-height:none;object-fit:contain}
   main>section::after,.v2-cream.v2-section::after{width:84px;height:84px}
-  nav.main a::before{width:22px;height:22px}
+  nav.main a::before{width:10px;height:10px}
 }
 img.card-stamp{
   position:absolute !important;
