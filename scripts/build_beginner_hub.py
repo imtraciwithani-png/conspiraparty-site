@@ -40,26 +40,33 @@ def nav(current=None):
     for href, label in NAV_ITEMS:
         cur = ' aria-current="page"' if current and href == current else ''
         lis.append(f'<li><a href="{href}"{cur}>{label}</a></li>')
-    return '<nav class="main" id="nav" aria-label="Main"><ul>' + ''.join(lis) + '</ul></nav>'
+    return '<nav class="main" id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="party-kits.html">Party Kits</a></li><li><a href="case-files.html">Case Files</a></li><li><a href="memes.html">Meme Lab</a></li><li><a href="gift-guide.html">Gift Guide</a></li><li><a href="leak-it.html">Share</a></li></ul><ul class="occasion-nav"><li><a href="thanksgiving-host.html">Thanksgiving</a></li><li><a href="office-christmas-party.html">Office Christmas</a></li><li><a href="white-elephant.html">White Elephant</a></li><li><a href="gift-guide.html">Gift Guide</a></li></ul></nav>'
 
 FOOTER_LINKS = [
-    ('index.html','Home'),('start-here.html','Start Here'),('glossary.html','Glossary'),
-    ('true-stories.html','True Stories'),('quiz-theorist.html','Theorist Quiz'),
-    ('theory-of-the-week.html','Theory of the Week'),('starter-list.html','Starter List'),
-    ('weird-map.html','Weird Map'),('join-the-agency.html','Join the Agency'),
-    ('party-essentials.html','Party Games'),('books.html','Books'),('apparel.html','Apparel'),
-    ('gifts.html','Gifts'),('field-guides.html','Field Guides'),('free-printables.html','Free Printables'),
-    ('shirts.html','Shirts'),('quiz.html','Which Conspiracy Are You? Quiz'),('memes.html','Memes'),
-    ('weird-news.html','Weird News'),('blog/index.html','Blog'),('gift-guide.html','Holiday Gift Guide'),
+    ('index.html','Home'),('party-kits.html','Party Kits'),('case-files.html','Case Files'),
+    ('memes.html','Meme Lab'),('gift-guide.html','Gift Guide'),('gift-shop.html','Gift Shop'),
+    ('leak-it.html','Share'),('weird-news.html','Weird News'),
+    ('blog/index.html','Rabbit Holes'),('free-printables.html','Free Printables'),
 ]
 
 def footer():
     links = ''.join(f'<li><a href="{h}">{l}</a></li>' for h,l in FOOTER_LINKS)
-    return f'''<footer><div class="wrap"><nav aria-label="Footer"><ul>{links}</ul></nav>
+    return f'''<footer><div class="wrap"><nav aria-label="Footer"><ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="party-kits.html">Party Kits</a></li>
+<li><a href="case-files.html">Case Files</a></li>
+<li><a href="memes.html">Meme Lab</a></li>
+<li><a href="gift-guide.html">Gift Guide</a></li>
+<li><a href="gift-shop.html">Gift Shop</a></li>
+<li><a href="leak-it.html">Share</a></li>
+<li><a href="weird-news.html">Weird News</a></li>
+<li><a href="blog/index.html">Rabbit Holes</a></li>
+<li><a href="free-printables.html">Free Printables</a></li>
+</ul></nav>
 <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases. Some links on this site are affiliate links, which means we may earn a small commission at no extra cost to you.</p>
 <p class="x-follow"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a></p>
-<p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p></div></footer>
-<a class="sticky-cta" href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>
+<p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p><p class="v2-socials"><a href="https://x.com/conspiraparty" rel="noopener" target="_blank">X @conspiraparty</a> · <a href="https://www.tiktok.com/@conspiraparty" rel="noopener" target="_blank">TikTok @conspiraparty</a> · <a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2F" rel="noopener" target="_blank">Pinterest</a> · <a href="https://ko-fi.com/conspiraparty" rel="noopener" target="_blank">Ko-fi</a></p><p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p></div></footer>
+<a class="sticky-cta" href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>
 <script src="assets/site.js" defer></script>
 <script src="assets/share.js" defer></script>'''
 
@@ -117,12 +124,12 @@ def page(title, desc, slug, current, body, extra_js=''):
 <link rel="icon" type="image/png" href="assets/img/favicon-64.png">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="preload" href="assets/fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/redesign.css?v=v2">
 <link rel="stylesheet" href="assets/share.css">
 <link rel="stylesheet" href="assets/beginner-hub.css">
 </head>
 <body><a class="skip" href="#main">Skip to content</a>
-<div class="promo">20% off the full printable kit with code <a href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">LEAKED20</a></div>
+<div class="promo">20% off the full printable kit with code <a href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">LEAKED20</a></div>
 <header class="top"><div class="bar"><a class="logo" href="index.html"><img src="assets/img/logo.png" alt="Conspiraparty.com – Top Secret Party Kit" width="220" height="70"></a>
 <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button></div>
 {nav(current)}</header>
@@ -142,11 +149,11 @@ quiz_js = r'''
 <script>
 (function(){
   var R = {
-    foil: {t:'The Tin Foil Couture Agent', d:'You dress for the job you want: antenna included. Every party needs a lookout.', u:'https://happyplaceinkandart.etsy.com/listing/4502272966', p:'Conspiraparty Party Kit (LEAKED20)', i:'assets/img/kit-0.webp'},
-    alien: {t:'The Friendly Abductee', d:'You waved at the lights. They waved back. Probably. You keep snacks for the mothership.', u:'https://happyplaceinkandart.etsy.com/listing/4601156509', p:'The Truth Is Out There alien kit', i:'assets/img/alien-kit.jpg'},
-    leak: {t:'The Cheerful Leaker', d:'Secrets last about 12 seconds around you. Group chats fear your screenshots.', u:'https://happyplaceinkandart.etsy.com/listing/4600479706', p:'Who Leaked the Files? party game', i:'assets/img/wltf-01-kit-cover.webp'},
+    foil: {t:'The Tin Foil Couture Agent', d:'You dress for the job you want: antenna included. Every party needs a lookout.', u:'https://ko-fi.com/s/e35cf6ce46', e:'https://happyplaceinkandart.etsy.com/listing/4502272966', p:'Conspiraparty Party Kit', i:'assets/img/kit-0.webp'},
+    alien: {t:'The Friendly Abductee', d:'You waved at the lights. They waved back. Probably. You keep snacks for the mothership.', u:'https://ko-fi.com/s/af602f09e4', e:'https://happyplaceinkandart.etsy.com/listing/4601156509', p:'The Truth Is Out There alien kit', i:'assets/img/alien-kit.jpg'},
+    leak: {t:'The Cheerful Leaker', d:'Secrets last about 12 seconds around you. Group chats fear your screenshots.', u:'https://ko-fi.com/s/48c4007b56', e:'https://happyplaceinkandart.etsy.com/listing/4600479706', p:'Who Leaked the Files? party game', i:'assets/img/wltf-01-kit-cover.webp'},
     bigfoot: {t:'The Trail-Cam Romantic', d:'You believe in blurry things and clean hiking boots. Forests whisper; you take notes.', u:'https://www.etsy.com/listing/4605278398', p:'Junior Cryptid Scout Birthday kit', i:'assets/img/cryptid-scout-kit.webp'},
-    slide: {t:'The PowerPoint Prophet', d:'Your theories come with transitions. Red string optional. Laser pointer mandatory.', u:'https://www.etsy.com/listing/4604436132/conspiracy-powerpoint-night-party-kit', p:'Conspiracy PowerPoint Night kit', i:'assets/img/ppt-night-hero.jpg'},
+    slide: {t:'The PowerPoint Prophet', d:'Your theories come with transitions. Red string optional. Laser pointer mandatory.', u:'https://ko-fi.com/s/0c00270052', e:'https://www.etsy.com/listing/4604436132/conspiracy-powerpoint-night-party-kit', p:'Conspiracy PowerPoint Night kit', i:'assets/img/ppt-night-hero.jpg'},
     tour: {t:'The Fake-Band Merch Dealer', d:'You collect tees from bands that never existed. The tour was totally real.', u:'shirts.html', p:'Totally Real Tour shirts', i:'assets/img/tour-merch/chemtrail-cowboys.webp'}
   };
   var f=document.getElementById('quiz'), box=document.getElementById('result');
@@ -155,7 +162,7 @@ quiz_js = r'''
     var r=R[k]; if(!r) return;
     document.getElementById('rt').textContent='You are: '+r.t;
     document.getElementById('rd').textContent=r.d;
-    var a=document.getElementById('ru'); a.href=r.u; a.textContent='Get the '+r.p;
+    var a=document.getElementById('ru'); a.href=r.u; var e=document.getElementById('re'); if(r.e){a.textContent='Buy now – instant download'; e.hidden=false; e.href=r.e;}else{a.textContent='Get the '+r.p; e.hidden=true;}
     if(r.u.indexOf('http')!==0) a.removeAttribute('target'); else { a.target='_blank'; a.rel='noopener sponsored'; }
     var im=document.getElementById('ri'); im.src=r.i; im.alt=r.p;
     var txt='I took "Which Conspiracy Theorist Are You?" and I\'m '+r.t+'! What are you?';
@@ -212,7 +219,7 @@ quiz_body = f'''
 <h2 id="rt"></h2>
 <img id="ri" alt="Your conspiracy theorist quiz result" width="300" height="300" style="max-width:300px;height:auto">
 <p id="rd" class="lead"></p>
-<p><a id="ru" class="btn big">Get It</a></p>
+<p><a id="ru" class="btn big">Get It</a> <a class="kofi-etsy" id="re" hidden rel="noopener sponsored" target="_blank">Also on Etsy</a></p>
 <p><strong>Share your result:</strong><br>
 <a id="sx" class="btn sm" target="_blank" rel="noopener">Share on X</a>
 <a id="sf" class="btn sm" target="_blank" rel="noopener">Share on Facebook</a>
@@ -429,20 +436,20 @@ print('true-stories + totw done')
 
 # ========== starter-list ==========
 DOCS = [
-  ('Hellier (Planet Weird)', 'Documentary series about high strangeness in Kentucky. Available on Amazon Prime Video / Planet Weird.', 'https://www.amazon.com/s?k=Hellier+documentary'),
-  ('Area 51 (based on Annie Jacobsen reporting)', 'Book-driven interest; look for interviews/docs that cite declassified records rather than pure rumor.', 'https://www.amazon.com/s?k=Area+51+Annie+Jacobsen'),
-  ('The Phenomenon (2020, James Fox)', 'UFO documentary featuring interviews with officials and witnesses. Existence verified via major retailers.', 'https://www.amazon.com/s?k=The+Phenomenon+James+Fox'),
+  ('Hellier (Planet Weird)', 'Documentary series about high strangeness in Kentucky. Available on Amazon Prime Video / Planet Weird.', 'https://www.amazon.com/s?k=Hellier+documentary&tag=traciw02-20'),
+  ('Area 51 (based on Annie Jacobsen reporting)', 'Book-driven interest; look for interviews/docs that cite declassified records rather than pure rumor.', 'https://www.amazon.com/s?k=Area+51+Annie+Jacobsen&tag=traciw02-20'),
+  ('The Phenomenon (2020, James Fox)', 'UFO documentary featuring interviews with officials and witnesses. Existence verified via major retailers.', 'https://www.amazon.com/s?k=The+Phenomenon+James+Fox&tag=traciw02-20'),
 ]
 PODS = [
-  ('Stuff They Don’t Want You To Know', 'Long-running HowStuffWorks show covering mysteries, conspiracies, and weird history with a research bent.', 'https://www.amazon.com/s?k=Stuff+They+Dont+Want+You+To+Know+podcast'),
-  ('Ridiculous History', 'Sibling HowStuffWorks show — weird-but-true history energy, great palate cleanser.', 'https://www.amazon.com/s?k=Ridiculous+History+podcast'),
-  ('The Conspiracy Theory Podcast (BBC / various editions — search current feed)', 'Search your podcast app; titles rotate. Prefer shows that cite sources.', 'https://www.amazon.com/s?k=conspiracy+theory+podcast'),
+  ('Stuff They Don’t Want You To Know', 'Long-running HowStuffWorks show covering mysteries, conspiracies, and weird history with a research bent.', 'https://www.amazon.com/s?k=Stuff+They+Dont+Want+You+To+Know+podcast&tag=traciw02-20'),
+  ('Ridiculous History', 'Sibling HowStuffWorks show — weird-but-true history energy, great palate cleanser.', 'https://www.amazon.com/s?k=Ridiculous+History+podcast&tag=traciw02-20'),
+  ('The Conspiracy Theory Podcast (BBC / various editions — search current feed)', 'Search your podcast app; titles rotate. Prefer shows that cite sources.', 'https://www.amazon.com/s?k=conspiracy+theory+podcast&tag=traciw02-20'),
 ]
 BOOKS = [
   ('Area 51 — Annie Jacobsen', 'Investigative history of the Nevada test-and-development site. Already featured in Conspiraparty picks.', 'https://amzn.to/43E2MRD'),
   ('Chaos — Tom O’Neill', 'True-crime / intelligence history rabbit hole around the Manson case and COINTELPRO-era agencies.', 'https://amzn.to/4dysGw9'),
   ('The Devil’s Chessboard — David Talbot', 'History focused on Allen Dulles and Cold War intelligence. On the site’s book picks.', 'https://amzn.to/4dQq7V8'),
-  ('UFOs and Government (scientific/historical anthologies)', 'Search for sober timelines from university presses or MUFON histories; skip anonymous PDFs.', 'https://www.amazon.com/s?k=UFOs+and+Government+history'),
+  ('UFOs and Government (scientific/historical anthologies)', 'Search for sober timelines from university presses or MUFON histories; skip anonymous PDFs.', 'https://www.amazon.com/s?k=UFOs+and+Government+history&tag=traciw02-20'),
 ]
 
 def list_cards(items):
@@ -614,7 +621,7 @@ join_html = f'''<!doctype html>
 <link rel="stylesheet" href="assets/beginner-hub.css">
 </head>
 <body><a class="skip" href="#main">Skip to content</a>
-<div class="promo">20% off the full printable kit with code <a href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">LEAKED20</a></div>
+<div class="promo">20% off the full printable kit with code <a href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">LEAKED20</a></div>
 <header class="top"><div class="bar"><a class="logo" href="index.html"><img src="assets/img/logo.png" alt="Conspiraparty.com – Top Secret Party Kit" width="220" height="70"></a>
 <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button></div>
 {nav('join-the-agency.html')}</header>
@@ -622,7 +629,7 @@ join_html = f'''<!doctype html>
 {footer()}
 </body></html>'''
 join_html = join_html.replace(
-    '<a class="sticky-cta" href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>',
+    '<a class="sticky-cta" href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>',
     '<a class="sticky-cta" href="index.html#shop">Shop the printable kits</a>',
     1,
 )

@@ -19,29 +19,25 @@ STRIP = """<p class="sk-strip">
 
 FOOT = """<footer><div class="wrap"><nav aria-label="Footer"><ul>
 <li><a href="index.html">Home</a></li>
-<li><a href="start-here.html">Start Here</a></li>
-<li><a href="skeptic-tools.html">Skeptic Tools</a></li>
-<li><a href="document-vault.html">Document Vault</a></li>
-<li><a href="timeline.html">Timeline</a></li>
-<li><a href="scoreboard.html">Prediction Scoreboard</a></li>
-<li><a href="submit.html">Community Corkboard</a></li>
-<li><a href="weekly-dig.html">Weekly Dig</a></li>
-<li><a href="follow-the-money.html">Follow the Money</a></li>
+<li><a href="party-kits.html">Party Kits</a></li>
+<li><a href="case-files.html">Case Files</a></li>
+<li><a href="memes.html">Meme Lab</a></li>
+<li><a href="gift-guide.html">Gift Guide</a></li>
+<li><a href="gift-shop.html">Gift Shop</a></li>
+<li><a href="leak-it.html">Share</a></li>
 <li><a href="weird-news.html">Weird News</a></li>
-<li><a href="true-stories.html">True Stories</a></li>
-<li><a href="glossary.html">Glossary</a></li>
-<li><a href="field-guides.html">Field Guides</a></li>
-<li><a href="shirts.html">Shirts</a></li>
+<li><a href="blog/index.html">Rabbit Holes</a></li>
 <li><a href="free-printables.html">Free Printables</a></li>
-<li><a href="blog/index.html">Blog</a></li>
 </ul></nav>
 <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases. Some links on this site are affiliate links, which means we may earn a small commission at no extra cost to you.</p>
 <p class="x-follow"><a href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow @conspiraparty on X</a></p>
-<p>All conspiracies on this site are for entertainment and critical thinking. Question everything, especially us. © 2026 Conspiraparty.com</p></div></footer>
-<a class="sticky-cta" href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>
+<p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p><p class="v2-socials"><a href="https://x.com/conspiraparty" rel="noopener" target="_blank">X @conspiraparty</a> · <a href="https://www.tiktok.com/@conspiraparty" rel="noopener" target="_blank">TikTok @conspiraparty</a> · <a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2F" rel="noopener" target="_blank">Pinterest</a> · <a href="https://ko-fi.com/conspiraparty" rel="noopener" target="_blank">Ko-fi</a></p><p>All conspiracies on this site are for entertainment and critical thinking. Question everything, especially us. © 2026 Conspiraparty.com</p></div></footer>
+<a class="sticky-cta" href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>
 <script src="assets/site.js" defer></script>
 <script src="assets/share.js" defer></script>
 <script src="assets/skeptic-tools.js" defer></script>
+<script data-goatcounter="https://conspiraparty.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body></html>
 """
 
 DISCLAIMER = """<p class="sk-note"><strong>How to dig:</strong> Primary documents first. Label every voice. We do not hand you a belief. Political rabbit holes roast <em>all</em> sides. Judge for yourself.</p>"""
@@ -73,16 +69,16 @@ def page(slug, title, desc, body, strip_idx=0, extra_head="", path_prefix=""):
 <link rel="icon" type="image/png" href="{css_prefix}assets/img/favicon-64.png">
 <link rel="apple-touch-icon" href="{css_prefix}assets/img/apple-touch-icon.png">
 <link rel="preload" href="{css_prefix}assets/fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="stylesheet" href="{css_prefix}assets/style.css?v=sk1">
+<link rel="stylesheet" href="{css_prefix}assets/style.css?v=sk1"><link rel="stylesheet" href="{css_prefix}assets/redesign.css?v=v2">
 <link rel="stylesheet" href="{css_prefix}assets/share.css">
 <link rel="stylesheet" href="{css_prefix}assets/skeptic-tools.css?v=sk1">
 {extra_head}
 </head>
 <body><a class="skip" href="#main">Skip to content</a>
-<div class="promo">20% off the full printable kit with code <a href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">LEAKED20</a></div>
+<div class="promo">20% off the full printable kit with code <a href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">LEAKED20</a></div>
 <header class="top"><div class="bar"><a class="logo" href="{css_prefix}index.html"><img src="{css_prefix}assets/img/logo.png" alt="Conspiraparty.com – Top Secret Party Kit" width="220" height="70"></a>
 <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button></div>
-<nav class="main" id="nav" aria-label="Main">{nav}</nav></header>
+<nav class="main" id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="party-kits.html">Party Kits</a></li><li><a href="case-files.html">Case Files</a></li><li><a href="memes.html">Meme Lab</a></li><li><a href="gift-guide.html">Gift Guide</a></li><li><a href="leak-it.html">Share</a></li></ul><ul class="occasion-nav"><li><a href="thanksgiving-host.html">Thanksgiving</a></li><li><a href="office-christmas-party.html">Office Christmas</a></li><li><a href="white-elephant.html">White Elephant</a></li><li><a href="gift-guide.html">Gift Guide</a></li></ul></nav></header>
 <main id="main">
 {body.replace('__STRIP__', strip).replace('__SHARE__', f'''<div class="share-box page-share" data-share-url="{share_url}" data-share-text="{title} — via conspiraparty.com" data-share-image="https://conspiraparty.com/assets/og/index.jpg"><button class="btn sm share-native" data-share type="button">Share this</button><div class="share-links" hidden><a class="btn sm" href="https://x.com/intent/post?text={title.replace(' ', '%20')}%20%E2%80%94%20via%20conspiraparty.com&amp;url={share_url.replace(':','%3A').replace('/','%2F')}" rel="noopener noreferrer" target="_blank">X</a><button class="btn sm share-copy" data-copy type="button">Copy link</button></div></div>''')}
 </main>
@@ -141,7 +137,7 @@ __STRIP__
 <a class="sk-hub-card" href="follow-the-money.html"><h3>Follow the Money</h3><p>Who funded, who profited, who testified — with record links.</p></a>
 </div>
 <p class="sk-hint">Related: <a href="start-here.html" style="color:#fff;text-decoration:underline">Rabbit Hole Map</a> · <a href="true-stories.html" style="color:#fff;text-decoration:underline">Sounds Fake, Actually Happened</a> · <a href="weird-news.html" style="color:#fff;text-decoration:underline">Weird News</a></p>
-<p class="sk-hint" style="margin-top:8px">Hosting a dig night? The <a href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored" style="color:#fff;text-decoration:underline">printable party kit</a> makes a solid prop table — optional, not required.</p>
+<p class="sk-hint" style="margin-top:8px">Hosting a dig night? The <a href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored" style="color:#fff;text-decoration:underline">printable party kit</a> (<a class="kofi-etsy" href="https://happyplaceinkandart.etsy.com/listing/4502272966" rel="noopener sponsored" target="_blank">Also on Etsy</a>) makes a solid prop table — optional, not required.</p>
 </div></section>
 ''', 0)
 
@@ -360,7 +356,7 @@ issue_body = f'''
 <li>How should citizens treat "urgent" war claims the next time timelines move faster than FOIA?</li>
 <li>What other modern flashpoints deserve the same claim-vs-release timeline treatment?</li>
 </ol>
-<p><em>Optional prop:</em> print a "CLASSIFIED" stamp for dig night — or grab something from the <a href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">party kit</a> if you like the aesthetic. The files matter more than the merch.</p>
+<p><em>Optional prop:</em> print a "CLASSIFIED" stamp for dig night — or grab something from the <a href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">party kit</a> (<a class="kofi-etsy" href="https://happyplaceinkandart.etsy.com/listing/4502272966" rel="noopener sponsored" target="_blank">Also on Etsy</a>) if you like the aesthetic. The files matter more than the merch.</p>
 <p><a href="../weekly-dig.html"><strong>← Back to Weekly Dig signup</strong></a> · <a href="../timeline.html">Open Timeline Mode</a> · <a href="../scoreboard.html">See it on the Scoreboard</a></p>
 </article>
 </div></section>
@@ -394,23 +390,24 @@ html = f"""<!doctype html>
 <link rel="stylesheet" href="../assets/skeptic-tools.css?v=sk1">
 </head>
 <body><a class="skip" href="#main">Skip to content</a>
-<div class="promo">20% off the full printable kit with code <a href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">LEAKED20</a></div>
+<div class="promo">20% off the full printable kit with code <a href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">LEAKED20</a></div>
 <header class="top"><div class="bar"><a class="logo" href="../index.html"><img src="../assets/img/logo.png" alt="Conspiraparty.com – Top Secret Party Kit" width="220" height="70"></a>
 <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button></div>
-<nav class="main" id="nav" aria-label="Main"><ul>
-<li><a href="../start-here.html">Start Here</a></li>
-<li><a href="../skeptic-tools.html">Skeptic Tools</a></li>
-<li><a href="../weird-news.html">Weird News</a></li>
-<li><a href="../weekly-dig.html">Weekly Dig</a></li>
-</ul></nav></header>
+<nav class="main" id="nav" aria-label="Main"><ul><li><a href="../index.html">Home</a></li><li><a href="../party-kits.html">Party Kits</a></li><li><a href="../case-files.html">Case Files</a></li><li><a href="../memes.html">Meme Lab</a></li><li><a href="../gift-guide.html">Gift Guide</a></li><li><a href="../leak-it.html">Share</a></li></ul><ul class="occasion-nav"><li><a href="../thanksgiving-host.html">Thanksgiving</a></li><li><a href="../office-christmas-party.html">Office Christmas</a></li><li><a href="../white-elephant.html">White Elephant</a></li><li><a href="../gift-guide.html">Gift Guide</a></li></ul></nav></header>
 <main id="main">
 {issue_body}
 </main>
 <footer><div class="wrap"><nav aria-label="Footer"><ul>
 <li><a href="../index.html">Home</a></li>
-<li><a href="../skeptic-tools.html">Skeptic Tools</a></li>
-<li><a href="../weekly-dig.html">Weekly Dig</a></li>
-<li><a href="../document-vault.html">Document Vault</a></li>
+<li><a href="../party-kits.html">Party Kits</a></li>
+<li><a href="../case-files.html">Case Files</a></li>
+<li><a href="../memes.html">Meme Lab</a></li>
+<li><a href="../gift-guide.html">Gift Guide</a></li>
+<li><a href="../gift-shop.html">Gift Shop</a></li>
+<li><a href="../leak-it.html">Share</a></li>
+<li><a href="../weird-news.html">Weird News</a></li>
+<li><a href="../blog/index.html">Rabbit Holes</a></li>
+<li><a href="../free-printables.html">Free Printables</a></li>
 </ul></nav>
 <p>Question everything, especially us. © 2026 Conspiraparty.com</p></div></footer>
 <script src="../assets/site.js" defer></script>

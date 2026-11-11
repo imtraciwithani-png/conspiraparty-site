@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Leak It: share a conspiracy party | Conspiraparty</title>
+<meta name="description" content="Free invitations, a classified e-card you download in the browser, and plain share links. Nothing is uploaded.">
+<link rel="canonical" href="https://conspiraparty.com/leak-it.html">
+<meta property="og:site_name" content="Conspiraparty">
+<meta property="og:title" content="Leak It: share a conspiracy party | Conspiraparty">
+<meta property="og:description" content="Free invitations, a classified e-card you download in the browser, and plain share links. Nothing is uploaded.">
+<meta property="og:url" content="https://conspiraparty.com/leak-it.html">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://conspiraparty.com/assets/art/hero/hero-string-board-a-1920.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Leak It: share a conspiracy party | Conspiraparty">
+<meta name="twitter:description" content="Free invitations, a classified e-card you download in the browser, and plain share links. Nothing is uploaded.">
+<meta name="twitter:image" content="https://conspiraparty.com/assets/art/hero/hero-string-board-a-1920.webp">
+<meta name="theme-color" content="#111111">
+<link rel="icon" href="assets/img/favicon-64.png">
+<link rel="stylesheet" href="assets/style.css?v=kofi1">
+<link rel="stylesheet" href="assets/share.css">
+<link rel="stylesheet" href="assets/redesign.css?v=v2">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="promo">20% off the full printable kit with code <a href="https://ko-fi.com/s/e35cf6ce46" rel="noopener sponsored" target="_blank">LEAKED20</a> on Ko-fi and Etsy</div>
+<header class="top"><div class="bar"><a class="logo" href="index.html"><img src="assets/img/logo.png" alt="Conspiraparty" width="220" height="70"></a>
+<button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button></div>
+<nav class="main" id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="party-kits.html">Party Kits</a></li><li><a href="case-files.html">Case Files</a></li><li><a href="memes.html">Meme Lab</a></li><li><a href="gift-guide.html">Gift Guide</a></li><li><a href="leak-it.html" aria-current="page">Share</a></li></ul><ul class="occasion-nav"><li><a href="thanksgiving-host.html">Thanksgiving</a></li><li><a href="office-christmas-party.html">Office Christmas</a></li><li><a href="white-elephant.html">White Elephant</a></li><li><a href="gift-guide.html">Gift Guide</a></li></ul></nav>
+</header>
+<main id="main">
+<img class="v2-banner" src="assets/art/hero/hero-string-board-a-1920.webp" srcset="assets/art/hero/hero-string-board-a-960.webp 960w, assets/art/hero/hero-string-board-a-1920.webp 1920w" sizes="100vw" alt="Light evidence board with red string." width="1920" height="1097" loading="lazy" decoding="async">
+<section class="v2-cream v2-section"><div class="wrap">
+<p class="v2-kicker">Share</p>
+<h1>Leak it</h1>
+<p class="lead">Free files and a card you make in the browser. Nothing on this page is uploaded.</p>
+<h2>Send this to the group chat</h2>
+<ul class="feat">
+<li><a href="free-top-secret-party-invitation.html">Free Top Secret invitation</a></li>
+<li><a href="free-thanksgiving-conspiracy-cards.html">Free Thanksgiving cards</a></li>
+<li><a href="white-elephant.html">White Elephant rules PDF</a></li>
+<li><a href="free-printables.html">All free printables</a></li>
+<li><a href="memes.html">Meme Lab</a></li>
+</ul>
+<p>
+<a class="btn sm" href="https://x.com/intent/post?text=Open%20the%20files.%20Conspiracy%20party%20kits%20at%20conspiraparty.com&amp;url=https%3A%2F%2Fconspiraparty.com%2F" rel="noopener" target="_blank">Share on X</a>
+<a class="btn sm alt" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconspiraparty.com%2F" rel="noopener" target="_blank">Share on Facebook</a>
+<a class="btn sm alt" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2F&amp;description=Conspiraparty%20party%20kits" rel="noopener" target="_blank">Save on Pinterest</a>
+</p>
+<p><a href="https://www.tiktok.com/@conspiraparty" rel="noopener" target="_blank">TikTok @conspiraparty</a></p>
+<h2>Classified e-card</h2>
+<p>Type a name and a date. Download a PNG. It stays on this device.</p>
+<div class="maker">
+<form id="ecard-form">
+<label for="ec-name">Guest name</label><input id="ec-name" maxlength="32" value="Agent Snack">
+<label for="ec-date">Party date</label><input id="ec-date" maxlength="32" value="Friday, classified">
+<label for="ec-line">One line</label><input id="ec-line" maxlength="48" value="Bring a theory and a dip.">
+<button class="btn" type="submit">Download the card</button>
+</form>
+<canvas id="ecard" width="900" height="600" style="width:100%;height:auto;border:2px solid #111;background:#F3ECDD"></canvas>
+</div>
+</div></section>
+<script>
+(function(){
+  var c=document.getElementById('ecard'), x=c.getContext('2d');
+  function draw(){
+    x.fillStyle='#F3ECDD'; x.fillRect(0,0,900,600);
+    x.strokeStyle='#111'; x.lineWidth=8; x.strokeRect(24,24,852,552);
+    x.fillStyle='#C8102E'; x.fillRect(24,24,852,16);
+    x.fillStyle='#111'; x.font='64px Anton, Impact, sans-serif';
+    x.fillText('CLASSIFIED INVITE', 56, 140);
+    x.font='32px Inter, sans-serif';
+    x.fillText(document.getElementById('ec-name').value || 'Agent', 56, 240);
+    x.fillText(document.getElementById('ec-date').value || '', 56, 300);
+    x.font='28px "Special Elite", monospace';
+    x.fillText(document.getElementById('ec-line').value || '', 56, 380);
+    x.font='22px Inter, sans-serif';
+    x.fillText('conspiraparty.com', 56, 500);
+  }
+  document.fonts.load('64px Anton').then(draw, draw);
+  ['ec-name','ec-date','ec-line'].forEach(function(id){document.getElementById(id).addEventListener('input', draw);});
+  document.getElementById('ecard-form').addEventListener('submit', function(e){
+    e.preventDefault(); draw();
+    var a=document.createElement('a');
+    a.href=c.toDataURL('image/png');
+    a.download='classified-invite.png';
+    a.click();
+  });
+})();
+</script>
+</main>
+<footer><div class="wrap">
+<nav aria-label="Footer"><ul><li><a href="index.html">Home</a></li><li><a href="party-kits.html">Party Kits</a></li><li><a href="case-files.html">Case Files</a></li><li><a href="memes.html">Meme Lab</a></li><li><a href="gift-guide.html">Gift Guide</a></li><li><a href="gift-shop.html">Gift Shop</a></li><li><a aria-current="page" href="leak-it.html">Share</a></li><li><a href="weird-news.html">Weird News</a></li><li><a href="blog/index.html">Rabbit Holes</a></li><li><a href="free-printables.html">Free Printables</a></li></ul></nav>
+<p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases. Some links on this site are affiliate links, which means we may earn a small commission at no extra cost to you.</p>
+<p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p>
+<p class="v2-socials"><a href="https://x.com/conspiraparty" rel="noopener" target="_blank">X @conspiraparty</a> · <a href="https://www.tiktok.com/@conspiraparty" rel="noopener" target="_blank">TikTok @conspiraparty</a> · <a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2F" rel="noopener" target="_blank">Pinterest</a> · <a href="https://ko-fi.com/conspiraparty" rel="noopener" target="_blank">Ko-fi</a></p>
+<p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p>
+</div></footer>
+<script src="assets/site.js" defer></script>
+<script data-goatcounter="https://conspiraparty.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body></html>

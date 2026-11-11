@@ -121,7 +121,7 @@ def render_share_page(it: dict, slug: str) -> Path:
 <meta http-equiv="refresh" content="2;url={html.escape(anchor, quote=True)}">
 <meta name="theme-color" content="#000000">
 <link rel="icon" type="image/png" href="/assets/img/favicon-64.png">
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="/assets/style.css"><link rel="stylesheet" href="/assets/redesign.css?v=v2">
 <style>
 .share-landing{{max-width:720px;margin:0 auto;padding:48px 24px}}
 .share-landing h1{{font-size:clamp(1.6rem,5vw,2.4rem);margin:0 0 12px}}
@@ -142,6 +142,7 @@ def render_share_page(it: dict, slug: str) -> Path:
   <p style="margin-top:22px"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow @conspiraparty on X</a></p>
 </main>
 <script>setTimeout(function(){{ location.replace({anchor_js}); }}, 1800);</script>
+<script data-goatcounter="https://conspiraparty.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
 """

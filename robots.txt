@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /free.html
 
 Sitemap: https://conspiraparty.com/sitemap.xml

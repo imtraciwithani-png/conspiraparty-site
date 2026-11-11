@@ -35,9 +35,18 @@ BLOG_SIGNUP = f'''<section class="redbg" id="signup"><div class="wrap signup"><s
 </div></section>'''
 
 BLOG_FOOTER = f'''<footer><div class="wrap"><nav aria-label="Footer"><ul>
-<li><a href="../index.html">Home</a></li><li><a href="index.html">Blog</a></li><li><a href="../weird-news.html">Weird News</a></li><li><a href="../gift-guide.html">Holiday Gift Guide</a></li>
-<li><a href="../free-printables.html">Free Printables</a></li><li><a href="../party-essentials.html">Party Games</a></li>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../party-kits.html">Party Kits</a></li>
+<li><a href="../case-files.html">Case Files</a></li>
+<li><a href="../memes.html">Meme Lab</a></li>
+<li><a href="../gift-guide.html">Gift Guide</a></li>
+<li><a href="../gift-shop.html">Gift Shop</a></li>
+<li><a href="../leak-it.html">Share</a></li>
+<li><a href="../weird-news.html">Weird News</a></li>
+<li><a href="index.html">Rabbit Holes</a></li>
+<li><a href="../free-printables.html">Free Printables</a></li>
 </ul></nav>
 <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases.</p>
 {FOLLOW_FOOTER}
+<p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p>
 <p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p></div></footer>'''

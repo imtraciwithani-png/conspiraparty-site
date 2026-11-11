@@ -762,26 +762,26 @@ def render_html(items: list[dict], generated_at: str) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Weird News &amp; Political Rabbit Holes | Conspiraparty</title>
-<meta name="description" content="Daily weird news and political rabbit holes — UFOs, cryptids, wild politics and QAnon with skeptic Conspiraparty takes. Auto-updated. Tragedy filtered. Entertainment only.">
+<title>Weird News | Conspiraparty</title>
+<meta name="description" content="Daily weird news — UFOs, cryptids, and odd headlines, with skeptic Conspiraparty takes. Auto-updated. Tragedy filtered. Entertainment only.">
 <link rel="canonical" href="https://conspiraparty.com/weird-news.html">
 <meta property="og:site_name" content="Conspiraparty">
-<meta property="og:title" content="Weird News &amp; Political Rabbit Holes | Conspiraparty">
-<meta property="og:description" content="Weird news and political rabbit holes with skeptic Conspiraparty takes. Roast the spin. Bring snacks.">
+<meta property="og:title" content="Weird News | Conspiraparty">
+<meta property="og:description" content="Weird news with skeptic Conspiraparty takes. Roast the spin. Bring snacks.">
 <meta property="og:url" content="https://conspiraparty.com/weird-news.html">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://conspiraparty.com/assets/og/index.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Weird News &amp; Political Rabbit Holes | Conspiraparty">
-<meta name="twitter:description" content="Weird news and political rabbit holes. Skeptic takes. Updated automatically.">
+<meta name="twitter:title" content="Weird News | Conspiraparty">
+<meta name="twitter:description" content="Weird news. Skeptic takes. Updated automatically.">
 <meta name="twitter:image" content="https://conspiraparty.com/assets/og/index.jpg">
 <meta name="theme-color" content="#000000">
 <link rel="icon" type="image/png" href="assets/img/favicon-64.png">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="preload" href="assets/fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="stylesheet" href="assets/style.css?v=xshow1">
+<link rel="stylesheet" href="assets/style.css?v=xshow1"><link rel="stylesheet" href="assets/redesign.css?v=v2">
 <style>
 .news-feed{{display:flex;flex-direction:column;gap:16px;max-width:820px;margin:0 auto}}
 .news-card{{padding:18px 18px 16px!important;display:block!important}}.news-card.is-filtered-out,.kit-cta.is-filtered-out{{display:none!important}}
@@ -819,7 +819,7 @@ def render_html(items: list[dict], generated_at: str) -> str:
   .share-links[hidden]{{display:flex!important}}
 }}
 </style>
-<script type="application/ld+json">{{"@context":"https://schema.org","@type":"CollectionPage","name":"Weird News & Political Rabbit Holes","description":"Daily weird news and political rabbit holes — UFOs, cryptids, wild politics and QAnon with skeptic Conspiraparty takes.","url":"https://conspiraparty.com/weird-news.html","isPartOf":{{"@type":"WebSite","name":"Conspiraparty","url":"https://conspiraparty.com/"}}}}</script>
+<script type="application/ld+json">{{"@context":"https://schema.org","@type":"CollectionPage","name":"Weird News","description":"Daily weird news — UFOs, cryptids, and odd headlines, with skeptic Conspiraparty takes.","url":"https://conspiraparty.com/weird-news.html","isPartOf":{{"@type":"WebSite","name":"Conspiraparty","url":"https://conspiraparty.com/"}}}}</script>
 <script type="application/ld+json">{{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{{"@type":"ListItem","position":1,"name":"Home","item":"https://conspiraparty.com/"}},{{"@type":"ListItem","position":2,"name":"Weird News","item":"https://conspiraparty.com/weird-news.html"}}]}}</script>
 </head>
 <body>
@@ -830,25 +830,15 @@ def render_html(items: list[dict], generated_at: str) -> str:
     <a class="logo" href="index.html"><img src="assets/img/logo.png" alt="Conspiraparty.com – Top Secret Party Kit" width="220" height="70"></a>
     <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
   </div>
-  <nav class="main" id="nav" aria-label="Main">
-    <ul>
-      <li><a href="index.html#kit">Party Kit</a></li>
-      <li><a href="free-printables.html">Free</a></li>
-      <li><a href="memes.html">Memes</a></li>
-      <li><a href="weird-news.html" aria-current="page">Weird News</a></li>
-      <li><a href="shirts.html">Shirts</a></li>
-      <li><a href="quiz.html">Quiz</a></li>
-      <li><a href="gift-guide.html">Gifts</a></li>
-    </ul>
-  </nav>
+  <nav class="main" id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="party-kits.html">Party Kits</a></li><li><a href="case-files.html">Case Files</a></li><li><a href="memes.html">Meme Lab</a></li><li><a href="gift-guide.html">Gift Guide</a></li><li><a href="leak-it.html">Share</a></li></ul><ul class="occasion-nav"><li><a href="thanksgiving-host.html">Thanksgiving</a></li><li><a href="office-christmas-party.html">Office Christmas</a></li><li><a href="white-elephant.html">White Elephant</a></li><li><a href="gift-guide.html">Gift Guide</a></li></ul></nav>
 </header>
 
 <main id="main">
   <section class="hero">
     <div class="wrap center">
       <span class="stamp">Leaked Daily</span>
-      <h1>WEIRD NEWS &amp; <span class="r">POLITICAL</span> RABBIT HOLES</h1>
-      <p class="lead">UFOs, cryptids, odd headlines, wild politics and QAnon rabbit holes — with a skeptic Conspiraparty take on each. We roast the spin on all sides. Auto-updated. No tragedy. Entertainment only.</p>
+      <h1>WEIRD <span class="r">NEWS</span></h1>
+      <p class="lead">UFOs, cryptids, and odd headlines — with a skeptic Conspiraparty take on each. Auto-updated. No tragedy. Entertainment only.</p>
       <p class="updated">Last sweep: {gen_display} UTC · Headlines &amp; links only</p>
       <div class="x-agency-callout" role="complementary" aria-label="Follow on X">
         <p class="x-agency-kicker">Agency channel</p>
@@ -921,26 +911,21 @@ def render_html(items: list[dict], generated_at: str) -> str:
   <div class="wrap">
     <nav aria-label="Footer">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="party-essentials.html">Party Games</a></li>
-        <li><a href="books.html">Books</a></li>
-        <li><a href="apparel.html">Apparel</a></li>
-        <li><a href="gifts.html">Gifts</a></li>
-        <li><a href="supply-drop.html">Supply Drop</a></li>
-        <li><a href="free-printables.html">Free Printables</a></li>
-        <li><a href="memes.html">Memes</a></li>
-        <li><a href="weird-news.html" aria-current="page">Weird News</a></li>
-        <li><a href="shirts.html">Shirts</a></li>
-        <li><a href="quiz.html">Quiz</a></li>
-        <li><a href="gift-guide.html">Gift Guide</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="friends-of-the-committee.html">Friends of the Committee</a></li>
-        <li><a href="privacy.html">Privacy</a></li>
-      </ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="party-kits.html">Party Kits</a></li>
+<li><a href="case-files.html">Case Files</a></li>
+<li><a href="memes.html">Meme Lab</a></li>
+<li><a href="gift-guide.html">Gift Guide</a></li>
+<li><a href="gift-shop.html">Gift Shop</a></li>
+<li><a href="leak-it.html">Share</a></li>
+<li><a href="weird-news.html">Weird News</a></li>
+<li><a href="blog/index.html">Rabbit Holes</a></li>
+<li><a href="free-printables.html">Free Printables</a></li>
+</ul>
     </nav>
     <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases. Some links on this site are affiliate links, which means we may earn a small commission at no extra cost to you.</p>
     <p class="x-follow"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a></p>
-    <p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p>
+    <p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p><p class="v2-socials"><a href="https://x.com/conspiraparty" rel="noopener" target="_blank">X @conspiraparty</a> · <a href="https://www.tiktok.com/@conspiraparty" rel="noopener" target="_blank">TikTok @conspiraparty</a> · <a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2F" rel="noopener" target="_blank">Pinterest</a> · <a href="https://ko-fi.com/conspiraparty" rel="noopener" target="_blank">Ko-fi</a></p><p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p>
   </div>
 </footer>
 <a class="sticky-cta" href="{KIT_URL}" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>
@@ -1009,6 +994,7 @@ def render_html(items: list[dict], generated_at: str) -> str:
   }});
 }})();
 </script>
+<script data-goatcounter="https://conspiraparty.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
 """
