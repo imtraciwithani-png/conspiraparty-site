@@ -6041,6 +6041,27 @@
           "format": "webp"
         }
       ]
+    },
+    {
+      "id": "stamp-party-hat",
+      "category": "spot",
+      "group": "stamp",
+      "role": "stamp",
+      "description": "Round rubber stamp of a striped party hat with a pompom and stars. Show the whole circle, uncropped, with a gentle tilt.",
+      "files": [
+        {
+          "filename": "spot/stamp-party-hat-800.webp",
+          "width": 800,
+          "height": 800,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/stamp-party-hat-400.webp",
+          "width": 400,
+          "height": 400,
+          "format": "webp"
+        }
+      ]
     }
   ],
   "files": [
