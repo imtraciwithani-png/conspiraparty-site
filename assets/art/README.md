@@ -19,3 +19,7 @@ Web-ready Recraft assets for the conspiraparty.com redesign. See `manifest.json`
 ## Stamps
 
 `stamp-ufo-seal` is the same artwork as `spot/stamp-saucer-seal-*.webp`. Other older stamp names are aliases listed in `manifest.json`.
+
+## Added from the full Recraft export (Nov 10)
+
+83 new unique images were added from the complete Recraft project export: a Christmas and holiday set, website/section icons, house-with-UFO banners (`hero-house-ufo-a` through `e`), standalone foil hats, stamp frames, disco saucers, and icon border strips. See `manifest.json` (group `holiday`, `icon`, `decor`, `hero`, `stamp`, or `illustration`). Existing library art was not replaced.
