@@ -261,19 +261,21 @@ img.head-sticker.tilt{
 }
 img.tape-rule{
   display:block;
-  width:min(1120px,100%);
-  height:auto;
-  max-height:none;
-  margin:4px auto 16px;
-  aspect-ratio:2328 / 468;
-  object-fit:contain;
-  object-position:center;
-  transform:none;
-  background:transparent !important;
+  width:100%;
+  height:56px;
+  margin:0 0 8px;
+  padding:0 !important;
   border:0 !important;
   box-shadow:none !important;
-  padding:0 !important;
+  aspect-ratio:auto !important;
+  object-fit:none;
+  object-position:-9999px 0;
+  transform:none;
+  background:url(art/spot/tape-classified-straight-800.webp) left center / auto 56px repeat-x !important;
   pointer-events:none;
+}
+@media(max-width:700px){
+  img.tape-rule{height:36px;background-size:auto 36px !important}
 }
 #occasions::before,#doors::before{display:none}
 @media(max-width:700px){
