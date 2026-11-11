@@ -234,6 +234,12 @@ img.meme-full{
   box-sizing:border-box !important;
 }
 .v2-banner{aspect-ratio:1920/1097 !important;border-width:0 !important;box-shadow:none !important;background:transparent !important;padding:0 !important}
+img.v2-banner.share-hero{
+  aspect-ratio:899/855 !important;
+  object-fit:cover !important;
+  object-position:center !important;
+  background:#111 !important;
+}
 html{scroll-padding-top:140px}
 #conspiraparty-party-kit,
 #junior-cryptid-scout-birthday,
