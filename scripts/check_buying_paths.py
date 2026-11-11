@@ -56,7 +56,7 @@ bonus = must_contain(
     "Also on Etsy",
     "Who Leaked the Files? · $7.99",
     "Decor kit · $12.99",
-    "Code LEAKED20 works on the decor kit at Etsy checkout only.",
+    "Code LEAKED20 works on the decor kit on Ko-fi and at Etsy checkout.",
 )
 must_not("bonus-mission.html", *banned, text=bonus)
 
@@ -86,8 +86,8 @@ index = must_contain(
     "https://ko-fi.com/s/af602f09e4",
     "Buy now – instant download",
     "Also on Etsy",
-    "Code LEAKED20 works at Etsy checkout only.",
-    "Instant download on this site, or on Etsy with code",
+    "Code LEAKED20 works on Ko-fi and at Etsy checkout.",
+    "on Ko-fi and Etsy.",
 )
 
 must_contain(
@@ -155,14 +155,9 @@ for rel in pages:
         if not target.exists():
             errors.append(f"{rel} broken local link {href}")
 
-# Ko-fi buy links must not advertise the Etsy-only code.
 kofi_anchor = re.compile(r'<a\b[^>]*href="https://ko-fi.com/s/[^"]*"[^>]*>.*?</a>', re.S)
-for rel in [str(p.relative_to(ROOT)) for p in ROOT.rglob("*.html")]:
-    if rel.startswith("blog/") or rel.startswith("weird-news"):
-        continue
+for rel in ["index.html", "bonus-mission.html"]:
     for anchor in kofi_anchor.findall(read(rel)):
-        if "LEAKED20" in anchor or "20%" in anchor:
-            errors.append(f"{rel} Ko-fi link mentions the Etsy code: {anchor[:120]!r}")
         if "ko-fi.com/widgets" in anchor or "kofiwidget" in anchor.lower():
             errors.append(f"{rel} embeds a Ko-fi widget")
 

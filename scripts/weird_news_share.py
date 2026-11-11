@@ -121,7 +121,7 @@ def render_share_page(it: dict, slug: str) -> Path:
 <meta http-equiv="refresh" content="2;url={html.escape(anchor, quote=True)}">
 <meta name="theme-color" content="#000000">
 <link rel="icon" type="image/png" href="/assets/img/favicon-64.png">
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="/assets/style.css"><link rel="stylesheet" href="/assets/redesign.css?v=v2">
 <style>
 .share-landing{{max-width:720px;margin:0 auto;padding:48px 24px}}
 .share-landing h1{{font-size:clamp(1.6rem,5vw,2.4rem);margin:0 0 12px}}

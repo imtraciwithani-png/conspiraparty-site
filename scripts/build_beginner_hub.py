@@ -40,7 +40,7 @@ def nav(current=None):
     for href, label in NAV_ITEMS:
         cur = ' aria-current="page"' if current and href == current else ''
         lis.append(f'<li><a href="{href}"{cur}>{label}</a></li>')
-    return '<nav class="main" id="nav" aria-label="Main"><ul>' + ''.join(lis) + '</ul></nav>'
+    return '<nav class="main" id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="party-kits.html">Party Kits</a></li><li><a href="case-files.html">Case Files</a></li><li><a href="memes.html">Meme Lab</a></li><li><a href="gift-guide.html">Gift Guide</a></li><li><a href="leak-it.html">Share</a></li></ul><ul class="occasion-nav"><li><a href="thanksgiving-host.html">Thanksgiving</a></li><li><a href="office-christmas-party.html">Office Christmas</a></li><li><a href="white-elephant.html">White Elephant</a></li><li><a href="gift-guide.html">Gift Guide</a></li></ul></nav>'
 
 FOOTER_LINKS = [
     ('index.html','Home'),('start-here.html','Start Here'),('glossary.html','Glossary'),
@@ -58,8 +58,8 @@ def footer():
     return f'''<footer><div class="wrap"><nav aria-label="Footer"><ul>{links}</ul></nav>
 <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases. Some links on this site are affiliate links, which means we may earn a small commission at no extra cost to you.</p>
 <p class="x-follow"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a></p>
-<p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p></div></footer>
-<a class="sticky-cta" href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>
+<p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p><p class="v2-socials"><a href="https://x.com/conspiraparty" rel="noopener" target="_blank">X @conspiraparty</a> · <a href="https://www.tiktok.com/@conspiraparty" rel="noopener" target="_blank">TikTok @conspiraparty</a> · <a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2F" rel="noopener" target="_blank">Pinterest</a> · <a href="https://ko-fi.com/conspiraparty" rel="noopener" target="_blank">Ko-fi</a></p><p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p></div></footer>
+<a class="sticky-cta" href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>
 <script src="assets/site.js" defer></script>
 <script src="assets/share.js" defer></script>'''
 
@@ -117,12 +117,12 @@ def page(title, desc, slug, current, body, extra_js=''):
 <link rel="icon" type="image/png" href="assets/img/favicon-64.png">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="preload" href="assets/fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/redesign.css?v=v2">
 <link rel="stylesheet" href="assets/share.css">
 <link rel="stylesheet" href="assets/beginner-hub.css">
 </head>
 <body><a class="skip" href="#main">Skip to content</a>
-<div class="promo">20% off the full printable kit with code <a href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">LEAKED20</a></div>
+<div class="promo">20% off the full printable kit with code <a href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">LEAKED20</a></div>
 <header class="top"><div class="bar"><a class="logo" href="index.html"><img src="assets/img/logo.png" alt="Conspiraparty.com – Top Secret Party Kit" width="220" height="70"></a>
 <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button></div>
 {nav(current)}</header>
@@ -614,7 +614,7 @@ join_html = f'''<!doctype html>
 <link rel="stylesheet" href="assets/beginner-hub.css">
 </head>
 <body><a class="skip" href="#main">Skip to content</a>
-<div class="promo">20% off the full printable kit with code <a href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">LEAKED20</a></div>
+<div class="promo">20% off the full printable kit with code <a href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">LEAKED20</a></div>
 <header class="top"><div class="bar"><a class="logo" href="index.html"><img src="assets/img/logo.png" alt="Conspiraparty.com – Top Secret Party Kit" width="220" height="70"></a>
 <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button></div>
 {nav('join-the-agency.html')}</header>
@@ -622,7 +622,7 @@ join_html = f'''<!doctype html>
 {footer()}
 </body></html>'''
 join_html = join_html.replace(
-    '<a class="sticky-cta" href="https://happyplaceinkandart.etsy.com/listing/4502272966" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>',
+    '<a class="sticky-cta" href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>',
     '<a class="sticky-cta" href="index.html#shop">Shop the printable kits</a>',
     1,
 )

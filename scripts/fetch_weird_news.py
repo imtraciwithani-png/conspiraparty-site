@@ -781,7 +781,7 @@ def render_html(items: list[dict], generated_at: str) -> str:
 <link rel="icon" type="image/png" href="assets/img/favicon-64.png">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="preload" href="assets/fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="stylesheet" href="assets/style.css?v=xshow1">
+<link rel="stylesheet" href="assets/style.css?v=xshow1"><link rel="stylesheet" href="assets/redesign.css?v=v2">
 <style>
 .news-feed{{display:flex;flex-direction:column;gap:16px;max-width:820px;margin:0 auto}}
 .news-card{{padding:18px 18px 16px!important;display:block!important}}.news-card.is-filtered-out,.kit-cta.is-filtered-out{{display:none!important}}
@@ -830,17 +830,7 @@ def render_html(items: list[dict], generated_at: str) -> str:
     <a class="logo" href="index.html"><img src="assets/img/logo.png" alt="Conspiraparty.com – Top Secret Party Kit" width="220" height="70"></a>
     <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
   </div>
-  <nav class="main" id="nav" aria-label="Main">
-    <ul>
-      <li><a href="index.html#kit">Party Kit</a></li>
-      <li><a href="free-printables.html">Free</a></li>
-      <li><a href="memes.html">Memes</a></li>
-      <li><a href="weird-news.html" aria-current="page">Weird News</a></li>
-      <li><a href="shirts.html">Shirts</a></li>
-      <li><a href="quiz.html">Quiz</a></li>
-      <li><a href="gift-guide.html">Gifts</a></li>
-    </ul>
-  </nav>
+  <nav class="main" id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="party-kits.html">Party Kits</a></li><li><a href="case-files.html">Case Files</a></li><li><a href="memes.html">Meme Lab</a></li><li><a href="gift-guide.html">Gift Guide</a></li><li><a href="leak-it.html">Share</a></li></ul><ul class="occasion-nav"><li><a href="thanksgiving-host.html">Thanksgiving</a></li><li><a href="office-christmas-party.html">Office Christmas</a></li><li><a href="white-elephant.html">White Elephant</a></li><li><a href="gift-guide.html">Gift Guide</a></li></ul></nav>
 </header>
 
 <main id="main">
@@ -940,7 +930,7 @@ def render_html(items: list[dict], generated_at: str) -> str:
     </nav>
     <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases. Some links on this site are affiliate links, which means we may earn a small commission at no extra cost to you.</p>
     <p class="x-follow"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a></p>
-    <p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p>
+    <p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p><p class="v2-socials"><a href="https://x.com/conspiraparty" rel="noopener" target="_blank">X @conspiraparty</a> · <a href="https://www.tiktok.com/@conspiraparty" rel="noopener" target="_blank">TikTok @conspiraparty</a> · <a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2F" rel="noopener" target="_blank">Pinterest</a> · <a href="https://ko-fi.com/conspiraparty" rel="noopener" target="_blank">Ko-fi</a></p><p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p>
   </div>
 </footer>
 <a class="sticky-cta" href="{KIT_URL}" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>
