@@ -251,7 +251,13 @@ main>section{position:relative;overflow:visible}
   transform:rotate(8deg);
   pointer-events:none;z-index:2;
 }
-#occasions::after{background-image:url(art/spot/turkey-trenchcoat-a-400.webp);left:-10px;right:auto;top:-36px;bottom:auto}
+#occasions{padding-bottom:120px}
+#occasions h2,#occasions .v2-tiles{position:relative;z-index:3}
+#occasions::after{
+  background-image:url(art/spot/turkey-trenchcoat-a-400.webp);
+  left:auto;right:16px;top:auto;bottom:8px;
+  width:104px;height:104px;
+}
 #doors::after{background-image:url(art/spot/foil-hat-cone-a-400.webp);width:130px;height:160px}
 #shop::after{background-image:url(art/spot/nessie-party-hat-400.webp)}
 #proof::before{
@@ -307,3 +313,15 @@ nav.main a[href*="white-elephant.html"]::before{background-image:url(art/spot/xm
   main>section::after,.v2-cream.v2-section::after{width:84px;height:84px}
   nav.main a::before{width:22px;height:22px}
 }
+img.card-stamp{
+  position:absolute !important;
+  top:10px;right:10px;
+  width:78px !important;height:78px !important;max-width:78px !important;
+  aspect-ratio:auto !important;
+  padding:0 !important;border:0 !important;box-shadow:none !important;
+  background:transparent !important;
+  object-fit:contain !important;
+  transform:rotate(16deg);
+  z-index:6;pointer-events:none;
+}
+.card:nth-child(even) img.card-stamp{transform:rotate(-14deg)}
