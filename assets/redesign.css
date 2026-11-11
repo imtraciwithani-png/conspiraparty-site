@@ -212,6 +212,16 @@ nav.main a{display:inline-block;padding:8px 10px}
   box-sizing:border-box !important;
 }
 .v2-banner{aspect-ratio:1920/1097 !important;border-width:0 !important;box-shadow:none !important;background:transparent !important;padding:0 !important}
+html{scroll-padding-top:140px}
+#conspiraparty-party-kit,
+#junior-cryptid-scout-birthday,
+#shop .card[id],
+#full-kit,
+#kits,
+#etsy-kit,
+#cards{
+  scroll-margin-top:140px;
+}
 .v2-banner.case-board{aspect-ratio:1400/800 !important;object-fit:contain !important}
 .wrap > .v2-banner.case-board{margin:4px 0 18px}
 .meme-card img{aspect-ratio:800/1136 !important}
