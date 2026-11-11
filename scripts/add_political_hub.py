@@ -310,27 +310,27 @@ def patch_starter():
 <article class="card" id="q-into-the-storm-card">
 <h3>Q: Into the Storm (HBO, 2021)</h3>
 <p class="why">Six-part Cullen Hoback docuseries on QAnon&apos;s online origins, 8chan, and political spillover. Exists; streamed on HBO/Max.</p>
-<a class="btn sm" href="https://www.amazon.com/s?k=Q+Into+the+Storm+HBO" target="_blank" rel="noopener sponsored">Find on Amazon</a>
+<a class="btn sm" href="https://www.amazon.com/s?k=Q+Into+the+Storm+HBO&amp;tag=traciw02-20" target="_blank" rel="noopener sponsored">Find on Amazon</a>
 </article>
 <article class="card">
 <h3>The Storm Is Upon Us — Mike Rothschild</h3>
 <p class="why">Journalist&apos;s book on QAnon&apos;s rise. Critical/explanatory; useful for &quot;what is this thing&quot; without joining the fandom.</p>
-<a class="btn sm" href="https://www.amazon.com/s?k=The+Storm+Is+Upon+Us+Rothschild" target="_blank" rel="noopener sponsored">Find on Amazon</a>
+<a class="btn sm" href="https://www.amazon.com/s?k=The+Storm+Is+Upon+Us+Rothschild&amp;tag=traciw02-20" target="_blank" rel="noopener sponsored">Find on Amazon</a>
 </article>
 <article class="card">
 <h3>Active Measures — Thomas Rid</h3>
 <p class="why">History of disinformation and political warfare. Helps separate documented influence ops from vibes.</p>
-<a class="btn sm" href="https://www.amazon.com/s?k=Active+Measures+Thomas+Rid" target="_blank" rel="noopener sponsored">Find on Amazon</a>
+<a class="btn sm" href="https://www.amazon.com/s?k=Active+Measures+Thomas+Rid&amp;tag=traciw02-20" target="_blank" rel="noopener sponsored">Find on Amazon</a>
 </article>
 <article class="card" id="jfk-books">
 <h3>JFK records / Warren Commission reading</h3>
 <p class="why">Start with National Archives releases, then pick a serious history — not a midnight PDF with Comic Sans.</p>
-<a class="btn sm" href="https://www.amazon.com/s?k=Warren+Commission+report" target="_blank" rel="noopener sponsored">Find on Amazon</a>
+<a class="btn sm" href="https://www.amazon.com/s?k=Warren+Commission+report&amp;tag=traciw02-20" target="_blank" rel="noopener sponsored">Find on Amazon</a>
 </article>
 <article class="card">
 <h3>Dark Money — Jane Mayer</h3>
 <p class="why">Left-leaning expose of billionaire political networks. Pair with FEC data so you&apos;re not only dunking one team.</p>
-<a class="btn sm" href="https://www.amazon.com/s?k=Dark+Money+Jane+Mayer" target="_blank" rel="noopener sponsored">Find on Amazon</a>
+<a class="btn sm" href="https://www.amazon.com/s?k=Dark+Money+Jane+Mayer&amp;tag=traciw02-20" target="_blank" rel="noopener sponsored">Find on Amazon</a>
 </article>
 <article class="card">
 <h3>Chaos — Tom O&apos;Neill (already on site picks)</h3>

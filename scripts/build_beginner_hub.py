@@ -436,20 +436,20 @@ print('true-stories + totw done')
 
 # ========== starter-list ==========
 DOCS = [
-  ('Hellier (Planet Weird)', 'Documentary series about high strangeness in Kentucky. Available on Amazon Prime Video / Planet Weird.', 'https://www.amazon.com/s?k=Hellier+documentary'),
-  ('Area 51 (based on Annie Jacobsen reporting)', 'Book-driven interest; look for interviews/docs that cite declassified records rather than pure rumor.', 'https://www.amazon.com/s?k=Area+51+Annie+Jacobsen'),
-  ('The Phenomenon (2020, James Fox)', 'UFO documentary featuring interviews with officials and witnesses. Existence verified via major retailers.', 'https://www.amazon.com/s?k=The+Phenomenon+James+Fox'),
+  ('Hellier (Planet Weird)', 'Documentary series about high strangeness in Kentucky. Available on Amazon Prime Video / Planet Weird.', 'https://www.amazon.com/s?k=Hellier+documentary&tag=traciw02-20'),
+  ('Area 51 (based on Annie Jacobsen reporting)', 'Book-driven interest; look for interviews/docs that cite declassified records rather than pure rumor.', 'https://www.amazon.com/s?k=Area+51+Annie+Jacobsen&tag=traciw02-20'),
+  ('The Phenomenon (2020, James Fox)', 'UFO documentary featuring interviews with officials and witnesses. Existence verified via major retailers.', 'https://www.amazon.com/s?k=The+Phenomenon+James+Fox&tag=traciw02-20'),
 ]
 PODS = [
-  ('Stuff They Don’t Want You To Know', 'Long-running HowStuffWorks show covering mysteries, conspiracies, and weird history with a research bent.', 'https://www.amazon.com/s?k=Stuff+They+Dont+Want+You+To+Know+podcast'),
-  ('Ridiculous History', 'Sibling HowStuffWorks show — weird-but-true history energy, great palate cleanser.', 'https://www.amazon.com/s?k=Ridiculous+History+podcast'),
-  ('The Conspiracy Theory Podcast (BBC / various editions — search current feed)', 'Search your podcast app; titles rotate. Prefer shows that cite sources.', 'https://www.amazon.com/s?k=conspiracy+theory+podcast'),
+  ('Stuff They Don’t Want You To Know', 'Long-running HowStuffWorks show covering mysteries, conspiracies, and weird history with a research bent.', 'https://www.amazon.com/s?k=Stuff+They+Dont+Want+You+To+Know+podcast&tag=traciw02-20'),
+  ('Ridiculous History', 'Sibling HowStuffWorks show — weird-but-true history energy, great palate cleanser.', 'https://www.amazon.com/s?k=Ridiculous+History+podcast&tag=traciw02-20'),
+  ('The Conspiracy Theory Podcast (BBC / various editions — search current feed)', 'Search your podcast app; titles rotate. Prefer shows that cite sources.', 'https://www.amazon.com/s?k=conspiracy+theory+podcast&tag=traciw02-20'),
 ]
 BOOKS = [
   ('Area 51 — Annie Jacobsen', 'Investigative history of the Nevada test-and-development site. Already featured in Conspiraparty picks.', 'https://amzn.to/43E2MRD'),
   ('Chaos — Tom O’Neill', 'True-crime / intelligence history rabbit hole around the Manson case and COINTELPRO-era agencies.', 'https://amzn.to/4dysGw9'),
   ('The Devil’s Chessboard — David Talbot', 'History focused on Allen Dulles and Cold War intelligence. On the site’s book picks.', 'https://amzn.to/4dQq7V8'),
-  ('UFOs and Government (scientific/historical anthologies)', 'Search for sober timelines from university presses or MUFON histories; skip anonymous PDFs.', 'https://www.amazon.com/s?k=UFOs+and+Government+history'),
+  ('UFOs and Government (scientific/historical anthologies)', 'Search for sober timelines from university presses or MUFON histories; skip anonymous PDFs.', 'https://www.amazon.com/s?k=UFOs+and+Government+history&tag=traciw02-20'),
 ]
 
 def list_cards(items):
