@@ -38,7 +38,7 @@
     "source_svgs": 258,
     "converted_ok": 258,
     "converted_failed": 0,
-    "files": 522,
+    "files": 525,
     "added_from_export": 83,
     "added_sticker_batch": 19
   },
@@ -6013,6 +6013,31 @@
           "width": 400,
           "height": 400,
           "bytes": 19768,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "id": "tape-classified-straight",
+      "category": "spot",
+      "group": "decor",
+      "role": "page-decor",
+      "description": "Straight CLASSIFIED caution-tape divider. Show it whole and level. Do not tilt or crop the lettering.",
+      "files": [
+        {
+          "filename": "spot/tape-classified-straight.svg",
+          "format": "svg"
+        },
+        {
+          "filename": "spot/tape-classified-straight-1600.webp",
+          "width": 1600,
+          "height": 322,
+          "format": "webp"
+        },
+        {
+          "filename": "spot/tape-classified-straight-800.webp",
+          "width": 800,
+          "height": 161,
           "format": "webp"
         }
       ]

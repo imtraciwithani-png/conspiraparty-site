@@ -255,6 +255,23 @@ nav.main a{display:inline-block;padding:8px 10px}
   margin:8px auto 0;object-fit:contain;background:transparent !important;
   border:0 !important;box-shadow:none !important;padding:0 !important;aspect-ratio:auto !important;
 }
+img.tape-rule{
+  display:block;
+  width:min(1120px,100%);
+  height:auto;
+  max-height:none;
+  margin:4px auto 16px;
+  aspect-ratio:2328 / 468;
+  object-fit:contain;
+  object-position:center;
+  transform:none;
+  background:transparent !important;
+  border:0 !important;
+  box-shadow:none !important;
+  padding:0 !important;
+  pointer-events:none;
+}
+#occasions::before,#doors::before{display:none}
 @media(max-width:700px){
   .head-sticker{flex-basis:72px;width:72px;height:72px}
   .bunting{max-height:56px}
