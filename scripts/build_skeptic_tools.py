@@ -32,7 +32,7 @@ FOOT = """<footer><div class="wrap"><nav aria-label="Footer"><ul>
 <li><a href="glossary.html">Glossary</a></li>
 <li><a href="field-guides.html">Field Guides</a></li>
 <li><a href="shirts.html">Shirts</a></li>
-<li><a href="free.html">Free Printables</a></li>
+<li><a href="free-printables.html">Free Printables</a></li>
 <li><a href="blog/index.html">Blog</a></li>
 </ul></nav>
 <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases. Some links on this site are affiliate links, which means we may earn a small commission at no extra cost to you.</p>
@@ -82,7 +82,7 @@ def page(slug, title, desc, body, strip_idx=0, extra_head="", path_prefix=""):
 <div class="promo">20% off the full printable kit with code <a href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">LEAKED20</a></div>
 <header class="top"><div class="bar"><a class="logo" href="{css_prefix}index.html"><img src="{css_prefix}assets/img/logo.png" alt="Conspiraparty.com – Top Secret Party Kit" width="220" height="70"></a>
 <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button></div>
-<nav class="main" id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="party-kits.html">Party Kits</a></li><li><a href="case-files.html">Case Files</a></li><li><a href="memes.html">Meme Lab</a></li><li><a href="gift-guide.html">Gift Guide</a></li><li><a href="free.html">Free</a></li><li><a href="leak-it.html">Share</a></li></ul><ul class="occasion-nav"><li><a href="thanksgiving-host.html">Thanksgiving</a></li><li><a href="office-christmas-party.html">Office Christmas</a></li><li><a href="white-elephant.html">White Elephant</a></li><li><a href="gift-guide.html">Gift Guide</a></li></ul></nav></header>
+<nav class="main" id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="party-kits.html">Party Kits</a></li><li><a href="case-files.html">Case Files</a></li><li><a href="memes.html">Meme Lab</a></li><li><a href="gift-guide.html">Gift Guide</a></li><li><a href="leak-it.html">Share</a></li></ul><ul class="occasion-nav"><li><a href="thanksgiving-host.html">Thanksgiving</a></li><li><a href="office-christmas-party.html">Office Christmas</a></li><li><a href="white-elephant.html">White Elephant</a></li><li><a href="gift-guide.html">Gift Guide</a></li></ul></nav></header>
 <main id="main">
 {body.replace('__STRIP__', strip).replace('__SHARE__', f'''<div class="share-box page-share" data-share-url="{share_url}" data-share-text="{title} — via conspiraparty.com" data-share-image="https://conspiraparty.com/assets/og/index.jpg"><button class="btn sm share-native" data-share type="button">Share this</button><div class="share-links" hidden><a class="btn sm" href="https://x.com/intent/post?text={title.replace(' ', '%20')}%20%E2%80%94%20via%20conspiraparty.com&amp;url={share_url.replace(':','%3A').replace('/','%2F')}" rel="noopener noreferrer" target="_blank">X</a><button class="btn sm share-copy" data-copy type="button">Copy link</button></div></div>''')}
 </main>
