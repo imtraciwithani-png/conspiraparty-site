@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T11:16:14.937228+00:00",
-  "generated_at_display": "Nov 11, 2026 11:16",
+  "generated_at": "2026-11-11T19:50:51.494529+00:00",
+  "generated_at_display": "Nov 11, 2026 19:50",
   "item_count": 24,
   "feeds": [
     "UPI Odd News",
@@ -17,15 +17,169 @@
   ],
   "items": [
     {
-      "title": "How a Bizarre Tiebreaker Could Send Clemson Back to the ACC Title Game",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdWNzN2w2Y1VyZTBtcFZtcktycUNmY1hQbEllMVBnVkNoZlFMTHlqRDBSTlM0LXBzaTZINlVybG1NdzBUc3owMFQxdFltS1BIQm9KS1ZNbXItd3lOajFBNW9pYWhzdTVINl9TTGI3Sy1XOUdoTDM4RjZ2MHMzbmdpelBZVnFiekRPN3o5X1VCbUZaazRsMEJoaE1KTGxFSENXTUExRG0xUEJFanBVbDJHckxVc1pZM3lOMk1RYWxUTy1yX0tWamZv?oc=5",
-      "source": "Heavy.com",
-      "feed": "Google News · Odd / weird news",
+      "title": "White House warns congressional Democrats: Investigating us may be a crime",
+      "url": "https://www.reddit.com/r/nottheonion/comments/1xtr9fg/white_house_warns_congressional_democrats/",
+      "source": "r/nottheonion",
+      "feed": "Reddit · r/nottheonion",
+      "tag": "Politics",
+      "published": "2026-11-11T19:32:44+00:00",
+      "published_display": "Nov 11, 2026",
+      "one_liner": "Filed under: loud takes, quiet evidence.",
+      "id": "b8d8b6bbad8a"
+    },
+    {
+      "title": "'F**k it' - Controversial UFC 334 star Josh Hokit DEFENDS vile Michelle Obama conspiracy theory jibe at White House",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWVcwd3lZSk4xLWpFMGlPdmxudFRONmJNcVhNT0pOZHBCXzREcjU5bk5MNHR5NlhzX2V4ZjBrVk44RlQwR0R1QVJYeWJxSEdNdi1qdFpTZ3VKeVVtMDhzSW5rbVFJZnE1ZHBaUjRVcG1zUmxJX2tOVXZEdEdRVGc3eUUxZDRGYkZhbjlB?oc=5",
+      "source": "The Irish Sun",
+      "feed": "Google News · QAnon / conspiracy culture",
+      "tag": "QAnon",
+      "published": "2026-11-11T19:00:46+00:00",
+      "published_display": "Nov 11, 2026",
+      "one_liner": "The map is not the territory. The meme is not the brief.",
+      "id": "a9c7275664da"
+    },
+    {
+      "title": "Jordi Wild shakes up the 29N pre-campaign after the cancellation of Abascal: six million views in two hours",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSjZKb3pvNHVobHl5OWxyWFRQb0stQnpGU0JTbmRnTnEwY2JUTXA3QUdwTjd4aXppSXNRYXV0c1dlWnVFR0trMVQtalRqTXdKT3ItUXppM0ZvUmctSThqeV84Vm5hUnF5MnpGZVNGTmR5NjRyRHZfQ0JLenNGN2Y2N2RwR3BwMWVtWlo3eVluclJEVTgxb0dzaTVzOXVvXzV1dUhyQ2xKTGwxRllkcEI1MEdGeWhwNFM4SVd3RHViVWJpb0NiTHNZeE9ON2FpT2ZpVDh3SE83TGFRZXZSaFU5OTItTU9pdGNFRDhzdFhKNjXSAfYBQVVfeXFMUFNuTnFUMHBwektmZkFRdTdUWGhzRGxUeWVYcGdtOEYyTzRqbzh5UWJpYU8xekV6RmpQYUt4eV94Q29pT21WUzEzV1k5ZEZ6YW1NTFAyS1RhMGpOd2piN2VONndXM2VOYzQtWXJpc292eWFjcXFBZURTUFRJTFE3ZTRLZnYwZUNuQVdjdU1QRktIdWkyeEJXYzZ3c2NWczVrQ3Y4MHJvVE1kLVhBdnJxWWlUSjhrNGZNMkhfLTBEeG5mbm5xZ19xR19udUJtbU5GZFBQRmVDSU1odlBpdHNRbU44WFF3SWd3QUowMVZJRllnOHVMMDJR?oc=5",
+      "source": "Demócrata",
+      "feed": "Google News · Bizarre politics",
+      "tag": "Politics",
+      "published": "2026-11-11T18:33:02+00:00",
+      "published_display": "Nov 11, 2026",
+      "one_liner": "Equal-opportunity side-eye. All parties welcome.",
+      "id": "55ce382b351b"
+    },
+    {
+      "title": "Southfield homeowner says GPS apps are sending drivers across his front lawn — and he can't get it to stop",
+      "url": "https://www.reddit.com/r/nottheonion/comments/1xtpig9/southfield_homeowner_says_gps_apps_are_sending/",
+      "source": "r/nottheonion",
+      "feed": "Reddit · r/nottheonion",
       "tag": "Odd",
-      "published": "2026-11-11T11:09:25+00:00",
+      "published": "2026-11-11T18:27:37+00:00",
+      "published_display": "Nov 11, 2026",
+      "one_liner": "Odd News Department is working overtime.",
+      "id": "0fde17f0aec1"
+    },
+    {
+      "title": "Mysterious 'Jellyfish' UFO Spotted Near Alaska Military Base Vanished Without A Trace, According To Witness",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaC1TazR4WjNuNTdCT2Z1N2s3UWM3VlJXa25TeGtvY0VLVWh2YjZxRXZMT0FQSVNBanlPQ2pZckNJcncxUHlGX0tZY3NuUHVHTzlqdGJ2X2hIMjlEMldOQVhyZUV0Szc3bV9kRzB3blBNRE9yM1NTcEhWVThUeDB3WnJmTUVzbFN5?oc=5",
+      "source": "BroBible",
+      "feed": "Google News · UFO / UAP",
+      "tag": "UFO",
+      "published": "2026-11-11T18:20:11+00:00",
+      "published_display": "Nov 11, 2026",
+      "one_liner": "Tin foil hats: optional. Curiosity: required.",
+      "id": "4aa2645a7dfb"
+    },
+    {
+      "title": "Russell Brand's pubic hair removed from London museum after rape conviction, curator says 'I have no desire to hear his name again'",
+      "url": "https://www.reddit.com/r/nottheonion/comments/1xtpb44/russell_brands_pubic_hair_removed_from_london/",
+      "source": "r/nottheonion",
+      "feed": "Reddit · r/nottheonion",
+      "tag": "Odd",
+      "published": "2026-11-11T18:19:59+00:00",
       "published_display": "Nov 11, 2026",
       "one_liner": "Tell your group chat before someone else does.",
-      "id": "175a2360b443"
+      "id": "49397079bf9b"
+    },
+    {
+      "title": "Statue Honouring Greek Dictator Papadopoulos Sparks Controversy",
+      "url": "https://www.reddit.com/r/nottheonion/comments/1xtowc0/statue_honouring_greek_dictator_papadopoulos/",
+      "source": "r/nottheonion",
+      "feed": "Reddit · r/nottheonion",
+      "tag": "Odd",
+      "published": "2026-11-11T18:05:00+00:00",
+      "published_display": "Nov 11, 2026",
+      "one_liner": "The universe is freestyling again.",
+      "id": "e334f9420f05"
+    },
+    {
+      "title": "Inside Dane Murray's brutal Celtic injury ordeal and bizarre Barrowfield ritual",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSlZxQjhzTUh3YWVNNnBNcFYxYnhjRExqZ1lRa0pWcDFrRzBOUklpRkZBc2Y4VnFBbXN4UzRabDNRZUZnNm53ay1LZ2hHVWpCZzdRNHhSelBWdjdURFgtdU85WDhUUVF3c1A2VWNJWkZhRHBkNGFRaWtoX0V5WFBidU1rejdmMnFKUU9YTFBpR2puZlA4MXI5WHVZaDRLRzdYQUdaU2FzdGktR19qb0c2cw?oc=5",
+      "source": "The Celtic Way",
+      "feed": "Google News · Odd / weird news",
+      "tag": "Odd",
+      "published": "2026-11-11T18:00:00+00:00",
+      "published_display": "Nov 11, 2026",
+      "one_liner": "Strange but true-ish. Party fuel either way.",
+      "id": "e79bf3ed29ee"
+    },
+    {
+      "title": "Putin’s War Vets Are Becoming a ‘Deep State’",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1OLUNvTjlaYXRocEVWOWVlWHhxcXYwd2ttX19UdWVodlkzaTJrUHphaHliVkNwblFWVF9KREdEQzhIWDlUd0kxTHBsTmczV2NpcEhRczNFdHFoZWZ4ekVhUjdSYUp4REZ6Zjl5b0ZiNGM2U0FuSUxZVkpEYkdqSzQ?oc=5",
+      "source": "theTrumpet.com",
+      "feed": "Google News · QAnon / conspiracy culture",
+      "tag": "QAnon",
+      "published": "2026-11-11T17:06:58+00:00",
+      "published_display": "Nov 11, 2026",
+      "one_liner": "Entertainment first. Extraordinary claims need extraordinary snacks.",
+      "id": "63621cdcf882"
+    },
+    {
+      "title": "“Only God And The Government Know”: Giant Tentacled UFO Spotted Over Alaska!",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRHlvbVFONzdVN0NSbFhnT1B0eWFPRmxhNGhFbHNfcFZzbFlkejZHcGFhTGhvblVhRzNOREdBVWtoaVBMNGp2QmxGZ1RITnBCOEhZZHozRVZucm04bVlHX0ZkWldnVTc0UnRYM0ZDb1ZNM0phQWFTdTNka3ZkX3EtbHVYQ0ZFaFVuWi1CNE9pVHlfYlU?oc=5",
+      "source": "Yahoo",
+      "feed": "Google News · UFO / UAP",
+      "tag": "UFO",
+      "published": "2026-11-11T16:56:50+00:00",
+      "published_display": "Nov 11, 2026",
+      "one_liner": "Filed under: things the neighbors will swear they saw.",
+      "id": "64736af0fec7"
+    },
+    {
+      "title": "Book Review: The Last Humans – UFOs, Global Security, and the Threat to State Sovereignty",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMEYyNVltdldMZ0NKQUNxWHFEbG1YZUtVT0xRaENyTzlBbDIyYzJrVjZhTFhfZFlnQWlBeWJ2a19iNXhiX3llYXRUd1hxVzJkY0E4elFfVEdQM0FuR2RPME14amx4a3otUy1fRnlRMnE4UUdtc2Q5SHpLQjJRT09lSEdxV2lqTzNRT3pxY2pibzZRbEFiMElWN3pqUjc5REhTRXc3M29fMG91S2doSlpqSUJDSTc?oc=5",
+      "source": "Inside Outer Space",
+      "feed": "Google News · UFO / UAP",
+      "tag": "UFO",
+      "published": "2026-11-11T16:27:46+00:00",
+      "published_display": "Nov 11, 2026",
+      "one_liner": "Filed under: things the neighbors will swear they saw.",
+      "id": "626df7bd20b9"
+    },
+    {
+      "title": "Mothman stamp",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdC1qajFKdGplaDZHMXc5Q1VURkhucnRPb2RHQU8zVUpFQ2U5dnJONlR3bE1pOTdOd2h4ZU9GR2RpX2w4eTc4MldBWmRrYzRXay1DUzFIek5TWlhDeFg2a2xOQzl5R29GbnBIVWxIRVJBbHpEcFJfWkgyVklEZUJ3OS1UcDRRWk9Ic0VfMA?oc=5",
+      "source": "WV News",
+      "feed": "Google News · Cryptids",
+      "tag": "Cryptid",
+      "published": "2026-11-11T16:19:00+00:00",
+      "published_display": "Nov 11, 2026",
+      "one_liner": "Perfect excuse to cancel hiking plans.",
+      "id": "7e49d528f5ec"
+    },
+    {
+      "title": "'Only God and the Government Know What It Is': Giant UFO With Long Tentacles Filmed Hovering Near US Military Base Before Suddenly Vanishing",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMFhRZ2FCazQ1M3FneFBfQmIzRVVNNUtINW9ySUhScy1FMTYxeXNYTlA0Mi02THg5cmladmI4THgtYVVnbmlLYjVLcVdqTDEyRDZ6TDhKbGw0NFZhcXJlYk9haENPczFCelFSMDc0bk5rZVJSekdodVFnbXh0MGt5R3BMUQ?oc=5",
+      "source": "The Daily Galaxy",
+      "feed": "Google News · UFO / UAP",
+      "tag": "UFO",
+      "published": "2026-11-11T15:35:00+00:00",
+      "published_display": "Nov 11, 2026",
+      "one_liner": "Not a weather balloon. Not this time. Probably.",
+      "id": "a59d83af3627"
+    },
+    {
+      "title": "Bigfoot Sighting in Ocean County, New Jersey by Man and Dog",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBXVmF6R2t3SlhsajJDSFc1Q29wUWZSX0dGYmlOVzgwUkdjcHVFdk5VakFuWnpNZlVzTDhKeW9GUm5VVXZ4eVY4MHM0elQyUnBlUVhxX3lOOU9WamJkWXpReEEtZnQyUFhkY2pNb3BuOXcwNHN0Uzh3UTRB?oc=5",
+      "source": "Cat Country 107.3",
+      "feed": "Google News · Cryptids",
+      "tag": "Cryptid",
+      "published": "2026-11-11T15:21:07+00:00",
+      "published_display": "Nov 11, 2026",
+      "one_liner": "The woods keep secrets. And snack crumbs.",
+      "id": "d6acfb97e643"
+    },
+    {
+      "title": "Jimmy Kimmel Mocks Trump’s ‘Giggle Time in the White House’ During Bizarre C-SPAN Call",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNklxU0dNSEI2MS0zaDJVWklPTGRIRnNTcDRrNzBidjJ4aEQ5UzhYTjlMMk1tdHJvRkRQUmE1TXhkcW5xMlhNM2UxcXR0QmZZaXY4OXd6UUp6Nmh3VUt4M19fUGhMLUZZREIyQW4zWm5Cc015cjFiN2FtREdYOHBIV2toZjBTVEotMVA3XzgwdElrU2dkSGphcjBHRHlOcDZDWUdmOTFQU1NOcG8?oc=5",
+      "source": "Parade Magazine",
+      "feed": "Google News · Odd / weird news",
+      "tag": "Politics",
+      "published": "2026-11-11T12:07:38+00:00",
+      "published_display": "Nov 11, 2026",
+      "one_liner": "Filed under: loud takes, quiet evidence.",
+      "id": "b9c9a3ea2690"
     },
     {
       "title": "Incredible Coral 100 Buses Long Discovered in The Indian Ocean, Could Be One of The World's Largest",
@@ -39,17 +193,6 @@
       "id": "6193546c520e"
     },
     {
-      "title": "Diwali firecrackers can help cure several diseases, claims Bengal BJP MLA Papia Adhikari",
-      "url": "https://www.reddit.com/r/nottheonion/comments/1xteqkm/diwali_firecrackers_can_help_cure_several/",
-      "source": "r/nottheonion",
-      "feed": "Reddit · r/nottheonion",
-      "tag": "Odd",
-      "published": "2026-11-11T10:49:21+00:00",
-      "published_display": "Nov 11, 2026",
-      "one_liner": "Strange but true-ish. Party fuel either way.",
-      "id": "b4d1ec9c6194"
-    },
-    {
       "title": "\"The Disgusting Doll\" and Conspiracy Theories: The Scandal Surrounding France's First Lady Continues",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWmZqekk0RjA3VkREWFFFaV9XNHVTaGFlakVZOXd2bTBlLUtTbHdMTi1NTERkWTA3QVhSNDJPVnViXzZvVmRONEFnbk5QU1pDYTFtbUx6NDlrS2lmdVNDYVBrVEJRTXVqSkNiU0Q2MWtybVFIQjlkUWZPRzVsSjgxdFNpT3N5V0NSS3NJOGVCZnZ6UmhqYkstdXduM0ppVjI3VTZFRV94WkhBTVZPVnFfZmpYOEpqN1lPSGpYVWxlazk0OXJwUzhoX2xsSGQwUkHSAdQBQVVfeXFMTzRCZXlielZCU3Zhb0F3OTdxWjFLSDYzb202aWxSeE9Gcm5QWlNtN2JhRDhuRWpNZmt2bHZLSUxLc0VSb2hIamtoaWpHSlJLVExuNk9MV0RVSm5zdHZ4RDV1bHhUbTF2R1NNeHN4b3c5M1JJN2lfbWFDcndwSmtZbUI5eWtubUFDc2UzOE11TjhyVVZmSEpDVXlNYi1yemFMdFdTNm5RT1FkeU9yVHZqWWgzZnQ4SlhkSFVhUjUzX181T2Vldjd0OG5OZU93Q040bkxRTkw?oc=5",
       "source": "LIGA.net",
@@ -61,37 +204,26 @@
       "id": "e5f1e5fb963c"
     },
     {
-      "title": "UFO near US military base? Woman captures bizarre jellyfish-like object | WATCH",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YX2YxcmdXc2VZVG5tMTJZbjBjWWd3MDU5UnY0YjBQNHQ3bkY0WjFTaXNVbWtxS2xrV2pWYUdvNmpYWDM2RG9ncWJWT3hvNTNlbFI0?oc=5",
-      "source": "شبكة تواصل الإخبارية",
-      "feed": "Google News · Odd / weird news",
-      "tag": "UFO",
-      "published": "2026-11-11T10:35:02+00:00",
+      "title": "Cowboys’ Jerry Jones fires back at George Pickens, Joey Porter Jr. injury conspiracy theories",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ0JHVk5OV3JDdHpTSkZ1V0huQWoxa05sMm1KUTV4RjhieDM2S2JVTjRjREJZN1lfMHJ6Qk1HQU9JMFVScUdlVW5iRXFQWjc1a0RMcjM4TEZMYVZ6TE9TTHB1bF9YVmpSeXF6cjdQUnVMMzFGbzRtQVAtWVBsbEdqcTh2SEpsbG5oWnp5c29QeDhnRVdSdmh6bXJWQzlZak4zekU3eA?oc=5",
+      "source": "ClutchPoints",
+      "feed": "Google News · QAnon / conspiracy culture",
+      "tag": "QAnon",
+      "published": "2026-11-11T10:36:05+00:00",
       "published_display": "Nov 11, 2026",
-      "one_liner": "Filed under: things the neighbors will swear they saw.",
-      "id": "804a0f1e3d47"
+      "one_liner": "Rabbit hole detected. Bring a flashlight and a grain of salt.",
+      "id": "6eb43edfadcb"
     },
     {
-      "title": "Aliens near US military base? Woman captures bizarre jellyfish-like UFO in Alaska | WATCH",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVUlWNWItU0NnbTFMOEFJUld3M0x0dFdzRllGMnh6RTFzcFA1OVVXR2pFUFFIYklKYnNBZ01FX1ppdGZneXk2ZjdfQWJtT1JKdEJCY1A2U1NSenZHX1hxeWNwYTl5a3pqbUkxZkpwaHhqZGJRWU55Qy1OM3l4M25CbTVXMkdZN1NoNDYySzhWLVk3OFZsRjZJOW1rdzdFZ0dLOGRHaGF1UVc2YXI3OFpFMV9fRW5makx0UU1RZWRWMEHSAcYBQVVfeXFMTjFjM2xVR3IyNzR2OXpBS1QxVUdwT3kxRzcwVEY4TzA5SnBpS0NkbU9rTkJ2Mm9tMHZNZ1luaGxCUHJPYlExNVlkb3lfVlJtdFAwVGhPZmhEdElKM19hdTN1RV9NM0NwN0w4dFVUbUpXdU1FeHBPTDU5SS1xT213Q051TmVsdnQxNERrZl83TWJIT1pSX3lwUlBWMVBNVEpOVVY1c0R1MXBGeVVNZmwxTG1JUHh4YU1QaUdkakR5R3Eyd1dYNHdR?oc=5",
-      "source": "WION",
-      "feed": "Google News · Odd / weird news",
-      "tag": "UFO",
-      "published": "2026-11-11T10:00:10+00:00",
-      "published_display": "Nov 11, 2026",
-      "one_liner": "Case file stamped CURIOUS. Proceed with popcorn.",
-      "id": "c81afcf0aace"
-    },
-    {
-      "title": "Paul Scholes has made himself look stupid with latest bizarre criticism of struggling Man United",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObmpkTHY3VjQwQjgwUlNqa1pQWGo5c1l2TDBTbHJDYjhpc2JzZEhhWFlJbUJzRXhMOFlaTGVSVi1CWjdmclFtX0duYS1URWtfMHpJMUhVREpsTFZpN1R4LThlb0dqdFBuVFFRSWlHd2tZdXI2d2g2REx2S0RpY3Y3bFEwQS05UQ?oc=5",
-      "source": "Yahoo Sports",
-      "feed": "Google News · Odd / weird news",
-      "tag": "Odd",
+      "title": "Putin’s Soldiers Are Becoming Russia’s Next Deep State",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTzFQc3N1djVySk9YRXg1TE1FenFMYmVJS3BpRW9kRUlhMHQ5VU1XanYxWU5lbnQzUDhKNlgzTms1MTVFdTg4Wk50NXlRZFpwYjNXWkFRWVhZUTBrUTN2XzBITjFaV09jTWxUZXdBZlNhR3JIdm9WZW5UbUN2d1E1TzdKcDZjVURWc2xTVw?oc=5",
+      "source": "Newsweek",
+      "feed": "Google News · QAnon / conspiracy culture",
+      "tag": "QAnon",
       "published": "2026-11-11T10:00:00+00:00",
       "published_display": "Nov 11, 2026",
-      "one_liner": "The universe is freestyling again.",
-      "id": "2b0c56500dff"
+      "one_liner": "The map is not the territory. The meme is not the brief.",
+      "id": "ae6c2f81067f"
     },
     {
       "title": "New USPS Halloween Stamps Are Coming in 2027, and So Is a Mothman Stamp",
@@ -105,39 +237,6 @@
       "id": "312b2aead0f3"
     },
     {
-      "title": "A Bizarre Run codes for November 2026",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9jRmppLW5XeUxueGlVRzllblIzYWEwWkdGSDFGMzVEbC1mS1RHcVJENWI0cUdQdWJJR0poQVdCYmtzVzdta1Y5Z3F6WGtmRUo2N3E1Z3lTZ1o?oc=5",
-      "source": "Eurogamer.net",
-      "feed": "Google News · Odd / weird news",
-      "tag": "Odd",
-      "published": "2026-11-11T09:14:30+00:00",
-      "published_display": "Nov 11, 2026",
-      "one_liner": "Odd News Department is working overtime.",
-      "id": "6407aa9179e2"
-    },
-    {
-      "title": "\"Didn't have any wings\": Ex-Navy pilot, who witnessed famous Tic Tac UFO incident, recalls UAP sighting \"about the size of an aircraft\"",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUDFTdHQtTEFWZUFMS2tWVmIwTnd1aWxkZTVBRFhTekZ0djh4b2xwQ2ZnYWFCS0tuSm1yd1NLZnFMMC1JMzFncF9iZGdKLUpUZmZHajhHVEd6c21NaW5DLUdQcHJyUDdFSDRQM2E2aWUzbjh6ZFdMaDZDeUtuRko5SVBBdV9XZUFFRzhwblNXR2t1SklVc3VjLVlxNDN6bVNrSmFoSWgxc3F5SUtjMmpmVTNFUEpwRS1aTk8wV2ZGUHlKaHdBNzVNWmxZTkY2RjNVQnFodWJsaDQ1ZENJYWRQZQ?oc=5",
-      "source": "Soap Central",
-      "feed": "Google News · UFO / UAP",
-      "tag": "UFO",
-      "published": "2026-11-11T09:03:59+00:00",
-      "published_display": "Nov 11, 2026",
-      "one_liner": "Not a weather balloon. Not this time. Probably.",
-      "id": "1202ab136578"
-    },
-    {
-      "title": "Jellyfish UFO Inside A Rainbow Spotted Over American Military Base [WATCH]",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVmJPLXhOWkdIVnNVVVpJU044dTI5WTNoLW9SdFVjcE5RRnhPdkk4NDFLLTV2LU9FX3djWWpWbmVZQk5vQTlqWkVvRGVxMjByX1BfTXp5bnNGaXVRQXA3ajVjelpfOGl1ZUpXTFpaV0tkZ281WjdBRFBYR2ZOSXdnLWNqMFJCb2FVSnJzM0ZRcW1hNmwzX3hvaW5NZ1EwVU5Wd0FnTkduaVhDTUJaOFhhRg?oc=5",
-      "source": "Mashable India",
-      "feed": "Google News · UFO / UAP",
-      "tag": "UFO",
-      "published": "2026-11-11T08:56:07+00:00",
-      "published_display": "Nov 11, 2026",
-      "one_liner": "Perfect PowerPoint Night opener. Bring snacks.",
-      "id": "b5e37b4bed4b"
-    },
-    {
       "title": "Donald Trump Reports Seeing a UFO That Was Three Times Faster Than a Fighter Jet",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMW51MlV2S0cteGNaUWJJcXduYVhGYzJDS202RGVaV05VdWhMb2d5S1BnU1NBb01XSTJpVG5UTHBDYTQ3VkNSMWYxMlVGWW52RGFJTXRhOFZKNm1vNmx6cEEzU28yWTZmMWxYSXJmTlpOOW5VRzh0OExhd005OW5hQmNOVUJETXR6RlJSMUsyNUkwTTYyUHNOZGk4dw?oc=5",
       "source": "blue News",
@@ -147,17 +246,6 @@
       "published_display": "Nov 11, 2026",
       "one_liner": "Question everything. Especially the spin.",
       "id": "32f1012b0653"
-    },
-    {
-      "title": "Jensen Huang-Alice Huang affair: Everyone has a theory, and some conspiracy theories too, about what really happened",
-      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPd0dNTHRBNVd4d01QT050WnI0cmRvUUFUeVJORndjRng2ZG9nM2c2X1d5Sk9GRm9Lam5YcGVub01nWDNtZzBhWFVjRlo2b1Rra3d4T3RDV21DdW9fT3g5QnRFaGx0eVo0WUlxQldjM0VrMFlnZjNBQ3ZPR1R1ajdYWnczd1h2bTAtY2kyUXBHX200emtobjRRNi1aQzBsMlJ4ZUM0YVpGb2IzNmtlS2IxQXFod2hiOVdLZnZHbWJvRUZKUy1zeVNVdDFPQnlRMVZEbXcyLTdKazdGNXl4Z3V1V0VUWnl0Z0p5T0FkbWZJQVZsSTgxTGZzYS1YN29aTmwwNVZ1VVB2YjNUWHlqZEgybFhPWEN4bnV2bzRGetIBogJBVV95cUxPY2tzV1I1emJtd28weFExVHZ0aVlMcml1ZkJTWUZxY3c0OGhINFRUa1pSbnA3bHZjYzFpS0pkakRqOVgxMzBDYVNQOG42MTV5d3JISkRYOGhVR3NkTFpSazlyZFNXT0sxYlJTSTNvSkVWUEUxdnNiTGZWVHV5SDhfYW45MWdUQmRMakZ6UFd1UnFTNnFmTWJQQ3c2Zk9YZFRDU1dZVms0REQyQ05jdmdsRzNscFV5TUN6VEpsMVlvYmw1Yk9iVEZUZjRERWVsX1JUdUhheUw4d1VybVp2WmFCVUwyamhJSjZkVlBBUVF5ajd1TW0tMnk1V3BsVUp0Mmd2OXllT29oVTFyaHVFUExqSXQ4T0xwVTA1cm1UX1hPVUkyQQ?oc=5",
-      "source": "WION",
-      "feed": "Google News · QAnon / conspiracy culture",
-      "tag": "QAnon",
-      "published": "2026-11-11T08:05:00+00:00",
-      "published_display": "Nov 11, 2026",
-      "one_liner": "Rabbit hole detected. Bring a flashlight and a grain of salt.",
-      "id": "6830673c21bb"
     },
     {
       "title": "Mysterious Object Spotted and Trump Takes Action!",
@@ -171,26 +259,15 @@
       "id": "e41d10fea10c"
     },
     {
-      "title": "Trump: Launch Investigation Into Mysterious Object That Traveled Three Times Faster Than F-22 Fighter Jet",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZmlzbTM3ZWVLSl9KSm52ZjFJcGpnay16TmZmXzlwcnBYOWJLVFRKQUYxMnMzNVpNLTVxdGpHaGxzMS1vTEtiZy1SN2t0X0tuNC00LVB0aUtjSWJRcmFFQXRkRWNQN2JDZ3k0MTNjVHVRbkdBU0l6SU1DNWFOMW1hUjlnUlg0dDFoMTNwNmlsRDB2RE42UkpNMzZBUTZGQ2Y1TGhpRjdJMmI1OWs?oc=5",
-      "source": "Daily Beirut",
+      "title": "Panic over a mysterious object near a military base in the US",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWUNVb0phM2RfT3hUWnQxczVlMDl1UEJPQy1RNDBoWjBmUGU3b0tFVXE1dVhxRnVkOVNCWnV4U3dxbFJqQ1JKSWhUVHEzSWF1Uk9JWGNvU21EUGtheUhiWXp2bnQxWWhyZHBwTG9JaG40YkdVaGU5ak1KajJhTkZjRDZGdG1PQQ?oc=5",
+      "source": "Haberler.com",
       "feed": "Google News · Strange discoveries",
-      "tag": "Politics",
-      "published": "2026-11-11T07:52:35+00:00",
+      "tag": "Strange",
+      "published": "2026-11-11T07:26:53+00:00",
       "published_display": "Nov 11, 2026",
-      "one_liner": "Question everything. Especially the spin.",
-      "id": "fd7da3212c61"
-    },
-    {
-      "title": "House Democrats Blame Traffic for Missing Key Hegseth Impeachment Vote",
-      "url": "https://www.reddit.com/r/nottheonion/comments/1xtbnst/house_democrats_blame_traffic_for_missing_key/",
-      "source": "r/nottheonion",
-      "feed": "Reddit · r/nottheonion",
-      "tag": "Politics",
-      "published": "2026-11-11T07:34:25+00:00",
-      "published_display": "Nov 11, 2026",
-      "one_liner": "Perfect PowerPoint Night bait. Fact-check optional, snacks required.",
-      "id": "7e040688d844"
+      "one_liner": "Official explanation pending. Party theories welcome.",
+      "id": "861c05214057"
     },
     {
       "title": "CAFE JOHN Brings ‘DAS IST BERLIN’ To Toronto",
@@ -202,83 +279,6 @@
       "published_display": "Nov 11, 2026",
       "one_liner": "Peer-reviewed? Maybe. Party-reviewed? Absolutely.",
       "id": "5ea65e7a3e0a"
-    },
-    {
-      "title": "Scientists Discover Two Remarkably Untouched Worlds Hidden in The Pacific",
-      "url": "https://www.sciencealert.com/scientists-discover-two-remarkably-untouched-worlds-hidden-in-the-pacific",
-      "source": "sciencealert.com",
-      "feed": "ScienceAlert",
-      "tag": "Science",
-      "published": "2026-11-11T05:00:00+00:00",
-      "published_display": "Nov 11, 2026",
-      "one_liner": "Somebody call the Shadow Party Committee.",
-      "id": "63d67f8b6fb6"
-    },
-    {
-      "title": "Sasquatch, Mothman are coming to USPS stamps in 2027",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcGhGdTlHRUVaME9ZUVJiSUlZcFZkYUQyb1BPTDZVMGV6NmRUU0pIenFzYjZFQ2NPM0JrNlZRNTJhTHp0OUN4ZWVJd3RGVlRSVUlVbDg2aVJpUV9LVzMxQmV6WUhvemNCeHBoZF80aFVVNXlNaEw0VGZGaXE4dEVpejlDQ3EtalNsM0Z6WnZR?oc=5",
-      "source": "USA Today",
-      "feed": "Google News · Cryptids",
-      "tag": "Cryptid",
-      "published": "2026-11-11T01:30:00+00:00",
-      "published_display": "Nov 11, 2026",
-      "one_liner": "Perfect excuse to cancel hiking plans.",
-      "id": "d9f4e97beec0"
-    },
-    {
-      "title": "Cowboys’ Jerry Jones fires back at George Pickens, Joey Porter Jr. injury conspiracy theories",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ0JHVk5OV3JDdHpTSkZ1V0huQWoxa05sMm1KUTV4RjhieDM2S2JVTjRjREJZN1lfMHJ6Qk1HQU9JMFVScUdlVW5iRXFQWjc1a0RMcjM4TEZMYVZ6TE9TTHB1bF9YVmpSeXF6cjdQUnVMMzFGbzRtQVAtWVBsbEdqcTh2SEpsbG5oWnp5c29QeDhnRVdSdmh6bXJWQzlZak4zekU3eA?oc=5",
-      "source": "ClutchPoints",
-      "feed": "Google News · QAnon / conspiracy culture",
-      "tag": "QAnon",
-      "published": "2026-11-10T22:03:49+00:00",
-      "published_display": "Nov 10, 2026",
-      "one_liner": "Rabbit hole detected. Bring a flashlight and a grain of salt.",
-      "id": "6eb43edfadcb"
-    },
-    {
-      "title": "Noahide Leaders Gather in Jerusalem for Historic Congress; Tucker Carlson Spreads Conspiracy Theories",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQa3l4MTJ1c2g0WXdqcUFabGJEcjJXMERQZ1EzVjBXenNocmk3dC15cEVGV3ZLYndHbzg3WEFJeVJLQVAzYWNBYWxHazJ3ZWx2Z29zR1d6MnJKSzlsd2tfNXp3NUpjSnFOdUdrelhmd0xEaHdwckxMa0hZRE9GTlZqeTFXR0YtaWlXMHJSTmNJbWk4alVXdHdJX0tIekxxRGVNNGhOZEhEUmo3c2RHRlFzU0swZ01zQTNvQXJITHRqcmlMbzBaTkJvN2Q3R2k?oc=5",
-      "source": "Algemeiner.com",
-      "feed": "Google News · Conspiracy theory news",
-      "tag": "QAnon",
-      "published": "2026-11-10T22:00:00+00:00",
-      "published_display": "Nov 10, 2026",
-      "one_liner": "Entertainment first. Extraordinary claims need extraordinary snacks.",
-      "id": "c962b69b3fde"
-    },
-    {
-      "title": "The U.S. Postal Service Unveils Cryptid and Halloween Stamp Collections for 2027",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMGFHQjgtNkhESDdlcElSMGs0aVlfX3hTUlVTVkFwOFE5RGdEZVA4MUpVdkozSzMyY3d0RmJqNk1RTU5CSFM2SDhPemZqemY5M2pJZWcxcFdvYklOdlBhU1lJNlBpT1pUUEJCNnNicHVFcDlkNm91QVVQVGpTYlphQ0l4WURyMEs0emdjVUFQT0NYWkVhTURRZlRPeWl6UEV0VHVndHJrQ0ZPa0x6R2tfNA?oc=5",
-      "source": "All Hallows Geek",
-      "feed": "Google News · Cryptids",
-      "tag": "Cryptid",
-      "published": "2026-11-10T20:51:06+00:00",
-      "published_display": "Nov 10, 2026",
-      "one_liner": "Nature documentary, but make it suspicious.",
-      "id": "16cfdb32e3ab"
-    },
-    {
-      "title": "Japan's Hayabusa Is Racing Toward a Mysterious Object in Space",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPd1FrT3VQWmxNQ05oTmNnNE5KUG1fMTA2R1hjc0hjTy1TbWdIbzBGT0ltNGxCNG5idGRSUXFGU0Z3Q3V3RkQwclMyMzVLM1l5a1VVcWgyT1ZUNXByME9SdXFmb24xc1JPMURoQzJGRE9SaWozZUs0UnJGX2VlYjl0OHNGRk1Vb3lqZVdhaDJTaUJoVERGbkxJeWFEdkFNcjg4RkExcUlBTm00eUpnbEdzdEdLTmgzUlVQcDRvXzREa3hfcFJTN080MnRGR3Q0dw?oc=5",
-      "source": "Gizmodo",
-      "feed": "Google News · Strange discoveries",
-      "tag": "Strange",
-      "published": "2026-11-10T18:20:40+00:00",
-      "published_display": "Nov 10, 2026",
-      "one_liner": "Classify as: delightfully weird.",
-      "id": "a35c78521089"
-    },
-    {
-      "title": "Puzzling observations by Air Force pilots in Trump’s UFO claims: Avi Loeb",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTjE4TGVKaHRRSTY4VzRBdmNVd1VRdnBia1VRcHQ0UWJaWTg5eFhoajNteGp6XzJQbEFYWGRmNkZLNTctTl83V1R5Q0NsUnZQMHUwR2R4bUxLUVZkTVNocFMxbnIyMW95cXNCNF8teEVJanZDTk5DNjIwZEtzNjMxVtIBhgFBVV95cUxNLThPMkhpSDhfNS1rQndBeTVUYlhYZnpMcmFPTFMxdlRzTUxnZ2ZtRTNETHFHaG1IMG80aGp2a1JQMUFQakJqdXNONGFUM3djVWYySnIydTFhLXI2UlhKY3F6QlgyRTdBalpSaF9HWmpIbGVHdXl6OVBwcnhRNkNKVzhCUEFIUQ?oc=5",
-      "source": "NewsNation",
-      "feed": "Google News · UFO / UAP",
-      "tag": "Politics",
-      "published": "2026-11-10T16:14:05+00:00",
-      "published_display": "Nov 10, 2026",
-      "one_liner": "Equal-opportunity side-eye. All parties welcome.",
-      "id": "ca074213006a"
     }
   ]
 }
