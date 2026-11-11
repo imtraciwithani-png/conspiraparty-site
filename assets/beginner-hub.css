@@ -273,9 +273,7 @@ fieldset.quiz-q label,
   border-color:#111!important;
 }
 
-/* Dark product/tool cards on cork/paper bands.
-   style.css paints .cork/.paper .card as near-black (#16161a).
-   Do NOT force dark ink here — that made titles invisible. */
+/* Cards on cork/paper are cream now, so the ink is near-black. */
 .cork .card,
 .paper .card,
 .cork #hub-cards .card,
@@ -284,7 +282,7 @@ fieldset.quiz-q label,
 .map-list .card,
 .pack-row .card,
 .cork .grid > .card{
-  color:#eee!important;
+  color:#111!important;
   text-decoration:none;
 }
 .cork .card h3,
@@ -294,7 +292,7 @@ fieldset.quiz-q label,
 .map-list .card h3,
 .pack-row .card h3,
 .cork .grid > .card h3{
-  color:#fff!important;
+  color:#111!important;
   text-shadow:none!important;
 }
 .cork .card .why,
@@ -309,8 +307,16 @@ fieldset.quiz-q label,
 .pack-row .card p,
 .cork .grid > .card .why,
 .cork .grid > .card p{
-  color:#cfcfd4!important;
+  color:#111!important;
   opacity:1!important;
+}
+.cork .card a:not(.btn),
+.paper .card a:not(.btn),
+#hub-cards .card a:not(.btn){
+  color:#C8102E!important;
+  font-weight:700;
+  text-decoration:underline;
+  text-underline-offset:3px;
 }
 .map-list .card .btn,
 .pack-row .card .btn,

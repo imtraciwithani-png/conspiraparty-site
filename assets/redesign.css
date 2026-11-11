@@ -143,6 +143,22 @@ nav.main a{display:inline-block;padding:8px 10px}
 .meme-lab{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
 .meme-card{background:#fffdf8;color:#111;border:2px solid #111;padding:10px}
 .meme-card img{width:100%;height:auto}
+.hero .meme-card p,
+.black .meme-card p,
+.meme-card p{
+  color:#111 !important;
+  font-size:1.05rem;
+  font-weight:600;
+  line-height:1.35;
+}
+.hero .meme-card a,
+.black .meme-card a,
+.meme-card a{
+  color:#C8102E !important;
+  font-weight:700;
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
 .maker{display:grid;grid-template-columns:280px 1fr;gap:18px;align-items:start}
 .maker label{display:block;font-weight:600;margin:8px 0 4px}
 .maker input,.maker select{width:100%;padding:10px;border:2px solid #111;font:inherit;background:#fff}
@@ -328,6 +344,48 @@ img.card-stamp{
 }
 .card:nth-child(even) img.card-stamp{transform:rotate(-14deg)}
 
+/* Light surfaces: near-black text, brand-red links. Beats cream text inherited from dark bands. */
+.paper a:not(.btn),
+.cork a:not(.btn),
+.v2-cream a:not(.btn),
+.folder a:not(.btn),
+.card-cross a,
+.black .card a:not(.btn),
+.paper .card a:not(.btn),
+.cork .card a:not(.btn){
+  color:#C8102E !important;
+  font-weight:700;
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+.paper .card p,.paper .card h3,.paper .card li,
+.cork .card p,.cork .card h3,.cork .card li,
+.black .card p,.black .card h3,.black .card li,
+.v2-cream .card p,.v2-cream .card h3,
+.v2-tile p,.v2-tile h3,.v2-door p,.v2-door h3,
+.v2-compare p,.v2-compare h3,
+.maker label,.maker,
+.supply-list,.supply-list li,.supply-list .note,
+.v2-cream .lead,.v2-cream .sub,.v2-cream h2{
+  color:#111 !important;
+}
+.v2-price,.supply-list .price,.v2-kicker{color:#C8102E !important}
+.cork .card .why,.paper .card .why,.black .card .why,.v2-cream .card .why,
+.cork .card h3,.paper .card h3,.black .card h3,.v2-cream .card h3,
+.cork .grid > .card p,.cork .grid > .card h3,
+#hub-cards .card h3,#hub-cards .card p,#hub-cards .card .why,
+.map-list .card h3,.map-list .card p,.pack-row .card h3,.pack-row .card p{
+  color:#111 !important;
+}
+.news-card,.news-card p,.news-card .news-date,.news-card .news-source,.news-card .news-liner,
+.news-card h3,.news-card .news-title,.news-card .news-title a{
+  color:#111 !important;
+}
+.news-card .stamp,.news-card .stamp.tiny,
+.kit-cta .stamp,.kit-cta .stamp.tiny{color:#8E0B1F !important;background:transparent}
+.kit-cta h3,.kit-cta p{color:#111 !important}
+.kit-cta .r{color:#C8102E !important}
+.v2-hero .code,.v2-cream .code,.paper .code,.cork .code{color:#8E0B1F !important}
 #free::before{display:none}
 .upsell{font-size:.85rem;margin:.4rem 0 0}
 .free-card{display:flex;flex-direction:column;height:100%}
