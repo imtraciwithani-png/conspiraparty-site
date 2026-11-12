@@ -759,7 +759,7 @@ def render_html(items: list[dict], generated_at: str) -> str:
 
     return f"""<!doctype html>
 <html lang="en">
-<head>
+<head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Weird News | Conspiraparty</title>
@@ -925,7 +925,7 @@ def render_html(items: list[dict], generated_at: str) -> str:
     </nav>
     <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases. Some links on this site are affiliate links, which means we may earn a small commission at no extra cost to you.</p>
     <p class="x-follow"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a></p>
-    <p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p><p class="v2-socials"><a href="https://x.com/conspiraparty" rel="noopener" target="_blank">X @conspiraparty</a> · <a href="https://www.tiktok.com/@conspiraparty" rel="noopener" target="_blank">TikTok @conspiraparty</a> · <a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2F" rel="noopener" target="_blank">Pinterest</a> · <a href="https://ko-fi.com/conspiraparty" rel="noopener" target="_blank">Ko-fi</a></p><p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p>
+    <p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p><p class="v2-socials"><a href="https://x.com/conspiraparty" rel="noopener" target="_blank">X @conspiraparty</a> · <a href="https://www.tiktok.com/@conspiraparty" rel="noopener" target="_blank">TikTok @conspiraparty</a> · <a href="https://www.pinterest.com/tanderson7712/" rel="noopener" target="_blank">Pinterest</a> · <a href="https://ko-fi.com/conspiraparty" rel="noopener" target="_blank">Ko-fi</a></p><p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p>
   </div>
 </footer>
 <a class="sticky-cta" href="{KIT_URL}" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>

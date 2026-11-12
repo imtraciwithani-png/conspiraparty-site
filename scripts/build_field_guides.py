@@ -445,7 +445,7 @@ def share_box(slug: str, title: str, tagline: str) -> str:
 def page_chrome_head(title: str, desc: str, canonical: str, og_image: str) -> str:
     return f'''<!doctype html>
 <html lang="en">
-<head>
+<head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)}</title>
@@ -525,7 +525,7 @@ FOOTER = '''<section class="redbg"><div class="wrap signup"><span class="stamp" 
 </ul></nav>
 <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases.</p>
 <p class="x-follow site-support"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a><a class="btn sm kofi-btn" href="https://ko-fi.com/conspiraparty" target="_blank" rel="noopener">Buy the Agency a coffee</a></p>
-<p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p><p class="v2-socials"><a href="https://x.com/conspiraparty" rel="noopener" target="_blank">X @conspiraparty</a> · <a href="https://www.tiktok.com/@conspiraparty" rel="noopener" target="_blank">TikTok @conspiraparty</a> · <a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2F" rel="noopener" target="_blank">Pinterest</a> · <a href="https://ko-fi.com/conspiraparty" rel="noopener" target="_blank">Ko-fi</a></p><p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p>
+<p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p><p class="v2-socials"><a href="https://x.com/conspiraparty" rel="noopener" target="_blank">X @conspiraparty</a> · <a href="https://www.tiktok.com/@conspiraparty" rel="noopener" target="_blank">TikTok @conspiraparty</a> · <a href="https://www.pinterest.com/tanderson7712/" rel="noopener" target="_blank">Pinterest</a> · <a href="https://ko-fi.com/conspiraparty" rel="noopener" target="_blank">Ko-fi</a></p><p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p>
 </div></footer>
 <a class="sticky-cta" href="../index.html#shop">Shop the printable kits</a>
 <script src="../assets/site.js" defer></script>
@@ -605,7 +605,7 @@ def render_index() -> str:
         )
     head = f'''<!doctype html>
 <html lang="en">
-<head>
+<head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Suspicious Field Guides | Conspiraparty</title>

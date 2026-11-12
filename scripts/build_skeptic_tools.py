@@ -31,7 +31,7 @@ FOOT = """<footer><div class="wrap"><nav aria-label="Footer"><ul>
 </ul></nav>
 <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases. Some links on this site are affiliate links, which means we may earn a small commission at no extra cost to you.</p>
 <p class="x-follow"><a href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow @conspiraparty on X</a></p>
-<p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p><p class="v2-socials"><a href="https://x.com/conspiraparty" rel="noopener" target="_blank">X @conspiraparty</a> · <a href="https://www.tiktok.com/@conspiraparty" rel="noopener" target="_blank">TikTok @conspiraparty</a> · <a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2F" rel="noopener" target="_blank">Pinterest</a> · <a href="https://ko-fi.com/conspiraparty" rel="noopener" target="_blank">Ko-fi</a></p><p>All conspiracies on this site are for entertainment and critical thinking. Question everything, especially us. © 2026 Conspiraparty.com</p></div></footer>
+<p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p><p class="v2-socials"><a href="https://x.com/conspiraparty" rel="noopener" target="_blank">X @conspiraparty</a> · <a href="https://www.tiktok.com/@conspiraparty" rel="noopener" target="_blank">TikTok @conspiraparty</a> · <a href="https://www.pinterest.com/tanderson7712/" rel="noopener" target="_blank">Pinterest</a> · <a href="https://ko-fi.com/conspiraparty" rel="noopener" target="_blank">Ko-fi</a></p><p>All conspiracies on this site are for entertainment and critical thinking. Question everything, especially us. © 2026 Conspiraparty.com</p></div></footer>
 <a class="sticky-cta" href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>
 <script src="assets/site.js" defer></script>
 <script src="assets/share.js" defer></script>
@@ -51,7 +51,7 @@ def page(slug, title, desc, body, strip_idx=0, extra_head="", path_prefix=""):
     css_prefix = path_prefix
     share_url = f"https://conspiraparty.com/{slug}"
     html = f"""<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en"><head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title} | Conspiraparty</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{share_url}">
@@ -372,7 +372,7 @@ nav = NAV.format(cur_hub=cur_hub)
 # simplify nav hrefs with prefix manually in page() — call page with path_prefix
 share_url = 'https://conspiraparty.com/weekly-dig/issue-01.html'
 html = f"""<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en"><head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title} | Conspiraparty</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{share_url}">

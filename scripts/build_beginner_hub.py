@@ -65,7 +65,7 @@ def footer():
 </ul></nav>
 <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases. Some links on this site are affiliate links, which means we may earn a small commission at no extra cost to you.</p>
 <p class="x-follow"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a></p>
-<p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p><p class="v2-socials"><a href="https://x.com/conspiraparty" rel="noopener" target="_blank">X @conspiraparty</a> · <a href="https://www.tiktok.com/@conspiraparty" rel="noopener" target="_blank">TikTok @conspiraparty</a> · <a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fconspiraparty.com%2F" rel="noopener" target="_blank">Pinterest</a> · <a href="https://ko-fi.com/conspiraparty" rel="noopener" target="_blank">Ko-fi</a></p><p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p></div></footer>
+<p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p><p class="v2-socials"><a href="https://x.com/conspiraparty" rel="noopener" target="_blank">X @conspiraparty</a> · <a href="https://www.tiktok.com/@conspiraparty" rel="noopener" target="_blank">TikTok @conspiraparty</a> · <a href="https://www.pinterest.com/tanderson7712/" rel="noopener" target="_blank">Pinterest</a> · <a href="https://ko-fi.com/conspiraparty" rel="noopener" target="_blank">Ko-fi</a></p><p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p></div></footer>
 <a class="sticky-cta" href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>
 <script src="assets/site.js" defer></script>
 <script src="assets/share.js" defer></script>'''
@@ -106,7 +106,7 @@ HUB = '''<p class="beginner-hub-strip">
 def page(title, desc, slug, current, body, extra_js=''):
     url = f'https://conspiraparty.com/{slug}'
     return f'''<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en"><head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)} | Conspiraparty</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{url}">
@@ -601,7 +601,7 @@ join_body = f'''
 '''
 # join page already has signup in template; skip duplicate by using empty signup override — simplest: custom page write
 join_html = f'''<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en"><head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Join the Agency: Free Agent ID Badge | Conspiraparty</title>
 <meta name="description" content="Join the Shadow Party Committee and get a free Top Secret Agent ID Badge printable. Web3Forms signup. No spam.">
 <link rel="canonical" href="https://conspiraparty.com/join-the-agency.html">

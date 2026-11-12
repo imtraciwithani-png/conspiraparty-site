@@ -70,7 +70,7 @@ def page_html(slug, caption, full_name, wide_name, full_size):
     )
     w, h = full_size
     return f"""<!doctype html>
-<html lang="en"><head>
+<html lang="en"><head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{cap} | Conspiraparty</title>
 <meta name="description" content="{cap}">

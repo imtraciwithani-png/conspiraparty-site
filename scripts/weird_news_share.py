@@ -100,7 +100,7 @@ def render_share_page(it: dict, slug: str) -> Path:
     anchor_js = json.dumps(anchor)
     page = f"""<!doctype html>
 <html lang="en">
-<head>
+<head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title} | Conspiraparty Weird News</title>
