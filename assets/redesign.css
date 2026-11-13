@@ -88,10 +88,11 @@ nav.main .occasion-nav a{font-family:"Special Elite",ui-monospace,monospace;font
 .v2-hero{
   position:relative;
   display:block;
-  background:#F3ECDD;
-  color:#111;
+  background:#24180f;
+  color:#F5EFE0;
   padding:0;
   border-bottom:3px solid #C8102E;
+  overflow:hidden;
 }
 .v2-hero-copy{
   position:absolute;
@@ -110,8 +111,8 @@ blockquote,.quotes blockquote,.v2-quotes blockquote{
 .quotes p,.quotes cite,.v2-quotes p,.v2-quotes cite,blockquote p{color:#111 !important}
 nav.main a{display:inline-block;padding:8px 10px}
 .v2-kicker{color:#C8102E !important;letter-spacing:.14em;text-transform:uppercase;font-size:.95rem;margin:0 0 8px}
-.v2-hero h1{font-size:clamp(2.6rem,6vw,4.6rem);line-height:.92;margin:0 0 12px;color:#111;text-transform:uppercase}
-.v2-hero p{color:#111;font-size:1.05rem}
+.v2-hero h1{font-size:clamp(2.6rem,6vw,4.6rem);line-height:.92;margin:0 0 12px;color:#F5EFE0;text-transform:uppercase}
+.v2-hero p{color:#F5EFE0;font-size:1.05rem;font-weight:700}
 .v2-hero-art{width:100%;height:auto;display:block}
 .v2-code{font-family:"Special Elite",ui-monospace,monospace;font-size:.95rem}
 .v2-tiles,.v2-doors,.v2-compare{display:grid;gap:16px}
@@ -189,8 +190,8 @@ img.meme-full{
 .finder-bar button[aria-pressed=true]{background:#C8102E;color:#fff}
 .legacy-sunset{display:none !important}
 @media(max-width:800px){
-  .v2-hero-copy{position:static;transform:none;width:auto;padding:22px 18px 8px}
-  .v2-hero-art{max-height:380px;object-fit:cover;object-position:right center}
+  .v2-hero-copy{position:absolute;left:6%;right:6%;top:auto;bottom:4%;transform:none;width:auto;padding:0}
+  .v2-hero-art{max-height:none;object-fit:contain;object-position:center center}
   .v2-tiles,.v2-doors,.v2-compare,.dossier,.maker{grid-template-columns:1fr}
   nav.main .occasion-nav a{min-height:44px;display:inline-flex;align-items:center}
 }
@@ -426,7 +427,77 @@ img.card-stamp{
 .kit-cta .stamp,.kit-cta .stamp.tiny{color:#8E0B1F !important;background:transparent}
 .kit-cta h3,.kit-cta p{color:#111 !important}
 .kit-cta .r{color:#C8102E !important}
-.v2-hero .code,.v2-cream .code,.paper .code,.cork .code{color:#8E0B1F !important}
+.v2-cream .code,.paper .code,.cork .code{color:#8E0B1F !important}
+
+/* Homepage corkboard hero A. The art fills the frame. Copy sits on the dark band. */
+.v2-hero picture{
+  display:block;
+  width:100%;
+  margin:0;
+  line-height:0;
+}
+.v2-hero .v2-hero-art{
+  width:100%;
+  height:auto;
+  max-height:none !important;
+  aspect-ratio:2400/1000;
+  object-fit:contain;
+  object-position:center center;
+  background:#24180f;
+}
+.v2-hero .v2-hero-copy{
+  position:absolute;
+  left:4%;
+  top:50%;
+  transform:translateY(-50%);
+  width:32%;
+  max-width:36rem;
+  margin:0;
+  padding:0;
+  color:#F5EFE0;
+  z-index:2;
+}
+.v2-hero .v2-hero-copy h1,
+.v2-hero .v2-hero-copy p,
+.v2-hero .v2-kicker,
+.v2-hero .v2-code,
+.v2-hero .code{
+  color:#F5EFE0 !important;
+}
+.v2-hero .v2-hero-copy p,
+.v2-hero .v2-kicker,
+.v2-hero .v2-code{
+  font-weight:700;
+}
+.v2-hero .v2-hero-copy .btn{
+  color:#fff !important;
+  font-weight:400;
+}
+@media(max-width:800px){
+  .v2-hero .v2-hero-art{aspect-ratio:1080/1350}
+  .v2-hero .v2-hero-copy{
+    left:6%;
+    right:6%;
+    top:auto;
+    bottom:3%;
+    transform:none;
+    width:auto;
+    max-width:none;
+  }
+  .v2-hero .v2-hero-copy h1{
+    font-size:clamp(1.45rem,6.2vw,1.9rem);
+    line-height:.9;
+    margin:0 0 3px;
+  }
+  .v2-hero .v2-hero-copy p{
+    font-size:.74rem;
+    line-height:1.2;
+    margin:0 0 4px;
+  }
+  .v2-hero .v2-kicker{font-size:.62rem;margin:0;letter-spacing:.1em}
+  .v2-hero .v2-hero-copy .btn{padding:6px 12px;font-size:.74rem}
+  .v2-hero .v2-code{font-size:.68rem;line-height:1.2}
+}
 #free::before{display:none}
 .upsell{font-size:.85rem;margin:.4rem 0 0}
 .free-card{display:flex;flex-direction:column;height:100%}
