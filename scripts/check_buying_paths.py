@@ -56,7 +56,6 @@ bonus = must_contain(
     "Also on Etsy",
     "Who Leaked the Files? · $7.99",
     "Decor kit · $12.99",
-    "Code LEAKED20 works on the decor kit on Ko-fi and at Etsy checkout.",
 )
 must_not("bonus-mission.html", *banned, text=bonus)
 
@@ -78,7 +77,8 @@ index = must_contain(
     'id="shop"',
     'id="conspiraparty-party-kit"',
     "The download includes invitations.",
-    '<p class="price">$12.99</p><p class="card-cross">20% off with code LEAKED20</p>',
+    '<p class="price">$12.99</p>',
+    "Etsy holiday sale: 20% off party kits through Dec 1. No code needed.",
     "https://ko-fi.com/s/e35cf6ce46",
     "https://ko-fi.com/s/48c4007b56",
     "https://ko-fi.com/s/0c00270052",
@@ -86,8 +86,6 @@ index = must_contain(
     "https://ko-fi.com/s/af602f09e4",
     "Buy now – instant download",
     "Also on Etsy",
-    "Code LEAKED20 works on Ko-fi and at Etsy checkout.",
-    "on Ko-fi and Etsy.",
 )
 
 must_contain(
@@ -161,7 +159,7 @@ for rel in ["index.html", "bonus-mission.html"]:
         if "ko-fi.com/widgets" in anchor or "kofiwidget" in anchor.lower():
             errors.append(f"{rel} embeds a Ko-fi widget")
 
-must_not("index.html", "Enter LEAKED20 at Etsy checkout.", "ko-fi.com/widgets", "kofiwidget")
+must_not("index.html", "LEAKED20", "ko-fi.com/widgets", "kofiwidget")
 must_contain(
     "christmas-party-game.html",
     "https://ko-fi.com/s/c5f9f86f69",
@@ -181,7 +179,7 @@ must_contain(
     "https://ko-fi.com/s/0c00270052",
     "https://ko-fi.com/s/c5f9f86f69",
     "https://ko-fi.com/s/af602f09e4",
-    "On Etsy, use LEAKED20.",
+    "The big gift: full printable party.",
 )
 
 

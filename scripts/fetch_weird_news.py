@@ -269,8 +269,8 @@ KIT_CTAS = [
     {
         "stamp": "Supply Drop",
         "title": "Turn tonight's headline into a <span class=\"r\">party</span>",
-        "blurb": "Print the props, pass out the badges, and let the theories fly. Full printable kit — use code LEAKED20.",
-        "btn": "Get the Party Kit – 20% off",
+        "blurb": "Print the props, pass out the badges, and let the theories fly. Full printable kit.",
+        "btn": "Get the Party Kit",
         "href": KIT_URL,
     },
     {
@@ -824,13 +824,13 @@ def render_html(items: list[dict], generated_at: str) -> str:
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="promo">20% off the full printable kit with code <a href="{KIT_URL}" target="_blank" rel="noopener sponsored">LEAKED20</a></div>
+<div class="promo"><a href="party-kits.html">Etsy holiday sale: 20% off party kits through Dec 1. No code needed.</a></div>
 <header class="top">
   <div class="bar">
     <a class="logo" href="index.html"><img src="assets/img/logo.png" alt="Conspiraparty.com – Top Secret Party Kit" width="220" height="70"></a>
     <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
   </div>
-  <nav class="main" id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="party-kits.html">Party Kits</a></li><li><a href="case-files.html">Case Files</a></li><li><a href="memes.html">Meme Lab</a></li><li><a href="gift-guide.html">Gift Guide</a></li><li><a href="leak-it.html">Share</a></li></ul><ul class="occasion-nav"><li><a href="thanksgiving-host.html">Thanksgiving</a></li><li><a href="office-christmas-party.html">Office Christmas</a></li><li><a href="white-elephant.html">White Elephant</a></li><li><a href="gift-guide.html">Gift Guide</a></li></ul></nav>
+  <nav class="main" id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="party-kits.html">Party Kits</a></li><li><a href="case-files.html">Case Files</a></li><li><a href="memes.html">Meme Lab</a></li><li><a href="gift-guide.html">Gift Guide</a></li><li><a href="leak-it.html">Share</a></li><li class="nav-more"><details><summary>More</summary><ul><li><a href="friends-of-the-committee.html">Friends of the Committee</a></li><li><a href="start-here.html">Start Here</a></li><li><a href="quiz.html">Which Conspiracy Are You?</a></li><li><a href="quiz-cryptid.html">Which Cryptid Are You?</a></li><li><a href="quiz-theorist.html">Theorist Quiz</a></li><li><a href="theory-generator.html">Theory Generator</a></li><li><a href="supply-drop.html">Supply Drop</a></li><li><a href="field-guides.html">Field Guides</a></li><li><a href="shorts.html">Videos</a></li><li><a href="blog/index.html">Rabbit Holes Blog</a></li></ul></details></li></ul><ul class="occasion-nav"><li><a href="thanksgiving-host.html">Thanksgiving</a></li><li><a href="office-christmas-party.html">Office Christmas</a></li><li><a href="white-elephant.html">White Elephant</a></li><li><a href="gift-guide.html">Gift Guide</a></li></ul></nav>
 </header>
 
 <main id="main">
@@ -873,7 +873,7 @@ def render_html(items: list[dict], generated_at: str) -> str:
       <p class="lead">Pick a weird story. Pitch a theory. Vote on awards. Conspiracy PowerPoint Night has the slides, host script and topic cards.</p>
       <p>
         <a class="btn" href="{PPT_URL}" target="_blank" rel="noopener sponsored">Get PowerPoint Night – $9.99</a>
-        <a class="btn alt sm" href="{KIT_URL}" target="_blank" rel="noopener sponsored">Full Party Kit – 20% off LEAKED20</a>
+        <a class="btn alt sm" href="{KIT_URL}" target="_blank" rel="noopener sponsored">Full party kit</a>
       </p>
       <p style="margin-top:18px">
         <a class="btn sm" href="theory-generator.html">Theory Generator</a>
@@ -919,16 +919,16 @@ def render_html(items: list[dict], generated_at: str) -> str:
 <li><a href="gift-shop.html">Gift Shop</a></li>
 <li><a href="leak-it.html">Share</a></li>
 <li><a href="weird-news.html">Weird News</a></li>
-<li><a href="blog/index.html">Rabbit Holes</a></li>
+<li><a href="blog/index.html">Rabbit Holes Blog</a></li>
 <li><a href="free-printables.html">Free Printables</a></li>
-</ul>
+<li><a href="friends-of-the-committee.html">Friends of the Committee</a></li><li><a href="start-here.html">Start Here</a></li><li><a href="quiz.html">Which Conspiracy Are You?</a></li><li><a href="quiz-cryptid.html">Which Cryptid Are You?</a></li><li><a href="quiz-theorist.html">Theorist Quiz</a></li><li><a href="theory-generator.html">Theory Generator</a></li><li><a href="supply-drop.html">Supply Drop</a></li><li><a href="field-guides.html">Field Guides</a></li><li><a href="shorts.html">Videos</a></li></ul>
     </nav>
     <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases. Some links on this site are affiliate links, which means we may earn a small commission at no extra cost to you.</p>
     <p class="x-follow"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a></p>
     <p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p><p class="v2-socials"><a href="https://x.com/conspiraparty" rel="noopener" target="_blank">X @conspiraparty</a> · <a href="https://www.tiktok.com/@conspiraparty" rel="noopener" target="_blank">TikTok @conspiraparty</a> · <a href="https://www.pinterest.com/tanderson7712/" rel="noopener" target="_blank">Pinterest</a> · <a href="https://ko-fi.com/conspiraparty" rel="noopener" target="_blank">Ko-fi</a></p><p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p>
   </div>
 </footer>
-<a class="sticky-cta" href="{KIT_URL}" target="_blank" rel="noopener sponsored">Get the Party Kit – 20% off</a>
+<a class="sticky-cta" href="{KIT_URL}" target="_blank" rel="noopener sponsored">Get the Party Kit</a>
 <script src="assets/site.js" defer></script>
 <script>
 (function(){{

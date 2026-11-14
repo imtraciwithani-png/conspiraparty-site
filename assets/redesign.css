@@ -507,3 +507,69 @@ img.card-stamp{
   background:#F3ECDD !important;border:8px solid #fff !important;border-radius:0 !important;
   box-shadow:0 0 0 2px #111 !important;
 }
+
+/* One sale bar: near-black bold type on cream, red rule. */
+.promo{
+  background:#F3ECDD !important;
+  background-image:none !important;
+  color:#111 !important;
+  border-bottom:3px solid #C8102E !important;
+  font-weight:700;
+  text-align:center;
+}
+.promo a{
+  color:#111 !important;
+  font-weight:700;
+  text-decoration:underline;
+  text-underline-offset:3px;
+  border:0 !important;
+  background:transparent !important;
+  letter-spacing:0;
+  padding:0;
+  margin:0;
+}
+nav.main .nav-more{position:relative}
+nav.main .nav-more summary{
+  list-style:none;
+  cursor:pointer;
+  color:#F3ECDD;
+  font-weight:700;
+  padding:8px 10px;
+}
+nav.main .nav-more summary::-webkit-details-marker{display:none}
+nav.main .nav-more summary::before{
+  content:"";
+  display:inline-block;
+  width:10px;height:10px;
+  margin-right:6px;
+  border-radius:50%;
+  background:#C8102E;
+  box-shadow:1px 2px 0 #111;
+  vertical-align:0;
+}
+nav.main .nav-more ul{
+  display:none;
+  position:absolute;
+  z-index:40;
+  left:0;
+  top:100%;
+  background:#F3ECDD;
+  color:#111;
+  border:2px solid #111;
+  min-width:320px;
+  margin:0;
+  padding:6px 0;
+  list-style:none;
+}
+nav.main .nav-more details[open] > ul{display:block}
+nav.main .nav-more ul a{
+  color:#111 !important;
+  font-weight:700;
+  display:block;
+  padding:8px 14px;
+  text-decoration:none;
+}
+nav.main .nav-more ul a:hover{text-decoration:underline}
+@media(max-width:800px){
+  nav.main .nav-more ul{position:static;min-width:0;width:100%}
+}
