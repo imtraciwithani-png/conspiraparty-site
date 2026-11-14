@@ -611,3 +611,37 @@ nav.main .nav-more ul a:hover{text-decoration:underline}
   .print-sheet{break-inside:avoid;box-shadow:none}
   body{background:#fff !important}
 }
+.tool-card,.name-badge{
+  background:#fffdf8;
+  color:#111;
+  border:2px solid #111;
+  padding:18px;
+  margin:16px 0;
+}
+.tool-card h2,.tool-card p,.tool-card label,.name-badge h2,.name-badge p,.name-badge span{
+  color:#111 !important;
+  font-weight:700;
+}
+.tool-card input,.tool-card select{
+  width:100%;
+  max-width:360px;
+  padding:10px;
+  border:2px solid #111;
+  background:#fff;
+  color:#111;
+  font:inherit;
+  font-weight:700;
+  margin:6px 0 12px;
+}
+.topic-filters{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.topic-filters button{
+  background:#fffdf8;
+  color:#111;
+  border:2px solid #111;
+  font-weight:700;
+  min-height:44px;
+  padding:8px 12px;
+  cursor:pointer;
+}
+.topic-filters button[aria-pressed="true"]{background:#C8102E;color:#fff}
+.tool-note{color:#111 !important;font-weight:700}
