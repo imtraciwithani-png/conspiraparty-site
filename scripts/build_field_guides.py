@@ -475,10 +475,10 @@ def page_chrome_head(title: str, desc: str, canonical: str, og_image: str) -> st
 
 HEADER = '''<body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="promo">20% off the full printable kit with code <a href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">LEAKED20</a></div>
+<div class="promo"><a href="../party-kits.html">Etsy holiday sale: 20% off party kits through Dec 1. No code needed.</a></div>
 <header class="top"><div class="bar"><a class="logo" href="../index.html"><img src="../assets/img/logo.png" alt="Conspiraparty.com – Top Secret Party Kit" width="220" height="70"></a>
 <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button></div>
-<nav class="main" id="nav" aria-label="Main"><ul><li><a href="../index.html">Home</a></li><li><a href="../party-kits.html">Party Kits</a></li><li><a href="../case-files.html">Case Files</a></li><li><a href="../memes.html">Meme Lab</a></li><li><a href="../gift-guide.html">Gift Guide</a></li><li><a href="../leak-it.html">Share</a></li></ul><ul class="occasion-nav"><li><a href="../thanksgiving-host.html">Thanksgiving</a></li><li><a href="../office-christmas-party.html">Office Christmas</a></li><li><a href="../white-elephant.html">White Elephant</a></li><li><a href="../gift-guide.html">Gift Guide</a></li></ul></nav></header>
+<nav class="main" id="nav" aria-label="Main"><ul><li><a href="../index.html">Home</a></li><li><a href="../party-kits.html">Party Kits</a></li><li><a href="../case-files.html">Case Files</a></li><li><a href="../memes.html">Meme Lab</a></li><li><a href="../gift-guide.html">Gift Guide</a></li><li><a href="../leak-it.html">Share</a></li><li class="nav-more"><details><summary>More</summary><ul><li><a href="../friends-of-the-committee.html">Friends of the Committee</a></li><li><a href="../start-here.html">Start Here</a></li><li><a href="../quiz.html">Which Conspiracy Are You?</a></li><li><a href="../quiz-cryptid.html">Which Cryptid Are You?</a></li><li><a href="../quiz-theorist.html">Theorist Quiz</a></li><li><a href="../theory-generator.html">Theory Generator</a></li><li><a href="../supply-drop.html">Supply Drop</a></li><li><a href="../field-guides.html">Field Guides</a></li><li><a href="../shorts.html">Videos</a></li><li><a href="../blog/index.html">Rabbit Holes Blog</a></li></ul></details></li></ul><ul class="occasion-nav"><li><a href="../thanksgiving-host.html">Thanksgiving</a></li><li><a href="../office-christmas-party.html">Office Christmas</a></li><li><a href="../white-elephant.html">White Elephant</a></li><li><a href="../gift-guide.html">Gift Guide</a></li></ul></nav></header>
 '''
 
 GUIDE_PAID = '''<section class="black" id="paid-kits"><div class="wrap">
@@ -486,7 +486,7 @@ GUIDE_PAID = '''<section class="black" id="paid-kits"><div class="wrap">
 <p class="lead">This guide stays free. The finished party files are on the homepage shop.</p>
 <div class="buy-paths">
 <a class="btn" href="../index.html#shop">Shop the kits</a>
-<a class="btn alt" href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">Full party kit · code LEAKED20</a>
+<a class="btn alt" href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">Full party kit</a>
 <a class="btn alt" href="../conspiraparty-ppt-night.html">PowerPoint Night</a>
 </div>
 <p class="buy-note">PowerPoint Night is $9.99 and includes the invitation. Invite only is $3.99. Who Leaked the Files? is $7.99 and includes invitations.</p>
@@ -520,9 +520,9 @@ FOOTER = '''<section class="redbg"><div class="wrap signup"><span class="stamp" 
 <li><a href="../gift-shop.html">Gift Shop</a></li>
 <li><a href="../leak-it.html">Share</a></li>
 <li><a href="../weird-news.html">Weird News</a></li>
-<li><a href="../blog/index.html">Rabbit Holes</a></li>
+<li><a href="../blog/index.html">Rabbit Holes Blog</a></li>
 <li><a href="../free-printables.html">Free Printables</a></li>
-</ul></nav>
+<li><a href="../friends-of-the-committee.html">Friends of the Committee</a></li><li><a href="../start-here.html">Start Here</a></li><li><a href="../quiz.html">Which Conspiracy Are You?</a></li><li><a href="../quiz-cryptid.html">Which Cryptid Are You?</a></li><li><a href="../quiz-theorist.html">Theorist Quiz</a></li><li><a href="../theory-generator.html">Theory Generator</a></li><li><a href="../supply-drop.html">Supply Drop</a></li><li><a href="../field-guides.html">Field Guides</a></li><li><a href="../shorts.html">Videos</a></li></ul></nav>
 <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases.</p>
 <p class="x-follow site-support"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a><a class="btn sm kofi-btn" href="https://ko-fi.com/conspiraparty" target="_blank" rel="noopener">Buy the Agency a coffee</a></p>
 <p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p><p class="v2-socials"><a href="https://x.com/conspiraparty" rel="noopener" target="_blank">X @conspiraparty</a> · <a href="https://www.tiktok.com/@conspiraparty" rel="noopener" target="_blank">TikTok @conspiraparty</a> · <a href="https://www.pinterest.com/tanderson7712/" rel="noopener" target="_blank">Pinterest</a> · <a href="https://ko-fi.com/conspiraparty" rel="noopener" target="_blank">Ko-fi</a></p><p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p>
@@ -630,10 +630,10 @@ def render_index() -> str:
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="promo">20% off the full printable kit with code <a href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">LEAKED20</a></div>
+<div class="promo"><a href="party-kits.html">Etsy holiday sale: 20% off party kits through Dec 1. No code needed.</a></div>
 <header class="top"><div class="bar"><a class="logo" href="index.html"><img src="assets/img/logo.png" alt="Conspiraparty.com – Top Secret Party Kit" width="220" height="70"></a>
 <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button></div>
-<nav class="main" id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="party-kits.html">Party Kits</a></li><li><a href="case-files.html">Case Files</a></li><li><a href="memes.html">Meme Lab</a></li><li><a href="gift-guide.html">Gift Guide</a></li><li><a href="leak-it.html">Share</a></li></ul><ul class="occasion-nav"><li><a href="thanksgiving-host.html">Thanksgiving</a></li><li><a href="office-christmas-party.html">Office Christmas</a></li><li><a href="white-elephant.html">White Elephant</a></li><li><a href="gift-guide.html">Gift Guide</a></li></ul></nav></header>
+<nav class="main" id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="party-kits.html">Party Kits</a></li><li><a href="case-files.html">Case Files</a></li><li><a href="memes.html">Meme Lab</a></li><li><a href="gift-guide.html">Gift Guide</a></li><li><a href="leak-it.html">Share</a></li><li class="nav-more"><details><summary>More</summary><ul><li><a href="friends-of-the-committee.html">Friends of the Committee</a></li><li><a href="start-here.html">Start Here</a></li><li><a href="quiz.html">Which Conspiracy Are You?</a></li><li><a href="quiz-cryptid.html">Which Cryptid Are You?</a></li><li><a href="quiz-theorist.html">Theorist Quiz</a></li><li><a href="theory-generator.html">Theory Generator</a></li><li><a href="supply-drop.html">Supply Drop</a></li><li><a href="field-guides.html">Field Guides</a></li><li><a href="shorts.html">Videos</a></li><li><a href="blog/index.html">Rabbit Holes Blog</a></li></ul></details></li></ul><ul class="occasion-nav"><li><a href="thanksgiving-host.html">Thanksgiving</a></li><li><a href="office-christmas-party.html">Office Christmas</a></li><li><a href="white-elephant.html">White Elephant</a></li><li><a href="gift-guide.html">Gift Guide</a></li></ul></nav></header>
 <main id="main">
 <section class="hero"><div class="wrap">
 <p class="eyebrow" style="margin:0 0 14px;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--text-dim)">Travel weird on purpose</p>
@@ -649,7 +649,7 @@ def render_index() -> str:
 <p class="lead">These guides stay free. The finished party files are on the homepage shop.</p>
 <div class="buy-paths">
 <a class="btn" href="index.html#shop">Shop the kits</a>
-<a class="btn alt" href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">Full party kit · code LEAKED20</a>
+<a class="btn alt" href="https://ko-fi.com/s/e35cf6ce46" target="_blank" rel="noopener sponsored">Full party kit</a>
 <a class="btn alt" href="conspiraparty-ppt-night.html">PowerPoint Night</a>
 </div>
 <p class="buy-note">PowerPoint Night is $9.99 and includes the invitation. Invite only is $3.99. Who Leaked the Files? is $7.99 and includes invitations.</p>
@@ -681,9 +681,9 @@ def render_index() -> str:
 <li><a href="gift-shop.html">Gift Shop</a></li>
 <li><a href="leak-it.html">Share</a></li>
 <li><a href="weird-news.html">Weird News</a></li>
-<li><a href="blog/index.html">Rabbit Holes</a></li>
+<li><a href="blog/index.html">Rabbit Holes Blog</a></li>
 <li><a href="free-printables.html">Free Printables</a></li>
-</ul></nav>
+<li><a href="friends-of-the-committee.html">Friends of the Committee</a></li><li><a href="start-here.html">Start Here</a></li><li><a href="quiz.html">Which Conspiracy Are You?</a></li><li><a href="quiz-cryptid.html">Which Cryptid Are You?</a></li><li><a href="quiz-theorist.html">Theorist Quiz</a></li><li><a href="theory-generator.html">Theory Generator</a></li><li><a href="supply-drop.html">Supply Drop</a></li><li><a href="field-guides.html">Field Guides</a></li><li><a href="shorts.html">Videos</a></li></ul></nav>
 <p class="x-follow site-support"><a class="btn sm x-follow-btn" href="https://x.com/conspiraparty" target="_blank" rel="noopener">Follow the Agency on X</a><a class="btn sm kofi-btn" href="https://ko-fi.com/conspiraparty" target="_blank" rel="noopener">Buy the Agency a coffee</a></p>
 <p>All conspiracies on this site are for entertainment. © 2026 Conspiraparty.com</p>
 </div></footer>

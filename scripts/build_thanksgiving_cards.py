@@ -232,7 +232,7 @@ def page_how_to(c: canvas.Canvas) -> None:
     tips = [
         "Optional: deal Mild cards first; save Full Tinfoil for after dessert.",
         "Kids at the table? Stick to Mild Gravy + Medium Stuffing.",
-        "More party chaos: conspiraparty.com party kit (code LEAKED20).",
+        "More party chaos: conspiraparty.com party kit.",
     ]
     for t in tips:
         c.drawCentredString(W / 2, y, t)
