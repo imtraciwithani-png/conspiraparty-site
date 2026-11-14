@@ -573,3 +573,41 @@ nav.main .nav-more ul a:hover{text-decoration:underline}
 @media(max-width:800px){
   nav.main .nav-more ul{position:static;min-width:0;width:100%}
 }
+.print-sheet{
+  background:#fffdf8;
+  color:#111;
+  border:2px solid #111;
+  padding:16px;
+  margin:16px 0 8px;
+}
+.print-sheet h2,.print-sheet h3,.print-sheet p,.print-sheet li,.print-sheet span{
+  color:#111 !important;
+}
+.bingo-grid{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:4px;
+  margin:12px 0;
+}
+.bingo-grid span{
+  border:2px solid #111;
+  min-height:64px;
+  padding:6px;
+  font-weight:700;
+  font-size:.78rem;
+  line-height:1.2;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  background:#fff;
+}
+.bingo-grid span.free{background:#C8102E;color:#fff !important}
+.pin-card{max-width:320px;height:auto;border:2px solid #111;display:block}
+.wyr{display:grid;gap:10px}
+.wyr li{background:#fff;border:2px solid #111;padding:10px 12px;font-weight:700}
+@media print{
+  .promo,header.top,.sticky-cta,footer,.no-print,.share-box{display:none !important}
+  .print-sheet{break-inside:avoid;box-shadow:none}
+  body{background:#fff !important}
+}

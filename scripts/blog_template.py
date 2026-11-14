@@ -15,6 +15,10 @@ FOLLOW_BTN = (
     f"Follow @conspiraparty on X</a></p>"
 )
 
+# Nested under /blog/. Every site page needs ../ or the link 404s as /blog/quiz.html.
+# Rabbit Holes Blog is index.html from inside this folder, not blog/index.html.
+BLOG_NAV = '''<nav aria-label="Main" class="main" id="nav"><ul><li><a href="../index.html">Home</a></li><li><a href="../party-kits.html">Party Kits</a></li><li><a href="../case-files.html">Case Files</a></li><li><a href="../memes.html">Meme Lab</a></li><li><a href="../gift-guide.html">Gift Guide</a></li><li><a href="../leak-it.html">Share</a></li><li class="nav-more"><details><summary>More</summary><ul><li><a href="../friends-of-the-committee.html">Friends of the Committee</a></li><li><a href="../start-here.html">Start Here</a></li><li><a href="../quiz.html">Which Conspiracy Are You?</a></li><li><a href="../quiz-cryptid.html">Which Cryptid Are You?</a></li><li><a href="../quiz-theorist.html">Theorist Quiz</a></li><li><a href="../theory-generator.html">Theory Generator</a></li><li><a href="../supply-drop.html">Supply Drop</a></li><li><a href="../field-guides.html">Field Guides</a></li><li><a href="../shorts.html">Videos</a></li><li><a href="index.html">Rabbit Holes Blog</a></li></ul></details></li></ul></nav>'''
+
 # Nested under /blog/ — paths use ../
 BLOG_SIGNUP = f'''<section class="redbg" id="signup"><div class="wrap signup"><span class="stamp" style="color:#fff;border-color:#fff">Classified</span><h2>Join the Shadow Party Committee</h2><p>Get a free <strong>Top Secret Agent ID Badge</strong> printable. Name optional. No spam, ever.</p>
 <form class="signup-form" data-signup data-connected="true" action="https://api.web3forms.com/submit" method="POST">
