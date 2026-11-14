@@ -585,22 +585,36 @@ nav.main .nav-more ul a:hover{text-decoration:underline}
 }
 .bingo-grid{
   display:grid;
-  grid-template-columns:repeat(5,1fr);
+  grid-template-columns:repeat(5, minmax(0, 1fr));
   gap:4px;
   margin:12px 0;
+  width:100%;
+  min-width:0;
 }
 .bingo-grid span{
   border:2px solid #111;
+  min-width:0;
   min-height:64px;
   padding:6px;
   font-weight:700;
   font-size:.78rem;
-  line-height:1.2;
+  line-height:1.15;
   display:flex;
   align-items:center;
   justify-content:center;
   text-align:center;
   background:#fff;
+  overflow-wrap:anywhere;
+  word-break:break-word;
+}
+@media(max-width:420px){
+  .print-sheet{padding:10px}
+  .bingo-grid{gap:3px}
+  .bingo-grid span{
+    font-size:.62rem;
+    padding:3px 2px;
+    min-height:48px;
+  }
 }
 .bingo-grid span.free{background:#C8102E;color:#fff !important}
 .pin-card{max-width:320px;height:auto;border:2px solid #111;display:block}
