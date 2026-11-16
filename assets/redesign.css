@@ -662,6 +662,7 @@ nav.main .nav-more ul a:hover{text-decoration:underline}
 
 /* Party supplies: cream paper, dark type. Beats the odd-paper dark band. */
 #party-supplies.paper,
+#gift-ideas.paper,
 section.paper.keep-cream{
   background-color:#F3ECDD !important;
   background-image:url(art/bg/cipher3-tile-light.svg) !important;
@@ -669,31 +670,40 @@ section.paper.keep-cream{
   color:#111 !important;
 }
 #party-supplies h2,
-#party-supplies h3{
+#party-supplies h3,
+#gift-ideas h2,
+#gift-ideas h3{
   font-family:Anton,Impact,sans-serif;
   color:#111 !important;
 }
 #party-supplies .lead,
 #party-supplies p,
-#party-supplies li{
+#party-supplies li,
+#gift-ideas .lead,
+#gift-ideas p,
+#gift-ideas li{
   color:#111 !important;
   font-weight:700;
 }
-#party-supplies a:not(.btn){
+#party-supplies a:not(.btn),
+#gift-ideas a:not(.btn){
   color:#C8102E !important;
   font-weight:700;
   text-decoration:underline;
   text-underline-offset:3px;
   overflow-wrap:anywhere;
 }
-#party-supplies a:not(.btn):hover{color:#8E0B1F !important}
-#party-supplies .supply-list{
+#party-supplies a:not(.btn):hover,
+#gift-ideas a:not(.btn):hover{color:#8E0B1F !important}
+#party-supplies .supply-list,
+#gift-ideas .supply-list{
   list-style:disc;
   margin:12px 0 0;
   padding-left:1.2em;
   max-width:100%;
 }
-#party-supplies .supply-list li{
+#party-supplies .supply-list li,
+#gift-ideas .supply-list li{
   display:list-item;
   margin:0 0 12px;
   padding:0;
@@ -701,13 +711,15 @@ section.paper.keep-cream{
   line-height:1.45;
   overflow-wrap:break-word;
 }
-#party-supplies .price{
+#party-supplies .price,
+#gift-ideas .price{
   font-family:inherit !important;
   color:#111 !important;
   font-weight:800 !important;
   letter-spacing:0;
 }
-#party-supplies .disclosure{
+#party-supplies .disclosure,
+#gift-ideas .disclosure{
   font-size:.9rem;
   font-weight:700 !important;
   color:#111 !important;
