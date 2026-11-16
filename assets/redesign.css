@@ -659,3 +659,58 @@ nav.main .nav-more ul a:hover{text-decoration:underline}
 }
 .topic-filters button[aria-pressed="true"]{background:#C8102E;color:#fff}
 .tool-note{color:#111 !important;font-weight:700}
+
+/* Party supplies: cream paper, dark type. Beats the odd-paper dark band. */
+#party-supplies.paper,
+section.paper.keep-cream{
+  background-color:#F3ECDD !important;
+  background-image:url(art/bg/cipher3-tile-light.svg) !important;
+  background-size:480px 480px !important;
+  color:#111 !important;
+}
+#party-supplies h2,
+#party-supplies h3{
+  font-family:Anton,Impact,sans-serif;
+  color:#111 !important;
+}
+#party-supplies .lead,
+#party-supplies p,
+#party-supplies li{
+  color:#111 !important;
+  font-weight:700;
+}
+#party-supplies a:not(.btn){
+  color:#C8102E !important;
+  font-weight:700;
+  text-decoration:underline;
+  text-underline-offset:3px;
+  overflow-wrap:anywhere;
+}
+#party-supplies a:not(.btn):hover{color:#8E0B1F !important}
+#party-supplies .supply-list{
+  list-style:disc;
+  margin:12px 0 0;
+  padding-left:1.2em;
+  max-width:100%;
+}
+#party-supplies .supply-list li{
+  display:list-item;
+  margin:0 0 12px;
+  padding:0;
+  border:0;
+  line-height:1.45;
+  overflow-wrap:break-word;
+}
+#party-supplies .price{
+  font-family:inherit !important;
+  color:#111 !important;
+  font-weight:800 !important;
+  letter-spacing:0;
+}
+#party-supplies .disclosure{
+  font-size:.9rem;
+  font-weight:700 !important;
+  color:#111 !important;
+  margin-top:18px;
+  opacity:1;
+}
