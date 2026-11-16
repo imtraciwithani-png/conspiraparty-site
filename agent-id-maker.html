@@ -121,7 +121,7 @@
     a.href=canvas.toDataURL('image/png'); a.click();
   };
   document.getElementById('printBtn').onclick=()=>{
-    draw(); const w=window.open(''); w.document.write('<img src="'+canvas.toDataURL('image/png')+'" style="width:100%"/>'); w.document.close(); w.focus(); w.print();
+    draw(); const w=window.open(''); w.document.write('<img alt="Printable agent ID badge" src="'+canvas.toDataURL('image/png')+'" style="width:100%"/>'); w.document.close(); w.focus(); w.print();
   };
   draw();
 })();

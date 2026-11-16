@@ -161,7 +161,7 @@ for rel in ["index.html", "bonus-mission.html"]:
 
 must_not("index.html", "LEAKED20", "ko-fi.com/widgets", "kofiwidget")
 must_contain(
-    "christmas-party-game.html",
+    "funny-christmas-party-games.html",
     "https://ko-fi.com/s/c5f9f86f69",
     "https://happyplaceinkandart.etsy.com/listing/4601155493",
     "Buy now – instant download",
