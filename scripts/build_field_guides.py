@@ -1039,7 +1039,7 @@ def patch_nav_and_sitemap():
     # Add Field Guides to main nav on key templates (index + a few hubs) — branch only
     targets = [
         "index.html", "free-printables.html", "weird-news.html", "memes.html",
-        "shirts.html", "quiz.html", "gift-guide.html", "blog.html",
+        "shirts.html", "quiz.html", "gift-guide.html", "blog/index.html",
     ]
     needle = '<li><a href="weird-news.html">Weird News</a></li>'
     insert = needle + '\n<li><a href="field-guides.html">Field Guides</a></li>'
