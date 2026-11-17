@@ -636,6 +636,18 @@ footer nav a{
   padding:4px 0;border-bottom:1px solid transparent;
 }
 footer a:hover{color:#fff;border-bottom-color:var(--red)}
+footer .shop-contact{
+  display:inline-block;
+  background:#F3ECDD;
+  color:#111;
+  font-weight:700;
+  font-size:1rem;
+  line-height:1.4;
+  padding:8px 12px;
+  margin:0 0 14px;
+}
+footer .shop-contact a{color:#111;font-weight:700;text-decoration:underline}
+footer .shop-contact a:hover{color:#111;border-bottom-color:#111}
 .disclosure{font-size:.8rem;opacity:1;max-width:70ch;line-height:1.5;color:var(--text-dim)}
 /* Yellow/cream/white callout bars (often inline) need dark ink + dark links */
 p.disclosure[style*="background"],
