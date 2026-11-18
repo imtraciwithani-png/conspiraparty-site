@@ -761,7 +761,7 @@ def render_html(items: list[dict], generated_at: str) -> str:
 <html lang="en">
 <head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="max-image-preview:large">
 <title>Weird News | Conspiraparty</title>
 <meta name="description" content="Daily weird news — UFOs, cryptids, and odd headlines, with skeptic Conspiraparty takes. Auto-updated. Tragedy filtered. Entertainment only.">
 <link rel="canonical" href="https://conspiraparty.com/weird-news.html">

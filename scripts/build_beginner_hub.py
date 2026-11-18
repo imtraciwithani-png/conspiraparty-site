@@ -106,7 +106,7 @@ HUB = '''<p class="beginner-hub-strip">
 def page(title, desc, slug, current, body, extra_js=''):
     url = f'https://conspiraparty.com/{slug}'
     return f'''<!doctype html>
-<html lang="en"><head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en"><head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="max-image-preview:large">
 <title>{esc(title)} | Conspiraparty</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{url}">
@@ -601,7 +601,7 @@ join_body = f'''
 '''
 # join page already has signup in template; skip duplicate by using empty signup override — simplest: custom page write
 join_html = f'''<!doctype html>
-<html lang="en"><head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en"><head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="max-image-preview:large">
 <title>Join the Agency: Free Agent ID Badge | Conspiraparty</title>
 <meta name="description" content="Join the Shadow Party Committee and get a free Top Secret Agent ID Badge printable. Web3Forms signup. No spam.">
 <link rel="canonical" href="https://conspiraparty.com/join-the-agency.html">

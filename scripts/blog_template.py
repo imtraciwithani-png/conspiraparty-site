@@ -7,6 +7,8 @@ so new posts keep the X follow link in signup + footer.
 from __future__ import annotations
 
 X_URL = "https://x.com/conspiraparty"
+# Put this in the <head> of every blog post. Indexable pages only.
+BLOG_ROBOTS = '<meta name="robots" content="max-image-preview:large">'
 FOLLOW_LINK = f'<a href="{X_URL}" target="_blank" rel="noopener">Follow @conspiraparty on X</a>'
 FOLLOW_FOOTER = f'<p class="x-follow">{FOLLOW_LINK}</p>'
 FOLLOW_BTN = (
