@@ -49,7 +49,7 @@ BLOG_FOOTER = f'''<footer><div class="wrap"><nav aria-label="Footer"><ul>
 <li><a href="../weird-news.html">Weird News</a></li>
 <li><a href="index.html">Rabbit Holes Blog</a></li>
 <li><a href="../free-printables.html">Free Printables</a></li>
-<li><a href="../friends-of-the-committee.html">Friends of the Committee</a></li><li><a href="../start-here.html">Start Here</a></li><li><a href="../quiz.html">Which Conspiracy Are You?</a></li><li><a href="../quiz-cryptid.html">Which Cryptid Are You?</a></li><li><a href="../quiz-theorist.html">Theorist Quiz</a></li><li><a href="../theory-generator.html">Theory Generator</a></li><li><a href="../supply-drop.html">Supply Drop</a></li><li><a href="../field-guides.html">Field Guides</a></li><li><a href="../shorts.html">Videos</a></li></ul></nav>
+<li><a href="../friends-of-the-committee.html">Friends of the Committee</a></li><li><a href="../start-here.html">Start Here</a></li><li><a href="../quiz.html">Which Conspiracy Are You?</a></li><li><a href="../quiz-cryptid.html">Which Cryptid Are You?</a></li><li><a href="../quiz-theorist.html">Theorist Quiz</a></li><li><a href="../theory-generator.html">Theory Generator</a></li><li><a href="../supply-drop.html">Supply Drop</a></li><li><a href="../field-guides.html">Field Guides</a></li><li><a href="../shorts.html">Videos</a></li><li><a href="../affiliates.html">Become an Affiliate</a></li></ul></nav>
 <p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases.</p>
 {FOLLOW_FOOTER}
 <p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p>
