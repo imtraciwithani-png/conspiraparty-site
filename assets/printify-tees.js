@@ -12,7 +12,8 @@
     btn.classList.remove('is-soon');
     btn.target = '_blank';
     btn.rel = 'noopener';
-    btn.textContent = 'Buy on Printify';
+    var onStoreIndex = /zazzle\.com\/store\//.test(url) && url.indexOf('t_shirt-') === -1;
+    btn.textContent = /zazzle\.com/.test(url) ? (onStoreIndex ? 'Shop the store' : 'Shop on Zazzle') : 'Buy this tee';
   }
   fetch(DATA, { credentials: 'same-origin' })
     .then(function (r) { return r.ok ? r.json() : null; })

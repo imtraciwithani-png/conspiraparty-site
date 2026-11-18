@@ -1,7 +1,7 @@
 {
   "storeUrl": "https://conspiraparty-band-tees.printify.me",
   "storeLabel": "Shop the store",
-  "note": "Paste each product's Printify Pop-Up URL into url. Leave empty to keep Coming soon. Do not put Totally Real Tour URLs in storeUrl \u2014 that stays the Pop-Up home.",
+  "note": "Product urls are live Zazzle listings. simulation-glitch has no matching public Zazzle product yet, so it points at the store product list. storeUrl stays the Printify Pop-Up.",
   "products": [
     {
       "id": "agents-in-black-vans",
@@ -9,7 +9,7 @@
       "tagline": "Witness Protection Tour 1979",
       "image": "assets/img/tour-merch/agents-in-black-vans.webp",
       "collection": "totally-real-tour",
-      "url": "https://conspiraparty-band-tees.printify.me/product/33699044"
+      "url": "https://www.zazzle.com/agents_in_black_vans_witness_protection_tour_1979_t_shirt-256916540727830151"
     },
     {
       "id": "area-51-drifters",
@@ -17,7 +17,7 @@
       "tagline": "Classified Tour 1977",
       "image": "assets/img/tour-merch/area-51-drifters.webp",
       "collection": "totally-real-tour",
-      "url": "https://conspiraparty-band-tees.printify.me/product/33699074"
+      "url": "https://www.zazzle.com/area_51_drifters_classified_tour_1977_funny_band_t_shirt-256614679692193198"
     },
     {
       "id": "bigfoot-and-the-blurry-photos",
@@ -25,7 +25,7 @@
       "tagline": "Out of Focus Tour 1976",
       "image": "assets/img/tour-merch/bigfoot-and-the-blurry-photos.webp",
       "collection": "totally-real-tour",
-      "url": "https://conspiraparty-band-tees.printify.me/product/33698814"
+      "url": "https://www.zazzle.com/bigfoot_and_the_blurry_photos_out_of_focus_tour_t_shirt-256185120764433966"
     },
     {
       "id": "chemtrail-cowboys",
@@ -33,7 +33,7 @@
       "tagline": "Sky Lines Tour 1978",
       "image": "assets/img/tour-merch/chemtrail-cowboys.webp",
       "collection": "totally-real-tour",
-      "url": "https://conspiraparty-band-tees.printify.me/product/33698872"
+      "url": "https://www.zazzle.com/chemtrail_cowboys_sky_lines_tour_1978_funny_fake_t_shirt-256867764723780936"
     },
     {
       "id": "santas-surveillance-squad",
@@ -41,7 +41,7 @@
       "tagline": "Naughty List Leak Tour 1982",
       "image": "assets/img/tour-merch/santas-surveillance-squad.webp",
       "collection": "totally-real-tour",
-      "url": "https://conspiraparty-band-tees.printify.me/product/33698903"
+      "url": "https://www.zazzle.com/santas_surveillance_squad_naughty_list_leak_tour_t_shirt-256834269500413005"
     },
     {
       "id": "simulation-glitch",
@@ -49,7 +49,7 @@
       "tagline": "Reboot Tour 1989",
       "image": "assets/img/tour-merch/simulation-glitch.webp",
       "collection": "totally-real-tour",
-      "url": "https://conspiraparty-band-tees.printify.me/product/33698922"
+      "url": "https://www.zazzle.com/store/conspiraparty/products"
     },
     {
       "id": "the-hollow-earth-hollers",
@@ -57,7 +57,7 @@
       "tagline": "Down Under Tour 1996",
       "image": "assets/img/tour-merch/the-hollow-earth-hollers.webp",
       "collection": "totally-real-tour",
-      "url": "https://conspiraparty-band-tees.printify.me/product/33698947"
+      "url": "https://www.zazzle.com/hollow_earth_hollers_down_under_tour_1996_funny_t_shirt-256365792305895676"
     },
     {
       "id": "the-illuminappi",
@@ -65,7 +65,7 @@
       "tagline": "Secret Nap Society Tour 1988",
       "image": "assets/img/tour-merch/the-illuminappi.webp",
       "collection": "totally-real-tour",
-      "url": "https://conspiraparty-band-tees.printify.me/product/33698969"
+      "url": "https://www.zazzle.com/the_illuminappi_secret_nap_society_tour_1988_t_shirt-256084521141450002"
     },
     {
       "id": "the-moon-hoaxers",
@@ -73,7 +73,7 @@
       "tagline": "Live from the Soundstage 1969",
       "image": "assets/img/tour-merch/the-moon-hoaxers.webp",
       "collection": "totally-real-tour",
-      "url": "https://conspiraparty-band-tees.printify.me/product/33698991"
+      "url": "https://www.zazzle.com/the_moon_hoaxers_live_from_the_soundstage_1969_t_shirt-256420370728940382"
     },
     {
       "id": "the-robot-pigeons",
@@ -81,7 +81,7 @@
       "tagline": "Recharging on Powerlines Tour 1986",
       "image": "assets/img/tour-merch/the-robot-pigeons.webp",
       "collection": "totally-real-tour",
-      "url": "https://conspiraparty-band-tees.printify.me/product/33699008"
+      "url": "https://www.zazzle.com/the_robot_pigeons_recharging_on_powerlines_tour_t_shirt-256515552152298968"
     },
     {
       "id": "the-time-travelers-union",
@@ -89,7 +89,7 @@
       "tagline": "Back to Last Tuesday Tour 1966",
       "image": "assets/img/tour-merch/the-time-travelers-union.webp",
       "collection": "totally-real-tour",
-      "url": "https://conspiraparty-band-tees.printify.me/product/33699035"
+      "url": "https://www.zazzle.com/time_travelers_union_back_to_last_tuesday_tour_t_shirt-256321294126498046"
     }
   ]
 }

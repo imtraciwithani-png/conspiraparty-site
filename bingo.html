@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2026 Weird News Bingo | Conspiraparty</title>
+<meta name="description" content="Play 2026 Weird News Bingo and 2026 Political News Bingo. Tap a square, shuffle the card, and share how many of the 24 you got.">
+<link rel="canonical" href="https://conspiraparty.com/bingo.html">
+<meta property="og:site_name" content="Conspiraparty">
+<meta property="og:title" content="2026 Weird News Bingo | Conspiraparty">
+<meta property="og:description" content="Tap the headlines you remember. Two cards: weird news and political news. Free to play.">
+<meta property="og:url" content="https://conspiraparty.com/bingo.html">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://conspiraparty.com/assets/og/index.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="2026 Weird News Bingo | Conspiraparty">
+<meta name="twitter:description" content="Tap the headlines you remember. How many of 24 did you get?">
+<meta name="twitter:image" content="https://conspiraparty.com/assets/og/index.jpg">
+<meta name="theme-color" content="#111111">
+<link rel="icon" href="assets/img/favicon-64.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/style.css?v=bingo1">
+<link rel="stylesheet" href="assets/redesign.css?v=bingo1">
+<style>
+.bingo-page{padding:28px 0 72px}
+.bingo-page h1{font-size:clamp(2.1rem,8vw,3.4rem);color:#111;margin:0 0 8px}
+.bingo-intro{max-width:38rem;margin:0 auto 18px;color:#111;font-size:1.05rem}
+.bingo-tabs{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:0 0 16px}
+.bingo-tabs button{font-family:Anton,Impact,sans-serif;letter-spacing:.03em;text-transform:uppercase;border:2px solid #111;background:#fffdf8;color:#111;padding:10px 14px;min-height:44px;cursor:pointer}
+.bingo-tabs button.is-on{background:#c8102e;color:#fff}
+.bingo-tabs button:focus-visible,.sq:focus-visible,.bingo-actions button:focus-visible,.bingo-cta a:focus-visible{outline:3px solid #111;outline-offset:2px}
+.cork-mat{position:relative;max-width:760px;width:100%;margin:0 auto;background:#6d4630;padding:18px 8px 14px;border-radius:10px;box-shadow:0 12px 28px rgba(0,0,0,.18);box-sizing:border-box}
+.pin{position:absolute;width:14px;height:14px;border-radius:50%;background:#c8102e;border:2px solid #3a120f;box-shadow:inset 0 -2px 0 rgba(0,0,0,.25)}
+.pin.tl{top:8px;left:10px}.pin.tr{top:8px;right:10px}.pin.bl{bottom:8px;left:10px}.pin.br{bottom:8px;right:10px}
+.sheet{background:#f6f0e4;color:#111;border:2px solid #1a120c;padding:16px 10px 14px}
+.sheet h2{font-family:Anton,Impact,sans-serif;text-transform:uppercase;letter-spacing:.02em;text-align:center;font-size:clamp(1.7rem,6vw,2.6rem);line-height:1;margin:0;color:#111}
+.sheet .rule{width:7.2rem;height:4px;background:#c8102e;margin:8px auto 6px;border:0}
+.sheet .ask{text-align:center;margin:0 0 12px;font-weight:700;color:#111}
+.cols{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px;margin-bottom:4px}
+.cols span{background:#c8102e;color:#fff;text-align:center;font-family:Anton,Impact,sans-serif;font-size:clamp(1.05rem,4.2vw,1.6rem);line-height:1;padding:6px 0}
+.grid5{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px}
+.bingo-page .wrap{padding-left:12px;padding-right:12px}
+.sq{min-width:0;min-height:4.8rem;padding:5px 3px;background:#fffdf8;color:#111;border:2px solid #1a120c;font:700 clamp(10px,2.7vw,14px)/1.2 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;overflow-wrap:break-word}
+.sq strong{font-family:Anton,Impact,sans-serif;font-weight:400;letter-spacing:.03em;font-size:.78rem}
+.sq span{display:block;font-size:.62rem;font-weight:700;margin-top:2px}
+.sq.is-on{background:#c8102e;color:#fff}
+.sq.is-line{box-shadow:inset 0 0 0 2px #111}
+.sq.free{cursor:default}
+.bingo-actions{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:14px 0 0}
+.bingo-actions button{font-family:Anton,Impact,sans-serif;letter-spacing:.03em;text-transform:uppercase;border:2px solid #111;background:#fffdf8;color:#111;min-height:44px;padding:10px 14px;cursor:pointer}
+.bingo-actions button.primary{background:#c8102e;color:#fff}
+.score-line{margin:14px auto 0;max-width:36rem;text-align:center;font-weight:700;color:#111;font-size:1rem}
+.celebrate{margin:12px auto 0;max-width:36rem;text-align:center;background:#fffdf8;border:2px solid #111;padding:12px 10px;position:relative;overflow:hidden}
+.celebrate[hidden]{display:none}
+.celebrate strong{font-family:Anton,Impact,sans-serif;font-size:clamp(2rem,8vw,3rem);letter-spacing:.08em;color:#c8102e;display:block;line-height:1}
+.celebrate p{margin:4px 0 0;color:#111;font-weight:700}
+.celebrate.pop{animation:stamp .45s ease}
+.dot{position:absolute;width:8px;height:8px;border-radius:50%;background:#c8102e;top:-10px;animation:fall 1.1s ease-in forwards}
+.dot:nth-child(1){left:12%;animation-delay:.05s}
+.dot:nth-child(2){left:28%;background:#111;animation-delay:.12s}
+.dot:nth-child(3){left:46%;animation-delay:.02s}
+.dot:nth-child(4){left:63%;background:#111;animation-delay:.18s}
+.dot:nth-child(5){left:78%;animation-delay:.08s}
+.dot:nth-child(6){left:90%;background:#111;animation-delay:.15s}
+@keyframes stamp{from{transform:scale(.92) rotate(-2deg)}to{transform:none}}
+@keyframes fall{to{transform:translateY(140px);opacity:0}}
+@media (prefers-reduced-motion:reduce){
+  .celebrate.pop,.dot{animation:none}
+}
+.bingo-cta{max-width:40rem;margin:28px auto 0;text-align:center;color:#111}
+.bingo-cta h2{font-size:clamp(1.6rem,5vw,2.2rem);color:#111}
+.bingo-cta p{color:#111}
+.bingo-cta .row{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+@media (min-width:720px){
+  .cols,.grid5{gap:6px}
+  .sq{font-size:.86rem;min-height:6.2rem;padding:8px 6px}
+  .sheet{padding:22px 16px 18px}
+  .cork-mat{padding:28px 18px 22px}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="promo"><a href="party-kits.html">Etsy holiday sale: 20% off party kits through Dec 1. No code needed.</a></div>
+<header class="top"><div class="bar"><a class="logo" href="index.html"><img src="assets/img/logo.png" alt="Conspiraparty" width="220" height="70"></a>
+<button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button></div>
+<nav class="main" id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="party-kits.html">Party Kits</a></li><li><a href="case-files.html">Case Files</a></li><li><a href="memes.html">Meme Lab</a></li><li><a href="gift-guide.html">Gift Guide</a></li><li><a href="leak-it.html">Share</a></li><li class="nav-more"><details><summary>More</summary><ul><li><a href="bingo.html" aria-current="page">2026 Bingo</a></li><li><a href="friends-of-the-committee.html">Friends of the Committee</a></li><li><a href="start-here.html">Start Here</a></li><li><a href="quiz.html">Which Conspiracy Are You?</a></li><li><a href="quiz-cryptid.html">Which Cryptid Are You?</a></li><li><a href="quiz-theorist.html">Theorist Quiz</a></li><li><a href="theory-generator.html">Theory Generator</a></li><li><a href="supply-drop.html">Supply Drop</a></li><li><a href="field-guides.html">Field Guides</a></li><li><a href="shorts.html">Videos</a></li><li><a href="new-years-eve-party-games.html">NYE Games</a></li><li><a href="santa-secret-agent-name.html">Santa Name</a></li><li><a href="powerpoint-night-topic-generator.html">PPT Topics</a></li><li><a href="blog/index.html">Rabbit Holes Blog</a></li></ul></details></li></ul><ul class="occasion-nav"><li><a href="thanksgiving-host.html">Thanksgiving</a></li><li><a href="office-christmas-party.html">Office Christmas</a></li><li><a href="white-elephant.html">White Elephant</a></li><li><a href="funny-christmas-party-games.html">Christmas Games</a></li><li><a href="friendsgiving-games.html">Friendsgiving Games</a></li><li><a href="gift-guide.html">Gift Guide</a></li></ul></nav>
+</header>
+<main id="main">
+<section class="v2-cream bingo-page"><div class="wrap">
+<h1 class="center">News <span class="r">bingo</span></h1>
+<p class="bingo-intro center">Two cards of real 2026 headlines. Tap a square to mark it. The middle square is free. A full line across, down, or diagonal is a bingo.</p>
+<div id="bingo-app">
+<div class="bingo-tabs" role="tablist" aria-label="Bingo cards">
+<button type="button" role="tab" id="tab-weird" data-deck="weird" aria-selected="true" aria-controls="bingo-card">Weird news</button>
+<button type="button" role="tab" id="tab-political" data-deck="political" aria-selected="false" aria-controls="bingo-card">Political news</button>
+</div>
+<div class="cork-mat" id="bingo-card">
+<span class="pin tl" aria-hidden="true"></span>
+<span class="pin tr" aria-hidden="true"></span>
+<span class="pin bl" aria-hidden="true"></span>
+<span class="pin br" aria-hidden="true"></span>
+<div class="sheet">
+<h2 data-card-title>2026 Weird News Bingo</h2>
+<hr class="rule">
+<p class="ask">How many did you get?</p>
+<div class="cols" aria-hidden="true"><span>B</span><span>I</span><span>N</span><span>G</span><span>O</span></div>
+<div class="grid5" data-grid role="group" aria-label="Bingo squares"></div>
+<div class="celebrate" data-celebrate hidden>
+<span class="dot" aria-hidden="true"></span>
+<span class="dot" aria-hidden="true"></span>
+<span class="dot" aria-hidden="true"></span>
+<span class="dot" aria-hidden="true"></span>
+<span class="dot" aria-hidden="true"></span>
+<span class="dot" aria-hidden="true"></span>
+<strong>BINGO</strong>
+<p>You lined them up. The free space counts.</p>
+</div>
+<p class="score-line"><span data-count>0</span> of 24 marked</p>
+<p class="score-line" data-share-line>I got 0 of 24 — how many did you get? conspiraparty.com/bingo.html</p>
+<div class="bingo-actions">
+<button type="button" data-randomize>Randomize card</button>
+<button type="button" class="primary" data-share-score>Share your score</button>
+</div>
+</div>
+</div>
+<p class="sr" data-live aria-live="polite"></p>
+<noscript><p class="bingo-intro">This card needs JavaScript to mark squares. No account, no extra trackers.</p></noscript>
+<div class="bingo-cta">
+<h2>Play it on paper next</h2>
+<p>The printable party kits have invitations, badges, bingo, and a host guide. The Conspiraparty party kit is $12.99 as an instant download.</p>
+<div class="row">
+<a class="btn" href="party-kits.html">See the party kits</a>
+<a class="btn alt" href="https://ko-fi.com/s/e35cf6ce46" rel="noopener sponsored" target="_blank">Party kit on Ko-fi · $12.99</a>
+</div>
+</div>
+</div>
+</div></section>
+</main>
+<footer><div class="wrap">
+<nav aria-label="Footer"><ul><li><a href="index.html">Home</a></li><li><a href="party-kits.html">Party Kits</a></li><li><a href="case-files.html">Case Files</a></li><li><a href="memes.html">Meme Lab</a></li><li><a href="gift-guide.html">Gift Guide</a></li><li><a href="gift-shop.html">Gift Shop</a></li><li><a href="leak-it.html">Share</a></li><li><a href="weird-news.html">Weird News</a></li><li><a href="bingo.html" aria-current="page">2026 Bingo</a></li><li><a href="blog/index.html">Rabbit Holes Blog</a></li><li><a href="free-printables.html">Free Printables</a></li><li><a href="friends-of-the-committee.html">Friends of the Committee</a></li><li><a href="start-here.html">Start Here</a></li><li><a href="quiz.html">Which Conspiracy Are You?</a></li><li><a href="quiz-cryptid.html">Which Cryptid Are You?</a></li><li><a href="quiz-theorist.html">Theorist Quiz</a></li><li><a href="theory-generator.html">Theory Generator</a></li><li><a href="supply-drop.html">Supply Drop</a></li><li><a href="field-guides.html">Field Guides</a></li><li><a href="shorts.html">Videos</a></li><li><a href="new-years-eve-party-games.html">NYE Games</a></li><li><a href="santa-secret-agent-name.html">Santa Name</a></li><li><a href="powerpoint-night-topic-generator.html">PPT Topics</a></li></ul></nav>
+<p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases. Some links on this site are affiliate links, which means we may earn a small commission at no extra cost to you.</p>
+<p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p>
+<p class="v2-socials"><a href="https://x.com/conspiraparty" rel="noopener" target="_blank">X @conspiraparty</a> · <a href="https://www.tiktok.com/@conspiraparty" rel="noopener" target="_blank">TikTok @conspiraparty</a> · <a href="https://www.pinterest.com/tanderson7712/" rel="noopener" target="_blank">Pinterest</a> · <a href="https://ko-fi.com/conspiraparty" rel="noopener" target="_blank">Ko-fi</a></p>
+<p class="shop-contact" style="display:inline-block;background:#F3ECDD;color:#111;font-weight:700;font-size:1rem;line-height:1.4;padding:8px 12px;margin:0 0 14px">Contact: <a href="mailto:traciandersonart@gmail.com" style="color:#111;font-weight:700;text-decoration:underline">traciandersonart@gmail.com</a></p>
+<p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p>
+</div></footer>
+<script src="assets/site.js" defer></script>
+<script src="assets/bingo.js" defer></script>
+<script data-goatcounter="https://conspiraparty.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
