@@ -447,7 +447,7 @@ def page_chrome_head(title: str, desc: str, canonical: str, og_image: str) -> st
 <html lang="en">
 <head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="max-image-preview:large">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{esc(canonical)}">
@@ -607,7 +607,7 @@ def render_index() -> str:
 <html lang="en">
 <head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="max-image-preview:large">
 <title>Suspicious Field Guides | Conspiraparty</title>
 <meta name="description" content="Free Suspicious Field Guides: weird checklists for Area 51, Roswell, Denver Airport, Mothman country and more. Phone-friendly + printable.">
 <link rel="canonical" href="{SITE}/field-guides.html">

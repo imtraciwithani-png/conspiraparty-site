@@ -51,7 +51,7 @@ def page(slug, title, desc, body, strip_idx=0, extra_head="", path_prefix=""):
     css_prefix = path_prefix
     share_url = f"https://conspiraparty.com/{slug}"
     html = f"""<!doctype html>
-<html lang="en"><head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en"><head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="max-image-preview:large">
 <title>{title} | Conspiraparty</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{share_url}">
@@ -372,7 +372,7 @@ nav = NAV.format(cur_hub=cur_hub)
 # simplify nav hrefs with prefix manually in page() — call page with path_prefix
 share_url = 'https://conspiraparty.com/weekly-dig/issue-01.html'
 html = f"""<!doctype html>
-<html lang="en"><head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en"><head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="max-image-preview:large">
 <title>{title} | Conspiraparty</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{share_url}">
