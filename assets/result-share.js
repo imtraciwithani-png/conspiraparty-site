@@ -38,7 +38,7 @@
     wrap(g, opts.quiz || "Conspiraparty", 72, 140, 936, 52);
     g.font = "700 72px system-ui, Segoe UI, sans-serif";
     var y = wrap(g, opts.title || "", 72, 280, 936, 84);
-    g.font = "36px system-ui, Segoe UI, sans-serif";
+    g.font = "700 36px system-ui, Segoe UI, sans-serif";
     wrap(g, opts.line || "", 72, y + 80, 936, 50);
     g.fillStyle = "#c8102e";
     g.fillRect(0, 1248, 1080, 102);

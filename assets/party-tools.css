@@ -1,4 +1,35 @@
-/* Shared layout for the in-browser party tools. Uses the site palette. */
+/* Shared layout for the in-browser party tools. Uses the site palette.
+   Result cards beat the odd .paper rule that paints a near-black box. */
+#result.paper{
+  background:#f6f0e4 !important;
+  background-image:none !important;
+  color:#111 !important;
+}
+#result.paper h1,
+#result.paper h2,
+#result.paper h3,
+#result.paper p,
+#result.paper li,
+#result.paper .lead,
+#result.paper strong,
+#result.paper span{
+  color:#111 !important;
+}
+#result.paper a:not(.btn){
+  color:#9e1015 !important;
+  background:transparent !important;
+  font-weight:700;
+}
+#result .btn{
+  background:#c8102e !important;
+  color:#fff !important;
+  border-color:#111 !important;
+}
+#result .btn.alt{
+  background:#fffdf8 !important;
+  color:#111 !important;
+  border-color:#111 !important;
+}
 .tool-page{color:#111}
 .tool-page h1,.tool-page h2,.tool-page p,.tool-page li,.tool-page label{color:#111}
 .q label{display:block;margin:8px 0;padding:12px;background:#fffdf8;border:2px solid #111;color:#111;font-weight:700;cursor:pointer}

@@ -20,6 +20,7 @@
 <link rel="stylesheet" href="assets/style.css?v=kofi1"><link rel="stylesheet" href="assets/redesign.css?v=v2">
 <link rel="stylesheet" href="assets/share.css">
 <link rel="stylesheet" href="assets/beginner-hub.css?v=contrast5">
+<link rel="stylesheet" href="assets/party-tools.css">
 </head>
 <body><a class="skip" href="#main">Skip to content</a>
 <div class="promo"><a href="party-kits.html">Etsy holiday sale: 20% off party kits through Dec 1. No code needed.</a></div>
@@ -142,24 +143,24 @@
     var canvas = document.createElement('canvas');
     canvas.width = 1200; canvas.height = 630;
     var g = canvas.getContext('2d');
-    g.fillStyle = '#0b0b0b';
+    g.fillStyle = '#f6f0e4';
     g.fillRect(0,0,1200,630);
-    g.fillStyle = '#e11d26';
+    g.fillStyle = '#c8102e';
     g.fillRect(0,0,18,630);
     g.fillRect(48,46,280,52);
     g.fillStyle = '#fff';
-    g.font = '26px Georgia, serif';
+    g.font = '700 26px Georgia, serif';
     g.fillText('PERSONNEL FILE', 64, 80);
-    g.fillStyle = '#f2efe8';
-    g.font = '64px Anton, Impact, sans-serif';
+    g.fillStyle = '#111';
+    g.font = '700 64px Anton, Impact, sans-serif';
     var title = wrapLines(g, r.t, 1080);
     var y = 180;
     title.forEach(function(line){ g.fillText(line, 48, y); y += 72; });
-    g.fillStyle = '#e11d26';
-    g.font = '28px Georgia, serif';
+    g.fillStyle = '#111';
+    g.font = '700 28px Georgia, serif';
     wrapLines(g, r.d, 1080).forEach(function(line){ g.fillText(line, 48, y+10); y += 36; });
-    g.fillStyle = '#b8b2a6';
-    g.font = '24px Georgia, serif';
+    g.fillStyle = '#111';
+    g.font = '700 24px Georgia, serif';
     g.fillText('conspiraparty.com/quiz-theorist.html', 48, 580);
     var url = canvas.toDataURL('image/png');
     var img = document.getElementById('rcard');
