@@ -5,7 +5,7 @@
   <url><loc>https://conspiraparty.com/affiliates.html</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://conspiraparty.com/alien-gender-reveal-party-ideas.html</loc><lastmod>2026-10-26</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/alien-gender-reveal-party-ideas-pin.jpg</image:loc></image:image></url>
   <url><loc>https://conspiraparty.com/apparel.html</loc><lastmod>2026-10-26</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/apparel-pin.jpg</image:loc></image:image></url>
-  <url><loc>https://conspiraparty.com/black-friday.html</loc><lastmod>2026-11-19</lastmod></url>
+  <!-- Re-add https://conspiraparty.com/black-friday.html after Nov 26, 2026. It is noindex until then, so daily blog and news routines must not put it back before that date. -->
   <url><loc>https://conspiraparty.com/blog-best-gifts-for-ufo-believers.html</loc><lastmod>2026-10-26</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/blog-best-gifts-for-ufo-believers-pin.jpg</image:loc></image:image></url>
   <url><loc>https://conspiraparty.com/blog-funniest-conspiracy-theories-for-a-party-game.html</loc><lastmod>2026-10-26</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/blog-funniest-conspiracy-theories-for-a-party-game-pin.jpg</image:loc></image:image></url>
   <url><loc>https://conspiraparty.com/blog-halloween-alien-party-shopping-list.html</loc><lastmod>2026-10-26</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/blog-halloween-alien-party-shopping-list-pin.jpg</image:loc></image:image></url>
@@ -15,7 +15,7 @@
   <url><loc>https://conspiraparty.com/books.html</loc><lastmod>2026-11-01</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/books-pin.jpg</image:loc></image:image></url>
   <url><loc>https://conspiraparty.com/evidence.html</loc><lastmod>2026-11-19</lastmod></url>
   <url><loc>https://conspiraparty.com/funny-christmas-party-games.html</loc><lastmod>2026-11-16</lastmod><image:image><image:loc>https://conspiraparty.com/assets/og/funny-christmas-party-games.jpg</image:loc></image:image></url>
-  <url><loc>https://conspiraparty.com/friendsgiving-games.html</loc><lastmod>2026-11-14</lastmod><image:image><image:loc>https://conspiraparty.com/assets/og/friendsgiving-games.jpg</image:loc></image:image></url>
+  <url><loc>https://conspiraparty.com/friendsgiving-games.html</loc><lastmod>2026-11-19</lastmod><image:image><image:loc>https://conspiraparty.com/assets/og/friendsgiving-games.jpg</image:loc></image:image></url>
   <url><loc>https://conspiraparty.com/classified-books.html</loc><lastmod>2026-10-26</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/classified-books-pin.jpg</image:loc></image:image></url>
   <url><loc>https://conspiraparty.com/conspiracy-library.html</loc><lastmod>2026-10-26</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/conspiracy-library-pin.jpg</image:loc></image:image></url>
   <url><loc>https://conspiraparty.com/free-alien-party-bingo.html</loc><lastmod>2026-10-26</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/free-alien-party-bingo-pin.jpg</image:loc></image:image></url>
@@ -105,8 +105,8 @@
   <url><loc>https://conspiraparty.com/field-guides/bermuda-triangle.html</loc><lastmod>2026-10-29</lastmod></url>
   <url><loc>https://conspiraparty.com/field-guides/las-vegas.html</loc><lastmod>2026-10-29</lastmod></url>
   <url><loc>https://conspiraparty.com/field-guides/point-pleasant.html</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://conspiraparty.com/blog-how-to-bring-up-conspiracy-theories-at-thanksgiving.html</loc><lastmod>2026-10-29</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/blog-how-to-bring-up-conspiracy-theories-at-thanksgiving-pin.jpg</image:loc></image:image></url>
-  <url><loc>https://conspiraparty.com/free-thanksgiving-conspiracy-cards.html</loc><lastmod>2026-10-29</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/free-thanksgiving-conspiracy-cards-pin.jpg</image:loc></image:image></url>
+  <url><loc>https://conspiraparty.com/blog-how-to-bring-up-conspiracy-theories-at-thanksgiving.html</loc><lastmod>2026-11-19</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/blog-how-to-bring-up-conspiracy-theories-at-thanksgiving-pin.jpg</image:loc></image:image></url>
+  <url><loc>https://conspiraparty.com/free-thanksgiving-conspiracy-cards.html</loc><lastmod>2026-11-19</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/free-thanksgiving-conspiracy-cards-pin.jpg</image:loc></image:image></url>
   <url>
     <loc>https://conspiraparty.com/start-here.html</loc>
     <changefreq>weekly</changefreq>
