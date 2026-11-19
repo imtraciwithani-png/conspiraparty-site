@@ -78,7 +78,7 @@
 <a id="sx" class="btn sm" target="_blank" rel="noopener">Share on X</a>
 <a id="sf" class="btn sm" target="_blank" rel="noopener">Share on Facebook</a>
 <a id="sp" class="btn sm" target="_blank" rel="noopener">Pin It</a>
-<button id="sc" class="btn sm" type="button">Copy Link</button></p>
+<button class="btn sm" id="savepic" type="button">Save my result</button> <a class="btn sm" id="sms">Text</a> <a class="btn sm" id="wa" target="_blank" rel="noopener">WhatsApp</a> <button id="sc" class="btn sm" type="button">Copy Link</button></p>
 <p><button id="again" class="btn sm" type="button">Take it again</button></p>
 </div>
 <p style="margin-top:24px">Also try <a href="quiz.html">Which Conspiracy Are You?</a> or the <a href="quiz-cryptid.html">cryptid quiz</a>.</p>
@@ -113,6 +113,7 @@
 <script src="assets/site.js" defer></script>
 <script src="assets/share.js" defer></script>
 
+<script src="assets/result-share.js"></script>
 <script>
 (function(){
   var R = {
@@ -181,11 +182,12 @@
     var im=document.getElementById('ri'); im.src=r.i; im.alt=r.p;
     drawCard(r);
     var txt='I took "Which Conspiracy Theorist Are You?" and I\'m '+r.t+'! What are you?';
-    var u=U+'?r='+k;
+    var u=U+'?r='+k+'&ref=share';
     document.getElementById('sx').href='https://x.com/intent/post?text='+encodeURIComponent(txt)+'&url='+encodeURIComponent(u);
     document.getElementById('sf').href='https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(u);
     document.getElementById('sp').href='https://www.pinterest.com/pin/create/button/?url='+encodeURIComponent(U)+'&description='+encodeURIComponent(txt);
     document.getElementById('sc').onclick=function(){navigator.clipboard&&navigator.clipboard.writeText(u); this.textContent='Copied!';};
+if(window.CPResultShare){CPResultShare.apply({base:U,key:k,quiz:'Which Conspiracy Theorist Are You?',title:r.t,line:r.d,sms:document.getElementById('sms'),wa:document.getElementById('wa'),save:document.getElementById('savepic')});}
     f.hidden=true; box.hidden=false; box.scrollIntoView({behavior:'smooth'});
   }
   f.addEventListener('submit', function(e){

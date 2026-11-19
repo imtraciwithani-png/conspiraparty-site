@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en"><head><meta name="p:domain_verify" content="b26c4f540597647634b6bc6353fd9f22"/>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow">
+<title>Declassified Black Friday</title>
+<meta name="description" content="A joke briefing. Fake files unlock on a timer. The only real offers are the existing holiday sale and the $22.99 bundle.">
+<link rel="canonical" href="https://conspiraparty.com/black-friday.html">
+<meta property="og:site_name" content="Conspiraparty">
+<meta property="og:title" content="Declassified Black Friday">
+<meta property="og:description" content="A joke briefing. Fake files unlock on a timer. The only real offers are the existing holiday sale and the $22.99 bundle.">
+<meta property="og:url" content="https://conspiraparty.com/black-friday.html">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://conspiraparty.com/assets/og/funny-christmas-party-games.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Declassified Black Friday">
+<meta name="twitter:description" content="A joke briefing. Fake files unlock on a timer. The only real offers are the existing holiday sale and the $22.99 bundle.">
+<meta name="twitter:image" content="https://conspiraparty.com/assets/og/funny-christmas-party-games.jpg">
+<meta name="theme-color" content="#111111">
+<link rel="icon" href="assets/img/favicon-64.png">
+<link rel="stylesheet" href="assets/style.css?v=kofi1">
+<link rel="stylesheet" href="assets/share.css">
+<link rel="stylesheet" href="assets/redesign.css?v=kitanchor1">
+<link rel="stylesheet" href="assets/party-tools.css"></head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="promo"><a href="party-kits.html">Etsy holiday sale: 20% off party kits through Dec 1. No code needed.</a></div>
+<header class="top"><div class="bar"><a class="logo" href="index.html"><img src="assets/img/logo.png" alt="Conspiraparty" width="220" height="70"></a>
+<button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button></div>
+<nav class="main" id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="party-kits.html">Party Kits</a></li><li><a href="case-files.html">Case Files</a></li><li><a href="memes.html">Meme Lab</a></li><li><a href="gift-guide.html">Gift Guide</a></li><li><a href="leak-it.html">Share</a></li><li class="nav-more"><details><summary>More</summary><ul><li><a href="friends-of-the-committee.html">Friends of the Committee</a></li><li><a href="start-here.html">Start Here</a></li><li><a href="quiz.html">Which Conspiracy Are You?</a></li><li><a href="quiz-cryptid.html">Which Cryptid Are You?</a></li><li><a href="quiz-theorist.html">Theorist Quiz</a></li><li><a href="theory-generator.html">Theory Generator</a></li><li><a href="supply-drop.html">Supply Drop</a></li><li><a href="field-guides.html">Field Guides</a></li><li><a href="shorts.html">Videos</a></li><li><a href="new-years-eve-party-games.html">NYE Games</a></li><li><a href="santa-secret-agent-name.html">Santa Name</a></li><li><a href="powerpoint-night-topic-generator.html">PPT Topics</a></li><li><a href="bingo.html">2026 Bingo</a></li><li><a href="blog/index.html">Rabbit Holes Blog</a></li></ul></details></li></ul><ul class="occasion-nav"><li><a href="thanksgiving-host.html">Thanksgiving</a></li><li><a href="office-christmas-party.html">Office Christmas</a></li><li><a href="white-elephant.html">White Elephant</a></li><li><a href="funny-christmas-party-games.html">Christmas Games</a></li><li><a href="friendsgiving-games.html">Friendsgiving Games</a></li><li><a href="gift-guide.html">Gift Guide</a></li></ul></nav>
+</header>
+<main id="main" class="tool-page">
+<section class="v2-cream v2-section"><div class="wrap" style="max-width:720px">
+<p class="v2-kicker">A joke briefing</p>
+<h1>Declassified Black Friday</h1>
+<p class="lead">These files are fake. They unlock on a timer in your browser, one after another. Nothing here is a new discount. The only real offers are the holiday sale already on the site, and the bundle that is already priced.</p>
+<div id="docs"></div>
+<div class="doc">
+<h2>The real checkout</h2>
+<p>Etsy holiday sale: 20% off party kits through Dec 1. No code needed.</p>
+<p><a class="btn" href="party-kits.html">See the party kits</a></p>
+<p style="margin-top:12px"><a class="btn big" href="https://ko-fi.com/s/0a6bc6a07b?ref=site" rel="noopener sponsored" target="_blank">Get the Holiday Party Bundle: Santa Is Watching + Christmas Bingo &amp; White Elephant + Office Party, $22.99 on Ko-fi</a></p>
+</div>
+</div></section>
+</main>
+<script>
+(function(){
+var files=[
+  {t:"Memo 1: The doorbuster", b:"A cart was seen moving under its own power. Witnesses blame the wheels. The wheels decline to comment."},
+  {t:"Memo 2: The price tag", b:"An agent tried to read a tag and achieved only a headache. The tag remains at large."},
+  {t:"Memo 3: The line", b:"The line outside the store has formed a committee. They have not agreed on a chair."},
+  {t:"Memo 4: The receipt", b:"A receipt longer than the gift was recovered. Analysis continues. Snacks are advised."},
+  {t:"Memo 5: The sweater", b:"An ugly sweater entered the building without a badge. Security says it knew the password."},
+  {t:"Memo 6: The leftover", b:"One marked-down pie is unaccounted for. If you see it, do not make eye contact. Offer a fork."}
+];
+var box=document.getElementById("docs");
+files.forEach(function(f,i){
+  var el=document.createElement("article");
+  el.className="doc";
+  el.innerHTML="<h3>"+f.t+"</h3><p class=\"status\">Sealed. Unlocks in a moment.</p><p class=\"body\" hidden></p>";
+  el.querySelector(".body").textContent=f.b;
+  box.appendChild(el);
+  setTimeout(function(){
+    el.querySelector(".status").textContent="Unsealed.";
+    el.querySelector(".body").hidden=false;
+  }, i*6000);
+});
+})();
+</script>
+
+<footer><div class="wrap">
+<nav aria-label="Footer"><ul><li><a href="index.html">Home</a></li><li><a href="party-kits.html">Party Kits</a></li><li><a href="case-files.html">Case Files</a></li><li><a href="memes.html">Meme Lab</a></li><li><a href="gift-guide.html">Gift Guide</a></li><li><a href="gift-shop.html">Gift Shop</a></li><li><a href="leak-it.html">Share</a></li><li><a href="weird-news.html">Weird News</a></li><li><a href="bingo.html">2026 Bingo</a></li><li><a href="blog/index.html">Rabbit Holes Blog</a></li><li><a href="free-printables.html">Free Printables</a></li><li><a href="friends-of-the-committee.html">Friends of the Committee</a></li><li><a href="start-here.html">Start Here</a></li><li><a href="quiz.html">Which Conspiracy Are You?</a></li><li><a href="quiz-cryptid.html">Which Cryptid Are You?</a></li><li><a href="quiz-theorist.html">Theorist Quiz</a></li><li><a href="theory-generator.html">Theory Generator</a></li><li><a href="supply-drop.html">Supply Drop</a></li><li><a href="field-guides.html">Field Guides</a></li><li><a href="shorts.html">Videos</a></li><li><a href="new-years-eve-party-games.html">NYE Games</a></li><li><a href="santa-secret-agent-name.html">Santa Name</a></li><li><a href="powerpoint-night-topic-generator.html">PPT Topics</a></li><li><a href="kit-quiz.html">Which kit?</a></li><li><a href="thanksgiving-quiz.html">Thanksgiving quiz</a></li><li><a href="secret-santa.html">Secret Santa</a></li><li><a href="swap-rules.html">Rules card</a></li><li><a href="12-days.html">12 days</a></li><li><a href="evidence.html">Party evidence</a></li><li><a href="affiliates.html">Become an Affiliate</a></li></ul></nav>
+<p class="disclosure">As an Amazon Associate, Conspiraparty earns from qualifying purchases. Some links on this site are affiliate links, which means we may earn a small commission at no extra cost to you.</p>
+<p class="art-disclosure">Illustrations made with AI assistance (Recraft) and edited by Traci.</p>
+<p class="v2-socials"><a href="https://x.com/conspiraparty" rel="noopener" target="_blank">X @conspiraparty</a> · <a href="https://www.tiktok.com/@conspiraparty" rel="noopener" target="_blank">TikTok @conspiraparty</a> · <a href="https://www.pinterest.com/tanderson7712/" rel="noopener" target="_blank">Pinterest</a> · <a href="https://ko-fi.com/conspiraparty" rel="noopener" target="_blank">Ko-fi</a></p>
+<p class="shop-contact" style="display:inline-block;background:#F3ECDD;color:#111;font-weight:700;font-size:1rem;line-height:1.4;padding:8px 12px;margin:0 0 14px">Contact: <a href="mailto:traciandersonart@gmail.com" style="color:#111;font-weight:700;text-decoration:underline">traciandersonart@gmail.com</a></p><p>All conspiracies on this site are for entertainment. Question everything, especially us. © 2026 Conspiraparty.com</p>
+</div></footer>
+<script src="assets/site.js" defer></script>
+<script data-goatcounter="https://conspiraparty.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body></html>
