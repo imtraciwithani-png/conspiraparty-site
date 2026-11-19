@@ -1,0 +1,20 @@
+/* Shared layout for the in-browser party tools. Uses the site palette. */
+.tool-page{color:#111}
+.tool-page h1,.tool-page h2,.tool-page p,.tool-page li,.tool-page label{color:#111}
+.q label{display:block;margin:8px 0;padding:12px;background:#fffdf8;border:2px solid #111;color:#111;font-weight:700;cursor:pointer}
+.q input{margin-right:8px}
+.q fieldset{border:2px solid #111;background:#f3ecdd;margin:0 0 14px;padding:12px}
+.q legend{font-weight:700;padding:0 6px}
+.door,.doc,.seal,.rules-card{border:2px solid #111;background:#fffdf8;color:#111;padding:14px;margin:0 0 12px}
+.door h3,.doc h3{margin:0 0 6px}
+.door.locked{background:#e7e0d2}
+.name-btn{display:block;width:100%;text-align:left;margin:8px 0;min-height:48px}
+.rules-card ol,.rules-card ul{padding-left:1.2rem}
+@media (max-width:700px){
+  .tool-page .btn.big{width:100%}
+}
+@media print{
+  header,.promo,footer,.no-print,.menu-btn,.sticky-cta{display:none !important}
+  .rules-card{border:2px solid #000}
+  body{background:#fff;color:#000}
+}
