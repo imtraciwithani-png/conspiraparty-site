@@ -446,7 +446,7 @@ def patch_quiz():
     # Add political results to JS R object
     if '"qanon"' not in t:
         insert = '''    qanon: {t:'The Q-Adjacent Corkboard Captain', d:'You collect drops like trading cards but (hopefully) still check primary sources. Believers on your feed are loud; archives are louder. Roast certainty theater.', u:'weird-news.html', p:'Weird News political rabbit holes', i:'assets/img/logo-stamp.png'},
-    resist: {t:'The Both-Sides Resistance Archivist', d:'You distrust billionaires, bureaus, and anyone who says trust them. Dark money and deep state are both real hobbies — documented pieces, mythical hydra optional.', u:'true-stories.html#prism', p:'Snowden/PRISM true story', i:'assets/img/party-kit-cover.webp'},
+    resist: {t:'The Both-Sides Resistance Archivist', d:'You distrust billionaires, bureaus, and anyone who says trust them. Dark money and deep state are both real hobbies — documented pieces, mythical hydra optional.', u:'true-stories.html#prism', p:'Snowden/PRISM true story', i:'assets/img/party-kit-hero.webp'},
 '''
         t = t.replace('var R = {', 'var R = {\n' + insert, 1)
         # if minified differently
