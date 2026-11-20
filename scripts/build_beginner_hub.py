@@ -149,7 +149,7 @@ quiz_js = r'''
 <script>
 (function(){
   var R = {
-    foil: {t:'The Tin Foil Couture Agent', d:'You dress for the job you want: antenna included. Every party needs a lookout.', u:'https://ko-fi.com/s/e35cf6ce46', e:'https://happyplaceinkandart.etsy.com/listing/4502272966', p:'Conspiraparty Party Kit', i:'assets/img/kit-0.webp'},
+    foil: {t:'The Tin Foil Couture Agent', d:'You dress for the job you want: antenna included. Every party needs a lookout.', u:'https://ko-fi.com/s/e35cf6ce46', e:'https://happyplaceinkandart.etsy.com/listing/4502272966', p:'Conspiraparty Party Kit', i:'assets/img/party-kit-cover.webp'},
     alien: {t:'The Friendly Abductee', d:'You waved at the lights. They waved back. Probably. You keep snacks for the mothership.', u:'https://ko-fi.com/s/af602f09e4', e:'https://happyplaceinkandart.etsy.com/listing/4601156509', p:'The Truth Is Out There alien kit', i:'assets/img/alien-kit.jpg'},
     leak: {t:'The Cheerful Leaker', d:'Secrets last about 12 seconds around you. Group chats fear your screenshots.', u:'https://ko-fi.com/s/48c4007b56', e:'https://happyplaceinkandart.etsy.com/listing/4600479706', p:'Who Leaked the Files? party game', i:'assets/img/wltf-01-kit-cover.webp'},
     bigfoot: {t:'The Trail-Cam Romantic', d:'You believe in blurry things and clean hiking boots. Forests whisper; you take notes.', u:'https://www.etsy.com/listing/4605278398', p:'Junior Cryptid Scout Birthday kit', i:'assets/img/cryptid-scout-kit.webp'},
