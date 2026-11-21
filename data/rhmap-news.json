@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T15:38:25.628446+00:00",
-  "generated_at_display": "Nov 20, 2026 3:38 PM UTC",
+  "generated_at": "2026-11-21T15:41:28.156736+00:00",
+  "generated_at_display": "Nov 21, 2026 3:41 PM UTC",
   "script": "scripts/fetch_rhmap_news.py",
   "max_per_topic": 6,
   "feed_status": {
@@ -10,7 +10,8 @@
     "GN-indie:nine11": "ok",
     "GN:uap": "ok",
     "GN-indie:uap": "ok",
-    "GN:epstein": "fail",
+    "GN:epstein": "ok",
+    "GN-indie:epstein": "ok",
     "GN:jfk": "ok",
     "GN-indie:jfk": "ok",
     "GN:moon": "ok",
@@ -29,7 +30,7 @@
     "GN-indie:mkultra": "ok",
     "GN:area51": "fail",
     "GN:bigfoot": "ok",
-    "GN-indie:bigfoot": "ok",
+    "GN-indie:bigfoot": "fail",
     "GN:flatearth": "ok",
     "GN-indie:flatearth": "ok",
     "GN:birds": "ok",
@@ -47,7 +48,7 @@
     "Rumble (via Google News)": "fail",
     "The Black Vault": "ok:25",
     "The Debrief": "fail",
-    "BBC News": "ok:36",
+    "BBC News": "ok:25",
     "NPR": "ok:10",
     "The Guardian": "ok:45",
     "Politico": "ok:30"
@@ -155,14 +156,6 @@
     ],
     "uap": [
       {
-        "title": "Video - NASA-UAP-D025, “Apollo 16 Scientific Debriefing” - DVIDS",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS2VQejRhbGY5OTdoNlNHbVktbnR6WW9uNnMxNW5BclctZE92MDU0SFlJZ2JjcXNEUmhEQVVUZjk1UEdXa1BuZEJkTUlsTWlIWUJfSC0zMWxzeVVYQ1ZSSXJpUG1vMEo0UjR5VVZJTTBvcERGNGhxUHNwcHFsS2s5aGFYNjMtMld1c3dGNg?oc=5",
-        "source": "DVIDS",
-        "kind": "Independent",
-        "published_display": "Nov 6, 2026",
-        "published_iso": "2026-11-06T06:52:59+00:00"
-      },
-      {
         "title": "Larry W. Bryant and the CIA: UFO Investigations, FOIA Disputes, and Government Correspondence",
         "url": "https://www.theblackvault.com/documentarchive/larry-w-bryant-and-the-cia-ufo-investigations-foia-disputes-and-government-correspondence/?utm_source=rss&utm_medium=rss&utm_campaign=larry-w-bryant-and-the-cia-ufo-investigations-foia-disputes-and-government-correspondence",
         "source": "theblackvault.com",
@@ -179,28 +172,36 @@
         "published_iso": "2026-10-07T07:00:00+00:00"
       },
       {
-        "title": "Trump releases new UFO video showing mystery object passing naval ship - Yahoo News UK",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1sNWE2MGxJeVNLUXIxMGo3Tnhha2s1UFA0SFExOWVOWURzX3pRel9aOGZvS1YtUEpQVEVqcUljY1VabF9ab2VrbkFLa1hXV0RaWEJ2dWJsUHpnV1BZREh4OTRybmdrMnhocDZGeksyVTJ6Y3NpcFBaQlY0RG9MZw?oc=5",
-        "source": "Yahoo News UK",
-        "kind": "Mainstream",
-        "published_display": "Nov 20, 2026",
-        "published_iso": "2026-11-20T15:25:39+00:00"
+        "title": "Behind AARO’s Private UAP Workshop: New Records Detail Participants, Foreign Outreach and Future Plans",
+        "url": "https://www.theblackvault.com/documentarchive/behind-aaros-private-uap-workshop-new-records-detail-participants-foreign-outreach-and-future-plans/?utm_source=rss&utm_medium=rss&utm_campaign=behind-aaros-private-uap-workshop-new-records-detail-participants-foreign-outreach-and-future-plans",
+        "source": "theblackvault.com",
+        "kind": "Independent",
+        "published_display": "Sep 25, 2026",
+        "published_iso": "2026-09-25T12:48:49+00:00"
       },
       {
-        "title": "The 5 year-long mystery of the UFO house has finally been solved in GTA 6, but one NPC knows too much - PC Gamer",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYVdYV25YRU5kN1RkZ2RlMXRJcDQwbDZvX2dlNzZIVWdDUVpDVDk3eGRnbE9TUjFKM3BBSEh5M042VU13VUE1Z2djZkh1R2U1LU5VYVFEb1BlaU1UaUN1X01hMzUzRlZ6eEZCZ3pCcnJKX2lnZnBLX3Z2N2hITTdzdjRTQUtadS1sbEtScXVFQUpJYk5fQW1JWDVDN0dFUUktLXdNRFBvYTE3aTZRd1lkeUxZRWNKY3RwVjExNTEzWFA0YXZMM1k2NmZVeU1wNGdYSGR5UFR4TEw2WVIzYW0tRjdB?oc=5",
-        "source": "PC Gamer",
+        "title": "New UFO files reveal Pentagon's plan for secret underground vault to keep 'exotic' material - The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNU0pNVVZRcXowMmt3ZFVmRFlaS1VtOWdHSWJHd0JqYU9YTktWWHdUZVR0djNQVGZXUEZZZUt2bzhzVEZxTFBudnFmNnZ5dzh0TVZPMVk3aEZBTTRHR1hHNTI0Qy1rdThqMXA5MVUyd1NvWlVHaVNpX09ka24yZXRobGo2SVRlMk04RnUwTnVlUVp5R3pHNm1BTnlPeTFOWmdIdGpQQi1naWdxOGVmOTZBUFcza0drZzZ3cjhQbFItR3h5cUR3QS1nbTNNNEQzZy1WZlFwaEE1RmdIVlhINE5feTljWThfT3hvbURBY2NuNW3SAfYBQVVfeXFMT2gxM0wtd25NTy1zX25oLWVTX1Bic0JJT29XNGxIQTJxd0ltazhPRnhKRW53WVJpSXF0M2M5UXVCM1FLTC10QWRpam5YaTRGemFVTnZEN2dYTzh1S0Y1aDVsZ2pfQXpXeDVfQ2FnNW1vbVdERUJmX05PclBQbTh5dFppMzBCMUdPcnBmN25Kd2YyMFhWeWpuS3J4OXBieXY3ZlhHS0FNWk5hZVQ3VTlZOEJaYTM0dVlxNFdYSEZ2U2lJRkpsVExKdWdSRFJFV0VaVktnYjFtWjZmZHFZUHgxS2VUWjl1dWxua0JQMzRMV0piaEx3Qnp3?oc=5",
+        "source": "The Times of India",
         "kind": "Mainstream",
-        "published_display": "Nov 20, 2026",
-        "published_iso": "2026-11-20T15:09:50+00:00"
+        "published_display": "Nov 21, 2026",
+        "published_iso": "2026-11-21T13:26:00+00:00"
       },
       {
-        "title": "From the GolfWRX Classifieds: JDM Kasko UFO by Power Tornado 44 utility club - GolfWRX",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOa1NqZm43czExRWI5NGtDZ25jZk5RMHpnYXdZZDRDX3cyR2ZpLVdtUDdkcGN2b3NkNURLak1NRG5QWTNOQ1ZKbXJpa3RSSWc4TThhUTZfUDZOeXFXMFJRNkFXdFJ3RTF0TGVhVG9xUDdTOHNQZ05IQTVFMkZkVUlMbUwxUzZydWk3dE1ya0lMTDZ2cUdLY2gwZVFtVU5rbGlKN25XRndB?oc=5",
-        "source": "GolfWRX",
+        "title": "Video. Pentagon declassifies new UFO footage filmed by US military - Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYmhrQk01Y21RcmJwYldKbGtvQXo4RXNyaFdoRGtLTm0zb1MyWXBINnA5bF9Bc2ZJbjFSUmwxalBoQnlzXzBac09SUVR5cklTTVotV2hJTDhMX3k5dWJLZlNIcG5LQkNzN0d0WllrQjNIMXYzMWFsTU42b1c1enZoMGpjTS04WFdQZ0hPTmJLNjhZeGd6Sm1GaE90Mk40WlNCRjAw?oc=5",
+        "source": "Euronews.com",
         "kind": "Mainstream",
-        "published_display": "Nov 20, 2026",
-        "published_iso": "2026-11-20T13:36:53+00:00"
+        "published_display": "Nov 21, 2026",
+        "published_iso": "2026-11-21T09:01:41+00:00"
+      },
+      {
+        "title": "Latest UFO file drop is for the birds, scientist Avi Loeb says - NewsNation",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA1ZUxLUUotbTZiOHRlNWZiS2hEYVdIU09MNkgxZHNLUXdZQkxWaF9oSWJiUGxiSDRkTm50Z1pjT25NNkFBb3docFNnZkpnUXF6WHhjWnhmYmFzc3FXNU9sWFdqdjdpTS1ZR1E1MEZrN0VlVl9KdnM0NTBOa2JpZ9IBgwFBVV95cUxPSXRXRGEzZ2xRS1pyTUlZUGFia29vQV9Fa0J4Wm5la1lIQ0kyRHZiOWxHVEZMT2FGeDRhUmVaaG5WSTdaa2RpdEQ5V0hZeVBoRV9QajNUV2xXWHlpV0tLbEVPaUIxV3RUTy1zalU0MmhzeTZmNnRWemdwc1ZvY0JhczZkYw?oc=5",
+        "source": "NewsNation",
+        "kind": "Mainstream",
+        "published_display": "Nov 21, 2026",
+        "published_iso": "2026-11-21T05:38:53+00:00"
       }
     ],
     "epstein": [
@@ -227,6 +228,30 @@
         "kind": "Independent",
         "published_display": "Sep 24, 2026",
         "published_iso": "2026-09-24T15:19:40+00:00"
+      },
+      {
+        "title": "Why Jeffrey Epstein loved Russia: women, oligarchs and a shot at redemption - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWmhSRk1aazd5Y3NQdUNnWV9NdkpzSHY0TFB2TS1ucXNiOGVfUXlsUFoxWloxM19wNjlVM2hicUFVbHZkOTNVSkJNTTRoa3R1SHJEY29UNmpfWFZfOUs3ZlkwSV9HcEFmRFVjOXloZWR6c19qT0kzQ3h4YUNBTlFjUVBIT1RraUxveVQ4d3FEWU1ZZWEyNXhfQU1vcVdjajlIZVBlZzJVYzZTc01lM01pai1DdUtYUQ?oc=5",
+        "source": "Reuters",
+        "kind": "Mainstream",
+        "published_display": "Nov 20, 2026",
+        "published_iso": "2026-11-20T11:04:14+00:00"
+      },
+      {
+        "title": "Video: Opinion | House Oversight Democrat on the Epstein Files - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPU2pxZTVpNFdfV2lWc0taZXdlR2RFdUc2VElIV3oxdWc3RGlMaUxFR0VKZTFYVlRVY0gxWHJSM045aVhPa3pySjRHSzBvMW5GQURTZlNoNkx4WFZXaFBGem1qWEROckd5cFNBeVhxa1hueFcxZ2gtOFpKdHg1ODUtTVh4YVNnd19tQXJmSUtlRzdwZjdtVkFReGRjQXJJMGU4TE9Db1lVTQ?oc=5",
+        "source": "The New York Times",
+        "kind": "Mainstream",
+        "published_display": "Nov 20, 2026",
+        "published_iso": "2026-11-20T11:02:57+00:00"
+      },
+      {
+        "title": "UCI professors mentioned in Epstein files - New University",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcloyUEh4WHdKdW5UbkRRazFOM0ZtUVRqNlU3X0VnODNMT1NlTWRxOGhvRUI3SWxJUURLQzRId3RnYjhpYjcyYXl5Um83T1NkQnlCQXl2VFlaek9vcGEwM2EwMndORWFTUVBTNjRZVWtvMFEydDBFcm01RjdOSXRMVzNsT0IxUQ?oc=5",
+        "source": "New University",
+        "kind": "Mainstream",
+        "published_display": "Nov 20, 2026",
+        "published_iso": "2026-11-20T01:23:46+00:00"
       }
     ],
     "jfk": [
@@ -247,12 +272,12 @@
         "published_iso": "2026-03-27T07:00:00+00:00"
       },
       {
-        "title": "Rep. Luna publishes documents from Russia regarding John F. Kennedy assassination - National News Desk",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNU1l6Q0pXNjI4NzNoOVFjeGJ3U1R3cHE5SDlMbGdCeDJNMjlLRmhCNm5jTU5MS0JUUENQYXJQNFA5Q3VTeXB1V1NLVFV5ZjY1cjJKYzJiYWNnOXJHeDByTG42dlZiYnpqUjFvc1EzQW93QzE4ZmNBeWhMeVlRcXN0dWNXS3Z5My1UZ2plUGwydk5pVVNnOGdhRTNtVVFFNUVvclJRUlo3RC1hU3NXZ0NmS1ZtUUVGc2tFOW9tczI3enp6eEFPS2ltdG9pVFhsNGxSOXhOSUZGRzRmcFcxNVNkZWM2ZzVPRjZCYzRZ?oc=5",
-        "source": "National News Desk",
+        "title": "Opinion | 50 years ago, he saw a startling document in the JFK file. Where is it now? - The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLURUVWo3U0JHR29BYXVaWFdxYjZFS0lwTTJHMnI1X0ZWajEta19hd2M5c3ZLN0lNS1U4a3pvdEJQeE82aFFuWThtYk1CV3REekJxUmdNOE1ad0l2dzhqTnBSLUNNTmFMWVhkY0RQTDd6aUEteVN0cDR4Q3BPdUVOYlI4OWx6ZTJSeThxR3VEQVBLbTJNcXZxQ19OQjUtTElkWTF3?oc=5",
+        "source": "The Washington Post",
         "kind": "Independent",
-        "published_display": "Oct 16, 2025",
-        "published_iso": "2025-10-16T07:00:00+00:00"
+        "published_display": "Nov 28, 2025",
+        "published_iso": "2025-11-28T08:00:00+00:00"
       },
       {
         "title": "JFK Assassination Had a Large Impact Here - Minneapolis Times",
@@ -263,20 +288,20 @@
         "published_iso": "2026-11-20T10:05:32+00:00"
       },
       {
+        "title": "Assassination of John F. Kennedy: At a Glance - Britannica",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOElBUjI1SXgwam54Z2kxYW04amx6RjNlYVAxWlhldVFuVWlfN2RrUmR3N0h3UlN1NjV2ODhNLUcxMVpVeUlydlp6a095TXZQSGNkdGExc0I2WWljMTg2bkdsRndMTEhwUDR1NWJwQUNXSmttU1FQZzUwWjBEcV9xcDlsaW1VbWxxRkhEUA?oc=5",
+        "source": "Britannica",
+        "kind": "Mainstream",
+        "published_display": "Nov 20, 2026",
+        "published_iso": "2026-11-20T08:00:00+00:00"
+      },
+      {
         "title": "‘Perhaps we are safer not knowing’: a year after his death, Rob Reiner’s JFK assassination book is revealed - The Guardian",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1UWjE4VF91ZTNWTUdXZVJkU3haNEZsTDR4YmxKQ0R1cFZhRlkya2NtaXRmbndHWjl1Z1JDX2lyT1pCUlRhSVg1cWlzMjVxWUtiTW5udkdjYkxnUkt5bHFpOHR3SEVKTzhZYzlaU2NzMzFRemdEc3MyZFlR?oc=5",
         "source": "The Guardian",
         "kind": "Mainstream",
         "published_display": "Nov 19, 2026",
         "published_iso": "2026-11-19T19:54:00+00:00"
-      },
-      {
-        "title": "63 Years After Dallas: Alexandria's Surprising Links to the JFK Assassination - Alexandria Living Magazine",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSnBWbXBDZ1ZVejd6emVxd1ZZQWNDTzRZTlJDcnFMWmlidFhaN1JUend6MXMwRm1TdzlDNjlkR0Zzb09Dd1hpUmdtakxzMy1sbTIxRnZ2eHM5UWNUQlE3WUdQZ1Q4Y0NDV3cxRnBldUZYc2NnM0t1QjdZWjZXWm1iZnhLNDQ4SURURWhxRTgyVkx1WkhldzlSQjBYNnI2eHo2cWRISDRR?oc=5",
-        "source": "Alexandria Living Magazine",
-        "kind": "Mainstream",
-        "published_display": "Nov 18, 2026",
-        "published_iso": "2026-11-18T20:23:36+00:00"
       }
     ],
     "moon": [
@@ -305,38 +330,46 @@
         "published_iso": "2026-03-03T08:00:00+00:00"
       },
       {
-        "title": "Apollo 11’s computer flashed a 1202 alarm 33,500 feet above the Moon; 26-year-old Steve Bales recognised - The Times of India",
-        "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNa1JuUS1PQ3VuTGVGR1RfV01DMmlKbDFOc25sSURYYm9PeXJ2a0o1VzM1Q3g5OUhTZk04VTFlOGczZURaQzlJSWNndnJxRnVDTk9Ma3pfdy1POWpmTjdITUxka29pR3pvc3NyT3RySnhHYUxNTTJRanNVVlBESV80d1Z0Q2Zua1lITzhXa3NBc0ZSeXJVN3oyU3hJYndkby1jSHI0VFllX05UenV3ekwxcW5WV1I3VXlkVWdHbTY1ZWotWnVJVk12c3owdnROcEpWUDg5enFneWd5aGlPRE9ZMHZlRC1UQjVmRmxFcTNrcFJLb1BSSDNOdGZfSS1TaHp5WkFWVklvSVc1REk1ZktvZUpMajgydXRNTjlZUFdmb25YbzN1aGtEblk5Mk1hOVplUXRyb0xURlZCUdIBvwJBVV95cUxOOEgybHhoRjJrU1J6aHlRczB6dXRWbVQ3SlRoRTcwcFBta1J0YmhDOUx0eFJvY1ptSjdJbDRIaVQyM01JMEpJck5mTnltbzFndHV0dUdaeThZNWF3bjBqdWYydk5ubFp3eTRwUklyTWNxLU45MEQzMXpfb1JPTUFabVNWdWZaQ25nLUVpNk91SmJ5bTNydXpBUWdpdTFmTWVIZjQzOXo3djhCZFk2cnJTMlBYb29OR3YxT1FIT19TOFJxeWlET2FlZG9SOERESGNsUG15eF9EQWtYclZzUUlZMGZsWkdQZUZ3SkRxaXFuQWlnTWJ5X3YxV21wYmc2cEhMVF9iNUViX1VOQUFxTFpXWEY5a25mdE1BalZaeGI0MjY4b21ReXplREZCc0dVLUEyNjlCR09hSjZ1bDZaajJV?oc=5",
-        "source": "The Times of India",
+        "title": "Kim Kardashian standing firmly by her belief the Moon landing was fake - Castanet",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRTdYUVNNLXlmSWxPNlVQaDZBUmNVLUxqZmtnNi1ITGJ1WERDTlNEbUpGVmR3UUoxNWxSaHVrenpnOEE3M1JiVUxRTTZkeXNSdDZJTXE2b2dhajM4X0VrU29xbHJ6NUI2a1h2TTNpbXlpSXNVZGRneXlxZWxpajY4cGhFN0RjT1R1dGhJeWtsTzJkZkktQ2F0djdwUGoydHRkWnUxdHh1R2s2X05aTE5KRS1XZmlzWU5saUhsOUJ3?oc=5",
+        "source": "Castanet",
         "kind": "Mainstream",
-        "published_display": "Nov 20, 2026",
-        "published_iso": "2026-11-20T15:10:00+00:00"
+        "published_display": "Nov 21, 2026",
+        "published_iso": "2026-11-21T00:24:00+00:00"
       },
       {
-        "title": "Kim Kardashian Won’t Budge on Moon Landing Doubts, Even With a Scientist in the Room - IMDb",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mRG1MSnk5OVNEVHNfVnpZaTA0SEQyblJiR2VmcU5fZlc4T0w3TUNTbGNNSjh3MmJPcmpuVWpDbWxQelZ2azNndmRBNnRNRDZlUDVjS0ZReXJHTjBJOVAxbTdpcm5PNnc?oc=5",
-        "source": "IMDb",
+        "title": "Kim Kardashian thinks the Moon landing was fake - Reel 360 News",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVmVCRzVxM1MtRFpvcDg4d21DM2hCeEZraHpVMVV4cjB1ZHJObFJkd293Tkx2VERqWmtKa0tISzhIbk1RTl9PZXRZWnljckxIRnJPdkVSNV9pZk5kanhfd3dYX05iY0RIYUtIekRjMEpGRWI2SUp3czV2TUM1bGdzMGtR?oc=5",
+        "source": "Reel 360 News",
         "kind": "Mainstream",
         "published_display": "Nov 20, 2026",
-        "published_iso": "2026-11-20T12:42:28+00:00"
+        "published_iso": "2026-11-20T23:39:12+00:00"
       },
       {
-        "title": "Musk scales back NASA’s plans for a moon landing - Il Sole 24 ORE",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMVUwTTBJcHAtdlZ2enhEa0FxMTJRS0p1U3BBZ3lIdVdjakhPSkVhaWFnYzV6VHJXZ2V6ZXBaVmxLTndYTzd4Z3YyY3FiZTdFT3dSWVVtWk1xMURRc0twczVONDNRQ0lPbGhNUzVLeDEtSmdHbURxMGhtSHZjdzI5bHo3dWRSX1pweTh2NA?oc=5",
-        "source": "Il Sole 24 ORE",
+        "title": "NASA Backs 302 Small-Business Projects, From Rollable Solar Arrays to Lunar Landing Pads - Around Prague",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORzR5RGJSQ2ptU01LYnM5THViakFwczcwMVNuc2g2TnZoWXduRXc1Q2lqa29mcVFOdzZGQ2tkdjdOc0VEYnhsUk9JSXFTUmQwR196N0pORDhUYmdDVFNYdDhEeWI3bFh0a2FCRjd5SV91cWUxd290Ulp4ZG4wVHJTYXdZU3pPdDdXZS1jcVRzbjBVMmcxcnZRT3d3bXlJUlJpc0xYQnJMYlcwaVNLcUJEc25nci0?oc=5",
+        "source": "Around Prague",
         "kind": "Mainstream",
         "published_display": "Nov 20, 2026",
-        "published_iso": "2026-11-20T09:03:45+00:00"
+        "published_iso": "2026-11-20T22:46:27+00:00"
       }
     ],
     "deepstate": [
       {
-        "title": "Garcia Tells Trump's Sons, Kushner, Top Officials To Preserve Records Ahead Of Oversight Probes",
-        "url": "https://www.zerohedge.com/political/garcia-tells-trumps-sons-kushner-top-officials-preserve-records-ahead-oversight-probes",
+        "title": "Colin Powell's Chief of Staff: CIA Does 'Covert Operations In Accordance With What Pays The Most,' Ukraine A 'Cash Cow'",
+        "url": "https://www.zerohedge.com/geopolitical/colin-powells-chief-staff-cia-does-covert-operations-accordance-what-pays-most-ukraine",
         "source": "zerohedge.com",
         "kind": "Independent",
-        "published_display": "Nov 20, 2026",
-        "published_iso": "2026-11-20T03:00:00+00:00"
+        "published_display": "Nov 21, 2026",
+        "published_iso": "2026-11-21T12:00:00+00:00"
+      },
+      {
+        "title": "Crooke Claims CIA Was Behind Kerch Bridge Strike As Pentagon Says Deep Strikes Fail",
+        "url": "https://www.zerohedge.com/geopolitical/crooke-claims-cia-was-behind-kerch-bridge-strike-pentagon-says-deep-strikes-fail",
+        "source": "zerohedge.com",
+        "kind": "Independent",
+        "published_display": "Nov 21, 2026",
+        "published_iso": "2026-11-21T06:00:00+00:00"
       },
       {
         "title": "‘The deep state stole my mini-budget’: An exclusive extract from Liz Truss’s new book - The New World | Substack",
@@ -345,14 +378,6 @@
         "kind": "Independent",
         "published_display": "Oct 23, 2026",
         "published_iso": "2026-10-23T07:00:00+00:00"
-      },
-      {
-        "title": "Rappers For Regime Change: How the CIA Recruits Hip Hop Artists Around the World",
-        "url": "https://www.mintpressnews.com/rappers-for-regime-change-how-the-cia-recruits-hip-hop-artists-around-the-world/291246/",
-        "source": "mintpressnews.com",
-        "kind": "Independent",
-        "published_display": "Oct 16, 2026",
-        "published_iso": "2026-10-16T17:18:47+00:00"
       },
       {
         "title": "Who do you believe, Rubio and intelligence community or Trump? | Letters - The Palm Beach Post",
@@ -439,14 +464,6 @@
         "published_iso": "2026-11-18T21:46:27+00:00"
       },
       {
-        "title": "Eighth Circuit nominee appeared to accept Trump's 2020 defeat. Will he acknowledge it now? - Nomination Notes",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5YdkJSdm45WUVCRE91UWF1NEF3aU44RVNuZ2JmWU9rLVJ0UGtVX2RBT2h2RjZFeF9jZWdrMFRWdFhxUEhSMXVfV1NvdjJacmxmVWdMdVhWRHNYeG82Mzd1MF9MbkM2Z25VNUlzTFkwTUZCcFIyOVlqS1g4VlFzQQ?oc=5",
-        "source": "Nomination Notes",
-        "kind": "Independent",
-        "published_display": "Nov 16, 2026",
-        "published_iso": "2026-11-16T17:29:50+00:00"
-      },
-      {
         "title": "They’re Building The Excuse Now - Civil Discourse with Joyce Vance",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5JRGRTTkxZZXVmMENhcHdCMDJEZU5ZYmlFcC1GRU53WkFweGFaQ1NLZGRUSDhvelVhSGJ2NWVVaGYwRUw2bG1ZLUktR3VWb1Q0b1BuY3ZPNy13LW5JelU4NUxQN3BDRkFweUFCTFlZOGdJdw?oc=5",
         "source": "Civil Discourse with Joyce Vance",
@@ -455,28 +472,36 @@
         "published_iso": "2026-08-21T07:00:00+00:00"
       },
       {
+        "title": "The Real Message of Trump's Address to the Nation - Robert Reich | Substack",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBiSl8yb3QxemItalNRR3pKTklDR1lkNW1SN09wQVhVRFFYTkttNnhaVHhydHFCYmMzSmMtZ1ZQTUE0M0l1R3hlVHV6cnRPOHhhbzdFRDk3RHZIMGJVOGhRS2dVZ2lpWDJLdTMwMXBMSGQwZ0hWa05oRA?oc=5",
+        "source": "Robert Reich | Substack",
+        "kind": "Independent",
+        "published_display": "Jul 17, 2026",
+        "published_iso": "2026-07-17T07:00:00+00:00"
+      },
+      {
+        "title": "F.B.I. Is Still Looking for Evidence That Georgia’s 2020 Election Was Rigged - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZDhxREFqUnhfejBSazhyaENaRnJJWDBRbW1XN3N1QXY3bU9Tb21pVm1GdlI0aUcxWUQ3RHJiRXVfWXkxRy1KTHg0ZU1xOXRjMGNOUlZRQUp6b0Y0Sm94cVVqb3NXX21OWl9STGJOTklURUUtN2pqa2c0MU1HUDZfT0lnNmp2MUViVktTZTlKTTZCZw?oc=5",
+        "source": "The New York Times",
+        "kind": "Mainstream",
+        "published_display": "Nov 21, 2026",
+        "published_iso": "2026-11-21T01:01:22+00:00"
+      },
+      {
+        "title": "Trump: War in Ukraine happened because I lost 2020 election - upi",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQLW11OWxnZEprUmRGc0E4cnAyOFBiTVNLUTlMYVNzN3pqTDJwOEdleEFnWTZDUU5kTUhSN2p5YTNVSjBPRkxVR2F5V0RzcVZ1VEhBTnlQX2ItNmhGcWhjdVpUem5FLXlsNE9OOE5nU2F6LUk2aE9MeVk4clBnX21fd2o5bW9mVUU5Tlk0LVVEQTRfZ1JfNjNPVTh30gGfAUFVX3lxTE1uOF9SU19obW5qczJtRWJrTEV0TUg2SEdzVXRCdzFsUlppMW83a24tZGhvT3UyV3d4UWI2X3NQbnE3NnlienAwTTFMb2s2Z3VIby1yajJXalE5cVZZaTFMX2tfWkcyQi1aVUJTek9VdDdKcFk2X3ZKUkEtZXdrakNSYU92T3VfVk1QUTlwSGZGYlA3YkJWbk81SDhwZXNTNA?oc=5",
+        "source": "upi",
+        "kind": "Mainstream",
+        "published_display": "Nov 20, 2026",
+        "published_iso": "2026-11-20T21:17:54+00:00"
+      },
+      {
         "title": "Trump’s CISA nominee ducks questions on 2020 election results, Jan. 6 Capitol attack - The Hill",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORWEzMnA0U1RqUS11c1RCWHhMU3RMTkdReVV6c2VtZkpUMHZYeWRmT0FYV1c3c0R4dVpDR2t1dzdsR0JwbzdEcFRoSmlSY3BxR2lGS2xPc0M3LUFvWXpteXNHT0VzMG1VM2k4WlJ2d0FfMXhLSE1tWC13V3puQ0xSWGpPUlVpZldlR3kxX0h4QmVkRU3SAZgBQVVfeXFMUEUwd09nc3RqbHptWUM1QnAtaGxBUERjV1BnVjNiSjc4ay1xZThMMzNKbHlXbnkwNnE1eWV5NU5MMnFmYXRJZjBmXzlJVTZpNGNCZG96WHptTGFpaFpyQUUxdW5HcVgwNW5Wb01jcW5JSGdyYklnY3ZpYVYzbDdqN1BkSVd6ZDBicnJOby1IcXFUSGFDSTl2aXE?oc=5",
         "source": "The Hill",
         "kind": "Mainstream",
         "published_display": "Nov 20, 2026",
         "published_iso": "2026-11-20T02:29:00+00:00"
-      },
-      {
-        "title": "Trump’s CISA pick Michael LoSapio rejects Jan. 6 as an 'attack,' won't name 2020 election winner - ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVWhVeXVUcHJ3VlV0NGliSW5ZUGtQLVh2T19ReVh5RXgwUDgyNTBwRnFnYXNQV0JEOUctczVidUN4RUFPMllfT1F6YU5UdFZwazBUb0p0Z1RkSFJtS0hhbVNKQUd2ZTUybHExX281RTlIZmFiSWtCTTJjTERRT2F6NXM4Q2J5QmhlNzgwVEhjYXZvZzFJV0JTUDloSdIBoAFBVV95cUxNRldrVTF3elM4NUdCZFdVbTgwdW43Q09oVTFpODJZUjRlOGhvQ0tacWZPdzVMSmNpeUJzNkw4VHEtektlTTN4ZUlOd3hYM3FGZ2JHN1JfVGU5N1FYZ3MxckltdkZ6RGlYeWJZMWxRdjdRVFJoUlVFNzBwNkpKczNFbVRPbzMyTm1KMFZJTTRzYWVEQmFjSURzZlcxa0FhVnhi?oc=5",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "kind": "Mainstream",
-        "published_display": "Nov 19, 2026",
-        "published_iso": "2026-11-19T20:11:18+00:00"
-      },
-      {
-        "title": "Hiland peppered over 2020 election results - Baxter Bulletin",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaU5BVkhaT0xoNjlKX21LMHU3YkZiWnI2alNjcmoyY0ZsSHJrR280YlFzdU1JbHM2NHVobHBhb2FOSGFheW1pOWdOV041VV9sajhxTXpneTNHNERtV3o5U2RhM1UzZUpiOFdrajhGTUhaOTl6ZlV4Sm80MVpRekdSdnZhbGRveHFK?oc=5",
-        "source": "Baxter Bulletin",
-        "kind": "Mainstream",
-        "published_display": "Nov 19, 2026",
-        "published_iso": "2026-11-19T17:05:45+00:00"
       }
     ],
     "covid": [
@@ -489,20 +514,20 @@
         "published_iso": "2025-03-21T07:00:00+00:00"
       },
       {
-        "title": "TRUMP'S FIRST COVID MISTAKE - Seymour Hersh | Substack",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5jdjVHcFo0Q1BIMWtCTHpjNEdxOFFIdHh0dEladFdBVXo2Y3RDWFN2emozU0toQm9uZFpyWEVtZ2VXckpINnE4UFB5ZDFsZERtMlpXbGs1dUF4eEg4c3l5eS1zLXcteVpab2cta2JKQQ?oc=5",
-        "source": "Seymour Hersh | Substack",
-        "kind": "Independent",
-        "published_display": "Jan 30, 2025",
-        "published_iso": "2025-01-30T08:00:00+00:00"
-      },
-      {
         "title": "Lab Leak Mania - Paul Offit | Substack",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAza2ttX2ZEeGs1NW9WSEZZQlBtWVluOXpycWxMVUV1Nl9rc3o3MllXakF2dnFhYklFMXpVWThfSDc4cF9QclVWb1JWQXJ6cG1wOURsbWVOV01aemM?oc=5",
         "source": "Paul Offit | Substack",
         "kind": "Independent",
         "published_display": "Jun 24, 2024",
         "published_iso": "2024-06-24T07:00:00+00:00"
+      },
+      {
+        "title": "Practically-A-Book Review: Rootclaim $100,000 Lab Leak Debate - Astral Codex Ten",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1QZDR5QTlSUHVrNEx5b3M3YWcxY21ZNmR1Sk1fTnFKWHk3cEZNTndtelBFUm93YXRXMU83UnNDLUZZU19nbHA5ZlZ0Z1k0UzFKMFVmWXhNQ3RQMFBPUHRIUlBOZHROV3hlWW1BRFRCbFVVWkZSNXo4?oc=5",
+        "source": "Astral Codex Ten",
+        "kind": "Independent",
+        "published_display": "Mar 28, 2024",
+        "published_iso": "2024-03-28T07:00:00+00:00"
       },
       {
         "title": "Trump admin demands Nature Medicine magazine probe ‘ghostwritten’ paper that dismissed COVID lab leak - New York Post",
@@ -555,14 +580,6 @@
         "published_iso": "2025-07-11T07:00:00+00:00"
       },
       {
-        "title": "Arizona water agency yanks money from Utah cloud seeding project - FOX 13 News Utah",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSFV3XzhGdDgxSG9xVVFpQnBGLU81Y0hkakEyN29taDFyYURxZVd4YVhrNWZUOGxmZjgzMDVYZGwwaElTc2ZFQmVoZXkwbmloamNyalVhV29EX0JvMTEzTUpBc1dfM3RpbV8yYkZPYTAwQ2pMSVdMSG1BVE02QU94T2lmaVlXRk1jaFhTeWtlMC1WWWlOSGk5VTBVeG4tSzFqQTlfZjdPbmQ1aElUZnA1bmdLTU5uWTBLMnVjODhpMEw?oc=5",
-        "source": "FOX 13 News Utah",
-        "kind": "Mainstream",
-        "published_display": "Nov 20, 2026",
-        "published_iso": "2026-11-20T13:21:47+00:00"
-      },
-      {
         "title": "COP31: ‘Africa is not a laboratory’, campaigner warns over marine geoengineering - Premium Times Nigeria",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQU2FBX3QyYjdCMHRLbWo5NF9pRGZFZ2tpaHNSNU5hZW14VHZNNFJtT25NYXhSZExVTzR1WllXa1NEcmZlaUhXR1BCVWxvM2daNjBBdGFiUnZhM3h2Ql8xUHdYcVV4a2h3ZWw3RV9ERVlVUmxUaTRkX3J2Q2pFSzJZTEdUTU9UWW1renhlekU3RkpzOEl2c0FadWZkbEJqMjU3UWtWSXpYLWhpOGQ0TWdXN25YOU1Tc0NYakZPbGlmYm41VGdpcTl4aFYwUF9RQQ?oc=5",
         "source": "Premium Times Nigeria",
@@ -577,32 +594,40 @@
         "kind": "Mainstream",
         "published_display": "Nov 20, 2026",
         "published_iso": "2026-11-20T03:30:40+00:00"
+      },
+      {
+        "title": "Turlock experts explain benefits of cloud seeding technology amid concerns - CBS News",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS0tfUVB3Z2RpVVF5aDNJVFlEWEdKbFBBTDRGb3BqSmZ1eWlSelExQnRQY2V5SjRKR2NiZ3Q3dWZXRTBnRk5iWmNldHlVOHBMb05aMm9BTW9xVTNobDdGMGQ0MXdzZThKWUNfZFgzWUc3cDdDRS1zOWVvNE9WMVRWS2V6N2dUQ2pvS1A0?oc=5",
+        "source": "CBS News",
+        "kind": "Mainstream",
+        "published_display": "Nov 20, 2026",
+        "published_iso": "2026-11-20T01:28:06+00:00"
       }
     ],
     "mkultra": [
       {
-        "title": "9/11 Revisionist (@911revision): \"Make this make sense…\" - Substack",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9lSE9LNGhvNHVMajZpSWVMQUo3b2VvZ21UM2dwbXhvaTdNN2s4YmVBVzZxbTM5T1lRalM3ZmliRC1fbEY1MkN1T195SkY5ck5jYU5MdElwNFlHdHA2QW1B?oc=5",
+        "title": "David Gratton (@davidgratton2): \"You think MKultra just produces geeky teen murderers? Think again. \" - Substack",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1SZEtlaGxGTU1DVm1iUnd3LUtSV2lTWER5Q0stbnJzR3JkSGNKeFdWbjFFX3dFejBNTGNrTmdKU3FFUnRVUWpPSjBRN2M2d0YxSkItMWZxcFF4TXNfNGE4d0xB?oc=5",
         "source": "Substack",
         "kind": "Independent",
-        "published_display": "Nov 10, 2026",
-        "published_iso": "2026-11-10T10:09:28+00:00"
+        "published_display": "Jul 1, 2026",
+        "published_iso": "2026-07-01T07:00:00+00:00"
       },
       {
-        "title": "Man in America (@maninamerica): \"Wow fascinating! Thanks for sharing!\" - Substack",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9jamlVS0dOdS0xenJwS1d3cHhYeTYzT2wwUlVTcUFyQWdqc2dQYTNwaHVIT2ZYdTE4dS1WamlfN0ltc3VfbEgxY1JNWkFOd1FfcHIzY3ZTaTh5aGJWb1ZNSA?oc=5",
+        "title": "COVID Confessions Collide with MKUltra Reveal - Substack",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeWxQSWlleHFqV3NKMHdBcDdwaEM5aE82bVlTYVNPcXZkRVNxSU5ORk5LdjVpTkdGOWM1WGdwQ3hjLXJxeFpST1AzVnJLT0hUXzZzM2ROejBlX2FpRThHNXdwa3QwNGRqQzJPZ2dSaDEwdmVSYUc1Z0xnT0pJclFwSFVoZmg?oc=5",
         "source": "Substack",
         "kind": "Independent",
-        "published_display": "Oct 13, 2026",
-        "published_iso": "2026-10-13T07:00:00+00:00"
+        "published_display": "May 13, 2026",
+        "published_iso": "2026-05-13T07:00:00+00:00"
       },
       {
-        "title": "JFK Most Wanted: Dr. Louis Jolyon ‘Jolly’ West’s Personality File - JFK Facts | Jefferson Morley",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE12dlBUNE9xTlU5TnM0UDFMUXZRbjJsNktiVm1JYUtTSEoxOHVOUzdUUGxPem1wQkNRdy0wZERTTFNVNjc3UUdsMEU2emFaMG5OQkQwbFlOTWw3cko1dFBuNm80NGp2QXlYZ1dOSjUwNDZjZU11T1U3Yg?oc=5",
-        "source": "JFK Facts | Jefferson Morley",
+        "title": "Project Mind Control: 5 Questions with historian John Lisle - The Microdose",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5cHhINUQ0XzNHWmlqUGNrTWhOcjBMd1FtcUJaaWNScEN1cklrYVNnYmVRNm15RWJjZ1FYNEVsQkNiN0xCZjJvZm9EUU12ZV9WRnJtN282bUpQOTdSNXl3U0lpMElhVkYwam55a0ozOGFWSUFCNjNZ?oc=5",
+        "source": "The Microdose",
         "kind": "Independent",
-        "published_display": "Oct 3, 2026",
-        "published_iso": "2026-10-03T07:00:00+00:00"
+        "published_display": "Mar 23, 2026",
+        "published_iso": "2026-03-23T07:00:00+00:00"
       },
       {
         "title": "MK-ULTRA | CIA, LSD, Mind Control, Cold War, & Discovery - Britannica",
@@ -632,63 +657,55 @@
     "area51": [],
     "bigfoot": [
       {
-        "title": "BIGFOOT RUMBLE TO 6-0 SHUTOUT WIN OVER OILERS - Idaho Steelheads",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVm4yb1VIYVhwd3BuUU95cEw2Tng2TWlPTnh1ZDZINTJkdmJPYzZvR2JGTEZmdlk4QkQ3Q25pRU00OU1LaVN2MjhoS3lKWE5HUVlfSzNzSXZ4RFc3QWY5SVZsR2VmWlVLTmRIc2E3Y2paZmZIUTVEdVJzX2pjYXZINzJhY1BJdTZKMzRheThUOA?oc=5",
-        "source": "Idaho Steelheads",
-        "kind": "Independent",
-        "published_display": "Mar 20, 2026",
-        "published_iso": "2026-03-20T07:00:00+00:00"
+        "title": "U.S. Forest Service releases new Bigfoot report - KIRO 7 News Seattle",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZWR1LUhEVFVqdmV3VF9ua0JIZHZQOUM2ajdhdWJ2eXZkb0RoY0Ntd1dHMWt6cDZ0RmtsRC16SFFUc3RPdkVRdHY4NXlmbWRzNEp6Tm40OFcyVUVXQ21oc0JrTlFvcmpRbFJXanlPLTZMSDlVejJiWVZfLWdUcG5USmNwTm1WMnYwSXg2c3dSczNiMWJ6VkRGVVRObEUzTUhSTnhGckRSdDhfUl9ZRE5MUFA0SFpVakU?oc=5",
+        "source": "KIRO 7 News Seattle",
+        "kind": "Mainstream",
+        "published_display": "Nov 21, 2026",
+        "published_iso": "2026-11-21T06:20:17+00:00"
       },
       {
-        "title": "Local fighters go nearly perfect at Alberta mixed martial arts event - Energeticcity",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQzBTejMxT0N6WjNfNGdKTTFsOEVsdk9CZFBxVm9MTlJET2JZcWZLOTdQM24yck1WcDh2bk8zdTV2REw3a0ExQ2NDMlp4dFMzdVNKc1UwSnJMTGQ1U3M5MTVTLTFnTkFpNnJzUTNZSjM1d3c4ZlVOanVtT3R4Nk1QNTBObmwzb2xwakRtLTljT2FrNy1OY3pyaVRyOFpFQ1B4bzNkZnhCa0U?oc=5",
-        "source": "Energeticcity",
-        "kind": "Independent",
-        "published_display": "Oct 10, 2025",
-        "published_iso": "2025-10-10T07:00:00+00:00"
+        "title": "Popular Cryptid License Plate Now Available As ‘Sample’ Plate - West Virginia Public Broadcasting",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM1FHX21yRGJHTDZvejZNbFVEaTFVb3o0ajZ0dXlhREFhLXVjMzBkT2Joam4ydW9MbC1HZVRlV1A4WWVUNUw2NTJJZElfM2ZJT2pyV3VzeFZCUEoyRzZMTWZieG9CanZKUHNtbUF3b0ljMkk3N0hoUDF4MDFyY0dsNDRRV2JzamRSTVdVdDNzRnp5c2JmdlRVQnUtMTJqMzFrM1E?oc=5",
+        "source": "West Virginia Public Broadcasting",
+        "kind": "Mainstream",
+        "published_display": "Nov 21, 2026",
+        "published_iso": "2026-11-21T03:33:45+00:00"
       },
       {
-        "title": "Mobile gaming's $4.1 billion reboot - SuperJoost Playlist",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5zYnJYZWRrS05oUkl5QVg5bnlTNjdWemJOcTJERFZkVGljNU1PcFExQTMzSXlxUW5BZHpUdmpiUHZaQlloYUtZeTBsWXAzLXVfdFJiTE9qdGxSeWVzZWdfRkc0ZTlUN3BvMmV3djJDNnY0RExV?oc=5",
-        "source": "SuperJoost Playlist",
-        "kind": "Independent",
-        "published_display": "May 28, 2025",
-        "published_iso": "2025-05-28T07:00:00+00:00"
+        "title": "Trump admin quietly releases government Bigfoot files: ‘Very uneasy feeling’ - New York Post",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObXFaOWd5TEQtT1dDdGo4Q0VLWGpDdDFlZE5uTUxPQlEwWG9RaC1DbWJQRXFVYTVxSHN3bkFBM1dzSVgyR1VRMndhYV9INDA5UzZhRVBnWS1ydEdCVloyLVBUMmN2aXk4SHUydGxFZ3NTWloweWF2cG9MZWNvS0Vydm9UbjYtTzdYX256ZnU5bUtkVzZvdkVXa3BmTk1Ba1pQekFXQ1lyWEpBTFIwbEVDdXVUcw?oc=5",
+        "source": "New York Post",
+        "kind": "Mainstream",
+        "published_display": "Nov 21, 2026",
+        "published_iso": "2026-11-21T03:24:00+00:00"
       },
       {
-        "title": "Bigfoot believers get a boost from an unlikely ally: The U.S. Forest Service - The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQS2VYcjNvQndKb1g5bnlOQzk1cnJiQms0cFdIdmlvUngwNzVqZFBoaGFVbHU3U1FRVEtULWlNT1ZUbWJYZktuREoxbXBzWk5MVHRqTjlIRzd2dnZSUU1sX0hRc2Nfd0E0ZHQ2Q09TWkhTY2ZPbHU5c3h2N0F3R1V1U1pLZUJsTWxIQ2xPNVFRVXBOUU9oc2Y4cTRLbzUwNzhLQUhSdWYxblB1VXQtVExzRmN3?oc=5",
-        "source": "The Washington Post",
+        "title": "1982 Bigfoot investigation: Forest Service releases records of suspected Sasquatch hoax in WA - MyNorthwest.com",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE80NEJyX2N5a1ctRWZlSTlBMTctdXE3N3lJWlBNRnd4YkZ4cG90U1FrdWIxNk12R1RhVEhORnhSRVVpcWE2dERhdUF0blZCOXR6Q0x0YXZQaF9jZ1NiMlZRNDN0akhaZkJobzBaT2oySQ?oc=5",
+        "source": "MyNorthwest.com",
+        "kind": "Mainstream",
+        "published_display": "Nov 21, 2026",
+        "published_iso": "2026-11-21T01:00:20+00:00"
+      },
+      {
+        "title": "The Bigfoot Files Are Real. The Feds Just Released Decades of Research on Sasquatch. - Outside Magazine",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLUw3QkhWazhqcFpoU2FKNEl2akNfbXBtME1yLTFoZWtwbzZQeGtzbjlIVXF5bjFQTDc1MFRfUm5HQnotUll4T3RKS1hpWHRBdGN5b3d0WFFzSUIxeWdnQlIyclZNcmdIMjg0OVQwdnlnLWdTQVFFR2RNM2t4ZDFhcTdpOUhDWF9XYl9PU005Y1hRSVFPOERr?oc=5",
+        "source": "Outside Magazine",
         "kind": "Mainstream",
         "published_display": "Nov 20, 2026",
-        "published_iso": "2026-11-20T15:18:06+00:00"
+        "published_iso": "2026-11-20T23:56:15+00:00"
       },
       {
-        "title": "West Virginia DMV to sell Cryptid license plates as sample plate for collectors - WCHS",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRG5RbXI3Qkt3cjRRTnE0eWpsNFRjR3FmR0VWZGpTTTBPT05RdjhqMkJWX0p2dC0yQzZiOEZTUFJINDJXVE9zcy1lQjlCVFVSQXNyYXJzSldlQkl3cmVHdWZCNmg3M3RwbVB2QnF6aWFubGdpYUFBNGk3cHRqWDZMb09Ud2FQRlZ3TE15MnA5SHF4QU9BZGJWelBnWFZoZmJHdGhkWTdkeVh3bmRXc3c?oc=5",
-        "source": "WCHS",
+        "title": "USDA releases decades of Bigfoot files including 1982 Forest Service investigation in Washington state - Fox News",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTEpHdXFzSFNxaDJ5Z0huTFRXeU1pTVkxeFBKanVQckVRZHp5c3VnSlBLZ3RJQlRpUzY5SW5CUDRZSnJzWnJBOU5WeUxZa2doUVFULUxjdnlOU0l5Qk9Pelo0bTh1ZUt3M3EtX3NJd2k2TlpUR3ZKM0xBM05DMVdJMHdmdDBqYXI2MmJCUEUxbkUtNUNMcUpxUUF1YzRlSnZRcTJzZGxhaEY4bEpPTDhxQnZ3d9IBuAFBVV95cUxNWTFJV2dna2E4NkZ0aDk2R1FTc0dMT1pyN0N1WE5sd0dGVDRBY29Od29OdG1uNWd5RktqNTVyc0IwcG90MFhTQ3BiQmFFU0g4QURWREFVME0wMmhKNkxNVUptaDhhWnlXd2ozLWRWYUhtVlVHR0duYVdiaWdhTWtQdVpwbEdHMGF1WDI2REZGem9RaVJOelpURHltcFYwck5iYkNBMXNKMnczcjRmeTluUWhveE90b3VY?oc=5",
+        "source": "Fox News",
         "kind": "Mainstream",
-        "published_display": "Nov 19, 2026",
-        "published_iso": "2026-11-19T23:07:26+00:00"
-      },
-      {
-        "title": "GTA 6 Bigfoot Explained: What is Skunkape? - VICE",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9Qd0NZaDRENlZfamctYXE5QnR0SGMtNUk3OXU2Snk5QVRsYjJtaS1pRmZsOUJ3N2p1dE01OXpnZG92RzVOS1pGYmFPZk1LVVRwVUlIcjZNcHl0WHN1bEhTbDg0d3VfT3BITzJZS2RSYXUxWjBJSTZlMHFkQUIydw?oc=5",
-        "source": "VICE",
-        "kind": "Mainstream",
-        "published_display": "Nov 19, 2026",
-        "published_iso": "2026-11-19T19:51:23+00:00"
+        "published_display": "Nov 20, 2026",
+        "published_iso": "2026-11-20T23:55:24+00:00"
       }
     ],
     "flatearth": [
-      {
-        "title": "Flat Earth Dave Exposes NASA, the Globe Psyop, and the Truth They're Hiding in Antarctica - Ep. 198 - YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBsZWl6dElLc2pza1pfSWZKUVFGLTR2WG1kRWd1ZVhXRXhYMVMtZ0ZpTDhaYWktT21OREthQ1hGdmxuZmdwc2hpQlAzTQ?oc=5",
-        "source": "YouTube",
-        "kind": "Independent",
-        "published_display": "May 17, 2026",
-        "published_iso": "2026-05-17T07:00:00+00:00"
-      },
       {
         "title": "Flat Earth Debate: Joe Rogan vs. Hollywood Director Roger Avary - YouTube",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAtZlZJYTlMcXpncUtna2ViNUY0TVRoZ00yMjRlaE1WR1BvNnkxSXBrZ0pUMXpheG0xNTdaY1gxR2NVY2NPb1J5Nzc2Rm5Sbk1xMFAtemZoazNsbk9Z?oc=5",
@@ -704,6 +721,14 @@
         "kind": "Independent",
         "published_display": "Aug 12, 2025",
         "published_iso": "2025-08-12T07:00:00+00:00"
+      },
+      {
+        "title": "Flat Earth Dave \"Once You Wake Up To Flat Earth Everything Makes Sense\" - YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE82Z0hJSUtqbGNSenhsX0l0RU51UlA2Ri1jWGtmQTVBY3pOOWhkYjlJN2F5NjRneVdRdnVrUGx4LW82OHVDU1UyeWxZSkU5Ul9RR2RCSnRGdWo1Ump5?oc=5",
+        "source": "YouTube",
+        "kind": "Independent",
+        "published_display": "May 16, 2025",
+        "published_iso": "2025-05-16T07:00:00+00:00"
       },
       {
         "title": "Kim Kardashian doubles down on moon landing conspiracy but draws the line at flat earth theory - HOLA",
@@ -826,8 +851,8 @@
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYmdISFZNSHItdjh2TmJha0ctcTUwWXdqWWZFQndJQXQtXzVqazFyaS1uWnVwQkFicjI5ZHdyV0p4dDU4dDlDRGx2TlFSWUVodDBZMXpDb1JBRmQxMnVDZDBVLTIxYWFMRzcwRjRleWoyc2xJTTdLTkdJLVZCM25iLWxrTldxX2RMdURjWg?oc=5",
         "source": "South African Jewish Report",
         "kind": "Mainstream",
-        "published_display": "Oct 22, 2026",
-        "published_iso": "2026-10-22T07:00:00+00:00"
+        "published_display": "Oct 29, 2026",
+        "published_iso": "2026-10-29T07:00:00+00:00"
       }
     ],
     "fed": [
@@ -856,28 +881,28 @@
         "published_iso": "2026-08-20T07:00:00+00:00"
       },
       {
-        "title": "Warsh wants Fed officials to talk less. Instead, they’re talking more - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CZGVYYlZTODBOZUpYNkFCQWloR3JjOGhRTWwxR3N5R3diQ3Y0Ql9lcm5HYS1jUl9ld2lKbF9PaC04bXZDN3EyWV9pOTdka0pZNVJJRWxsMDV3SVZBcWlOTEotc3Q1QmhkWXA4dHNjNTAzOXE2RUp1ODlSa0x1bGfSAYQBQVVfeXFMT0ptTzRIZzNaUW9ZSkY1akd4VWx6QjBXaE5jN3BTckZ6WElXWE1iQW9ieURtMmptenhNbm1BeFBDTE5FdVM4UkpDSVQ1NEJwRkE1Ym5fUnRiRHNmWUNPcUdzdC1XRlRVREg1N05jZ09GaDI5clM5UVlweGtabWFKYWNRNERH?oc=5",
-        "source": "CNBC",
+        "title": "This Stock Market Selloff Could Block the Fed’s Rate Hikes - 24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNV1U4dnBGMkhzWi1Rb29JRUtmWWgxYktRY2FsWE1HUzJPZUgzaGlUT0w1YnJQOFlOZjQtZ2FKdTVHTl9oUzJObXJ6NERDbG1mVG10R1JWR1YzdFVOaEt4SXVUU3RFVlcydHFrNVRZVjBKYkFaNWlpWXZHa2FqWnh0Zzlmcy1MRjZGZEtzX2IycC1ZSnJVYVZqYlZYak9xQlNCcW1j?oc=5",
+        "source": "24/7 Wall St.",
         "kind": "Mainstream",
-        "published_display": "Nov 20, 2026",
-        "published_iso": "2026-11-20T14:58:46+00:00"
+        "published_display": "Nov 21, 2026",
+        "published_iso": "2026-11-21T15:17:00+00:00"
       },
       {
-        "title": "Why would the Fed consider a half-percentage-point hike in December? - www.marketplace.org",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObFJCMzFkYTV3Q1hIU3NkRG8tQnFhLTBrcF9NT2hNVmhsQ0dhUVFmdkVXQmg5SVlZSGZiaHM4NXNza2lXVnEwWHhWbU9tb0RWa2ZUSWVSZVg2bUpjaTlnZUdPUGxxMUNQcTgxRVFIcGVHS01XdVhlVk1JalJ6VzN4WHBINmQwRHdJMmZLRnZjRk9KRUFYMk5BVjhkbnRDZG1NM0NGbkxfYXNVUQ?oc=5",
-        "source": "www.marketplace.org",
+        "title": "Letters to the Editor: White House hearing on Fed governor seems to be nothing more than kangaroo court - Los Angeles Times",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcjZ1WGZVamhkd0MxRC1ST1dWeWN1bXpZeUVRWHUtRER0N0FSRjc1eDNoQ0lfZGpzWnlZMWFndjJXNUVObGtoTE55NnJjSk13MmVTaVRZTU9DODlkOXVGMnYzcjJQLXc3UlNKTWJzWjc3d29xcFdGSFM1ZVZuWXVJMkxDbTdtaWYwUjVzMV9HQ0tiVS1rSFRycjNxQ1o?oc=5",
+        "source": "Los Angeles Times",
         "kind": "Mainstream",
-        "published_display": "Nov 20, 2026",
-        "published_iso": "2026-11-20T14:56:26+00:00"
+        "published_display": "Nov 21, 2026",
+        "published_iso": "2026-11-21T15:00:00+00:00"
       },
       {
-        "title": "The Odds of a Fed Rate Hike Are 100%. Why That Would Be 100% Bad. - Barron's",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZVVTTzc5d2l6WUZONEdsbXBod1RldnRDc3FzcnljZHRyQmpsQVh5eGdoeEsyRmRBU0xYeVV4VkRnUF9BbXhFQ3RTU05wMUwtLUo4WENKNjhyNy1kVGN3NnU1MEx4LTV6TWd5SmxXNFFUOXhiV2dfVFJkeEZVM0xqbzdB?oc=5",
-        "source": "Barron's",
+        "title": "Federal Reserve announces College Fed Challenge winners - InsuranceNewsNet",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSjdJMHFmZ1k1MklrdG52dGFNTW5mN3VXbW9aSjl4OFd4bFh6RVRsNl96X2dqZlNhTDE5bnJ4VTkyejN2U2V5ZUh4MHBVekN2a3FVT1lJYnhJVk5ja2Q0R1NaODBUUE1qVFZubnNMU25peFFpSlFDdUt0bXA2aTE1QjNoM3p3bzhJRXdfVGRTLTBOSHU1VzFmZlhlUQ?oc=5",
+        "source": "InsuranceNewsNet",
         "kind": "Mainstream",
-        "published_display": "Nov 20, 2026",
-        "published_iso": "2026-11-20T11:00:00+00:00"
+        "published_display": "Nov 21, 2026",
+        "published_iso": "2026-11-21T04:27:24+00:00"
       }
     ],
     "bilderberg": [
@@ -906,28 +931,28 @@
         "published_iso": "2026-01-21T08:00:00+00:00"
       },
       {
-        "title": "Urban Innovation: Bengaluru's Smart City Lessons - World Economic Forum",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVUtXVkltODlOT2NoYjRiVHJza3ZKQlFxcTR5LVJtbmRISW05dk44ejNlSm9ZZmJwSXlmRGRzUlBlaklwbDRISkhpMnYtNlk2d042VXhCcVNCQjFaQnMyWU9rcDN3NnplT3NZMnlPbFhhQWloOVE4Nm1NSXN4Nzc0dE91dUhXa1JZVWx4SDVQZ1NqdG9TTC1PbjdmSHM5NW01dVBQUVc1bVI1eUllcmV1QWVtUndZRDh1?oc=5",
+        "title": "Energy Intelligence: Why the transition needs a smart layer - World Economic Forum",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcXpGeWdSRTlpSjl6X1VtVGFRWG5QWG5kcDFyalJpQUtRamJ0bUE2SkVoSUs5YjRGN1RSN0huTVY5TFFWLXJtM0FFQUc2YU5wY1hWV3ZrenJEb2hvTU4tbFRsNGNIekNmWGREWDBTZVVGcmN6djBsUHFKMWh0MmJvYUM0RUNSREFnRGlTMlpxNnBlT09OQzg0?oc=5",
         "source": "World Economic Forum",
         "kind": "Mainstream",
         "published_display": "Nov 20, 2026",
-        "published_iso": "2026-11-20T13:54:33+00:00"
+        "published_iso": "2026-11-20T15:43:02+00:00"
       },
       {
-        "title": "Women's Health Pain Gap: Innovation Closing the Divide - World Economic Forum",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3hrVWhfZlczWlJWT1ZvMTBiRVkxNk4tZHZNajlhUm5vdmlCXzZxeUhyS2VvQWptUGFjWU5ISXJBal9HRjhFc3QxXzBfRFd1QXhPRWEyWWFHZDAwRTZSczBJRjQzR0NvM0I4M1dyXzl3OFFoekZHZ1dXdmFLZHpEMzFqWDZubFlSdlFBS3RCZmlhcExSWHNmU0hqelVoa0J0aFAwME84TUQ4NjNrMXAwbmNSVFlTZEFZS1VJaWNXc3A1QQ?oc=5",
+        "title": "Health Investment Framework: G20 Common Language Guide - World Economic Forum",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMWNjb0h6OGtkNFhnRDJQcEFxZzdqMFpYMFQwWGtHb09mQTNpcjYtTUQ1aFZKRFFpSk9MaXBsNVFvOW1zei1JSk91TUx1UE50NUJ3RVdBN1BDSWdNc2l2cjJVeTVzaUxiT2d6alhWdC0wanRJU1lwZW5TVzdZZy1RNi0xSWlMRm1mMXEzMElTbHM5a29venVmbUZfb2E2b3RFMGlsYTk2ZUFSbV9Ic1E?oc=5",
         "source": "World Economic Forum",
         "kind": "Mainstream",
         "published_display": "Nov 20, 2026",
-        "published_iso": "2026-11-20T12:56:18+00:00"
+        "published_iso": "2026-11-20T15:30:10+00:00"
       },
       {
-        "title": "Emerging Technologies Energy Transition: 5 Innovations - World Economic Forum",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTTA0c2dFTG01T0FwUVVVQWpLVHE1SkhuMENLVXdRMFZ2WDIwV1o2aTNmYjhLRGREa2hZS3N1X1RkWjlTZVFINkxQdjFlMGVUMVMzT05oc1JrU09QdkJ4Smxra3Q3bUQtQ0phX1RMVlVXSVJJZlJIMWdmT3pZNHJ5QUo0ZGtDRi1C?oc=5",
+        "title": "EV Charging Grid Impact vs AI Data Centres | Energy Demand - World Economic Forum",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS09EZndaZlhPM2dfMjNhTDIzbzV3X1dXd0drSncyS0RrOU1FaDg3Z3B3VVZqdEdQN2xXVlpHSjVfX2g0VnJScThHai0tZTlTWEkzOVVBSC1wZTFMcXUwdG11cHc2T2hmYUd3eUcxal9VbV8zdTVyZFNmdjRuRHAtWF90NDB4TDZ6UWtqNFBXbC1raGpQNS1la0daSjhUR1lreDRxTWlWNmpBSV9n?oc=5",
         "source": "World Economic Forum",
         "kind": "Mainstream",
         "published_display": "Nov 20, 2026",
-        "published_iso": "2026-11-20T12:38:09+00:00"
+        "published_iso": "2026-11-20T13:22:41+00:00"
       }
     ]
   },
@@ -935,7 +960,7 @@
     "qanon": 6,
     "nine11": 6,
     "uap": 6,
-    "epstein": 3,
+    "epstein": 6,
     "jfk": 6,
     "moon": 6,
     "deepstate": 6,
