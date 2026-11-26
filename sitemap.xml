@@ -5,7 +5,8 @@
   <url><loc>https://conspiraparty.com/affiliates.html</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://conspiraparty.com/alien-gender-reveal-party-ideas.html</loc><lastmod>2026-10-26</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/alien-gender-reveal-party-ideas-pin.jpg</image:loc></image:image></url>
   <url><loc>https://conspiraparty.com/apparel.html</loc><lastmod>2026-10-26</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/apparel-pin.jpg</image:loc></image:image></url>
-  <!-- Re-add https://conspiraparty.com/black-friday.html after Nov 26, 2026. It is noindex until then, so daily blog and news routines must not put it back before that date. -->
+  <url><loc>https://conspiraparty.com/black-friday.html</loc><lastmod>2026-11-27</lastmod></url>
+  <!-- black-friday.html restored after Nov 26, 2026. Keep this URL in the sitemap; do not drop it or re-add noindex. -->
   <url><loc>https://conspiraparty.com/blog-best-gifts-for-ufo-believers.html</loc><lastmod>2026-10-26</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/blog-best-gifts-for-ufo-believers-pin.jpg</image:loc></image:image></url>
   <url><loc>https://conspiraparty.com/blog-funniest-conspiracy-theories-for-a-party-game.html</loc><lastmod>2026-10-26</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/blog-funniest-conspiracy-theories-for-a-party-game-pin.jpg</image:loc></image:image></url>
   <url><loc>https://conspiraparty.com/blog-halloween-alien-party-shopping-list.html</loc><lastmod>2026-10-26</lastmod><image:image><image:loc>https://conspiraparty.com/assets/pins/blog-halloween-alien-party-shopping-list-pin.jpg</image:loc></image:image></url>
